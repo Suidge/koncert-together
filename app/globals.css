@@ -1,0 +1,532 @@
+:root {
+  --bg: #f4efe7;
+  --paper: rgba(255, 250, 244, 0.76);
+  --ink: #181412;
+  --muted: #665f58;
+  --line: rgba(24, 20, 18, 0.12);
+  --accent: #df5c38;
+  --accent-soft: #f7c08c;
+  --olive: #6d7b5f;
+  --shadow: 0 20px 50px rgba(61, 41, 24, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  background:
+    radial-gradient(circle at top left, rgba(247, 192, 140, 0.55), transparent 30%),
+    radial-gradient(circle at 85% 10%, rgba(109, 123, 95, 0.22), transparent 26%),
+    linear-gradient(180deg, #efe6db 0%, #f7f3ed 100%);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.page-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 10px 0 30px;
+}
+
+.brand {
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  color: var(--muted);
+}
+
+.hero,
+.calendar-hero,
+.detail-hero,
+.detail-block {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.8fr);
+  gap: 28px;
+  border-radius: 28px;
+  padding: 36px;
+  animation: rise 700ms ease-out;
+}
+
+.calendar-hero {
+  border-radius: 24px;
+  padding: 28px;
+}
+
+.detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.8fr);
+  gap: 18px;
+  border-radius: 28px;
+  padding: 28px;
+}
+
+.hero-copy h1,
+.calendar-hero h1,
+.section-head h2,
+.artist-hero h1 {
+  font-size: clamp(2.2rem, 5vw, 4.6rem);
+  line-height: 0.96;
+  margin: 8px 0 16px;
+  max-width: 12ch;
+}
+
+.calendar-hero h1,
+.section-head h2,
+.artist-hero h1 {
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  max-width: none;
+}
+
+.hero-text,
+.pillar-card p,
+.track-card p,
+.event-source,
+.event-meta,
+.artist-tagline,
+.artist-intro {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.eyebrow,
+.panel-label,
+.track-name {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.hero-actions,
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-actions {
+  margin-top: 24px;
+}
+
+.detail-actions {
+  margin-top: 20px;
+}
+
+.primary-button,
+.secondary-button,
+.ticket-link,
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: 999px;
+  padding: 0 18px;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.primary-button {
+  border: 0;
+  background: var(--ink);
+  color: #fff8f1;
+}
+
+.secondary-button,
+.ticket-link,
+.text-link {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.primary-button:hover,
+.secondary-button:hover,
+.ticket-link:hover,
+.text-link:hover {
+  transform: translateY(-1px);
+}
+
+.hero-panel,
+.pillar-card,
+.event-card,
+.track-card,
+.detail-panel,
+.artist-card,
+.filter-panel,
+.artist-hero,
+.artist-hero-panel {
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 247, 0.74);
+  border-radius: 24px;
+}
+
+.hero-panel,
+.detail-panel {
+  padding: 22px;
+}
+
+.artist-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 28px;
+}
+
+.artist-cloud span,
+.tag,
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 0.82rem;
+}
+
+.artist-cloud span {
+  background: rgba(223, 92, 56, 0.1);
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.hero-stats div {
+  padding: 14px;
+  border-radius: 18px;
+  background: rgba(24, 20, 18, 0.05);
+}
+
+.hero-stats strong {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.pillar-grid,
+.event-grid,
+.track-list,
+.artist-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.pillar-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 28px 0 52px;
+}
+
+.event-grid,
+.artist-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.track-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.pillar-card,
+.event-card,
+.track-card,
+.artist-card {
+  padding: 22px;
+}
+
+.section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 36px 0 18px;
+}
+
+.compact-head {
+  margin-bottom: 12px;
+}
+
+.event-topline,
+.tag-row,
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.event-topline {
+  align-items: center;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.event-card h3,
+.artist-card h3 {
+  margin: 0 0 8px;
+}
+
+.event-card h3 {
+  font-size: 1.45rem;
+}
+
+.artist-card h3 {
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.event-date {
+  font-size: 1rem;
+  margin: 12px 0;
+}
+
+.tag-row {
+  margin: 18px 0 20px;
+}
+
+.tag {
+  background: rgba(109, 123, 95, 0.12);
+}
+
+.status-pill {
+  color: white;
+}
+
+.status-on_sale {
+  background: var(--accent);
+}
+
+.status-announced {
+  background: var(--olive);
+}
+
+.status-sold_out {
+  background: #9f8677;
+}
+
+.architecture {
+  margin: 56px 0 24px;
+}
+
+.detail-content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 24px 0 18px;
+}
+
+.detail-block {
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.detail-block h2 {
+  margin: 10px 0 12px;
+  font-size: 1.6rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.detail-row:last-child {
+  border-bottom: 0;
+}
+
+.detail-row span {
+  color: var(--muted);
+}
+
+.back-link {
+  margin-top: 12px;
+}
+
+.filter-panel {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  padding: 18px;
+  margin: 20px 0 28px;
+  box-shadow: var(--shadow);
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0 14px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+}
+
+.filter-actions {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.artist-card,
+.artist-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.artist-card::before,
+.artist-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: var(--artist-accent, var(--accent));
+}
+
+.artist-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.artist-count {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.artist-tagline {
+  margin-bottom: 10px;
+}
+
+.artist-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.8fr);
+  gap: 18px;
+  padding: 28px;
+  box-shadow: var(--shadow);
+}
+
+.artist-hero-panel {
+  padding: 18px 22px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 960px) {
+  .hero,
+  .detail-hero,
+  .pillar-grid,
+  .event-grid,
+  .track-list,
+  .detail-content,
+  .artist-grid,
+  .artist-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-panel {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-copy h1 {
+    max-width: none;
+  }
+
+  .section-head {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    padding: 16px;
+  }
+
+  .site-header {
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .hero,
+  .calendar-hero,
+  .detail-hero,
+  .artist-hero {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .filter-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+}

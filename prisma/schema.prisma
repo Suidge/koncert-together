@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum EventStatus {
+  ANNOUNCED
+  ON_SALE
+  SOLD_OUT
+  CANCELLED
+}
+
+enum TicketLinkType {
+  OFFICIAL
+  RESALE
+  FANCLUB
+}
+
+model Artist {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  nameKo      String?
+  coverImage  String?
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  tours       Tour[]
+  events      Event[]
+}
+
+model Tour {
+  id          String   @id @default(cuid())
+  artistId    String
+  slug        String   @unique
+  name        String
+  year        Int?
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  artist      Artist   @relation(fields: [artistId], references: [id], onDelete: Cascade)
+  events      Event[]
+}
+
+model Venue {
+  id         String   @id @default(cuid())
+  slug       String   @unique
+  name       String
+  city       String
+  country    String
+  timezone   String?
+  address    String?
+  latitude   Decimal?
+  longitude  Decimal?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  events     Event[]
+}
+
+model Event {
+  id              String           @id @default(cuid())
+  slug            String           @unique
+  artistId        String
+  tourId          String?
+  venueId         String
+  title           String
+  description     String?
+  startAt         DateTime
+  endAt           DateTime?
+  status          EventStatus
+  sourceLabel     String
+  sourceUrl       String?
+  purchaseHint    String?
+  doorsTime       String?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  artist          Artist           @relation(fields: [artistId], references: [id], onDelete: Cascade)
+  tour            Tour?            @relation(fields: [tourId], references: [id], onDelete: SetNull)
+  venue           Venue            @relation(fields: [venueId], references: [id], onDelete: Restrict)
+  ticketLinks     TicketLink[]
+  sourceSnapshots SourceSnapshot[]
+}
+
+model TicketLink {
+  id        String         @id @default(cuid())
+  eventId    String
+  label      String
+  href       String
+  type       TicketLinkType
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+  event      Event         @relation(fields: [eventId], references: [id], onDelete: Cascade)
+}
+
+model SourceSnapshot {
+  id          String   @id @default(cuid())
+  eventId      String
+  sourceType   String
+  sourceLabel  String
+  sourceUrl    String?
+  capturedAt   DateTime @default(now())
+  rawPayload   Json?
+  normalized   Json?
+  event        Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+}
