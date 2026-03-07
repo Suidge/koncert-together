@@ -43,6 +43,24 @@ export type ArtistProfile = {
   officialUrl?: string;
 };
 
+export type GuideItem = {
+  slug: string;
+  title: string;
+  category: "ticketing" | "travel" | "fandom";
+  summary: string;
+  body: string;
+  bullets: string[];
+};
+
+export type CommunityPost = {
+  slug: string;
+  title: string;
+  city: string;
+  kind: "meetup" | "fan-project" | "watch-party";
+  summary: string;
+  dateLabel: string;
+};
+
 export const artists: ArtistProfile[] = [
   {
     slug: "seventeen",
@@ -396,22 +414,72 @@ export const productPillars = [
   }
 ];
 
-export const architectureTracks = [
+export const launchHighlights = [
   {
-    name: "Frontend",
-    detail: "Next.js App Router + TypeScript，先做内容型站点，后续可接登录、会员、SEO、ISR。"
+    title: "巡演与购票",
+    body: "活动详情统一补充开票节点、来源层级、票务入口和中文提示，减少信息误差。"
   },
   {
-    name: "Data",
-    detail: "建议 PostgreSQL + Prisma，核心模型围绕 artist、tour、event、ticket_link、source_snapshot。"
+    title: "艺人与 fandom",
+    body: "艺人页不只放演出，还整理粉丝名、官方入口、入门内容和后续社区入口。"
   },
   {
-    name: "Ingestion",
-    detail: "独立抓取任务层，优先从官方公告、票务页和场馆 RSS/API 获取，再补充人工审核流。"
+    title: "本地收藏",
+    body: "先用浏览器内收藏沉淀真正关心的活动，后续可升级成账号同步和提醒订阅。"
+  }
+];
+
+export const guides: GuideItem[] = [
+  {
+    slug: "first-kpop-ticket",
+    title: "第一次抢 K-pop 演唱会票，先判断什么最重要",
+    category: "ticketing",
+    summary: "不是所有人都该盯着第一时间付款，先确认你属于哪一类票务路径。",
+    body: "不同地区的 K-pop 票务机制差别很大。真正提高成功率的不是盲目刷新，而是先判断你走的是官方预售、会员预售还是公开开票。",
+    bullets: ["先确认是否需要会员认证", "提前登录票务账户并保存支付方式", "开票当天同时准备桌面端和手机端"]
   },
   {
-    name: "Platform",
-    detail: "后续接对象存储、消息队列、搜索和用户系统，逐步演进为中文 K-pop fandom hub。"
+    slug: "concert-city-kit",
+    title: "跨城看演出：酒店、交通和散场返程怎么选",
+    category: "travel",
+    summary: "很多观演体验并不是输在抢票，而是输在散场后的交通和住宿。",
+    body: "跨城看演出要围绕场馆和返程线路规划，而不是只看景点位置。离场馆近、离地铁近、离机场巴士近，这三者的重要性通常高于价格差。",
+    bullets: ["先看场馆散场后的公共交通频次", "优先选可步行回酒店的区域", "国外场次提前确认夜间打车成本"]
+  },
+  {
+    slug: "fandom-starter",
+    title: "入坑新团时，先从哪些官方入口开始",
+    category: "fandom",
+    summary: "避免一开始就被零碎二手信息淹没，先从官方入口和稳定内容源建立认知。",
+    body: "对新饭来说，官方站、官号、票务页和行程页的可信度始终最高。站内 fandom 页的价值，就是把这些入口和中文说明组织清楚。",
+    bullets: ["先关注官宣来源而不是搬运号", "把艺人页和巡演页收藏起来", "需要时再补直播、应援和周边攻略"]
+  }
+];
+
+export const communityPosts: CommunityPost[] = [
+  {
+    slug: "seoul-carat-meetup",
+    title: "首尔 CARAT 观演交换信息帖",
+    city: "Seoul",
+    kind: "meetup",
+    summary: "集合接机、场馆周边、应援物领取和散场拼车信息。",
+    dateLabel: "4月中旬"
+  },
+  {
+    slug: "paris-blink-project",
+    title: "巴黎场 BLINK 应援横幅协作",
+    city: "Paris",
+    kind: "fan-project",
+    summary: "适合后续扩展成粉丝协作页和众筹入口。",
+    dateLabel: "7月上旬"
+  },
+  {
+    slug: "tokyo-aespa-watch-party",
+    title: "东京场线上观演群组",
+    city: "Tokyo",
+    kind: "watch-party",
+    summary: "售罄场次同样可以承载线上同看、补票提醒和转售风险提示。",
+    dateLabel: "3月下旬"
   }
 ];
 

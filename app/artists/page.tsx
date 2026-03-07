@@ -6,7 +6,7 @@ import { slugifyArtistName } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "艺人目录 | Seoul Signal",
-  description: "浏览 Seoul Signal 当前追踪的 K-pop 艺人和组合。"
+  description: "浏览当前站内追踪的 K-pop 艺人和 fandom 入口。"
 };
 
 export default async function ArtistsPage() {
@@ -17,9 +17,9 @@ export default async function ArtistsPage() {
       <Header />
       <section className="calendar-hero">
         <p className="eyebrow">Artists</p>
-        <h1>艺人目录</h1>
+        <h1>艺人与 fandom 入口</h1>
         <p className="hero-text">
-          这里是未来 fandom 平台的入口层。当前先聚焦巡演追踪，后续可以自然扩展到艺人内容、社区和收藏功能。
+          每个艺人页都应该同时承接巡演、官方入口、粉丝内容和入坑路径。这里先提供一个可正式对外展示的第一版目录。
         </p>
       </section>
       <section className="artist-grid">

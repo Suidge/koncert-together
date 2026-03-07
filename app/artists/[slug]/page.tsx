@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CommunityCard } from "@/components/community-card";
 import { EventCard } from "@/components/event-card";
+import { GuideCard } from "@/components/guide-card";
 import { Header } from "@/components/header";
 import { getArtistBySlug, getArtists } from "@/lib/events";
-import type { EventItem } from "@/lib/site-data";
+import { communityPosts, guides, type EventItem } from "@/lib/site-data";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -80,6 +82,30 @@ export default async function ArtistDetailPage({ params }: Props) {
       <section className="event-grid">
         {artist.upcomingEvents.map((event: EventItem) => (
           <EventCard event={event} key={event.id} />
+        ))}
+      </section>
+
+      <section className="section-head">
+        <div>
+          <p className="eyebrow">Starter Kit</p>
+          <h2>入坑和观演前先看这些</h2>
+        </div>
+      </section>
+      <section className="content-grid">
+        {guides.slice(0, 2).map((guide) => (
+          <GuideCard guide={guide} key={guide.slug} />
+        ))}
+      </section>
+
+      <section className="section-head">
+        <div>
+          <p className="eyebrow">Community</p>
+          <h2>和这个艺人相关的 fandom 场景</h2>
+        </div>
+      </section>
+      <section className="content-grid">
+        {communityPosts.slice(0, 2).map((post) => (
+          <CommunityCard key={post.slug} post={post} />
         ))}
       </section>
     </main>

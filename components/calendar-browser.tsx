@@ -5,7 +5,11 @@ import { useSearchParams } from "next/navigation";
 import { CalendarFilters } from "@/components/calendar-filters";
 import { EventCard } from "@/components/event-card";
 import type { ArtistProfile, EventItem, EventStatusValue } from "@/lib/site-data";
-import { formatMonthLabel, slugifyArtistName, uniqueCountries } from "@/lib/site-data";
+import {
+  formatMonthLabel,
+  slugifyArtistName,
+  uniqueCountries
+} from "@/lib/site-data";
 
 type Props = {
   artists: ArtistProfile[];
@@ -68,7 +72,8 @@ export function CalendarBrowser({ artists, events }: Props) {
     artist: searchParams.get("artist") ?? undefined,
     country: searchParams.get("country") ?? undefined,
     status: (searchParams.get("status") as EventStatusValue | null) ?? undefined,
-    q: searchParams.get("q") ?? undefined
+    q: searchParams.get("q") ?? undefined,
+    sort
   };
 
   const grouped = filteredEvents.reduce<Record<string, EventItem[]>>((acc, item) => {
@@ -93,37 +98,26 @@ export function CalendarBrowser({ artists, events }: Props) {
       <section className="insight-strip">
         <article>
           <strong>{filteredEvents.length}</strong>
-          <span>结果</span>
+          <span>活动结果</span>
         </article>
         <article>
           <strong>{monthEntries.length}</strong>
-          <span>月份</span>
+          <span>覆盖月份</span>
         </article>
         <article>
           <strong>{filteredEvents.filter((event) => event.status === "on_sale").length}</strong>
-          <span>售票中</span>
+          <span>正在售票</span>
         </article>
-        <form action="/calendar" className="sort-form">
-          {Array.from(searchParams.entries())
-            .filter(([key]) => key !== "sort")
-            .map(([key, value]) => (
-              <input key={`${key}-${value}`} name={key} type="hidden" value={value} />
-            ))}
-          <label className="field">
-            <span>排序</span>
-            <select defaultValue={sort} name="sort">
-              <option value="date">按日期</option>
-              <option value="artist">按艺人</option>
-              <option value="city">按城市</option>
-            </select>
-          </label>
-        </form>
+        <article>
+          <strong>{new Set(filteredEvents.map((event) => event.country)).size}</strong>
+          <span>国家/地区</span>
+        </article>
       </section>
       {filteredEvents.length === 0 ? (
         <section className="empty-state">
           <p className="eyebrow">No Results</p>
           <h2>当前筛选下没有活动</h2>
-          <p className="hero-text">可以重置筛选，或者先按艺人进入详情页再逐步收藏。</p>
+          <p className="hero-text">可以重置筛选，或改用城市和艺人关键词继续查找。</p>
         </section>
       ) : (
         monthEntries.map(([month, monthEvents]) => (
