@@ -129,7 +129,7 @@ function buildAttribution(source, resolved) {
     provider: source.provider,
     creator: source.creator || resolved.creator || source.provider,
     license: source.license || resolved.license || "See source",
-    sourceUrl: source.sourceUrl,
+    sourceUrl: source.officialPageUrl || source.sourceUrl,
     sourceLabel: source.sourceLabel || resolved.sourceLabel || source.fileTitle.replace(/^File:/, "")
   };
 }

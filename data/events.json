@@ -197,6 +197,7 @@
       "provider": "BLACKPINK Official",
       "creator": "YG Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://www.blackpinkmusic.com/",
       "sourceLabel": "BLACKPINK official share image"
     }
   },
@@ -503,7 +504,7 @@
       "核对票档福利",
       "预留散场缓冲"
     ],
-    "heroImage": "/media/events/itzy-manila-2026-official.jpg",
+    "heroImage": "/media/artists/itzy-official.jpg",
     "ticketLinks": [
       {
         "label": "ITZY Official",
@@ -514,9 +515,9 @@
     "heroImageAttribution": {
       "provider": "ITZY Official",
       "creator": "JYP Entertainment",
-      "license": "Official tour poster",
+      "license": "Official promotional image",
       "sourceUrl": "https://itzy.jype.com/",
-      "sourceLabel": "ITZY 3RD WORLD TOUR <TUNNEL VISION> in MANILA poster"
+      "sourceLabel": "ITZY official main visual"
     }
   },
   {
@@ -561,6 +562,7 @@
       "provider": "BLACKPINK Official",
       "creator": "YG Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://www.blackpinkmusic.com/",
       "sourceLabel": "BLACKPINK official share image"
     }
   },
@@ -606,6 +608,7 @@
       "provider": "ATEEZ Official",
       "creator": "KQ Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://ateez.kqent.com/",
       "sourceLabel": "ATEEZ official share image"
     }
   },
@@ -651,6 +654,7 @@
       "provider": "XG Official",
       "creator": "XGALX",
       "license": "Official promotional image",
+      "sourceUrl": "https://xgalx.com/xg/",
       "sourceLabel": "XG official share image"
     }
   },
@@ -696,6 +700,7 @@
       "provider": "TWICE Official",
       "creator": "JYP Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://twice.jype.com/",
       "sourceLabel": "TWICE official main visual"
     }
   },
@@ -1248,6 +1253,7 @@
       "provider": "Stray Kids Official",
       "creator": "JYP Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://straykids.jype.com/Default",
       "sourceLabel": "Stray Kids official main visual"
     }
   },
@@ -1359,7 +1365,7 @@
       "确认取票方式",
       "预留返程"
     ],
-    "heroImage": "/media/events/nexz-osaka-2026-official.png",
+    "heroImage": "/media/artists/nexz-official.png",
     "ticketLinks": [
       {
         "label": "NEXZ Official",
@@ -1369,10 +1375,10 @@
     ],
     "heroImageAttribution": {
       "provider": "NEXZ Official",
-      "creator": "JYP Entertainment / Sony Music Labels",
-      "license": "Official tour poster",
-      "sourceUrl": "https://nexz-official.com/s/n180/page/nexz_live_tour_2026?ima=2659",
-      "sourceLabel": "NEXZ LIVE TOUR 2026 official key visual"
+      "creator": "JYP Entertainment",
+      "license": "Official promotional image",
+      "sourceUrl": "https://nexz-official.com/",
+      "sourceLabel": "NEXZ official share image"
     }
   },
   {
@@ -1417,6 +1423,7 @@
       "provider": "TWICE Official",
       "creator": "JYP Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://twice.jype.com/",
       "sourceLabel": "TWICE official main visual"
     }
   },
@@ -1501,6 +1508,7 @@
       "provider": "NMIXX Official",
       "creator": "JYP Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://nmixx.jype.com/",
       "sourceLabel": "NMIXX official main visual"
     }
   },
@@ -1858,6 +1866,7 @@
       "provider": "KISS OF LIFE Official",
       "creator": "S2 Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://www.s2ent.co.kr/",
       "sourceLabel": "KISS OF LIFE official visual"
     }
   },
@@ -1981,6 +1990,7 @@
       "provider": "ATEEZ Official",
       "creator": "KQ Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://ateez.kqent.com/",
       "sourceLabel": "ATEEZ official share image"
     }
   },
@@ -2221,6 +2231,7 @@
       "provider": "Stray Kids Official",
       "creator": "JYP Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://straykids.jype.com/Default",
       "sourceLabel": "Stray Kids official main visual"
     }
   },
@@ -2305,6 +2316,7 @@
       "provider": "DAY6 Official",
       "creator": "JYP Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://day6.jype.com/",
       "sourceLabel": "DAY6 official main visual"
     }
   },
@@ -2467,6 +2479,7 @@
       "provider": "BLACKPINK Official",
       "creator": "YG Entertainment",
       "license": "Official promotional image",
+      "sourceUrl": "https://www.blackpinkmusic.com/",
       "sourceLabel": "BLACKPINK official share image"
     }
   },
@@ -2785,6 +2798,7 @@
       "provider": "XG Official",
       "creator": "XGALX",
       "license": "Official promotional image",
+      "sourceUrl": "https://xgalx.com/xg/",
       "sourceLabel": "XG official share image"
     }
   },
