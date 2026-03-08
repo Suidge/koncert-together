@@ -29,7 +29,7 @@
       "确认电子票取票方式",
       "留意转售合法性"
     ],
-    "heroImage": "/media/events/aespa-tokyo-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "aespa Official",
@@ -68,7 +68,7 @@
       "确认预售认证时间",
       "准备支付方式"
     ],
-    "heroImage": "/media/events/seventeen-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "SEVENTEEN Official",
@@ -107,7 +107,7 @@
       "确认实名信息",
       "预留返程时间"
     ],
-    "heroImage": "/media/events/j-hope-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "j-hope Official",
@@ -146,7 +146,7 @@
       "核对电子票规则",
       "预订返程列车"
     ],
-    "heroImage": "/media/events/txt-osaka-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TOMORROW X TOGETHER Official",
@@ -185,7 +185,7 @@
       "比较座位区块",
       "预留停车预算"
     ],
-    "heroImage": "/media/events/blackpink-los-angeles-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "BLACKPINK Official",
@@ -224,7 +224,7 @@
       "核对实名规则",
       "预留机场接驳时间"
     ],
-    "heroImage": "/media/events/enhypen-manila-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ENHYPEN Official",
@@ -263,7 +263,7 @@
       "确认实名需求",
       "规划口岸路线"
     ],
-    "heroImage": "/media/events/le-sserafim-hong-kong-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "LE SSERAFIM Official",
@@ -302,7 +302,7 @@
       "核对实名信息",
       "规划散场路线"
     ],
-    "heroImage": "/media/events/nct-dream-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "NCT DREAM Official",
@@ -341,7 +341,7 @@
       "准备可用信用卡",
       "确认捷运末班时间"
     ],
-    "heroImage": "/media/events/ive-taipei-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "IVE Official",
@@ -380,7 +380,7 @@
       "准备护照姓名拼写",
       "确认支付限额"
     ],
-    "heroImage": "/media/events/seventeen-singapore-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "SEVENTEEN Official",
@@ -419,7 +419,7 @@
       "检查银行卡限额",
       "规划返程路线"
     ],
-    "heroImage": "/media/events/treasure-kuala-lumpur-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TREASURE Official",
@@ -458,7 +458,7 @@
       "确认实名信息",
       "预留返程时间"
     ],
-    "heroImage": "/media/events/btob-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "BTOB Official",
@@ -497,7 +497,7 @@
       "核对票档福利",
       "预留散场缓冲"
     ],
-    "heroImage": "/media/events/itzy-manila-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ITZY Official",
@@ -536,7 +536,7 @@
       "检查欧元结算卡",
       "查看 VIP 入场时间"
     ],
-    "heroImage": "/media/events/blackpink-paris-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "BLACKPINK Official",
@@ -575,7 +575,7 @@
       "核对福利规则",
       "留出散场时间"
     ],
-    "heroImage": "/media/events/ateez-london-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ATEEZ Official",
@@ -614,7 +614,7 @@
       "测试支付方式",
       "确认返程车次"
     ],
-    "heroImage": "/media/events/xg-london-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "XG Official",
@@ -653,7 +653,7 @@
       "查看官方补票",
       "预订返程交通"
     ],
-    "heroImage": "/media/events/twice-tokyo-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TWICE Official",
@@ -692,7 +692,7 @@
       "确认会员认证",
       "留意入场队列"
     ],
-    "heroImage": "/media/events/boynextdoor-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "BOYNEXTDOOR Official",
@@ -731,7 +731,7 @@
       "准备日区账号",
       "规划返程路线"
     ],
-    "heroImage": "/media/events/tws-yokohama-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TWS Official",
@@ -815,7 +815,7 @@
       "预留口岸时间",
       "看酒店接驳"
     ],
-    "heroImage": "/media/events/zerobaseone-macau-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ZEROBASEONE Official",
@@ -854,7 +854,7 @@
       "核对实名信息",
       "预留交通预算"
     ],
-    "heroImage": "/media/events/riize-hong-kong-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "RIIZE Official",
@@ -893,7 +893,7 @@
       "提前排队",
       "估算打车"
     ],
-    "heroImage": "/media/events/h1-key-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "H1-KEY Official",
@@ -932,7 +932,7 @@
       "核对电子票",
       "规划返程"
     ],
-    "heroImage": "/media/events/jin-osaka-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Jin Official",
@@ -971,7 +971,7 @@
       "确认排队时间",
       "规划夜间返程"
     ],
-    "heroImage": "/media/events/katseye-new-york-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "KATSEYE Official",
@@ -1010,7 +1010,7 @@
       "核对福利说明",
       "提前到场"
     ],
-    "heroImage": "/media/events/evnne-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "EVNNE Official",
@@ -1049,7 +1049,7 @@
       "确认平台账号",
       "预留出城时间"
     ],
-    "heroImage": "/media/events/babymonster-jakarta-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "BABYMONSTER Official",
@@ -1088,7 +1088,7 @@
       "确认站位",
       "预订返程"
     ],
-    "heroImage": "/media/events/taemin-bangkok-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Taemin Official",
@@ -1127,7 +1127,7 @@
       "比较近区和中区",
       "预留返程"
     ],
-    "heroImage": "/media/events/stayc-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "STAYC Official",
@@ -1166,7 +1166,7 @@
       "看福利",
       "提早到场"
     ],
-    "heroImage": "/media/events/fromis-9-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "fromis_9 Official",
@@ -1205,7 +1205,7 @@
       "确认站席规则",
       "订好场馆周边酒店"
     ],
-    "heroImage": "/media/events/stray-kids-bangkok-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Stray Kids Official",
@@ -1244,7 +1244,7 @@
       "看好区块",
       "提早到场"
     ],
-    "heroImage": "/media/events/woodz-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "WOODZ Official",
@@ -1283,7 +1283,7 @@
       "比较票档价格",
       "确认捷运末班"
     ],
-    "heroImage": "/media/events/iu-taipei-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "IU Official",
@@ -1322,7 +1322,7 @@
       "确认取票方式",
       "预留返程"
     ],
-    "heroImage": "/media/events/nexz-osaka-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "NEXZ Official",
@@ -1361,7 +1361,7 @@
       "比较视野图",
       "规划散场交通"
     ],
-    "heroImage": "/media/events/twice-singapore-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TWICE Official",
@@ -1400,7 +1400,7 @@
       "选正中区",
       "提早返程"
     ],
-    "heroImage": "/media/events/qwer-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "QWER Official",
@@ -1439,7 +1439,7 @@
       "留意包袋规则",
       "提早到场"
     ],
-    "heroImage": "/media/events/nmixx-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "NMIXX Official",
@@ -1478,7 +1478,7 @@
       "核对电子票",
       "规划返程"
     ],
-    "heroImage": "/media/events/kep1er-yokohama-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Kep1er Official",
@@ -1517,7 +1517,7 @@
       "核对福利",
       "提前到场"
     ],
-    "heroImage": "/media/events/illit-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ILLIT Official",
@@ -1556,7 +1556,7 @@
       "比较正中区块",
       "尽早订酒店"
     ],
-    "heroImage": "/media/events/taeyeon-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Taeyeon Official",
@@ -1595,7 +1595,7 @@
       "预留口岸时间",
       "看接驳"
     ],
-    "heroImage": "/media/events/wayv-macau-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "WayV Official",
@@ -1634,7 +1634,7 @@
       "等补票",
       "规划返程"
     ],
-    "heroImage": "/media/events/shinee-tokyo-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "SHINee Official",
@@ -1673,7 +1673,7 @@
       "比较区块",
       "确认返程"
     ],
-    "heroImage": "/media/events/p1harmony-newark-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "P1Harmony Official",
@@ -1712,7 +1712,7 @@
       "看福利差异",
       "规划返程"
     ],
-    "heroImage": "/media/events/treasure-bangkok-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TREASURE Official",
@@ -1751,7 +1751,7 @@
       "确认入场时间",
       "规划返程"
     ],
-    "heroImage": "/media/events/triples-taipei-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "tripleS Official",
@@ -1790,7 +1790,7 @@
       "看站席规则",
       "预订返程"
     ],
-    "heroImage": "/media/events/kiss-of-life-bangkok-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "KISS OF LIFE Official",
@@ -1829,7 +1829,7 @@
       "提早排队",
       "确认楼层"
     ],
-    "heroImage": "/media/events/izna-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "izna Official",
@@ -1868,7 +1868,7 @@
       "留意公开发售",
       "订好酒店"
     ],
-    "heroImage": "/media/events/jimin-singapore-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Jimin Official",
@@ -1907,7 +1907,7 @@
       "准备国际支付",
       "留出返程缓冲"
     ],
-    "heroImage": "/media/events/ateez-mexico-city-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ATEEZ Official",
@@ -1946,7 +1946,7 @@
       "看入场时间",
       "规划返程"
     ],
-    "heroImage": "/media/events/gidle-paris-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "i-dle Official",
@@ -1985,7 +1985,7 @@
       "确认支付",
       "规划返程"
     ],
-    "heroImage": "/media/events/red-velvet-manila-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Red Velvet Official",
@@ -2024,7 +2024,7 @@
       "核对实名信息",
       "预留交通时间"
     ],
-    "heroImage": "/media/events/nct-dream-jakarta-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "NCT DREAM Official",
@@ -2063,7 +2063,7 @@
       "比较视野",
       "规划返程"
     ],
-    "heroImage": "/media/events/zico-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ZICO Official",
@@ -2102,7 +2102,7 @@
       "比较前区与中区",
       "看捷运末班"
     ],
-    "heroImage": "/media/events/h1-key-taipei-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "H1-KEY Official",
@@ -2141,7 +2141,7 @@
       "核对区块视角",
       "确认返程车次"
     ],
-    "heroImage": "/media/events/stray-kids-sydney-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Stray Kids Official",
@@ -2180,7 +2180,7 @@
       "核对电子票",
       "规划返程"
     ],
-    "heroImage": "/media/events/meovv-tokyo-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "MEOVV Official",
@@ -2219,7 +2219,7 @@
       "看音场",
       "预留返程"
     ],
-    "heroImage": "/media/events/day6-jakarta-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "DAY6 Official",
@@ -2258,7 +2258,7 @@
       "提早到场",
       "看排队信息"
     ],
-    "heroImage": "/media/events/kickflip-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "KickFlip Official",
@@ -2297,7 +2297,7 @@
       "比较下层与上层",
       "提前出发"
     ],
-    "heroImage": "/media/events/txt-los-angeles-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "TOMORROW X TOGETHER Official",
@@ -2336,7 +2336,7 @@
       "比较视野",
       "预留缓冲"
     ],
-    "heroImage": "/media/events/plave-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "PLAVE Official",
@@ -2375,7 +2375,7 @@
       "确认电子票",
       "预订返程交通"
     ],
-    "heroImage": "/media/events/blackpink-tokyo-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "BLACKPINK Official",
@@ -2414,7 +2414,7 @@
       "比较视野",
       "提早返程"
     ],
-    "heroImage": "/media/events/monsta-x-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "MONSTA X Official",
@@ -2453,7 +2453,7 @@
       "查看站席规则",
       "预订返程"
     ],
-    "heroImage": "/media/events/oneus-bangkok-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ONEUS Official",
@@ -2492,7 +2492,7 @@
       "规划返程",
       "提早订酒店"
     ],
-    "heroImage": "/media/events/v-paris-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "V Official",
@@ -2531,7 +2531,7 @@
       "核对认证规则",
       "留意入场时间"
     ],
-    "heroImage": "/media/events/zerobaseone-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "ZEROBASEONE Official",
@@ -2570,7 +2570,7 @@
       "比较区块",
       "确认返程"
     ],
-    "heroImage": "/media/events/jung-kook-los-angeles-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Jung Kook Official",
@@ -2609,7 +2609,7 @@
       "确认返程",
       "提早订酒店"
     ],
-    "heroImage": "/media/events/super-junior-taipei-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "SUPER JUNIOR Official",
@@ -2648,7 +2648,7 @@
       "比较视野",
       "订周边酒店"
     ],
-    "heroImage": "/media/events/nct-127-bangkok-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "NCT 127 Official",
@@ -2687,7 +2687,7 @@
       "看清 GA 规则",
       "规划散场接驳"
     ],
-    "heroImage": "/media/events/xg-los-angeles-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "XG Official",
@@ -2726,7 +2726,7 @@
       "预留停车预算",
       "提前出发"
     ],
-    "heroImage": "/media/events/aespa-los-angeles-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "aespa Official",
@@ -2765,7 +2765,7 @@
       "确认实名规则",
       "提早订住宿"
     ],
-    "heroImage": "/media/events/got7-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "GOT7 Official",
@@ -2804,7 +2804,7 @@
       "确认实名",
       "提早订住宿"
     ],
-    "heroImage": "/media/events/newjeans-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "NewJeans Official",
@@ -2843,7 +2843,7 @@
       "确认预售认证时间",
       "准备支付方式"
     ],
-    "heroImage": "/media/events/stray-kids-seoul-2026.svg",
+    "heroImage": "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
     "ticketLinks": [
       {
         "label": "Stray Kids Official",
