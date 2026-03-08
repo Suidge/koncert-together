@@ -19,6 +19,12 @@ export default async function HomePage() {
   const [events, artists, plans] = await Promise.all([getEvents(), getArtists(), getTourPlans()]);
   const countries = uniqueCountries(events);
   const cities = new Set(events.map((event) => event.city));
+  const sourcedArtists = artists.filter((artist) => artist.imageAttribution);
+  const collageArtists = (sourcedArtists.length ? sourcedArtists : artists).slice(0, 4);
+  const featuredArtistCards = [
+    ...sourcedArtists,
+    ...artists.filter((artist) => !artist.imageAttribution)
+  ].slice(0, 9);
 
   return (
     <main className="page-shell">
@@ -72,7 +78,7 @@ export default async function HomePage() {
             </div>
           </div>
           <div className="hero-collage">
-            {artists.slice(0, 4).map((artist) => (
+            {collageArtists.map((artist) => (
               <Link className="hero-collage-card" href={`/artists/${artist.slug}`} key={artist.slug}>
                 {artist.coverImage ? <img alt={artist.name} src={assetPath(artist.coverImage)} /> : null}
                 <span>{artist.name}</span>
@@ -116,7 +122,7 @@ export default async function HomePage() {
         </Link>
       </section>
       <section className="artist-grid">
-        {artists.slice(0, 9).map((artist) => (
+        {featuredArtistCards.map((artist) => (
           <ArtistCard
             artist={artist}
             eventCount={events.filter((event) => slugifyArtistName(event.artist) === artist.slug).length}

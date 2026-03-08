@@ -29,14 +29,21 @@
       "确认电子票取票方式",
       "留意转售合法性"
     ],
-    "heroImage": "/media/events/aespa-tokyo-2026.svg",
+    "heroImage": "/media/artists/aespa.jpg",
     "ticketLinks": [
       {
         "label": "aespa Official",
         "href": "https://weverse.io/aespa",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "David Lee",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aespa_06.jpg",
+      "sourceLabel": "Aespa 06"
+    }
   },
   {
     "id": "seventeen-seoul-2026",
@@ -68,14 +75,21 @@
       "确认预售认证时间",
       "准备支付方式"
     ],
-    "heroImage": "/media/events/seventeen-seoul-2026.svg",
+    "heroImage": "/media/artists/seventeen.jpg",
     "ticketLinks": [
       {
         "label": "SEVENTEEN Official",
         "href": "https://weverse.io/seventeen",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seventeen_(%EC%84%B8%EB%B8%90%ED%8B%B4)_at_2015_Summer_K-POP_Festival.jpg",
+      "sourceLabel": "Seventeen at 2015 Summer K-pop Festival"
+    }
   },
   {
     "id": "j-hope-seoul-2026",
@@ -146,14 +160,21 @@
       "核对电子票规则",
       "预订返程列车"
     ],
-    "heroImage": "/media/events/txt-osaka-2026.svg",
+    "heroImage": "/media/artists/txt.png",
     "ticketLinks": [
       {
         "label": "TOMORROW X TOGETHER Official",
         "href": "https://weverse.io/txt",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Dispatch",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TXT_at_Soribada_Awards_on_August_23,_2019.png",
+      "sourceLabel": "TXT at Soribada Awards"
+    }
   },
   {
     "id": "blackpink-los-angeles-2026",
@@ -185,14 +206,21 @@
       "比较座位区块",
       "预留停车预算"
     ],
-    "heroImage": "/media/events/blackpink-los-angeles-2026.svg",
+    "heroImage": "/media/artists/blackpink.jpg",
     "ticketLinks": [
       {
         "label": "BLACKPINK Official",
         "href": "https://www.blackpinkmusic.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Robbie Klinkenberg",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190518_Blackpink_Amsterdam_concert_04.jpg",
+      "sourceLabel": "Blackpink Amsterdam concert 04"
+    }
   },
   {
     "id": "enhypen-manila-2026",
@@ -224,14 +252,21 @@
       "核对实名规则",
       "预留机场接驳时间"
     ],
-    "heroImage": "/media/events/enhypen-manila-2026.svg",
+    "heroImage": "/media/artists/enhypen.png",
     "ticketLinks": [
       {
         "label": "ENHYPEN Official",
         "href": "https://weverse.io/enhypen",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ENHYPEN_at_EVERGREEN_ENERGY_2023.png",
+      "sourceLabel": "ENHYPEN at EVERGREEN ENERGY 2023"
+    }
   },
   {
     "id": "le-sserafim-hong-kong-2026",
@@ -263,14 +298,21 @@
       "确认实名需求",
       "规划口岸路线"
     ],
-    "heroImage": "/media/events/le-sserafim-hong-kong-2026.svg",
+    "heroImage": "/media/artists/le-sserafim.jpg",
     "ticketLinks": [
       {
         "label": "LE SSERAFIM Official",
         "href": "https://weverse.io/lesserafim",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:221127_LE_SSERAFIM_(%EB%A5%B4%EC%84%B8%EB%9D%BC%ED%95%8C)_Airport_Departure.jpg",
+      "sourceLabel": "LE SSERAFIM Airport Departure"
+    }
   },
   {
     "id": "nct-dream-seoul-2026",
@@ -302,14 +344,21 @@
       "核对实名信息",
       "规划散场路线"
     ],
-    "heroImage": "/media/events/nct-dream-seoul-2026.svg",
+    "heroImage": "/media/artists/nct-dream.png",
     "ticketLinks": [
       {
         "label": "NCT DREAM Official",
         "href": "https://www.smtown.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NCT_Dream_at_DREAM()SCAPE_Press_Conference.png",
+      "sourceLabel": "NCT Dream at DREAM()SCAPE Press Conference"
+    }
   },
   {
     "id": "ive-taipei-2026",
@@ -341,14 +390,21 @@
       "准备可用信用卡",
       "确认捷运末班时间"
     ],
-    "heroImage": "/media/events/ive-taipei-2026.svg",
+    "heroImage": "/media/artists/ive.jpg",
     "ticketLinks": [
       {
         "label": "IVE Official",
         "href": "https://www.ive-official.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Korea.net / Korean Culture and Information Service",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IVE_(%EC%95%84%EC%9D%B4%EB%B8%8C)_performing_at_the_2023_World_Scout_Jamboree_K-POP_Super_Live_Concert.jpg",
+      "sourceLabel": "IVE at World Scout Jamboree K-pop Super Live"
+    }
   },
   {
     "id": "seventeen-singapore-2026",
@@ -380,14 +436,21 @@
       "准备护照姓名拼写",
       "确认支付限额"
     ],
-    "heroImage": "/media/events/seventeen-singapore-2026.svg",
+    "heroImage": "/media/artists/seventeen.jpg",
     "ticketLinks": [
       {
         "label": "SEVENTEEN Official",
         "href": "https://weverse.io/seventeen",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seventeen_(%EC%84%B8%EB%B8%90%ED%8B%B4)_at_2015_Summer_K-POP_Festival.jpg",
+      "sourceLabel": "Seventeen at 2015 Summer K-pop Festival"
+    }
   },
   {
     "id": "treasure-kuala-lumpur-2026",
@@ -536,14 +599,21 @@
       "检查欧元结算卡",
       "查看 VIP 入场时间"
     ],
-    "heroImage": "/media/events/blackpink-paris-2026.svg",
+    "heroImage": "/media/artists/blackpink.jpg",
     "ticketLinks": [
       {
         "label": "BLACKPINK Official",
         "href": "https://www.blackpinkmusic.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Robbie Klinkenberg",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190518_Blackpink_Amsterdam_concert_04.jpg",
+      "sourceLabel": "Blackpink Amsterdam concert 04"
+    }
   },
   {
     "id": "ateez-london-2026",
@@ -653,14 +723,21 @@
       "查看官方补票",
       "预订返程交通"
     ],
-    "heroImage": "/media/events/twice-tokyo-2026.svg",
+    "heroImage": "/media/artists/twice.jpg",
     "ticketLinks": [
       {
         "label": "TWICE Official",
         "href": "https://twice.jype.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Steven Anthony Hammock",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twice_-_Dickies_Arena,_2022_(cropped).jpg",
+      "sourceLabel": "Twice at Dickies Arena"
+    }
   },
   {
     "id": "boynextdoor-seoul-2026",
@@ -1199,14 +1276,21 @@
       "确认站席规则",
       "订好场馆周边酒店"
     ],
-    "heroImage": "/media/events/stray-kids-bangkok-2026.svg",
+    "heroImage": "/media/artists/stray-kids.png",
     "ticketLinks": [
       {
         "label": "Stray Kids Official",
         "href": "https://www.straykids.jype.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stray_Kids_at_Incheon_Airport,_May_3,_2024.png",
+      "sourceLabel": "Stray Kids at Incheon Airport"
+    }
   },
   {
     "id": "woodz-seoul-2026",
@@ -1355,14 +1439,21 @@
       "比较视野图",
       "规划散场交通"
     ],
-    "heroImage": "/media/events/twice-singapore-2026.svg",
+    "heroImage": "/media/artists/twice.jpg",
     "ticketLinks": [
       {
         "label": "TWICE Official",
         "href": "https://twice.jype.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Steven Anthony Hammock",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twice_-_Dickies_Arena,_2022_(cropped).jpg",
+      "sourceLabel": "Twice at Dickies Arena"
+    }
   },
   {
     "id": "qwer-seoul-2026",
@@ -2018,14 +2109,21 @@
       "核对实名信息",
       "预留交通时间"
     ],
-    "heroImage": "/media/events/nct-dream-jakarta-2026.svg",
+    "heroImage": "/media/artists/nct-dream.png",
     "ticketLinks": [
       {
         "label": "NCT DREAM Official",
         "href": "https://www.smtown.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NCT_Dream_at_DREAM()SCAPE_Press_Conference.png",
+      "sourceLabel": "NCT Dream at DREAM()SCAPE Press Conference"
+    }
   },
   {
     "id": "zico-seoul-2026",
@@ -2135,14 +2233,21 @@
       "核对区块视角",
       "确认返程车次"
     ],
-    "heroImage": "/media/events/stray-kids-sydney-2026.svg",
+    "heroImage": "/media/artists/stray-kids.png",
     "ticketLinks": [
       {
         "label": "Stray Kids Official",
         "href": "https://www.straykids.jype.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stray_Kids_at_Incheon_Airport,_May_3,_2024.png",
+      "sourceLabel": "Stray Kids at Incheon Airport"
+    }
   },
   {
     "id": "meovv-tokyo-2026",
@@ -2291,14 +2396,21 @@
       "比较下层与上层",
       "提前出发"
     ],
-    "heroImage": "/media/events/txt-los-angeles-2026.svg",
+    "heroImage": "/media/artists/txt.png",
     "ticketLinks": [
       {
         "label": "TOMORROW X TOGETHER Official",
         "href": "https://weverse.io/txt",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Dispatch",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TXT_at_Soribada_Awards_on_August_23,_2019.png",
+      "sourceLabel": "TXT at Soribada Awards"
+    }
   },
   {
     "id": "plave-seoul-2026",
@@ -2369,14 +2481,21 @@
       "确认电子票",
       "预订返程交通"
     ],
-    "heroImage": "/media/events/blackpink-tokyo-2026.svg",
+    "heroImage": "/media/artists/blackpink.jpg",
     "ticketLinks": [
       {
         "label": "BLACKPINK Official",
         "href": "https://www.blackpinkmusic.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "Robbie Klinkenberg",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190518_Blackpink_Amsterdam_concert_04.jpg",
+      "sourceLabel": "Blackpink Amsterdam concert 04"
+    }
   },
   {
     "id": "monsta-x-seoul-2026",
@@ -2720,14 +2839,21 @@
       "预留停车预算",
       "提前出发"
     ],
-    "heroImage": "/media/events/aespa-los-angeles-2026.svg",
+    "heroImage": "/media/artists/aespa.jpg",
     "ticketLinks": [
       {
         "label": "aespa Official",
         "href": "https://weverse.io/aespa",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "David Lee",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aespa_06.jpg",
+      "sourceLabel": "Aespa 06"
+    }
   },
   {
     "id": "got7-seoul-2026",
@@ -2798,13 +2924,20 @@
       "确认实名",
       "提早订住宿"
     ],
-    "heroImage": "/media/events/newjeans-seoul-2026.svg",
+    "heroImage": "/media/artists/newjeans.jpg",
     "ticketLinks": [
       {
         "label": "NewJeans Official",
         "href": "https://weverse.io/newjeans",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Wikimedia Commons",
+      "creator": "TV10",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NewJeans_230905.jpg",
+      "sourceLabel": "NewJeans 230905"
+    }
   }
 ]

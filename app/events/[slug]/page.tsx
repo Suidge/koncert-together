@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FavoriteToggle } from "@/components/favorite-toggle";
 import { Header } from "@/components/header";
+import { ImageAttributionLine } from "@/components/image-attribution";
 import { ShareButton } from "@/components/share-button";
 import { assetPath } from "@/lib/assets";
 import { formatEventDateLabel, getEventBySlug, getEvents } from "@/lib/events";
@@ -51,6 +52,7 @@ export default async function EventDetailPage({ params }: Props) {
         </div>
         <div className="detail-hero-image-wrap">
           {event.heroImage ? <img alt={event.title} className="detail-hero-image" src={assetPath(event.heroImage)} /> : null}
+          <ImageAttributionLine attribution={event.heroImageAttribution} />
         </div>
         <aside className="detail-panel">
           <div className="detail-row">

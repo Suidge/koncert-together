@@ -11,6 +11,7 @@ git checkout "$BRANCH"
 git pull --ff-only origin "$BRANCH"
 pnpm install --frozen-lockfile
 pnpm sync:sources
+pnpm sync:images
 pnpm prepare:pages
 pnpm build
 

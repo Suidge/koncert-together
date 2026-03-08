@@ -5,6 +5,7 @@ import { CommunityCard } from "@/components/community-card";
 import { EventCard } from "@/components/event-card";
 import { GuideCard } from "@/components/guide-card";
 import { Header } from "@/components/header";
+import { ImageAttributionLine } from "@/components/image-attribution";
 import { TourPlanCard } from "@/components/tour-plan-card";
 import { getArtistBySlug, getArtists } from "@/lib/events";
 import { assetPath } from "@/lib/assets";
@@ -65,6 +66,7 @@ export default async function ArtistDetailPage({ params }: Props) {
         </div>
         <div className="artist-hero-visual">
           {artist.heroImage ? <img alt={artist.name} className="artist-hero-image" src={assetPath(artist.heroImage)} /> : null}
+          <ImageAttributionLine attribution={artist.imageAttribution} />
         </div>
         <div className="artist-hero-panel">
           <div className="detail-row">

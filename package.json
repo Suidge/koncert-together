@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "prepare:pages": "node scripts/prepare-pages-data.mjs",
     "refresh:pages": "bash scripts/run-pages-refresh.sh",
+    "sync:images": "node scripts/sync-approved-images.mjs",
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push",
     "prisma:seed": "node prisma/seed.mjs",

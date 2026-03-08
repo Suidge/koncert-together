@@ -13,6 +13,14 @@ export type TicketLink = {
   type: "official" | "resale" | "fanclub";
 };
 
+export type ImageAttribution = {
+  provider: string;
+  creator: string;
+  license: string;
+  sourceUrl: string;
+  sourceLabel?: string;
+};
+
 export type EventStatusValue = "on_sale" | "announced" | "sold_out";
 
 export type EventItem = {
@@ -40,6 +48,7 @@ export type EventItem = {
   ticketSaleDate?: string;
   doorsTime?: string;
   heroImage?: string;
+  heroImageAttribution?: ImageAttribution;
   ticketLinks: TicketLink[];
 };
 
@@ -67,6 +76,7 @@ export type ArtistProfile = {
   memberCount?: number;
   coverImage?: string;
   heroImage?: string;
+  imageAttribution?: ImageAttribution;
   members?: ArtistMember[];
 };
 
