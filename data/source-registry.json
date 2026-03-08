@@ -1,150 +1,10 @@
 [
   {
-    "id": "weverse-bts",
-    "label": "BTS Weverse",
+    "id": "weverse-andteam",
+    "label": "&TEAM Weverse",
     "category": "artist",
-    "artistSlug": "bts",
-    "url": "https://weverse.io/bts"
-  },
-  {
-    "id": "weverse-seventeen",
-    "label": "SEVENTEEN Weverse",
-    "category": "artist",
-    "artistSlug": "seventeen",
-    "url": "https://weverse.io/seventeen"
-  },
-  {
-    "id": "weverse-txt",
-    "label": "TXT Weverse",
-    "category": "artist",
-    "artistSlug": "txt",
-    "url": "https://weverse.io/txt"
-  },
-  {
-    "id": "weverse-enhypen",
-    "label": "ENHYPEN Weverse",
-    "category": "artist",
-    "artistSlug": "enhypen",
-    "url": "https://weverse.io/enhypen"
-  },
-  {
-    "id": "weverse-lesserafim",
-    "label": "LE SSERAFIM Weverse",
-    "category": "artist",
-    "artistSlug": "le-sserafim",
-    "url": "https://weverse.io/lesserafim"
-  },
-  {
-    "id": "weverse-aespa",
-    "label": "aespa Weverse",
-    "category": "artist",
-    "artistSlug": "aespa",
-    "url": "https://weverse.io/aespa"
-  },
-  {
-    "id": "weverse-illit",
-    "label": "ILLIT Weverse",
-    "category": "artist",
-    "artistSlug": "illit",
-    "url": "https://weverse.io/illit"
-  },
-  {
-    "id": "weverse-boynextdoor",
-    "label": "BOYNEXTDOOR Weverse",
-    "category": "artist",
-    "artistSlug": "boynextdoor",
-    "url": "https://weverse.io/boynextdoor"
-  },
-  {
-    "id": "blackpink-official",
-    "label": "BLACKPINK Official",
-    "category": "artist",
-    "artistSlug": "blackpink",
-    "url": "https://www.blackpinkmusic.com/"
-  },
-  {
-    "id": "stray-kids-official",
-    "label": "Stray Kids Official",
-    "category": "artist",
-    "artistSlug": "stray-kids",
-    "url": "https://www.straykids.jype.com/"
-  },
-  {
-    "id": "ive-official",
-    "label": "IVE Official",
-    "category": "artist",
-    "artistSlug": "ive",
-    "url": "https://www.ive-official.com/"
-  },
-  {
-    "id": "newjeans-weverse",
-    "label": "NewJeans Weverse",
-    "category": "artist",
-    "artistSlug": "newjeans",
-    "url": "https://weverse.io/newjeans"
-  },
-  {
-    "id": "babymonster-yg",
-    "label": "BABYMONSTER YG",
-    "category": "artist",
-    "artistSlug": "babymonster",
-    "url": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70"
-  },
-  {
-    "id": "ticketmaster-global",
-    "label": "Ticketmaster",
-    "category": "ticketing",
-    "url": "https://www.ticketmaster.com/"
-  },
-  {
-    "id": "interpark-global",
-    "label": "Interpark Global",
-    "category": "ticketing",
-    "url": "https://www.globalinterpark.com/"
-  },
-  {
-    "id": "ticketmaster-sg",
-    "label": "Ticketmaster Singapore",
-    "category": "ticketing",
-    "url": "https://ticketmaster.sg/"
-  },
-  {
-    "id": "kktix",
-    "label": "KKTIX",
-    "category": "ticketing",
-    "url": "https://kktix.com/"
-  },
-  {
-    "id": "axs-uk",
-    "label": "AXS UK",
-    "category": "ticketing",
-    "url": "https://www.axs.com/uk"
-  },
-  {
-    "id": "thaiticketmajor",
-    "label": "ThaiTicketMajor",
-    "category": "ticketing",
-    "url": "https://www.thaiticketmajor.com/"
-  },
-  {
-    "id": "smtickets",
-    "label": "SM Tickets",
-    "category": "ticketing",
-    "url": "https://smtickets.com/"
-  },
-  {
-    "id": "kspo-dome",
-    "label": "KSPO Dome",
-    "category": "venue",
-    "city": "Seoul",
-    "url": "https://www.kspo.or.kr/site/eng/home"
-  },
-  {
-    "id": "ariake-arena",
-    "label": "Ariake Arena",
-    "category": "venue",
-    "city": "Tokyo",
-    "url": "https://ariake-arena.tokyo/"
+    "artistSlug": "andteam",
+    "url": "https://weverse.io/andteam"
   },
   {
     "id": "accor-arena",
@@ -154,11 +14,80 @@
     "url": "https://www.accorarena.com/en/"
   },
   {
-    "id": "the-o2",
-    "label": "The O2",
+    "id": "weverse-aespa",
+    "label": "aespa Weverse",
+    "category": "artist",
+    "artistSlug": "aespa",
+    "url": "https://weverse.io/aespa"
+  },
+  {
+    "id": "ariake-arena",
+    "label": "Ariake Arena",
     "category": "venue",
-    "city": "London",
-    "url": "https://www.theo2.co.uk/"
+    "city": "Tokyo",
+    "url": "https://ariake-arena.tokyo/"
+  },
+  {
+    "id": "ateez-official",
+    "label": "ATEEZ Official",
+    "category": "artist",
+    "artistSlug": "ateez",
+    "url": "https://ateez.kqent.com/"
+  },
+  {
+    "id": "axs-uk",
+    "label": "AXS UK",
+    "category": "ticketing",
+    "url": "https://www.axs.com/uk"
+  },
+  {
+    "id": "babymonster-yg",
+    "label": "BABYMONSTER YG",
+    "category": "artist",
+    "artistSlug": "babymonster",
+    "url": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70"
+  },
+  {
+    "id": "blackpink-official",
+    "label": "BLACKPINK Official",
+    "category": "artist",
+    "artistSlug": "blackpink",
+    "url": "https://www.blackpinkmusic.com/"
+  },
+  {
+    "id": "weverse-boynextdoor",
+    "label": "BOYNEXTDOOR Weverse",
+    "category": "artist",
+    "artistSlug": "boynextdoor",
+    "url": "https://weverse.io/boynextdoor"
+  },
+  {
+    "id": "weverse-bts",
+    "label": "BTS Weverse",
+    "category": "artist",
+    "artistSlug": "bts",
+    "url": "https://weverse.io/bts"
+  },
+  {
+    "id": "weverse-enhypen",
+    "label": "ENHYPEN Weverse",
+    "category": "artist",
+    "artistSlug": "enhypen",
+    "url": "https://weverse.io/enhypen"
+  },
+  {
+    "id": "weverse-fromis9",
+    "label": "fromis_9 Weverse",
+    "category": "artist",
+    "artistSlug": "fromis-9",
+    "url": "https://weverse.io/fromis9"
+  },
+  {
+    "id": "weverse-illit",
+    "label": "ILLIT Weverse",
+    "category": "artist",
+    "artistSlug": "illit",
+    "url": "https://weverse.io/illit"
   },
   {
     "id": "inspire-arena",
@@ -168,10 +97,144 @@
     "url": "https://www.inspirekorea.com/en/entertainment/arena"
   },
   {
+    "id": "interpark-global",
+    "label": "Interpark Global",
+    "category": "ticketing",
+    "url": "https://www.globalinterpark.com/"
+  },
+  {
+    "id": "itzy-official",
+    "label": "ITZY Official",
+    "category": "artist",
+    "artistSlug": "itzy",
+    "url": "https://itzy.jype.com/"
+  },
+  {
+    "id": "ive-official",
+    "label": "IVE Official",
+    "category": "artist",
+    "artistSlug": "ive",
+    "url": "https://www.ive-official.com/"
+  },
+  {
+    "id": "weverse-katseye",
+    "label": "KATSEYE Weverse",
+    "category": "artist",
+    "artistSlug": "katseye",
+    "url": "https://weverse.io/katseye"
+  },
+  {
+    "id": "kktix",
+    "label": "KKTIX",
+    "category": "ticketing",
+    "url": "https://kktix.com/"
+  },
+  {
+    "id": "kspo-dome",
+    "label": "KSPO Dome",
+    "category": "venue",
+    "city": "Seoul",
+    "url": "https://www.kspo.or.kr/site/eng/home"
+  },
+  {
+    "id": "weverse-lesserafim",
+    "label": "LE SSERAFIM Weverse",
+    "category": "artist",
+    "artistSlug": "le-sserafim",
+    "url": "https://weverse.io/lesserafim"
+  },
+  {
+    "id": "newjeans-weverse",
+    "label": "NewJeans Weverse",
+    "category": "artist",
+    "artistSlug": "newjeans",
+    "url": "https://weverse.io/newjeans"
+  },
+  {
     "id": "qudos-bank-arena",
     "label": "Qudos Bank Arena",
     "category": "venue",
     "city": "Sydney",
     "url": "https://qudosbankarena.com.au/"
+  },
+  {
+    "id": "weverse-seventeen",
+    "label": "SEVENTEEN Weverse",
+    "category": "artist",
+    "artistSlug": "seventeen",
+    "url": "https://weverse.io/seventeen"
+  },
+  {
+    "id": "smtickets",
+    "label": "SM Tickets",
+    "category": "ticketing",
+    "url": "https://smtickets.com/"
+  },
+  {
+    "id": "stray-kids-official",
+    "label": "Stray Kids Official",
+    "category": "artist",
+    "artistSlug": "stray-kids",
+    "url": "https://www.straykids.jype.com/"
+  },
+  {
+    "id": "thaiticketmajor",
+    "label": "ThaiTicketMajor",
+    "category": "ticketing",
+    "url": "https://www.thaiticketmajor.com/"
+  },
+  {
+    "id": "the-o2",
+    "label": "The O2",
+    "category": "venue",
+    "city": "London",
+    "url": "https://www.theo2.co.uk/"
+  },
+  {
+    "id": "ticketmaster-global",
+    "label": "Ticketmaster",
+    "category": "ticketing",
+    "url": "https://www.ticketmaster.com/"
+  },
+  {
+    "id": "ticketmaster-sg",
+    "label": "Ticketmaster Singapore",
+    "category": "ticketing",
+    "url": "https://ticketmaster.sg/"
+  },
+  {
+    "id": "treasure-official",
+    "label": "TREASURE Official",
+    "category": "artist",
+    "artistSlug": "treasure",
+    "url": "https://ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=83"
+  },
+  {
+    "id": "twice-official",
+    "label": "TWICE Official",
+    "category": "artist",
+    "artistSlug": "twice",
+    "url": "https://twice.jype.com/"
+  },
+  {
+    "id": "weverse-tws",
+    "label": "TWS Weverse",
+    "category": "artist",
+    "artistSlug": "tws",
+    "url": "https://weverse.io/tws"
+  },
+  {
+    "id": "weverse-txt",
+    "label": "TXT Weverse",
+    "category": "artist",
+    "artistSlug": "txt",
+    "url": "https://weverse.io/txt"
+  },
+  {
+    "id": "zb1-official",
+    "label": "ZEROBASEONE Official",
+    "category": "artist",
+    "artistSlug": "zerobaseone",
+    "url": "https://zb1offical.com/"
   }
 ]

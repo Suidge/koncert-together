@@ -1,5 +1,15 @@
 [
   {
+    "slug": "andteam",
+    "name": "&TEAM",
+    "nameKo": "앤팀",
+    "fandom": "LUNE",
+    "tagline": "Japan and Asia routing makes them ideal for travel guides",
+    "intro": "适合补充日本和亚洲多地巡演的购票路径与场馆交通内容。",
+    "accent": "#6b6f8f",
+    "officialUrl": "https://weverse.io/andteam"
+  },
+  {
     "slug": "aespa",
     "name": "aespa",
     "nameKo": "에스파",
@@ -8,6 +18,15 @@
     "intro": "适合作为日本、北美和亚洲巡演站点的跨区域内容样本。",
     "accent": "#5377a4",
     "officialUrl": "https://weverse.io/aespa"
+  },
+  {
+    "slug": "ateez",
+    "name": "ATEEZ",
+    "nameKo": "에이티즈",
+    "fandom": "ATINY",
+    "tagline": "Global arena-to-stadium routing with passionate travel fandom",
+    "intro": "适合承接欧美、日韩和亚洲多地观演指南与粉丝协作内容。",
+    "accent": "#694f43"
   },
   {
     "slug": "babymonster",
@@ -60,6 +79,25 @@
     "officialUrl": "https://weverse.io/enhypen"
   },
   {
+    "slug": "fromis-9",
+    "name": "fromis_9",
+    "nameKo": "프로미스나인",
+    "fandom": "flover",
+    "tagline": "Strong core fandom and a useful template for group relaunch tracking",
+    "intro": "适合作为中高粘性 fandom 的长期追踪页和中文入门内容入口。",
+    "accent": "#5b8a79",
+    "officialUrl": "https://weverse.io/fromis9"
+  },
+  {
+    "slug": "gidle",
+    "name": "i-dle",
+    "nameKo": "아이들",
+    "fandom": "NEVERLAND",
+    "tagline": "Strong global fanbase with frequent international stops",
+    "intro": "适合作为多语言粉圈共同关注艺人的中文信息入口。",
+    "accent": "#7d5b6d"
+  },
+  {
     "slug": "illit",
     "name": "ILLIT",
     "nameKo": "아일릿",
@@ -70,6 +108,15 @@
     "officialUrl": "https://weverse.io/illit"
   },
   {
+    "slug": "itzy",
+    "name": "ITZY",
+    "nameKo": "있지",
+    "fandom": "MIDZY",
+    "tagline": "Frequent routing makes them good for recurring event tracking",
+    "intro": "适合作为稳定多站点巡演的艺人监测页。",
+    "accent": "#7d5d4f"
+  },
+  {
     "slug": "ive",
     "name": "IVE",
     "nameKo": "아이브",
@@ -78,6 +125,52 @@
     "intro": "适合作为亚洲城市攻略和多平台售票说明的内容样本。",
     "accent": "#7e5265",
     "officialUrl": "https://www.ive-official.com/"
+  },
+  {
+    "slug": "j-hope",
+    "name": "j-hope",
+    "nameKo": "제이홉",
+    "fandom": "ARMY",
+    "tagline": "Strong solo touring demand with fan-led travel planning",
+    "intro": "适合补充首尔、北美和亚洲城市观演攻略，以及 solo 艺人的票务路径。",
+    "accent": "#8a6246"
+  },
+  {
+    "slug": "jimin",
+    "name": "Jimin",
+    "nameKo": "지민",
+    "fandom": "ARMY",
+    "tagline": "High solo visibility and strong global fandom crossover",
+    "intro": "适合作为高关注 solo 艺人的长期追踪页，即使场次还未释放也值得先建立入口。",
+    "accent": "#7f6578"
+  },
+  {
+    "slug": "jin",
+    "name": "Jin",
+    "nameKo": "진",
+    "fandom": "ARMY",
+    "tagline": "Solo stadium-scale interest backed by global BTS fandom",
+    "intro": "适合作为 solo artist 页面模板，承接会员预售、海外场和媒体露出追踪。",
+    "accent": "#6a7a8d"
+  },
+  {
+    "slug": "jung-kook",
+    "name": "Jung Kook",
+    "nameKo": "정국",
+    "fandom": "ARMY",
+    "tagline": "Massive crossover demand for solo live dates",
+    "intro": "适合作为全球高热 solo 场的预热和官方入口页。",
+    "accent": "#5a6c55"
+  },
+  {
+    "slug": "katseye",
+    "name": "KATSEYE",
+    "nameKo": "캣츠아이",
+    "fandom": "EYEKONS",
+    "tagline": "Global fandom overlap and growing live interest",
+    "intro": "适合作为全球向女团页面模板，承接英语圈与中文圈共同关注的话题。",
+    "accent": "#8e6354",
+    "officialUrl": "https://weverse.io/katseye"
   },
   {
     "slug": "le-sserafim",
@@ -110,6 +203,24 @@
     "officialUrl": "https://weverse.io/newjeans"
   },
   {
+    "slug": "red-velvet",
+    "name": "Red Velvet",
+    "nameKo": "레드벨벳",
+    "fandom": "ReVeluv",
+    "tagline": "Established catalog and high legacy fandom demand",
+    "intro": "适合作为资深女团页面，承接经典场馆与跨代粉丝需求。",
+    "accent": "#8b4a58"
+  },
+  {
+    "slug": "riize",
+    "name": "RIIZE",
+    "nameKo": "라이즈",
+    "fandom": "BRIIZE",
+    "tagline": "Strong rookie-to-mainstream trajectory with high travel interest",
+    "intro": "适合作为新生代男团的巡演监测和 fandom 内容样板。",
+    "accent": "#7e704f"
+  },
+  {
     "slug": "seventeen",
     "name": "SEVENTEEN",
     "nameKo": "세븐틴",
@@ -138,5 +249,51 @@
     "intro": "适合覆盖日韩和北美路线，中文用户常关心会员预售、场馆交通和跨境支付。",
     "accent": "#557ea1",
     "officialUrl": "https://weverse.io/txt"
+  },
+  {
+    "slug": "treasure",
+    "name": "TREASURE",
+    "nameKo": "트레저",
+    "fandom": "TREASURE MAKER",
+    "tagline": "Asia touring demand with strong fan travel overlap",
+    "intro": "适合作为亚洲场和多城市追踪的艺人页样本。",
+    "accent": "#5876a0"
+  },
+  {
+    "slug": "twice",
+    "name": "TWICE",
+    "nameKo": "트와이스",
+    "fandom": "ONCE",
+    "tagline": "Cross-generational fandom and broad touring appeal",
+    "intro": "适合补充体育馆和巨蛋级场次的选座、交通和购票逻辑。",
+    "accent": "#a65d76"
+  },
+  {
+    "slug": "tws",
+    "name": "TWS",
+    "nameKo": "투어스",
+    "fandom": "42",
+    "tagline": "Rising group with strong demand for first large-scale touring guides",
+    "intro": "适合作为新生代男团的观演入口，先搭建官方入口和基础巡演关注。",
+    "accent": "#4d7e8d",
+    "officialUrl": "https://weverse.io/tws"
+  },
+  {
+    "slug": "v",
+    "name": "V",
+    "nameKo": "뷔",
+    "fandom": "ARMY",
+    "tagline": "High-demand solo activity tracking for global fans",
+    "intro": "适合承接 solo 作品、活动与未来现场安排的持续监测。",
+    "accent": "#5a4a43"
+  },
+  {
+    "slug": "zerobaseone",
+    "name": "ZEROBASEONE",
+    "nameKo": "제로베이스원",
+    "fandom": "ZEROSE",
+    "tagline": "Fast-growing fandom with strong event demand",
+    "intro": "适合作为新生代高热男团的票务和城市指南入口。",
+    "accent": "#5c7c96"
   }
 ]

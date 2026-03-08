@@ -84,6 +84,7 @@ export type SourceStatusItem = SourceRegistryItem & {
   checkedAt?: string;
   method?: string | null;
   ok: boolean;
+  access?: "open" | "restricted" | "broken";
   status?: number | null;
   finalUrl?: string | null;
   etag?: string | null;
@@ -120,16 +121,16 @@ export const featuredArtists = artists.slice(0, 10).map((artist) => artist.name)
 
 export const productPillars = [
   {
-    title: "低维护试运行",
-    body: "公开前台放在 GitHub Pages，本地主机只负责低频整理数据、探测来源状态并自动推送。"
+    title: "官方来源优先",
+    body: "优先围绕艺人官方入口、票务平台和场馆页组织内容，减少中文用户在跨平台找信息时的误差。"
   },
   {
     title: "中文决策支持",
     body: "把开票节点、交通、选座和风险提示按中文粉丝最常见的决策路径组织。"
   },
   {
-    title: "逐步验证 fandom",
-    body: "先看哪些艺人、城市和内容最受欢迎，再决定后续做多深的账号和社区。"
+    title: "艺人与 fandom 入口",
+    body: "不只是列活动，还把艺人页、场馆指南和 fandom 场景入口放在同一条浏览路径里。"
   }
 ];
 
@@ -143,8 +144,8 @@ export const launchHighlights = [
     body: "试运行阶段不只展示活动卡片，还同步建设各城市和场馆的中文观演指南。"
   },
   {
-    title: "自动维护优先",
-    body: "本地主机每天自动探测官方来源、校验数据并推送 Pages 发布。"
+    title: "官方入口清晰",
+    body: "每个活动优先给出官宣、票务和场馆入口，帮助中文用户更快判断要看哪里、怎么买票。"
   }
 ];
 

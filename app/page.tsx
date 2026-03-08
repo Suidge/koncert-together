@@ -8,15 +8,16 @@ import { getArtists, getEvents } from "@/lib/events";
 import {
   type EventItem,
   communityPosts,
-  formatShortDate,
   guides,
   launchHighlights,
-  siteMeta,
-  slugifyArtistName
+  slugifyArtistName,
+  uniqueCountries
 } from "@/lib/site-data";
 
 export default async function HomePage() {
   const [events, artists] = await Promise.all([getEvents(), getArtists()]);
+  const countries = uniqueCountries(events);
+  const cities = new Set(events.map((event) => event.city));
 
   return (
     <main className="page-shell">
@@ -26,7 +27,7 @@ export default async function HomePage() {
           <p className="eyebrow">K-pop Tours, Tickets, Fandom</p>
           <h1>给中文 K-pop fans 的全球巡演日历、场馆指南与 fandom 入口。</h1>
           <p className="hero-text">
-            试运行阶段先把最常被反复打开的内容做扎实：主流艺人覆盖、跨城观演指南、场馆速查和低维护的巡演更新。
+            在一个站里看巡演时间、票务入口、场馆建议、选座思路和艺人入口，减少在不同语言和不同平台之间来回切换。
           </p>
           <div className="hero-actions">
             <Link className="primary-button" href="/calendar">
@@ -38,41 +39,37 @@ export default async function HomePage() {
           </div>
         </div>
         <div className="hero-panel">
-          <p className="panel-label">试运行状态</p>
+          <p className="panel-label">全球覆盖</p>
           <div className="hero-stats">
             <div>
               <strong>{events.length}</strong>
-              <span>已整理活动</span>
+              <span>活动卡片</span>
             </div>
             <div>
               <strong>{artists.length}</strong>
-              <span>艺人主页</span>
+              <span>艺人入口</span>
             </div>
             <div>
               <strong>{guides.length}</strong>
               <span>中文指南</span>
             </div>
           </div>
-          <p className="content-summary">{siteMeta.coverageNote}</p>
           <div className="hero-stats compact-stats">
             <div>
-              <strong>{siteMeta.counts.monitoredSources}</strong>
-              <span>监测来源</span>
+              <strong>{cities.size}</strong>
+              <span>覆盖城市</span>
             </div>
             <div>
-              <strong>{siteMeta.sourceHealth?.ok ?? 0}</strong>
-              <span>来源正常</span>
+              <strong>{countries.length}</strong>
+              <span>国家/地区</span>
             </div>
             <div>
-              <strong>{siteMeta.sourceHealth?.failed ?? 0}</strong>
-              <span>需要复查</span>
+              <strong>{communityPosts.length}</strong>
+              <span>精选主题</span>
             </div>
           </div>
-          {siteMeta.sourceHealth?.lastCheckedAt ? (
-            <p className="content-summary">最近一次来源检查：{formatShortDate(siteMeta.sourceHealth.lastCheckedAt)}</p>
-          ) : null}
           <div className="artist-cloud">
-            {artists.slice(0, 8).map((artist) => (
+            {artists.slice(0, 10).map((artist) => (
               <span key={artist.slug}>{artist.name}</span>
             ))}
           </div>
@@ -106,14 +103,14 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Artists</p>
-          <h2>主流艺人先完整覆盖，再逐步加深内容密度</h2>
+          <h2>从主流团体到 solo artist 的入口都先铺开</h2>
         </div>
         <Link className="text-link" href="/artists">
           查看艺人目录
         </Link>
       </section>
       <section className="artist-grid">
-        {artists.slice(0, 6).map((artist) => (
+        {artists.slice(0, 8).map((artist) => (
           <ArtistCard
             artist={artist}
             eventCount={events.filter((event) => slugifyArtistName(event.artist) === artist.slug).length}
@@ -125,7 +122,7 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Guides</p>
-          <h2>先把中文用户真的会搜的指南做厚</h2>
+          <h2>把中文用户真正会搜的观演问题讲清楚</h2>
         </div>
         <Link className="text-link" href="/guides">
           查看全部指南
@@ -140,7 +137,7 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Community</p>
-          <h2>试运行先用精选内容验证 fandom 需求</h2>
+          <h2>从同行、应援到场馆经验，先看粉丝真正关心什么</h2>
         </div>
         <Link className="text-link" href="/community">
           进入社区页
