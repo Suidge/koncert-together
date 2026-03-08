@@ -1,0 +1,304 @@
+[
+  {
+    "slug": "bibi-tour-radar",
+    "artistSlug": "bibi",
+    "artist": "BIBI",
+    "title": "BIBI global live watch",
+    "stage": "watch",
+    "note": "先追踪 festival 和 theatre 级别演出，不伪造具体日期。",
+    "regions": [
+      "Seoul",
+      "Singapore",
+      "Los Angeles"
+    ],
+    "source": "BIBI official channel",
+    "sourceUrl": "https://www.instagram.com/nakedbibi/"
+  },
+  {
+    "slug": "bts-tour-radar",
+    "artistSlug": "bts",
+    "artist": "BTS",
+    "title": "BTS reunion routing watch",
+    "stage": "watch",
+    "note": "已建立长期监测，优先关注 Weverse 与官方公告中的团体演出信号。",
+    "regions": [
+      "Seoul",
+      "Japan",
+      "North America",
+      "Europe"
+    ],
+    "source": "BTS official channel",
+    "sourceUrl": "https://weverse.io/bts"
+  },
+  {
+    "slug": "day6-tour-radar",
+    "artistSlug": "day6",
+    "artist": "DAY6",
+    "title": "DAY6 band tour watch",
+    "stage": "watch",
+    "note": "先保留乐队场模板和声场说明，再根据官宣补日期。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Manila"
+    ],
+    "source": "DAY6 official channel",
+    "sourceUrl": "https://day6.jype.com/"
+  },
+  {
+    "slug": "exo-tour-radar",
+    "artistSlug": "exo",
+    "artist": "EXO",
+    "title": "EXO reunion and solo-linked watch",
+    "stage": "watch",
+    "note": "以团体与成员联动信息为主，优先保留官方入口和关键市场。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Taipei"
+    ],
+    "source": "EXO official channel",
+    "sourceUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "illit-tour-radar",
+    "artistSlug": "illit",
+    "artist": "ILLIT",
+    "title": "ILLIT first major tour watch",
+    "stage": "watch",
+    "note": "适合提前铺好艺人页和城市攻略模板，等待完整路线。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Bangkok"
+    ],
+    "source": "ILLIT official channel",
+    "sourceUrl": "https://weverse.io/illit"
+  },
+  {
+    "slug": "iu-tour-radar",
+    "artistSlug": "iu",
+    "artist": "IU",
+    "title": "IU stadium and arena watch",
+    "stage": "watch",
+    "note": "以官方窗口为主，等待完整 tour routing 再补多城市排期。",
+    "regions": [
+      "Seoul",
+      "Taipei",
+      "Singapore"
+    ],
+    "source": "IU official channel",
+    "sourceUrl": "https://www.iu-official.com/"
+  },
+  {
+    "slug": "jimin-tour-radar",
+    "artistSlug": "jimin",
+    "artist": "Jimin",
+    "title": "Jimin live schedule watch",
+    "stage": "watch",
+    "note": "适合先追踪官宣窗口、festival slot 和媒体放出的 live planning。",
+    "regions": [
+      "Korea",
+      "Japan",
+      "North America"
+    ],
+    "source": "Jimin official channel",
+    "sourceUrl": "https://weverse.io/jimin"
+  },
+  {
+    "slug": "jin-tour-radar",
+    "artistSlug": "jin",
+    "artist": "Jin",
+    "title": "Jin solo tour radar",
+    "stage": "watch",
+    "note": "先把 solo 页、预售路径和场馆说明搭起来，等待完整日期落地。",
+    "regions": [
+      "Korea",
+      "Japan",
+      "Southeast Asia"
+    ],
+    "source": "Jin official channel",
+    "sourceUrl": "https://weverse.io/jin"
+  },
+  {
+    "slug": "jung-kook-tour-radar",
+    "artistSlug": "jung-kook",
+    "artist": "Jung Kook",
+    "title": "Jung Kook arena watch",
+    "stage": "watch",
+    "note": "先保留官方入口和全球高需求城市观察名单。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Los Angeles",
+      "London"
+    ],
+    "source": "Jung Kook official channel",
+    "sourceUrl": "https://weverse.io/jungkook"
+  },
+  {
+    "slug": "kiss-of-life-tour-radar",
+    "artistSlug": "kiss-of-life",
+    "artist": "KISS OF LIFE",
+    "title": "KISS OF LIFE festival and tour watch",
+    "stage": "watch",
+    "note": "优先观察 festival slots 如何转成完整 tour routing。",
+    "regions": [
+      "Seoul",
+      "Bangkok",
+      "Taipei"
+    ],
+    "source": "KISS OF LIFE official channel",
+    "sourceUrl": "https://www.s2ent.co.kr/"
+  },
+  {
+    "slug": "meovv-tour-radar",
+    "artistSlug": "meovv",
+    "artist": "MEOVV",
+    "title": "MEOVV live expansion watch",
+    "stage": "watch",
+    "note": "先监测 showcase、festival 和 fan event，再视官宣补齐日期卡片。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Jakarta"
+    ],
+    "source": "MEOVV official channel",
+    "sourceUrl": "https://www.instagram.com/meovv/"
+  },
+  {
+    "slug": "monsta-x-tour-radar",
+    "artistSlug": "monsta-x",
+    "artist": "MONSTA X",
+    "title": "MONSTA X return watch",
+    "stage": "watch",
+    "note": "以回归和 tour teaser 为主，日期未落地前只做雷达卡片。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Los Angeles"
+    ],
+    "source": "MONSTA X official channel",
+    "sourceUrl": "https://monstax-official.com/"
+  },
+  {
+    "slug": "newjeans-tour-radar",
+    "artistSlug": "newjeans",
+    "artist": "NewJeans",
+    "title": "NewJeans long-term watch",
+    "stage": "watch",
+    "note": "当前以官方入口和长期监测为主，等待更明确信号再进入日期卡片。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Global"
+    ],
+    "source": "NewJeans official channel",
+    "sourceUrl": "https://weverse.io/newjeans"
+  },
+  {
+    "slug": "red-velvet-tour-radar",
+    "artistSlug": "red-velvet",
+    "artist": "Red Velvet",
+    "title": "Red Velvet group watch",
+    "stage": "watch",
+    "note": "保留 legacy 女团页和城市攻略模板，等待更明确信息。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Bangkok"
+    ],
+    "source": "Red Velvet official channel",
+    "sourceUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "shinee-tour-radar",
+    "artistSlug": "shinee",
+    "artist": "SHINee",
+    "title": "SHINee Japan and Korea watch",
+    "stage": "watch",
+    "note": "优先监测日本 arena/dome 与韩国周年演出窗口。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Osaka"
+    ],
+    "source": "SHINee official channel",
+    "sourceUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "taemin-tour-radar",
+    "artistSlug": "taemin",
+    "artist": "Taemin",
+    "title": "Taemin solo routing watch",
+    "stage": "watch",
+    "note": "重点关注表演型 solo 常见的日本和首尔路线。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Singapore"
+    ],
+    "source": "Taemin official channel",
+    "sourceUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "the-boyz-tour-radar",
+    "artistSlug": "the-boyz",
+    "artist": "THE BOYZ",
+    "title": "THE BOYZ Asia routing watch",
+    "stage": "watch",
+    "note": "适合先监测 fancon、arena 和成员密集型内容需求。",
+    "regions": [
+      "Seoul",
+      "Jakarta",
+      "Bangkok"
+    ],
+    "source": "THE BOYZ official channel",
+    "sourceUrl": "https://www.theboyz.kr/"
+  },
+  {
+    "slug": "v-tour-radar",
+    "artistSlug": "v",
+    "artist": "V",
+    "title": "V showcase and arena watch",
+    "stage": "watch",
+    "note": "以官方入口和媒体窗口为主，不在无明确信息时伪造日程。",
+    "regions": [
+      "Seoul",
+      "Paris",
+      "Tokyo"
+    ],
+    "source": "V official channel",
+    "sourceUrl": "https://weverse.io/v"
+  },
+  {
+    "slug": "wayv-tour-radar",
+    "artistSlug": "wayv",
+    "artist": "WayV",
+    "title": "WayV multilingual route watch",
+    "stage": "watch",
+    "note": "适合先监测亚洲主要市场和中文用户关注的场次。",
+    "regions": [
+      "Macau",
+      "Hong Kong",
+      "Bangkok"
+    ],
+    "source": "WayV official channel",
+    "sourceUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "zico-tour-radar",
+    "artistSlug": "zico",
+    "artist": "ZICO",
+    "title": "ZICO live and festival watch",
+    "stage": "watch",
+    "note": "适合作为 broader live 页面入口，先看 festival 再看独立演唱会。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Bangkok"
+    ],
+    "source": "ZICO official channel",
+    "sourceUrl": "https://weverse.io/zico"
+  }
+]

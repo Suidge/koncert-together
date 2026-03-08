@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 import { ArtistCard } from "@/components/artist-card";
 import { Header } from "@/components/header";
-import { getArtists, getEvents } from "@/lib/events";
+import { getArtists, getEvents, getTourPlans } from "@/lib/events";
 import { slugifyArtistName } from "@/lib/site-data";
 
 export const metadata: Metadata = {
-  title: "艺人目录 | Seoul Signal",
-  description: "浏览当前站内追踪的 K-pop 艺人和 fandom 入口。"
+  title: "艺人目录 | Koncert Together",
+  description: "浏览当前站内追踪的 K-pop 艺人、成员档案和巡演雷达。"
 };
 
 export default async function ArtistsPage() {
-  const [artists, events] = await Promise.all([getArtists(), getEvents()]);
+  const [artists, events, plans] = await Promise.all([getArtists(), getEvents(), getTourPlans()]);
 
   return (
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
         <p className="eyebrow">Artists</p>
-        <h1>艺人与 fandom 入口</h1>
+        <h1>艺人主页与成员档案</h1>
         <p className="hero-text">
-          每个艺人页都同时承接巡演、官方入口、粉丝内容和入坑路径，方便从“查活动”自然进入 fandom 体验。
+          这里不只是艺人名单。每个页面都尽量把成员 profile、官方入口、排期卡片和巡演雷达组织成可以直接浏览的艺人主页。
         </p>
       </section>
       <section className="artist-grid">
@@ -28,6 +28,7 @@ export default async function ArtistsPage() {
             artist={artist}
             eventCount={events.filter((event) => slugifyArtistName(event.artist) === artist.slug).length}
             key={artist.slug}
+            planCount={plans.filter((plan) => plan.artistSlug === artist.slug).length}
           />
         ))}
       </section>

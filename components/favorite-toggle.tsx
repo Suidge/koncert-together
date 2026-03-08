@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const STORAGE_KEY = "seoul-signal:favorites";
+const STORAGE_KEY = "koncert-together:favorites";
 
 function readFavorites() {
   if (typeof window === "undefined") {

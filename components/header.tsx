@@ -4,7 +4,8 @@ export function Header() {
   return (
     <header className="site-header">
       <Link className="brand" href="/">
-        Seoul Signal
+        <span className="brand-kicker">K-pop Tour Calendar</span>
+        <strong>Koncert Together</strong>
       </Link>
       <nav className="nav">
         <Link href="/calendar">巡演日历</Link>

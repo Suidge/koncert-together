@@ -8,9 +8,8 @@
     "country": "Japan",
     "venue": "Ariake Arena",
     "startDate": "2026-03-29T18:30:00+09:00",
-    "timezone": "Asia/Tokyo",
     "status": "sold_out",
-    "source": "Weverse artist community",
+    "source": "aespa official channel",
     "sourceUrl": "https://weverse.io/aespa",
     "sourceConfidence": "official",
     "tags": [
@@ -18,41 +17,37 @@
       "Arena",
       "Waitlist"
     ],
-    "title": "aespa Live Tour in Tokyo",
-    "description": "日本场售罄后更需要明确等待名单和官方转售渠道。",
-    "purchaseHint": "优先等待官方补票和抽选，不建议跳过验证机制直接买来路不明的票。",
-    "priceNote": "日本场往往存在会员抽选和多轮开票。",
-    "travelNote": "东京场适合补充电子票取票、返程和周边住宿建议。",
+    "title": "aespa in Tokyo",
+    "tourName": "aespa Tour Watch",
+    "description": "aespa 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "官方转售和补票机制往往比二级票更安全。",
+    "priceNote": "日本场常见会员抽选与多轮补票。",
+    "travelNote": "适合在页内补电子票、返程和周边住宿建议。",
     "checklist": [
       "关注官方补票",
       "确认电子票取票方式",
       "留意转售合法性"
     ],
+    "heroImage": "/media/events/aespa-tokyo-2026.svg",
     "ticketLinks": [
       {
-        "label": "Weverse aespa",
+        "label": "aespa Official",
         "href": "https://weverse.io/aespa",
-        "type": "official"
-      },
-      {
-        "label": "Ariake Arena",
-        "href": "https://ariake-arena.tokyo/",
         "type": "official"
       }
     ]
   },
   {
-    "id": "svt-seoul-2026",
+    "id": "seventeen-seoul-2026",
     "artist": "SEVENTEEN",
     "artistSlug": "seventeen",
-    "slug": "svt-seoul-2026",
+    "slug": "seventeen-seoul-2026",
     "city": "Seoul",
     "country": "South Korea",
     "venue": "KSPO Dome",
     "startDate": "2026-04-18T19:00:00+09:00",
-    "timezone": "Asia/Seoul",
     "status": "on_sale",
-    "source": "Weverse artist community",
+    "source": "SEVENTEEN official channel",
     "sourceUrl": "https://weverse.io/seventeen",
     "sourceConfidence": "official",
     "tags": [
@@ -60,195 +55,60 @@
       "Korea",
       "Membership"
     ],
-    "title": "SEVENTEEN World Tour in Seoul",
-    "description": "首尔场首演，适合验证官方公告入口、会员预售规则和多票务入口的组织方式。",
-    "purchaseHint": "CARAT 会员通常需要先完成预售认证，再进入正式购票流程。",
-    "priceNote": "优先比较 Floor、Stand 和福利票的规则，不要只看票面价格。",
-    "travelNote": "奥林匹克公园周边演出日人流很大，建议把住宿和返程都围绕 5 号线或 9 号线规划。",
+    "title": "SEVENTEEN in Seoul",
+    "tourName": "SEVENTEEN Tour Watch",
+    "description": "SEVENTEEN 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "CARAT 会员预售通常需要先完成认证。",
+    "priceNote": "优先比较 Floor、Stand 和福利票规则。",
+    "travelNote": "演出日人流很大，住宿和返程最好围绕 5 号线或 9 号线安排。",
     "checklist": [
       "确认实名规则",
       "确认预售认证时间",
-      "提前准备支付方式"
+      "准备支付方式"
     ],
-    "ticketSaleDate": "2026-03-12T20:00:00+09:00",
-    "doorsTime": "18:00",
+    "heroImage": "/media/events/seventeen-seoul-2026.svg",
     "ticketLinks": [
       {
-        "label": "官方艺人页",
+        "label": "SEVENTEEN Official",
         "href": "https://weverse.io/seventeen",
         "type": "official"
-      },
-      {
-        "label": "Interpark Global",
-        "href": "https://www.globalinterpark.com/",
-        "type": "official"
       }
     ]
   },
   {
-    "id": "bp-la-2026",
-    "artist": "BLACKPINK",
-    "artistSlug": "blackpink",
-    "slug": "bp-la-2026",
-    "city": "Los Angeles",
-    "country": "United States",
-    "venue": "BMO Stadium",
-    "startDate": "2026-05-09T20:00:00-07:00",
-    "timezone": "America/Los_Angeles",
+    "id": "j-hope-seoul-2026",
+    "artist": "j-hope",
+    "artistSlug": "j-hope",
+    "slug": "j-hope-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Jamsil Indoor Stadium",
+    "startDate": "2026-04-26T18:00:00+09:00",
     "status": "announced",
-    "source": "Official artist page",
-    "sourceUrl": "https://www.blackpinkmusic.com/",
+    "source": "j-hope official channel",
+    "sourceUrl": "https://weverse.io/jhope",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
-      "Stadium",
-      "Presale"
+      "Solo",
+      "Korea",
+      "Membership"
     ],
-    "title": "BLACKPINK in Los Angeles",
-    "description": "高热度北美体育场场次，适合展示 presale 节点和大场馆入场建议。",
-    "purchaseHint": "北美场通常会有多轮 presale，先判断你能否进入官方、平台或信用卡预售。",
-    "priceNote": "体育场场次票价跨度很大，建议同时比较座位视野、交通成本和总价。",
-    "travelNote": "BMO Stadium 演出日周边交通和停车压力很大，建议优先考虑地铁或提前离场路线。",
+    "title": "j-hope in Seoul",
+    "tourName": "j-hope Tour Watch",
+    "description": "j-hope 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "先确认会员预售与公开发售的时间差。",
+    "priceNote": "solo 场常见福利票和限购规则。",
+    "travelNote": "蚕室一带散场后叫车难度高，建议优先地铁。",
     "checklist": [
-      "确认 presale code 来源",
-      "比较座位区块",
-      "预留停车或网约车预算"
+      "准备 Weverse 账号",
+      "确认实名信息",
+      "预留返程时间"
     ],
+    "heroImage": "/media/events/j-hope-seoul-2026.svg",
     "ticketLinks": [
       {
-        "label": "Ticketmaster",
-        "href": "https://www.ticketmaster.com/",
-        "type": "official"
-      },
-      {
-        "label": "BMO Stadium",
-        "href": "https://bmostadium.com/",
-        "type": "official"
-      }
-    ]
-  },
-  {
-    "id": "lsf-hong-kong-2026",
-    "artist": "LE SSERAFIM",
-    "artistSlug": "le-sserafim",
-    "slug": "lsf-hong-kong-2026",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "venue": "AsiaWorld-Arena",
-    "startDate": "2026-05-24T19:00:00+08:00",
-    "timezone": "Asia/Hong_Kong",
-    "status": "announced",
-    "source": "Weverse artist community",
-    "sourceUrl": "https://weverse.io/lesserafim",
-    "sourceConfidence": "official",
-    "tags": [
-      "Asia",
-      "Arena",
-      "Local payment"
-    ],
-    "title": "LE SSERAFIM in Hong Kong",
-    "description": "适合补充港区支付、实名和中文观演说明。",
-    "purchaseHint": "港区票务通常会涉及本地支付方式和实名规则，先看清条款再抢票。",
-    "priceNote": "不同平台支持的支付方式差异较大。",
-    "travelNote": "适合在详情页补充机场快线、口岸和场馆交通建议。",
-    "checklist": [
-      "确认平台支付方式",
-      "确认实名需求",
-      "提前规划口岸路线"
-    ],
-    "ticketLinks": [
-      {
-        "label": "KKTIX",
-        "href": "https://kktix.com/",
-        "type": "official"
-      },
-      {
-        "label": "AsiaWorld-Arena",
-        "href": "https://www.asiaworld-expo.com/zh-hk/whats-on/asiaworld-arena",
-        "type": "official"
-      }
-    ]
-  },
-  {
-    "id": "svt-singapore-2026",
-    "artist": "SEVENTEEN",
-    "artistSlug": "seventeen",
-    "slug": "svt-singapore-2026",
-    "city": "Singapore",
-    "country": "Singapore",
-    "venue": "Singapore Indoor Stadium",
-    "startDate": "2026-06-13T19:30:00+08:00",
-    "timezone": "Asia/Singapore",
-    "status": "announced",
-    "source": "Ticketmaster Singapore",
-    "sourceUrl": "https://ticketmaster.sg/",
-    "sourceConfidence": "partner",
-    "tags": [
-      "Asia",
-      "Arena",
-      "Travel"
-    ],
-    "title": "SEVENTEEN World Tour in Singapore",
-    "description": "东南亚高需求场次，适合补充旅行城市的购票和交通提示。",
-    "purchaseHint": "新加坡场通常会同时出现主办方预售、信用卡预售和公开发售。",
-    "priceNote": "跨境支付前先确认外币手续费和退改规则。",
-    "travelNote": "新加坡适合把酒店优先选在地铁便利区，而不是景点区。",
-    "checklist": [
-      "关注主办方邮件通知",
-      "准备护照姓名拼写",
-      "确认支付限额"
-    ],
-    "ticketLinks": [
-      {
-        "label": "Ticketmaster SG",
-        "href": "https://ticketmaster.sg/",
-        "type": "official"
-      },
-      {
-        "label": "场馆官网",
-        "href": "https://www.sportshub.com.sg/venues-facilities/singapore-indoor-stadium",
-        "type": "official"
-      }
-    ]
-  },
-  {
-    "id": "bp-paris-2026",
-    "artist": "BLACKPINK",
-    "artistSlug": "blackpink",
-    "slug": "bp-paris-2026",
-    "city": "Paris",
-    "country": "France",
-    "venue": "Accor Arena",
-    "startDate": "2026-07-03T20:00:00+02:00",
-    "timezone": "Europe/Paris",
-    "status": "on_sale",
-    "source": "Accor Arena event portal",
-    "sourceUrl": "https://www.accorarena.com/en/",
-    "sourceConfidence": "venue",
-    "tags": [
-      "Europe",
-      "Arena",
-      "VIP"
-    ],
-    "title": "BLACKPINK in Paris",
-    "description": "欧洲核心站点，适合展示 VIP package 和跨币种支付说明。",
-    "purchaseHint": "优先确认票务平台是否限制账户地区，以及 VIP package 的转让规则。",
-    "priceNote": "跨币种刷卡会带来汇率和手续费差异。",
-    "travelNote": "巴黎场适合补充地铁末班时间和场馆周边住宿策略。",
-    "checklist": [
-      "确认平台账户地区",
-      "检查欧元结算卡",
-      "查看 VIP 入场时间"
-    ],
-    "ticketLinks": [
-      {
-        "label": "Accor Arena",
-        "href": "https://www.accorarena.com/en/",
-        "type": "official"
-      },
-      {
-        "label": "Ticketmaster FR",
-        "href": "https://www.ticketmaster.fr/",
+        "label": "j-hope Official",
+        "href": "https://weverse.io/jhope",
         "type": "official"
       }
     ]
@@ -261,178 +121,199 @@
     "city": "Osaka",
     "country": "Japan",
     "venue": "Kyocera Dome Osaka",
-    "startDate": "2026-07-18T18:00:00+09:00",
-    "timezone": "Asia/Tokyo",
+    "startDate": "2026-05-03T18:00:00+09:00",
     "status": "announced",
-    "source": "Weverse artist community",
+    "source": "TOMORROW X TOGETHER official channel",
     "sourceUrl": "https://weverse.io/txt",
     "sourceConfidence": "official",
     "tags": [
       "Japan",
       "Dome",
-      "Membership"
+      "MOA"
     ],
     "title": "TOMORROW X TOGETHER in Osaka",
-    "description": "日本巨蛋场更适合放会员抽选、补票和选座逻辑。",
-    "purchaseHint": "先确认 MOA 会员抽选和公开发售是否分平台进行。",
-    "priceNote": "巨蛋高层看台通常更考验屏幕和舞台走位。",
-    "travelNote": "演出后周边车站拥挤明显，返程尽量留出缓冲时间。",
+    "tourName": "TOMORROW X TOGETHER Tour Watch",
+    "description": "TOMORROW X TOGETHER 的 Osaka 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "日本巨蛋场优先看抽选和发券节点。",
+    "priceNote": "日本大场多轮抽选的支付和取票方式会不同。",
+    "travelNote": "大阪场适合补周边住宿和散场交通。",
     "checklist": [
       "确认抽选轮次",
-      "留意电子票规则",
-      "提前研究看台视野"
+      "核对电子票规则",
+      "预订返程列车"
     ],
+    "heroImage": "/media/events/txt-osaka-2026.svg",
     "ticketLinks": [
       {
-        "label": "Weverse TXT",
+        "label": "TOMORROW X TOGETHER Official",
         "href": "https://weverse.io/txt",
-        "type": "official"
-      },
-      {
-        "label": "Kyocera Dome Osaka",
-        "href": "https://www.kyoceradome-osaka.jp/",
         "type": "official"
       }
     ]
   },
   {
-    "id": "enhypen-newark-2026",
-    "artist": "ENHYPEN",
-    "artistSlug": "enhypen",
-    "slug": "enhypen-newark-2026",
-    "city": "Newark",
+    "id": "blackpink-los-angeles-2026",
+    "artist": "BLACKPINK",
+    "artistSlug": "blackpink",
+    "slug": "blackpink-los-angeles-2026",
+    "city": "Los Angeles",
     "country": "United States",
-    "venue": "Prudential Center",
-    "startDate": "2026-08-02T19:00:00-04:00",
-    "timezone": "America/New_York",
-    "status": "on_sale",
-    "source": "Weverse artist community",
-    "sourceUrl": "https://weverse.io/enhypen",
+    "venue": "BMO Stadium",
+    "startDate": "2026-05-09T20:00:00-07:00",
+    "status": "announced",
+    "source": "BLACKPINK official channel",
+    "sourceUrl": "https://www.blackpinkmusic.com/",
     "sourceConfidence": "official",
     "tags": [
       "North America",
-      "Arena",
+      "Stadium",
       "Presale"
     ],
-    "title": "ENHYPEN in Newark",
-    "description": "北美东岸高热度场次，适合补充 presale 和住宿区域判断。",
-    "purchaseHint": "优先比较官方 presale、平台 presale 和信用卡 presale 的区别。",
-    "priceNote": "Prudential Center 周边酒店价格波动较大，建议连同票价一起核算。",
-    "travelNote": "如果住在 Manhattan，需提前确认 PATH 或 NJ Transit 的返程时间。",
+    "title": "BLACKPINK in Los Angeles",
+    "tourName": "BLACKPINK Tour Watch",
+    "description": "BLACKPINK 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "先判断自己能否进入官方、平台或信用卡预售。",
+    "priceNote": "体育场票价跨度大，别只看票面价格。",
+    "travelNote": "BMO Stadium 演出日停车和网约车压力都很高。",
     "checklist": [
-      "准备 Ticketmaster 账户",
-      "对比 NJ 住宿与 NYC 住宿",
-      "确认返程线路"
+      "确认 presale code 来源",
+      "比较座位区块",
+      "预留停车预算"
     ],
+    "heroImage": "/media/events/blackpink-los-angeles-2026.svg",
     "ticketLinks": [
       {
-        "label": "Ticketmaster",
-        "href": "https://www.ticketmaster.com/",
-        "type": "official"
-      },
-      {
-        "label": "Prudential Center",
-        "href": "https://www.prucenter.com/",
+        "label": "BLACKPINK Official",
+        "href": "https://www.blackpinkmusic.com/",
         "type": "official"
       }
     ]
   },
   {
-    "id": "aespa-sydney-2026",
-    "artist": "aespa",
-    "artistSlug": "aespa",
-    "slug": "aespa-sydney-2026",
-    "city": "Sydney",
-    "country": "Australia",
-    "venue": "Qudos Bank Arena",
-    "startDate": "2026-08-15T19:30:00+10:00",
-    "timezone": "Australia/Sydney",
-    "status": "announced",
-    "source": "Qudos Bank Arena",
-    "sourceUrl": "https://qudosbankarena.com.au/",
-    "sourceConfidence": "venue",
+    "id": "enhypen-manila-2026",
+    "artist": "ENHYPEN",
+    "artistSlug": "enhypen",
+    "slug": "enhypen-manila-2026",
+    "city": "Manila",
+    "country": "Philippines",
+    "venue": "Mall of Asia Arena",
+    "startDate": "2026-05-16T19:00:00+08:00",
+    "status": "on_sale",
+    "source": "ENHYPEN official channel",
+    "sourceUrl": "https://weverse.io/enhypen",
+    "sourceConfidence": "official",
     "tags": [
-      "Oceania",
+      "Asia",
       "Arena",
       "Travel"
     ],
-    "title": "aespa in Sydney",
-    "description": "澳洲场次适合测试时区、旅行和支付说明的组合展示。",
-    "purchaseHint": "关注 tour page 中的预售窗口和当地信用卡发卡行活动。",
-    "priceNote": "国际支付时关注外币换算。",
-    "travelNote": "演出结束后部分公共交通频次会下降，建议预留返程时间。",
+    "title": "ENHYPEN in Manila",
+    "tourName": "ENHYPEN Tour Watch",
+    "description": "ENHYPEN 的 Manila 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "东南亚场通常要先确认支付通道和账户地区。",
+    "priceNote": "不同平台的支付成功率差异很大。",
+    "travelNote": "马尼拉场适合补机场到场馆的接驳建议。",
     "checklist": [
-      "确认澳洲时区",
-      "设置开票提醒",
-      "关注场馆禁带规则"
+      "确认支付方式",
+      "核对实名规则",
+      "预留机场接驳时间"
     ],
+    "heroImage": "/media/events/enhypen-manila-2026.svg",
     "ticketLinks": [
       {
-        "label": "Qudos Bank Arena",
-        "href": "https://qudosbankarena.com.au/",
-        "type": "official"
-      },
-      {
-        "label": "Ticketek",
-        "href": "https://premier.ticketek.com.au/",
+        "label": "ENHYPEN Official",
+        "href": "https://weverse.io/enhypen",
         "type": "official"
       }
     ]
   },
   {
-    "id": "sk-mexico-city-2026",
-    "artist": "Stray Kids",
-    "artistSlug": "stray-kids",
-    "slug": "sk-mexico-city-2026",
-    "city": "Mexico City",
-    "country": "Mexico",
-    "venue": "Palacio de los Deportes",
-    "startDate": "2026-09-04T20:00:00-06:00",
-    "timezone": "America/Mexico_City",
-    "status": "on_sale",
-    "source": "Official artist site",
-    "sourceUrl": "https://www.straykids.jype.com/",
+    "id": "le-sserafim-hong-kong-2026",
+    "artist": "LE SSERAFIM",
+    "artistSlug": "le-sserafim",
+    "slug": "le-sserafim-hong-kong-2026",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "venue": "AsiaWorld-Arena",
+    "startDate": "2026-05-24T19:00:00+08:00",
+    "status": "announced",
+    "source": "LE SSERAFIM official channel",
+    "sourceUrl": "https://weverse.io/lesserafim",
     "sourceConfidence": "official",
     "tags": [
-      "Latin America",
+      "Asia",
       "Arena",
-      "High demand"
+      "Local payment"
     ],
-    "title": "Stray Kids in Mexico City",
-    "description": "高需求拉美场次，适合展示排队和高需求购票提示。",
-    "purchaseHint": "高需求场次要提前登录票务账户并确认支付工具。",
-    "priceNote": "售票高峰时不同区块放票可能分批释放。",
-    "travelNote": "建议关注场馆周边出行安全和官方入场路线。",
+    "title": "LE SSERAFIM in Hong Kong",
+    "tourName": "LE SSERAFIM Tour Watch",
+    "description": "LE SSERAFIM 的 Hong Kong 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "港区票务常涉及本地支付方式和实名规则。",
+    "priceNote": "不同平台支持的支付方式差异较大。",
+    "travelNote": "适合在详情页补机场快线和口岸路线。",
     "checklist": [
-      "提前登录账户",
-      "备好双支付方式",
-      "关注官方入场公告"
+      "确认支付方式",
+      "确认实名需求",
+      "规划口岸路线"
     ],
+    "heroImage": "/media/events/le-sserafim-hong-kong-2026.svg",
     "ticketLinks": [
       {
-        "label": "Ticketmaster MX",
-        "href": "https://www.ticketmaster.com.mx/",
-        "type": "official"
-      },
-      {
-        "label": "JYP Stray Kids",
-        "href": "https://www.straykids.jype.com/",
+        "label": "LE SSERAFIM Official",
+        "href": "https://weverse.io/lesserafim",
         "type": "official"
       }
     ]
   },
   {
-    "id": "ive-bangkok-2026",
+    "id": "nct-dream-seoul-2026",
+    "artist": "NCT DREAM",
+    "artistSlug": "nct-dream",
+    "slug": "nct-dream-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Gocheok Sky Dome",
+    "startDate": "2026-05-30T18:00:00+09:00",
+    "status": "on_sale",
+    "source": "NCT DREAM official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Dome",
+      "Membership"
+    ],
+    "title": "NCT DREAM in Seoul",
+    "tourName": "NCT DREAM Tour Watch",
+    "description": "NCT DREAM 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "大场优先核对区块视野和安检时间。",
+    "priceNote": "韩场通常对实名和取票证件要求更细。",
+    "travelNote": "高尺散场后地铁会拥挤，建议留足返程缓冲。",
+    "checklist": [
+      "确认区块视野",
+      "核对实名信息",
+      "规划散场路线"
+    ],
+    "heroImage": "/media/events/nct-dream-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "NCT DREAM Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "ive-taipei-2026",
     "artist": "IVE",
     "artistSlug": "ive",
-    "slug": "ive-bangkok-2026",
-    "city": "Bangkok",
-    "country": "Thailand",
-    "venue": "IMPACT Arena",
-    "startDate": "2026-09-20T18:30:00+07:00",
-    "timezone": "Asia/Bangkok",
+    "slug": "ive-taipei-2026",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "venue": "Taipei Arena",
+    "startDate": "2026-06-06T19:30:00+08:00",
     "status": "announced",
-    "source": "Official artist page",
+    "source": "IVE official channel",
     "sourceUrl": "https://www.ive-official.com/",
     "sourceConfidence": "official",
     "tags": [
@@ -440,151 +321,516 @@
       "Arena",
       "Travel"
     ],
-    "title": "IVE in Bangkok",
-    "description": "曼谷场适合补充打车、酒店和场馆外排队经验的中文说明。",
-    "purchaseHint": "先确认主办方是否通过 ThaiTicketMajor 或当地合作票务发售。",
-    "priceNote": "注意当地平台账户注册和短信验证。",
-    "travelNote": "IMPACT Arena 不在市中心，演出当天应把往返交通单独规划。",
+    "title": "IVE in Taipei",
+    "tourName": "IVE Tour Watch",
+    "description": "IVE 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "台北场适合先确认本地票务平台的注册和支付流程。",
+    "priceNote": "留意信用卡验证和退票政策。",
+    "travelNote": "台北小巨蛋周边住宿和捷运路线都比较成熟。",
     "checklist": [
-      "确认票务平台",
-      "看清短信验证需求",
-      "安排回程交通"
+      "提前注册票务平台",
+      "准备可用信用卡",
+      "确认捷运末班时间"
     ],
+    "heroImage": "/media/events/ive-taipei-2026.svg",
     "ticketLinks": [
       {
-        "label": "ThaiTicketMajor",
-        "href": "https://www.thaiticketmajor.com/",
-        "type": "official"
-      },
-      {
-        "label": "IMPACT Arena",
-        "href": "https://www.impact.co.th/visitor/impactarena/en",
+        "label": "IVE Official",
+        "href": "https://www.ive-official.com/",
         "type": "official"
       }
     ]
   },
   {
-    "id": "dream-london-2026",
-    "artist": "NCT DREAM",
-    "artistSlug": "nct-dream",
-    "slug": "dream-london-2026",
-    "city": "London",
-    "country": "United Kingdom",
-    "venue": "The O2",
-    "startDate": "2026-10-11T19:30:00+01:00",
-    "timezone": "Europe/London",
+    "id": "seventeen-singapore-2026",
+    "artist": "SEVENTEEN",
+    "artistSlug": "seventeen",
+    "slug": "seventeen-singapore-2026",
+    "city": "Singapore",
+    "country": "Singapore",
+    "venue": "Singapore Indoor Stadium",
+    "startDate": "2026-06-13T19:30:00+08:00",
+    "status": "announced",
+    "source": "SEVENTEEN official channel",
+    "sourceUrl": "https://weverse.io/seventeen",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "SEVENTEEN in Singapore",
+    "tourName": "SEVENTEEN Tour Watch",
+    "description": "SEVENTEEN 的 Singapore 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新加坡场常有主办方预售、信用卡预售和公开发售。",
+    "priceNote": "跨境支付前先确认手续费和退改规则。",
+    "travelNote": "酒店优先选在地铁便利区而不是景点区。",
+    "checklist": [
+      "关注主办方通知",
+      "准备护照姓名拼写",
+      "确认支付限额"
+    ],
+    "heroImage": "/media/events/seventeen-singapore-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "SEVENTEEN Official",
+        "href": "https://weverse.io/seventeen",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "treasure-kuala-lumpur-2026",
+    "artist": "TREASURE",
+    "artistSlug": "treasure",
+    "slug": "treasure-kuala-lumpur-2026",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "venue": "Axiata Arena",
+    "startDate": "2026-06-20T18:00:00+08:00",
+    "status": "announced",
+    "source": "TREASURE official channel",
+    "sourceUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=65",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "TREASURE in Kuala Lumpur",
+    "tourName": "TREASURE Tour Watch",
+    "description": "TREASURE 的 Kuala Lumpur 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "马来西亚场常见多轮开票和主办方会员机制。",
+    "priceNote": "先确认货币转换与支付限额。",
+    "travelNote": "Bukit Jalil 一带需要提前规划散场交通。",
+    "checklist": [
+      "确认开票轮次",
+      "检查银行卡限额",
+      "规划返程路线"
+    ],
+    "heroImage": "/media/events/treasure-kuala-lumpur-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "TREASURE Official",
+        "href": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=65",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "itzy-manila-2026",
+    "artist": "ITZY",
+    "artistSlug": "itzy",
+    "slug": "itzy-manila-2026",
+    "city": "Manila",
+    "country": "Philippines",
+    "venue": "Smart Araneta Coliseum",
+    "startDate": "2026-06-27T19:00:00+08:00",
     "status": "on_sale",
-    "source": "The O2 events",
-    "sourceUrl": "https://www.theo2.co.uk/",
-    "sourceConfidence": "venue",
+    "source": "ITZY official channel",
+    "sourceUrl": "https://itzy.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Seats"
+    ],
+    "title": "ITZY in Manila",
+    "tourName": "ITZY Tour Watch",
+    "description": "ITZY 的 Manila 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "先比较近舞台区域和看全景区域的取舍。",
+    "priceNote": "不同票档的溢价差距较大。",
+    "travelNote": "Araneta 一带交通选择多，但演出日拥堵明显。",
+    "checklist": [
+      "先画好选座优先级",
+      "核对票档福利",
+      "预留散场缓冲"
+    ],
+    "heroImage": "/media/events/itzy-manila-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ITZY Official",
+        "href": "https://itzy.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "blackpink-paris-2026",
+    "artist": "BLACKPINK",
+    "artistSlug": "blackpink",
+    "slug": "blackpink-paris-2026",
+    "city": "Paris",
+    "country": "France",
+    "venue": "Accor Arena",
+    "startDate": "2026-07-03T20:00:00+02:00",
+    "status": "on_sale",
+    "source": "BLACKPINK official channel",
+    "sourceUrl": "https://www.blackpinkmusic.com/",
+    "sourceConfidence": "official",
     "tags": [
       "Europe",
       "Arena",
       "VIP"
     ],
-    "title": "NCT DREAM in London",
-    "description": "欧洲场常见的 VIP、站票和预售并存，适合做规则说明。",
-    "purchaseHint": "英国票务平台可能要求排队系统和验证码，建议提前就绪。",
-    "priceNote": "要同时比较站票和座票体验，不只是价格。",
-    "travelNote": "伦敦演出结束后优先确认地铁运营时间和返程区域。",
+    "title": "BLACKPINK in Paris",
+    "tourName": "BLACKPINK Tour Watch",
+    "description": "BLACKPINK 的 Paris 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "优先确认票务平台是否限制账户地区。",
+    "priceNote": "欧元结算会带来汇率和手续费差异。",
+    "travelNote": "适合补地铁末班和周边住宿策略。",
     "checklist": [
-      "提前登录票务平台",
-      "确认 queue 规则",
-      "对比站票与座票"
+      "确认账户地区",
+      "检查欧元结算卡",
+      "查看 VIP 入场时间"
     ],
+    "heroImage": "/media/events/blackpink-paris-2026.svg",
     "ticketLinks": [
       {
-        "label": "AXS UK",
-        "href": "https://www.axs.com/uk",
-        "type": "official"
-      },
-      {
-        "label": "The O2",
-        "href": "https://www.theo2.co.uk/",
+        "label": "BLACKPINK Official",
+        "href": "https://www.blackpinkmusic.com/",
         "type": "official"
       }
     ]
   },
   {
-    "id": "bnd-manila-2026",
+    "id": "ateez-london-2026",
+    "artist": "ATEEZ",
+    "artistSlug": "ateez",
+    "slug": "ateez-london-2026",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "The O2",
+    "startDate": "2026-07-10T19:30:00+01:00",
+    "status": "announced",
+    "source": "ATEEZ official channel",
+    "sourceUrl": "https://ateez.kqent.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Europe",
+      "Arena",
+      "Travel"
+    ],
+    "title": "ATEEZ in London",
+    "tourName": "ATEEZ Tour Watch",
+    "description": "ATEEZ 的 London 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "英国场先看 AXS/Ticketmaster 双平台差异。",
+    "priceNote": "部分福利票限制转让。",
+    "travelNote": "O2 周边交通成熟，但散场排队明显。",
+    "checklist": [
+      "先准备两套票务账户",
+      "核对福利规则",
+      "留出散场时间"
+    ],
+    "heroImage": "/media/events/ateez-london-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ATEEZ Official",
+        "href": "https://ateez.kqent.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "xg-london-2026",
+    "artist": "XG",
+    "artistSlug": "xg",
+    "slug": "xg-london-2026",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "OVO Arena Wembley",
+    "startDate": "2026-07-17T19:30:00+01:00",
+    "status": "announced",
+    "source": "XG official channel",
+    "sourceUrl": "https://xgalx.com/xg/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Europe",
+      "Arena",
+      "Travel"
+    ],
+    "title": "XG in London",
+    "tourName": "XG Tour Watch",
+    "description": "XG 的 London 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "海外场要先确认站席和看台票差异。",
+    "priceNote": "英区卡支付成功率很关键。",
+    "travelNote": "伦敦场适合补夜间交通和地铁换乘建议。",
+    "checklist": [
+      "核对站席规则",
+      "测试支付方式",
+      "确认返程车次"
+    ],
+    "heroImage": "/media/events/xg-london-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "XG Official",
+        "href": "https://xgalx.com/xg/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "twice-tokyo-2026",
+    "artist": "TWICE",
+    "artistSlug": "twice",
+    "slug": "twice-tokyo-2026",
+    "city": "Tokyo",
+    "country": "Japan",
+    "venue": "Tokyo Dome",
+    "startDate": "2026-07-25T18:00:00+09:00",
+    "status": "sold_out",
+    "source": "TWICE official channel",
+    "sourceUrl": "https://twice.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Dome",
+      "Waitlist"
+    ],
+    "title": "TWICE in Tokyo",
+    "tourName": "TWICE Tour Watch",
+    "description": "TWICE 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "巨蛋场要优先看抽选和官方补票。",
+    "priceNote": "票档差异和场内视野差距都很大。",
+    "travelNote": "东京场适合补巨蛋周边酒店与返程经验。",
+    "checklist": [
+      "确认抽选结果",
+      "查看官方补票",
+      "预订返程交通"
+    ],
+    "heroImage": "/media/events/twice-tokyo-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "TWICE Official",
+        "href": "https://twice.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "boynextdoor-seoul-2026",
     "artist": "BOYNEXTDOOR",
     "artistSlug": "boynextdoor",
-    "slug": "bnd-manila-2026",
-    "city": "Manila",
-    "country": "Philippines",
-    "venue": "Mall of Asia Arena",
-    "startDate": "2026-11-14T19:00:00+08:00",
-    "timezone": "Asia/Manila",
-    "status": "announced",
-    "source": "Weverse artist community",
+    "slug": "boynextdoor-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Olympic Hall",
+    "startDate": "2026-08-01T18:00:00+09:00",
+    "status": "on_sale",
+    "source": "BOYNEXTDOOR official channel",
     "sourceUrl": "https://weverse.io/boynextdoor",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
-      "Arena",
-      "Rising fandom"
+      "Fancon",
+      "Korea",
+      "Membership"
     ],
-    "title": "BOYNEXTDOOR in Manila",
-    "description": "适合新生代团体的海外场跟踪和城市向内容验证。",
-    "purchaseHint": "菲律宾场通常需要先确认本地平台账户和支付方式。",
-    "priceNote": "票档和福利规则变化频繁，优先看主办方说明。",
-    "travelNote": "演出后 Mall of Asia 周边车流很大，返程要尽量前置规划。",
+    "title": "BOYNEXTDOOR in Seoul",
+    "tourName": "BOYNEXTDOOR Tour Watch",
+    "description": "BOYNEXTDOOR 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "fancon 场通常更看重会员预售和福利说明。",
+    "priceNote": "不同票档福利差距可能大于座位差距。",
+    "travelNote": "首尔小场馆更适合补周边排队和安检提示。",
     "checklist": [
-      "确认平台账户",
-      "保留英文姓名信息",
-      "安排返程车辆"
+      "核对福利票规则",
+      "确认会员认证",
+      "留意入场队列"
     ],
+    "heroImage": "/media/events/boynextdoor-seoul-2026.svg",
     "ticketLinks": [
       {
-        "label": "SM Tickets",
-        "href": "https://smtickets.com/",
-        "type": "official"
-      },
-      {
-        "label": "Weverse BOYNEXTDOOR",
+        "label": "BOYNEXTDOOR Official",
         "href": "https://weverse.io/boynextdoor",
         "type": "official"
       }
     ]
   },
   {
-    "id": "illit-seoul-2026",
-    "artist": "ILLIT",
-    "artistSlug": "illit",
-    "slug": "illit-seoul-2026",
-    "city": "Seoul",
-    "country": "South Korea",
-    "venue": "Inspire Arena",
-    "startDate": "2026-11-29T18:00:00+09:00",
-    "timezone": "Asia/Seoul",
+    "id": "tws-yokohama-2026",
+    "artist": "TWS",
+    "artistSlug": "tws",
+    "slug": "tws-yokohama-2026",
+    "city": "Yokohama",
+    "country": "Japan",
+    "venue": "K-Arena Yokohama",
+    "startDate": "2026-08-08T18:00:00+09:00",
     "status": "announced",
-    "source": "Weverse artist community",
-    "sourceUrl": "https://weverse.io/illit",
+    "source": "TWS official channel",
+    "sourceUrl": "https://weverse.io/tws",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
+      "Japan",
       "Arena",
-      "Airport line"
+      "Rookie"
     ],
-    "title": "ILLIT in Seoul",
-    "description": "适合补充 Inspire Arena 的机场线、接驳和入场组织说明。",
-    "purchaseHint": "新团首轮场次要重点关注会员认证、开票公告和福利规则。",
-    "priceNote": "如果福利票和普通票同批售卖，要提前定好优先级。",
-    "travelNote": "Inspire Arena 往返机场和市区的时间差异大，建议把返程写入观演计划。",
+    "title": "TWS in Yokohama",
+    "tourName": "TWS Tour Watch",
+    "description": "TWS 的 Yokohama 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "日本新团场要重点看会员抽选和二轮抽选。",
+    "priceNote": "新团演出常出现票务节奏变化。",
+    "travelNote": "横滨场适合补海滨区住宿和散场路线。",
     "checklist": [
-      "确认开票平台",
-      "规划返程接驳",
-      "留意禁带清单"
+      "关注抽选节点",
+      "准备日区账号",
+      "规划返程路线"
     ],
+    "heroImage": "/media/events/tws-yokohama-2026.svg",
     "ticketLinks": [
       {
-        "label": "Weverse ILLIT",
-        "href": "https://weverse.io/illit",
+        "label": "TWS Official",
+        "href": "https://weverse.io/tws",
         "type": "official"
-      },
+      }
+    ]
+  },
+  {
+    "id": "andteam-saitama-2026",
+    "artist": "&TEAM",
+    "artistSlug": "andteam",
+    "slug": "andteam-saitama-2026",
+    "city": "Saitama",
+    "country": "Japan",
+    "venue": "Saitama Super Arena",
+    "startDate": "2026-08-15T18:00:00+09:00",
+    "status": "on_sale",
+    "source": "&TEAM official channel",
+    "sourceUrl": "https://weverse.io/andteam",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Arena",
+      "Travel"
+    ],
+    "title": "&TEAM in Saitama",
+    "tourName": "&TEAM Tour Watch",
+    "description": "&TEAM 的 Saitama 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "SSA 场适合优先看区块视线和站席规则。",
+    "priceNote": "不同区块对主舞台和延伸台视野差异很大。",
+    "travelNote": "埼玉场返程列车和酒店选择要尽早确定。",
+    "checklist": [
+      "确认区块图",
+      "核对电子票说明",
+      "提前看返程列车"
+    ],
+    "heroImage": "/media/events/andteam-saitama-2026.svg",
+    "ticketLinks": [
       {
-        "label": "Inspire Arena",
-        "href": "https://www.inspirekorea.com/en/entertainment/arena",
+        "label": "&TEAM Official",
+        "href": "https://weverse.io/andteam",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "zerobaseone-macau-2026",
+    "artist": "ZEROBASEONE",
+    "artistSlug": "zerobaseone",
+    "slug": "zerobaseone-macau-2026",
+    "city": "Macau",
+    "country": "Macau",
+    "venue": "Galaxy Arena",
+    "startDate": "2026-08-22T19:00:00+08:00",
+    "status": "announced",
+    "source": "ZEROBASEONE official channel",
+    "sourceUrl": "https://zb1-official.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "ZEROBASEONE in Macau",
+    "tourName": "ZEROBASEONE Tour Watch",
+    "description": "ZEROBASEONE 的 Macau 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "澳门场常涉及跨境住宿和口岸动线。",
+    "priceNote": "先确认票务平台是否支持国际支付。",
+    "travelNote": "银河综艺馆散场后叫车和口岸压力都较大。",
+    "checklist": [
+      "确认支付方式",
+      "预留口岸时间",
+      "看酒店接驳"
+    ],
+    "heroImage": "/media/events/zerobaseone-macau-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ZEROBASEONE Official",
+        "href": "https://zb1-official.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "riize-hong-kong-2026",
+    "artist": "RIIZE",
+    "artistSlug": "riize",
+    "slug": "riize-hong-kong-2026",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "venue": "AsiaWorld-Arena",
+    "startDate": "2026-08-29T19:00:00+08:00",
+    "status": "announced",
+    "source": "RIIZE official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "RIIZE in Hong Kong",
+    "tourName": "RIIZE Tour Watch",
+    "description": "RIIZE 的 Hong Kong 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "适合补充港区购票、实名和场馆动线。",
+    "priceNote": "同一场次不同平台的余票节奏会不一样。",
+    "travelNote": "机场快线和的士预算都要提前算。",
+    "checklist": [
+      "确认平台规则",
+      "核对实名信息",
+      "预留交通预算"
+    ],
+    "heroImage": "/media/events/riize-hong-kong-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "RIIZE Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "katseye-new-york-2026",
+    "artist": "KATSEYE",
+    "artistSlug": "katseye",
+    "slug": "katseye-new-york-2026",
+    "city": "New York",
+    "country": "United States",
+    "venue": "Hammerstein Ballroom",
+    "startDate": "2026-09-05T20:00:00-04:00",
+    "status": "announced",
+    "source": "KATSEYE official channel",
+    "sourceUrl": "https://weverse.io/katseye",
+    "sourceConfidence": "official",
+    "tags": [
+      "Showcase",
+      "North America",
+      "GA"
+    ],
+    "title": "KATSEYE in New York",
+    "tourName": "KATSEYE Tour Watch",
+    "description": "KATSEYE 的 New York 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "GA standing 场优先看排队和包袋政策。",
+    "priceNote": "北美小场抢位比单纯票档更重要。",
+    "travelNote": "纽约场适合补地铁、安检和排队建议。",
+    "checklist": [
+      "查看包袋政策",
+      "确认排队时间",
+      "规划夜间返程"
+    ],
+    "heroImage": "/media/events/katseye-new-york-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "KATSEYE Official",
+        "href": "https://weverse.io/katseye",
         "type": "official"
       }
     ]
@@ -596,37 +842,527 @@
     "slug": "babymonster-jakarta-2026",
     "city": "Jakarta",
     "country": "Indonesia",
-    "venue": "ICE BSD Hall 5-6",
-    "startDate": "2026-12-12T19:00:00+07:00",
-    "timezone": "Asia/Jakarta",
+    "venue": "ICE BSD Hall 5",
+    "startDate": "2026-09-12T19:00:00+07:00",
     "status": "announced",
-    "source": "YG artist page",
+    "source": "BABYMONSTER official channel",
     "sourceUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70",
     "sourceConfidence": "official",
     "tags": [
       "Asia",
-      "Convention venue",
+      "Arena",
       "Travel"
     ],
     "title": "BABYMONSTER in Jakarta",
-    "description": "适合补充雅加达场馆交通、酒店区域和本地票务平台的中文说明。",
-    "purchaseHint": "先确认主办方合作票务和当地支付方式，避免临近开票才注册平台。",
-    "priceNote": "会场类型和 Arena 不同，视野和排队体验差别更明显。",
-    "travelNote": "ICE BSD 距离市区较远，演出当天最好围绕场馆附近安排住宿或包车。",
+    "tourName": "BABYMONSTER Tour Watch",
+    "description": "BABYMONSTER 的 Jakarta 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "雅加达场适合补支付、口岸和交通信息。",
+    "priceNote": "部分主办方会分平台和分轮开票。",
+    "travelNote": "BSD 演出日路面交通时间不可低估。",
     "checklist": [
-      "确认印尼票务平台",
-      "看清场馆分区图",
-      "提前安排交通"
+      "准备支付卡",
+      "确认平台账号",
+      "预留出城时间"
     ],
+    "heroImage": "/media/events/babymonster-jakarta-2026.svg",
     "ticketLinks": [
       {
-        "label": "YG BABYMONSTER",
+        "label": "BABYMONSTER Official",
         "href": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70",
         "type": "official"
-      },
+      }
+    ]
+  },
+  {
+    "id": "stray-kids-bangkok-2026",
+    "artist": "Stray Kids",
+    "artistSlug": "stray-kids",
+    "slug": "stray-kids-bangkok-2026",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "venue": "Impact Arena",
+    "startDate": "2026-09-19T19:00:00+07:00",
+    "status": "on_sale",
+    "source": "Stray Kids official channel",
+    "sourceUrl": "https://www.straykids.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "Stray Kids in Bangkok",
+    "tourName": "Stray Kids Tour Watch",
+    "description": "Stray Kids 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "泰国场要优先确认支付方式、票务区和站席规则。",
+    "priceNote": "高需求场次容易出现抢票拥堵。",
+    "travelNote": "IMPACT 周边住宿和返程策略要提早做。",
+    "checklist": [
+      "准备多张支付卡",
+      "确认站席规则",
+      "订好场馆周边酒店"
+    ],
+    "heroImage": "/media/events/stray-kids-bangkok-2026.svg",
+    "ticketLinks": [
       {
-        "label": "ICE BSD City",
-        "href": "https://ice-indonesia.com/",
+        "label": "Stray Kids Official",
+        "href": "https://www.straykids.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "iu-taipei-2026",
+    "artist": "IU",
+    "artistSlug": "iu",
+    "slug": "iu-taipei-2026",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "venue": "Taipei Arena",
+    "startDate": "2026-09-26T19:30:00+08:00",
+    "status": "announced",
+    "source": "IU official channel",
+    "sourceUrl": "https://www.iu-official.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Arena",
+      "Seats"
+    ],
+    "title": "IU in Taipei",
+    "tourName": "IU Tour Watch",
+    "description": "IU 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "solo 场更值得花时间比较区块和视角。",
+    "priceNote": "不同票档的观感差异可能大于价差。",
+    "travelNote": "台北小巨蛋散场交通稳定，但末班时间仍要确认。",
+    "checklist": [
+      "先看区块视角",
+      "比较票档价格",
+      "确认捷运末班"
+    ],
+    "heroImage": "/media/events/iu-taipei-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "IU Official",
+        "href": "https://www.iu-official.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "twice-singapore-2026",
+    "artist": "TWICE",
+    "artistSlug": "twice",
+    "slug": "twice-singapore-2026",
+    "city": "Singapore",
+    "country": "Singapore",
+    "venue": "National Stadium",
+    "startDate": "2026-10-03T19:30:00+08:00",
+    "status": "announced",
+    "source": "TWICE official channel",
+    "sourceUrl": "https://twice.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Stadium",
+      "Travel"
+    ],
+    "title": "TWICE in Singapore",
+    "tourName": "TWICE Tour Watch",
+    "description": "TWICE 的 Singapore 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新加坡大场要先看平台预售和看台视野。",
+    "priceNote": "体育场票档跨度很大。",
+    "travelNote": "国家体育场演出日散场人流密集。",
+    "checklist": [
+      "核对预售规则",
+      "比较视野图",
+      "规划散场交通"
+    ],
+    "heroImage": "/media/events/twice-singapore-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "TWICE Official",
+        "href": "https://twice.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "nmixx-seoul-2026",
+    "artist": "NMIXX",
+    "artistSlug": "nmixx",
+    "slug": "nmixx-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Blue Square Mastercard Hall",
+    "startDate": "2026-10-10T18:00:00+09:00",
+    "status": "announced",
+    "source": "NMIXX official channel",
+    "sourceUrl": "https://nmixx.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Theater",
+      "Close-up"
+    ],
+    "title": "NMIXX in Seoul",
+    "tourName": "NMIXX Tour Watch",
+    "description": "NMIXX 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "剧场型场馆更值得细看楼层和视角。",
+    "priceNote": "小场和中场的体验差距明显。",
+    "travelNote": "首尔剧场场通常安检和队列节奏更快。",
+    "checklist": [
+      "核对楼层座位",
+      "留意包袋规则",
+      "提早到场"
+    ],
+    "heroImage": "/media/events/nmixx-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "NMIXX Official",
+        "href": "https://nmixx.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "taeyeon-seoul-2026",
+    "artist": "Taeyeon",
+    "artistSlug": "taeyeon",
+    "slug": "taeyeon-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "KSPO Dome",
+    "startDate": "2026-10-17T18:00:00+09:00",
+    "status": "announced",
+    "source": "Taeyeon official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Korea",
+      "Seats"
+    ],
+    "title": "Taeyeon in Seoul",
+    "tourName": "Taeyeon Tour Watch",
+    "description": "Taeyeon 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "声场和视线通常比靠前距离更重要。",
+    "priceNote": "适合优先比较中前区与高层正中的取舍。",
+    "travelNote": "奥林匹克公园一带住宿和返程都要早订。",
+    "checklist": [
+      "优先看音场评价",
+      "比较正中区块",
+      "尽早订酒店"
+    ],
+    "heroImage": "/media/events/taeyeon-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Taeyeon Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "treasure-bangkok-2026",
+    "artist": "TREASURE",
+    "artistSlug": "treasure",
+    "slug": "treasure-bangkok-2026",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "venue": "Impact Arena",
+    "startDate": "2026-10-24T19:00:00+07:00",
+    "status": "announced",
+    "source": "TREASURE official channel",
+    "sourceUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=65",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "TREASURE in Bangkok",
+    "tourName": "TREASURE Tour Watch",
+    "description": "TREASURE 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "适合补泰国场多轮售票和站席经验。",
+    "priceNote": "不同票档福利差异较大。",
+    "travelNote": "IMPACT 返程和住宿建议值得单独写清楚。",
+    "checklist": [
+      "确认开票轮次",
+      "看福利差异",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/treasure-bangkok-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "TREASURE Official",
+        "href": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=65",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "ateez-mexico-city-2026",
+    "artist": "ATEEZ",
+    "artistSlug": "ateez",
+    "slug": "ateez-mexico-city-2026",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "startDate": "2026-11-01T20:00:00-06:00",
+    "status": "announced",
+    "source": "ATEEZ official channel",
+    "sourceUrl": "https://ateez.kqent.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "North America",
+      "Arena",
+      "Travel"
+    ],
+    "title": "ATEEZ in Mexico City",
+    "tourName": "ATEEZ Tour Watch",
+    "description": "ATEEZ 的 Mexico City 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "拉美场优先确认平台规则和支付渠道。",
+    "priceNote": "跨区购票更要留意结算和票券形式。",
+    "travelNote": "墨西哥城场适合补治安和夜间返程提示。",
+    "checklist": [
+      "确认票券形式",
+      "准备国际支付",
+      "留出返程缓冲"
+    ],
+    "heroImage": "/media/events/ateez-mexico-city-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ATEEZ Official",
+        "href": "https://ateez.kqent.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "nct-dream-jakarta-2026",
+    "artist": "NCT DREAM",
+    "artistSlug": "nct-dream",
+    "slug": "nct-dream-jakarta-2026",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "venue": "Indonesia Arena",
+    "startDate": "2026-11-08T19:00:00+07:00",
+    "status": "announced",
+    "source": "NCT DREAM official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "NCT DREAM in Jakarta",
+    "tourName": "NCT DREAM Tour Watch",
+    "description": "NCT DREAM 的 Jakarta 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "适合补印尼平台支付和手机取票规则。",
+    "priceNote": "开票节奏和实名验证都值得单独说明。",
+    "travelNote": "Jakarta 场馆周边交通拥堵要提前考虑。",
+    "checklist": [
+      "确认手机取票规则",
+      "核对实名信息",
+      "预留交通时间"
+    ],
+    "heroImage": "/media/events/nct-dream-jakarta-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "NCT DREAM Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "stray-kids-sydney-2026",
+    "artist": "Stray Kids",
+    "artistSlug": "stray-kids",
+    "slug": "stray-kids-sydney-2026",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "Qudos Bank Arena",
+    "startDate": "2026-11-15T19:30:00+11:00",
+    "status": "announced",
+    "source": "Stray Kids official channel",
+    "sourceUrl": "https://www.straykids.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Oceania",
+      "Arena",
+      "Travel"
+    ],
+    "title": "Stray Kids in Sydney",
+    "tourName": "Stray Kids Tour Watch",
+    "description": "Stray Kids 的 Sydney 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "澳洲场要重点看 Ticketek/Ticketmaster 路线差异。",
+    "priceNote": "不同入场区对视野影响较大。",
+    "travelNote": "悉尼奥林匹克公园返程车次值得提前确认。",
+    "checklist": [
+      "准备当地票务账号",
+      "核对区块视角",
+      "确认返程车次"
+    ],
+    "heroImage": "/media/events/stray-kids-sydney-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Stray Kids Official",
+        "href": "https://www.straykids.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "txt-los-angeles-2026",
+    "artist": "TOMORROW X TOGETHER",
+    "artistSlug": "txt",
+    "slug": "txt-los-angeles-2026",
+    "city": "Los Angeles",
+    "country": "United States",
+    "venue": "Kia Forum",
+    "startDate": "2026-11-22T20:00:00-08:00",
+    "status": "announced",
+    "source": "TOMORROW X TOGETHER official channel",
+    "sourceUrl": "https://weverse.io/txt",
+    "sourceConfidence": "official",
+    "tags": [
+      "North America",
+      "Arena",
+      "Travel"
+    ],
+    "title": "TOMORROW X TOGETHER in Los Angeles",
+    "tourName": "TOMORROW X TOGETHER Tour Watch",
+    "description": "TOMORROW X TOGETHER 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "论坛场适合补停车、排队和周边住宿建议。",
+    "priceNote": "北美 arena 场的座位性价比差异大。",
+    "travelNote": "洛杉矶演出日优先地铁或提前进场。",
+    "checklist": [
+      "看好停车预算",
+      "比较下层与上层",
+      "提前出发"
+    ],
+    "heroImage": "/media/events/txt-los-angeles-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "TOMORROW X TOGETHER Official",
+        "href": "https://weverse.io/txt",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "blackpink-tokyo-2026",
+    "artist": "BLACKPINK",
+    "artistSlug": "blackpink",
+    "slug": "blackpink-tokyo-2026",
+    "city": "Tokyo",
+    "country": "Japan",
+    "venue": "Tokyo Dome",
+    "startDate": "2026-11-29T18:00:00+09:00",
+    "status": "announced",
+    "source": "BLACKPINK official channel",
+    "sourceUrl": "https://www.blackpinkmusic.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Dome",
+      "BLINK"
+    ],
+    "title": "BLACKPINK in Tokyo",
+    "tourName": "BLACKPINK Tour Watch",
+    "description": "BLACKPINK 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "日本巨蛋场的抽选和补票规则优先级最高。",
+    "priceNote": "别忽视电子票和入场证件的细节。",
+    "travelNote": "东京巨蛋周边酒店和返程车票都要先订。",
+    "checklist": [
+      "核对抽选条件",
+      "确认电子票",
+      "预订返程交通"
+    ],
+    "heroImage": "/media/events/blackpink-tokyo-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "BLACKPINK Official",
+        "href": "https://www.blackpinkmusic.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "zerobaseone-seoul-2026",
+    "artist": "ZEROBASEONE",
+    "artistSlug": "zerobaseone",
+    "slug": "zerobaseone-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Olympic Handball Gymnasium",
+    "startDate": "2026-12-06T18:00:00+09:00",
+    "status": "on_sale",
+    "source": "ZEROBASEONE official channel",
+    "sourceUrl": "https://zb1-official.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Fancon",
+      "Korea",
+      "Membership"
+    ],
+    "title": "ZEROBASEONE in Seoul",
+    "tourName": "ZEROBASEONE Tour Watch",
+    "description": "ZEROBASEONE 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "韩场 fancon 更适合提前研究福利票和认证规则。",
+    "priceNote": "福利票常有更严格的取票条件。",
+    "travelNote": "手球馆场适合补排队和安检经验。",
+    "checklist": [
+      "确认福利票说明",
+      "核对认证规则",
+      "留意入场时间"
+    ],
+    "heroImage": "/media/events/zerobaseone-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ZEROBASEONE Official",
+        "href": "https://zb1-official.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "xg-los-angeles-2026",
+    "artist": "XG",
+    "artistSlug": "xg",
+    "slug": "xg-los-angeles-2026",
+    "city": "Los Angeles",
+    "country": "United States",
+    "venue": "YouTube Theater",
+    "startDate": "2026-12-13T20:00:00-08:00",
+    "status": "announced",
+    "source": "XG official channel",
+    "sourceUrl": "https://xgalx.com/xg/",
+    "sourceConfidence": "official",
+    "tags": [
+      "North America",
+      "Theater",
+      "GA"
+    ],
+    "title": "XG in Los Angeles",
+    "tourName": "XG Tour Watch",
+    "description": "XG 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "小中型场馆更需要看排队和视角。",
+    "priceNote": "GA 票和坐席票体验差距明显。",
+    "travelNote": "Inglewood 一带交通和散场接驳值得提前规划。",
+    "checklist": [
+      "确认排队时间",
+      "看清 GA 规则",
+      "规划散场接驳"
+    ],
+    "heroImage": "/media/events/xg-los-angeles-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "XG Official",
+        "href": "https://xgalx.com/xg/",
         "type": "official"
       }
     ]

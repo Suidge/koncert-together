@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-03-08T02:56:46.253Z",
+  "generatedAt": "2026-03-08T05:25:35.316Z",
   "siteMode": "github-pages-trial",
-  "coverageNote": "公开前台部署到 GitHub Pages，本地主机负责低频数据整理和自动推送。",
+  "coverageNote": "Static public site with locally maintained event and fandom content.",
   "counts": {
-    "artists": 31,
-    "events": 15,
+    "artists": 47,
+    "events": 36,
     "guides": 18,
     "communityPosts": 6,
-    "monitoredSources": 35
+    "monitoredSources": 47,
+    "tourPlans": 20
   },
   "sourceHealth": {
-    "ok": 28,
-    "failed": 7,
-    "lastCheckedAt": "2026-03-08T02:56:34.608Z"
+    "ok": 33,
+    "failed": 14,
+    "lastCheckedAt": "2026-03-08T05:25:30.739Z"
   }
 }

@@ -23,7 +23,7 @@ function ensureUnique(items, field, label) {
   }
 }
 
-function ensureHttpUrls(events) {
+function ensureHttpUrls(events, tourPlans) {
   for (const event of events) {
     for (const link of [event.sourceUrl, ...(event.ticketLinks ?? []).map((item) => item.href)]) {
       if (link && !/^https?:\/\//.test(link)) {
@@ -31,9 +31,15 @@ function ensureHttpUrls(events) {
       }
     }
   }
+
+  for (const plan of tourPlans) {
+    if (plan.sourceUrl && !/^https?:\/\//.test(plan.sourceUrl)) {
+      throw new Error(`Invalid URL in tour plan ${plan.slug}: ${plan.sourceUrl}`);
+    }
+  }
 }
 
-function ensureSourceCoverage(events, registry) {
+function ensureSourceCoverage(events, tourPlans, registry) {
   const urls = new Set(registry.map((item) => item.url));
 
   for (const event of events) {
@@ -41,17 +47,24 @@ function ensureSourceCoverage(events, registry) {
       throw new Error(`Event source is not registered: ${event.slug} -> ${event.sourceUrl}`);
     }
   }
+
+  for (const plan of tourPlans) {
+    if (plan.sourceUrl && !urls.has(plan.sourceUrl)) {
+      throw new Error(`Tour plan source is not registered: ${plan.slug} -> ${plan.sourceUrl}`);
+    }
+  }
 }
 
 async function main() {
-  const [artists, events, guides, community, meta, registry, status] = await Promise.all([
+  const [artists, events, guides, community, meta, registry, status, tourPlans] = await Promise.all([
     readJson("artists.json"),
     readJson("events.json"),
     readJson("guides.json"),
     readJson("community.json"),
     readJson("site-meta.json"),
     readJson("source-registry.json"),
-    readJson("source-status.json")
+    readJson("source-status.json"),
+    readJson("tour-plans.json")
   ]);
 
   ensureUnique(artists, "slug", "artist");
@@ -59,12 +72,14 @@ async function main() {
   ensureUnique(guides, "slug", "guide");
   ensureUnique(community, "slug", "community post");
   ensureUnique(registry, "id", "source");
-  ensureHttpUrls(events);
-  ensureSourceCoverage(events, registry);
+  ensureUnique(tourPlans, "slug", "tour plan");
+  ensureHttpUrls(events, tourPlans);
+  ensureSourceCoverage(events, tourPlans, registry);
 
   events.sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
   guides.sort((a, b) => a.title.localeCompare(b.title, "zh-CN"));
   artists.sort((a, b) => a.name.localeCompare(b.name, "en"));
+  tourPlans.sort((a, b) => a.artist.localeCompare(b.artist, "en"));
 
   const nextMeta = {
     ...meta,
@@ -74,7 +89,8 @@ async function main() {
       events: events.length,
       guides: guides.length,
       communityPosts: community.length,
-      monitoredSources: registry.length
+      monitoredSources: registry.length,
+      tourPlans: tourPlans.length
     },
     sourceHealth: {
       ok: status.filter((item) => item.ok).length,
@@ -90,6 +106,7 @@ async function main() {
     fs.writeFile(path.join(dataDir, "artists.json"), `${JSON.stringify(artists, null, 2)}\n`),
     fs.writeFile(path.join(dataDir, "events.json"), `${JSON.stringify(events, null, 2)}\n`),
     fs.writeFile(path.join(dataDir, "guides.json"), `${JSON.stringify(guides, null, 2)}\n`),
+    fs.writeFile(path.join(dataDir, "tour-plans.json"), `${JSON.stringify(tourPlans, null, 2)}\n`),
     fs.writeFile(path.join(dataDir, "site-meta.json"), `${JSON.stringify(nextMeta, null, 2)}\n`)
   ]);
 

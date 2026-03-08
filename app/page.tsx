@@ -4,9 +4,10 @@ import { CommunityCard } from "@/components/community-card";
 import { EventCard } from "@/components/event-card";
 import { GuideCard } from "@/components/guide-card";
 import { Header } from "@/components/header";
-import { getArtists, getEvents } from "@/lib/events";
+import { TourPlanCard } from "@/components/tour-plan-card";
+import { getArtists, getEvents, getTourPlans } from "@/lib/events";
+import { assetPath } from "@/lib/assets";
 import {
-  type EventItem,
   communityPosts,
   guides,
   launchHighlights,
@@ -15,43 +16,45 @@ import {
 } from "@/lib/site-data";
 
 export default async function HomePage() {
-  const [events, artists] = await Promise.all([getEvents(), getArtists()]);
+  const [events, artists, plans] = await Promise.all([getEvents(), getArtists(), getTourPlans()]);
   const countries = uniqueCountries(events);
   const cities = new Set(events.map((event) => event.city));
 
   return (
     <main className="page-shell">
       <Header />
-      <section className="hero">
+      <section className="hero hero-rich">
         <div className="hero-copy">
-          <p className="eyebrow">K-pop Tours, Tickets, Fandom</p>
-          <h1>给中文 K-pop fans 的全球巡演日历、场馆指南与 fandom 入口。</h1>
+          <p className="eyebrow">Global K-pop Calendar</p>
+          <h1>Koncert Together</h1>
+          <p className="hero-text hero-lead">
+            给中文 K-pop fans 的全球巡演日历、艺人主页、成员档案、场馆指南和巡演雷达。
+          </p>
           <p className="hero-text">
-            在一个站里看巡演时间、票务入口、场馆建议、选座思路和艺人入口，减少在不同语言和不同平台之间来回切换。
+            先把主流艺人、重点城市、重点场馆和官宣入口铺到能直接浏览的程度，再逐步把真实更新能力补齐。
           </p>
           <div className="hero-actions">
             <Link className="primary-button" href="/calendar">
-              进入巡演日历
+              浏览全部排期
             </Link>
-            <Link className="secondary-button" href="/guides">
-              先看指南
+            <Link className="secondary-button" href="/artists">
+              进入艺人目录
             </Link>
           </div>
         </div>
-        <div className="hero-panel">
-          <p className="panel-label">全球覆盖</p>
+        <div className="hero-panel hero-collage-panel">
           <div className="hero-stats">
             <div>
               <strong>{events.length}</strong>
-              <span>活动卡片</span>
+              <span>排期卡片</span>
+            </div>
+            <div>
+              <strong>{plans.length}</strong>
+              <span>巡演雷达</span>
             </div>
             <div>
               <strong>{artists.length}</strong>
-              <span>艺人入口</span>
-            </div>
-            <div>
-              <strong>{guides.length}</strong>
-              <span>中文指南</span>
+              <span>艺人主页</span>
             </div>
           </div>
           <div className="hero-stats compact-stats">
@@ -64,13 +67,16 @@ export default async function HomePage() {
               <span>国家/地区</span>
             </div>
             <div>
-              <strong>{communityPosts.length}</strong>
-              <span>精选主题</span>
+              <strong>{guides.length}</strong>
+              <span>中文指南</span>
             </div>
           </div>
-          <div className="artist-cloud">
-            {artists.slice(0, 10).map((artist) => (
-              <span key={artist.slug}>{artist.name}</span>
+          <div className="hero-collage">
+            {artists.slice(0, 4).map((artist) => (
+              <Link className="hero-collage-card" href={`/artists/${artist.slug}`} key={artist.slug}>
+                {artist.coverImage ? <img alt={artist.name} src={assetPath(artist.coverImage)} /> : null}
+                <span>{artist.name}</span>
+              </Link>
             ))}
           </div>
         </div>
@@ -88,14 +94,14 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Calendar</p>
-          <h2>近期最值得先看的场次</h2>
+          <h2>先看已经整理到可直接决策的场次</h2>
         </div>
         <Link className="text-link" href="/calendar">
           查看全部活动
         </Link>
       </section>
       <section className="event-grid">
-        {events.slice(0, 6).map((event: EventItem) => (
+        {events.slice(0, 6).map((event) => (
           <EventCard event={event} key={event.id} />
         ))}
       </section>
@@ -103,19 +109,35 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Artists</p>
-          <h2>从主流团体到 solo artist 的入口都先铺开</h2>
+          <h2>艺人页已经扩到主流团体、solo 和新团观察名单</h2>
         </div>
         <Link className="text-link" href="/artists">
           查看艺人目录
         </Link>
       </section>
       <section className="artist-grid">
-        {artists.slice(0, 8).map((artist) => (
+        {artists.slice(0, 9).map((artist) => (
           <ArtistCard
             artist={artist}
             eventCount={events.filter((event) => slugifyArtistName(event.artist) === artist.slug).length}
             key={artist.slug}
+            planCount={plans.filter((plan) => plan.artistSlug === artist.slug).length}
           />
+        ))}
+      </section>
+
+      <section className="section-head">
+        <div>
+          <p className="eyebrow">Tour Radar</p>
+          <h2>日期未完全释放的项目先放进巡演雷达</h2>
+        </div>
+        <Link className="text-link" href="/calendar">
+          在日历页继续看
+        </Link>
+      </section>
+      <section className="content-grid">
+        {plans.slice(0, 6).map((plan) => (
+          <TourPlanCard key={plan.slug} plan={plan} />
         ))}
       </section>
 
@@ -129,7 +151,7 @@ export default async function HomePage() {
         </Link>
       </section>
       <section className="content-grid">
-        {guides.slice(0, 8).map((guide) => (
+        {guides.slice(0, 6).map((guide) => (
           <GuideCard guide={guide} key={guide.slug} />
         ))}
       </section>
@@ -137,7 +159,7 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Community</p>
-          <h2>从同行、应援到场馆经验，先看粉丝真正关心什么</h2>
+          <h2>从同行、应援到场馆经验，先看粉丝真正会讨论什么</h2>
         </div>
         <Link className="text-link" href="/community">
           进入社区页

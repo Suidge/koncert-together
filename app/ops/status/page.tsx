@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/header";
-import { formatShortDate, siteMeta, sourceStatus } from "@/lib/site-data";
+import { sourceStatus } from "@/lib/site-data";
 
 export const metadata: Metadata = {
-  title: "Status | Seoul Signal",
+  title: "Status | Koncert Together",
   robots: {
     index: false,
     follow: false
@@ -11,44 +11,31 @@ export const metadata: Metadata = {
 };
 
 export default function OpsStatusPage() {
-  const latest = [...sourceStatus]
-    .sort((a, b) => (b.checkedAt ?? "").localeCompare(a.checkedAt ?? ""))
-    .slice(0, 12);
+  const checked = sourceStatus.filter((item) => item.checkedAt).sort((a, b) => (b.checkedAt ?? "").localeCompare(a.checkedAt ?? ""));
+  const ok = sourceStatus.filter((item) => item.ok).length;
+  const failed = sourceStatus.length - ok;
 
   return (
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
-        <p className="eyebrow">Internal</p>
-        <h1>Source Monitor Status</h1>
-        <p className="hero-text">这个页面不在导航暴露，用来查看当前来源监测和自动维护状态。</p>
+        <p className="eyebrow">Ops</p>
+        <h1>内部状态页</h1>
+        <p className="hero-text">这个页面不对外链接，用来查看来源检查和自动维护状态。</p>
       </section>
-      <section className="pillar-grid">
-        <article className="pillar-card">
-          <h2>内容规模</h2>
-          <p>{siteMeta.counts.artists} 个艺人，{siteMeta.counts.events} 个活动，{siteMeta.counts.guides} 篇指南。</p>
-        </article>
-        <article className="pillar-card">
-          <h2>来源健康</h2>
-          <p>正常 {siteMeta.sourceHealth?.ok ?? 0}，需复查 {siteMeta.sourceHealth?.failed ?? 0}。</p>
-        </article>
-        <article className="pillar-card">
-          <h2>最近检查</h2>
-          <p>{siteMeta.sourceHealth?.lastCheckedAt ? formatShortDate(siteMeta.sourceHealth.lastCheckedAt) : '未检查'}</p>
-        </article>
+      <section className="insight-strip">
+        <article><strong>{sourceStatus.length}</strong><span>监测来源</span></article>
+        <article><strong>{ok}</strong><span>正常</span></article>
+        <article><strong>{failed}</strong><span>需复查</span></article>
+        <article><strong>{checked[0]?.checkedAt ? new Date(checked[0].checkedAt).toLocaleString("zh-CN") : "未检查"}</strong><span>最近检查</span></article>
       </section>
       <section className="content-grid">
-        {latest.map((item) => (
+        {checked.slice(0, 12).map((item) => (
           <article className="content-card" key={item.id}>
             <p className="eyebrow">{item.category}</p>
             <h3>{item.label}</h3>
-            <p className="content-summary">
-              {item.ok ? (item.access === 'restricted' ? '受限但可识别' : '正常') : '需要复查'}
-            </p>
-            <div className="meta-line">
-              <span>{item.status ?? 'n/a'}</span>
-              <span>{item.checkedAt ? formatShortDate(item.checkedAt) : '未检查'}</span>
-            </div>
+            <p className="content-summary">{item.url}</p>
+            <p className="content-summary">状态: {item.ok ? `正常 (${item.status ?? "n/a"})` : `需复查${item.status ? ` (${item.status})` : ""}`}</p>
           </article>
         ))}
       </section>

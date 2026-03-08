@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { FavoriteToggle } from "@/components/favorite-toggle";
 import { Header } from "@/components/header";
 import { ShareButton } from "@/components/share-button";
+import { assetPath } from "@/lib/assets";
 import { formatEventDateLabel, getEventBySlug, getEvents } from "@/lib/events";
 import {
   type EventItem,
@@ -12,9 +13,7 @@ import {
 } from "@/lib/site-data";
 
 type Props = {
-  params: Promise<{
-    slug: string;
-  }>;
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
@@ -35,7 +34,7 @@ export default async function EventDetailPage({ params }: Props) {
   return (
     <main className="page-shell">
       <Header />
-      <section className="detail-hero">
+      <section className="detail-hero detail-hero-rich">
         <div className="detail-copy">
           <p className="eyebrow">Event Detail</p>
           <h1>{event.title}</h1>
@@ -44,17 +43,14 @@ export default async function EventDetailPage({ params }: Props) {
             <FavoriteToggle slug={event.slug} />
             <ShareButton title={event.title} />
             {event.ticketLinks.map((link: EventItem["ticketLinks"][number]) => (
-              <a
-                className="primary-button"
-                href={link.href}
-                key={link.href}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a className="primary-button" href={link.href} key={link.href} rel="noreferrer" target="_blank">
                 {link.label}
               </a>
             ))}
           </div>
+        </div>
+        <div className="detail-hero-image-wrap">
+          {event.heroImage ? <img alt={event.title} className="detail-hero-image" src={assetPath(event.heroImage)} /> : null}
         </div>
         <aside className="detail-panel">
           <div className="detail-row">
@@ -67,12 +63,10 @@ export default async function EventDetailPage({ params }: Props) {
               <strong>{event.artistNameKo}</strong>
             </div>
           ) : null}
-          {event.tourName ? (
-            <div className="detail-row">
-              <span>巡演</span>
-              <strong>{event.tourName}</strong>
-            </div>
-          ) : null}
+          <div className="detail-row">
+            <span>巡演</span>
+            <strong>{event.tourName}</strong>
+          </div>
           <div className="detail-row">
             <span>状态</span>
             <strong>{getStatusLabel(event.status)}</strong>
@@ -83,9 +77,7 @@ export default async function EventDetailPage({ params }: Props) {
           </div>
           <div className="detail-row">
             <span>场馆</span>
-            <strong>
-              {event.venue}, {event.city}
-            </strong>
+            <strong>{event.venue}, {event.city}</strong>
           </div>
           <div className="detail-row">
             <span>来源</span>
@@ -106,9 +98,7 @@ export default async function EventDetailPage({ params }: Props) {
           <h2>购票与观演提示</h2>
           <p>{event.purchaseHint ?? "暂未补充购票说明。"}</p>
           {event.priceNote ? <p className="detail-note">票务提示: {event.priceNote}</p> : null}
-          {event.ticketSaleDate ? (
-            <p className="detail-note">开票时间: {formatEventDateLabel(event.ticketSaleDate)}</p>
-          ) : null}
+          {event.ticketSaleDate ? <p className="detail-note">开票时间: {formatEventDateLabel(event.ticketSaleDate)}</p> : null}
         </article>
         <article className="detail-block">
           <p className="eyebrow">Travel</p>
@@ -116,16 +106,14 @@ export default async function EventDetailPage({ params }: Props) {
           <p>{event.travelNote ?? "暂未补充出行提示。"}</p>
           {event.checklist?.length ? (
             <ul className="checklist">
-              {event.checklist.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
+              {event.checklist.map((item) => <li key={item}>{item}</li>)}
             </ul>
           ) : null}
         </article>
         <article className="detail-block">
           <p className="eyebrow">Source</p>
           <h2>来源与可信度</h2>
-          <p>试运行阶段优先保留官方或主办方入口，降低中文用户在跨平台找信息时的误差和跳转成本。</p>
+          <p>当前公共页面优先保留艺人官方入口和可复核的来源页，减少中文用户在多平台跳转时的误差。</p>
           {event.sourceConfidence ? <p className="detail-note">来源层级: {event.sourceConfidence}</p> : null}
           {sourceStatus ? (
             <>

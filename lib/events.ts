@@ -2,12 +2,14 @@ import {
   type ArtistProfile,
   type EventItem,
   type EventStatusValue,
+  type TourPlanItem,
   artists,
   events,
   findArtistByName,
   findArtistBySlug,
   formatDate,
-  slugifyArtistName
+  slugifyArtistName,
+  tourPlans
 } from "@/lib/site-data";
 
 export type EventDetail = EventItem & {
@@ -29,6 +31,7 @@ export type EventFilters = {
 
 export type ArtistDetail = ArtistProfile & {
   upcomingEvents: EventItem[];
+  tourPlans: TourPlanItem[];
 };
 
 function toDetail(event: EventItem): EventDetail {
@@ -40,7 +43,7 @@ function toDetail(event: EventItem): EventDetail {
     description: event.description,
     purchaseHint: event.purchaseHint,
     artistNameKo: artist?.nameKo,
-    tourName: `${event.artist} Tour`
+    tourName: event.tourName ?? `${event.artist} Tour`
   };
 }
 
@@ -91,16 +94,22 @@ export async function getArtistBySlug(slug: string): Promise<ArtistDetail | null
   }
 
   const upcomingEvents = await getEvents({ artist: slug });
+  const artistTourPlans = tourPlans.filter((item) => item.artistSlug === slug);
 
   return {
     ...artist,
-    upcomingEvents
+    upcomingEvents,
+    tourPlans: artistTourPlans
   };
 }
 
 export async function getEventBySlug(slug: string): Promise<EventDetail | null> {
   const event = events.find((item) => item.slug === slug);
   return event ? toDetail(event) : null;
+}
+
+export async function getTourPlans(): Promise<TourPlanItem[]> {
+  return [...tourPlans].sort((a, b) => a.artist.localeCompare(b.artist, "en"));
 }
 
 export function formatEventDateLabel(date: string) {

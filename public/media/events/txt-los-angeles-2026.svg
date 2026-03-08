@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card" x1="120" y1="40" x2="1080" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b3c5d5"/>
+      <stop offset="1" stop-color="#3b5871"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="42" fill="url(#card)"/>
+  <circle cx="944" cy="144" r="164" fill="rgba(255,247,236,0.2)"/>
+  <rect x="72" y="72" width="1056" height="576" rx="32" stroke="rgba(255,247,236,0.34)" stroke-width="2"/>
+  <text x="96" y="126" fill="#FFF7EC" font-size="24" font-family="Arial, sans-serif" letter-spacing="6">TOUR CARD</text>
+  <text x="96" y="286" fill="#FFF7EC" font-size="84" font-family="Georgia, serif" font-weight="700">TOMORROW X TOGETHER</text>
+  <text x="96" y="364" fill="#FFF7EC" font-size="72" font-family="Georgia, serif">Los Angeles</text>
+  <text x="96" y="428" fill="#FFF7EC" font-size="28" font-family="Arial, sans-serif">United States  •  Kia Forum</text>
+  <text x="96" y="492" fill="#FFF7EC" font-size="24" font-family="Arial, sans-serif">ANNOUNCED  •  KONCERT TOGETHER</text>
+</svg>

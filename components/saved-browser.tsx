@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import type { EventItem } from "@/lib/site-data";
 
-const STORAGE_KEY = "seoul-signal:favorites";
+const STORAGE_KEY = "koncert-together:favorites";
 
 type Props = {
   events: EventItem[];

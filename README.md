@@ -1,4 +1,4 @@
-# Seoul Signal
+# Koncert Together
 
 面向中文用户的 K-pop 全球巡演、场馆指南与 fandom 内容试运行站。
 

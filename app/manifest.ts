@@ -4,9 +4,9 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Seoul Signal",
-    short_name: "Seoul Signal",
-    description: "中文 K-pop 全球巡演聚合站。",
+    name: "Koncert Together",
+    short_name: "Koncert Together",
+    description: "中文 K-pop 全球巡演、艺人主页与指南站。",
     start_url: "/",
     display: "standalone",
     background_color: "#f4efe7",

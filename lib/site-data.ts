@@ -5,6 +5,7 @@ import guidesData from "@/data/guides.json";
 import siteMetaData from "@/data/site-meta.json";
 import sourceRegistryData from "@/data/source-registry.json";
 import sourceStatusData from "@/data/source-status.json";
+import tourPlansData from "@/data/tour-plans.json";
 
 export type TicketLink = {
   label: string;
@@ -30,6 +31,7 @@ export type EventItem = {
   sourceConfidence?: "official" | "partner" | "venue";
   tags: string[];
   title?: string;
+  tourName?: string;
   description?: string;
   purchaseHint?: string;
   priceNote?: string;
@@ -37,7 +39,16 @@ export type EventItem = {
   checklist?: string[];
   ticketSaleDate?: string;
   doorsTime?: string;
+  heroImage?: string;
   ticketLinks: TicketLink[];
+};
+
+export type ArtistMember = {
+  slug: string;
+  name: string;
+  role: string;
+  profile: string;
+  initials: string;
 };
 
 export type ArtistProfile = {
@@ -49,6 +60,14 @@ export type ArtistProfile = {
   intro: string;
   accent: string;
   officialUrl?: string;
+  agency?: string;
+  debutYear?: number;
+  origin?: string;
+  genres?: string[];
+  memberCount?: number;
+  coverImage?: string;
+  heroImage?: string;
+  members?: ArtistMember[];
 };
 
 export type GuideItem = {
@@ -69,6 +88,18 @@ export type CommunityPost = {
   summary: string;
   dateLabel: string;
   relatedArtists?: string[];
+};
+
+export type TourPlanItem = {
+  slug: string;
+  artistSlug: string;
+  artist: string;
+  title: string;
+  stage: "watch";
+  note: string;
+  regions: string[];
+  source: string;
+  sourceUrl?: string;
 };
 
 export type SourceRegistryItem = {
@@ -99,6 +130,7 @@ export const guides = guidesData as GuideItem[];
 export const communityPosts = communityData as CommunityPost[];
 export const sourceRegistry = sourceRegistryData as SourceRegistryItem[];
 export const sourceStatus = sourceStatusData as SourceStatusItem[];
+export const tourPlans = tourPlansData as TourPlanItem[];
 export const siteMeta = siteMetaData as {
   generatedAt: string;
   siteMode: string;
@@ -109,6 +141,7 @@ export const siteMeta = siteMetaData as {
     guides: number;
     communityPosts: number;
     monitoredSources: number;
+    tourPlans?: number;
   };
   sourceHealth?: {
     ok: number;
@@ -117,35 +150,35 @@ export const siteMeta = siteMetaData as {
   };
 };
 
-export const featuredArtists = artists.slice(0, 10).map((artist) => artist.name);
+export const featuredArtists = artists.slice(0, 14).map((artist) => artist.name);
 
 export const productPillars = [
   {
-    title: "官方来源优先",
-    body: "优先围绕艺人官方入口、票务平台和场馆页组织内容，减少中文用户在跨平台找信息时的误差。"
+    title: "活动与场馆在同一页判断",
+    body: "把活动时间、售票状态、票务入口、场馆交通和选座提醒放在一条浏览路径里。"
   },
   {
-    title: "中文决策支持",
-    body: "把开票节点、交通、选座和风险提示按中文粉丝最常见的决策路径组织。"
+    title: "艺人页不止是名单",
+    body: "每个艺人页都同时承接成员档案、官方入口、巡演卡片和巡演雷达。"
   },
   {
-    title: "艺人与 fandom 入口",
-    body: "不只是列活动，还把艺人页、场馆指南和 fandom 场景入口放在同一条浏览路径里。"
+    title: "更像 fandom front page",
+    body: "视觉上靠近内容平台而不是工具后台，让第一次打开的人也愿意继续点进艺人和指南。"
   }
 ];
 
 export const launchHighlights = [
   {
-    title: "主流艺人覆盖",
-    body: "先把站内艺人页扩到主流关注对象，哪怕不是每个艺人都已有完整巡演，也先把官方入口和监测状态搭起来。"
+    title: "更大的艺人库",
+    body: "把主流男团、女团、solo artist 和新团先铺开，建立长期浏览入口。"
   },
   {
-    title: "活动与指南并重",
-    body: "试运行阶段不只展示活动卡片，还同步建设各城市和场馆的中文观演指南。"
+    title: "排期卡片 + 巡演雷达",
+    body: "对已整理日期的场次给出活动卡片，对仍在等待完整官宣的项目给出巡演雷达。"
   },
   {
-    title: "官方入口清晰",
-    body: "每个活动优先给出官宣、票务和场馆入口，帮助中文用户更快判断要看哪里、怎么买票。"
+    title: "成员档案可直接浏览",
+    body: "艺人详情页不再只给一句介绍，而是补成员 profile、品牌色和更完整的页面结构。"
   }
 ];
 

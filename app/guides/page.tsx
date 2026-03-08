@@ -4,7 +4,7 @@ import { Header } from "@/components/header";
 import { guides } from "@/lib/site-data";
 
 export const metadata: Metadata = {
-  title: "观演指南 | Seoul Signal",
+  title: "观演指南 | Koncert Together",
   description: "给中文 K-pop fans 的购票、出行、选座和场馆指南。"
 };
 

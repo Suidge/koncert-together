@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = guides.find((item) => item.slug === slug);
   if (!guide) return {};
   return {
-    title: `${guide.title} | Seoul Signal`,
+    title: `${guide.title} | Koncert Together`,
     description: guide.summary
   };
 }

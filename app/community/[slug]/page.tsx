@@ -14,7 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = communityPosts.find((item) => item.slug === slug);
-  return post ? { title: `${post.title} | Seoul Signal`, description: post.summary } : {};
+  return post ? { title: `${post.title} | Koncert Together`, description: post.summary } : {};
 }
 
 export default async function CommunityPostPage({ params }: Props) {
@@ -48,9 +48,9 @@ export default async function CommunityPostPage({ params }: Props) {
       <section className="detail-content single-column">
         <article className="detail-block">
           <p className="eyebrow">Preview</p>
-          <h2>试运行阶段说明</h2>
+          <h2>社区内容方向</h2>
           <p>
-            当前站点优先验证内容价值，所以社区页先以精选内容和投稿入口为主。后续如果场次协作和城市内容的打开率足够高，再升级成真实发帖和评论系统。
+            当前公共站先以精选内容和投稿入口为主。等到哪些城市协作、应援项目和场馆经验最受欢迎之后，再决定是否继续升级成真实发帖和评论系统。
           </p>
         </article>
       </section>

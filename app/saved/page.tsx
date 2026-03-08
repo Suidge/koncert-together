@@ -4,7 +4,7 @@ import { SavedBrowser } from "@/components/saved-browser";
 import { getEvents } from "@/lib/events";
 
 export const metadata: Metadata = {
-  title: "我的收藏 | Seoul Signal",
+  title: "我的收藏 | Koncert Together",
   description: "查看本地收藏的 K-pop 巡演活动。"
 };
 
@@ -18,7 +18,7 @@ export default async function SavedPage() {
         <p className="eyebrow">Saved</p>
         <h1>我的收藏</h1>
         <p className="hero-text">
-          用来沉淀你女儿真正关心的活动。当前收藏保存在当前浏览器，适合作为第一版可用功能。
+          当前收藏保存在当前浏览器，适合作为第一版可用功能，用来沉淀真正关心的活动和城市。
         </p>
       </section>
       <SavedBrowser events={events} />
