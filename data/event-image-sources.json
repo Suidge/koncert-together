@@ -1,0 +1,26 @@
+[
+  {
+    "eventSlug": "itzy-manila-2026",
+    "type": "jype_latest_notice_image",
+    "label": "ITZY 3RD WORLD TOUR <TUNNEL VISION> in MANILA poster",
+    "targetPath": "/media/events/itzy-manila-2026-official.jpg",
+    "officialPageUrl": "https://itzy.jype.com/",
+    "provider": "ITZY Official",
+    "creator": "JYP Entertainment",
+    "license": "Official tour poster",
+    "matchText": [
+      "MANILA",
+      "WORLD TOUR"
+    ]
+  },
+  {
+    "eventSlug": "nexz-osaka-2026",
+    "type": "page_og_image",
+    "label": "NEXZ LIVE TOUR 2026 official key visual",
+    "targetPath": "/media/events/nexz-osaka-2026-official.png",
+    "officialPageUrl": "https://nexz-official.com/s/n180/page/nexz_live_tour_2026?ima=2659",
+    "provider": "NEXZ Official",
+    "creator": "JYP Entertainment / Sony Music Labels",
+    "license": "Official tour poster"
+  }
+]

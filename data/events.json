@@ -14,16 +14,16 @@
     "sourceUrl": "https://weverse.io/aespa",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Arena",
-      "Waitlist"
+      "候补"
     ],
     "title": "aespa in Tokyo",
     "tourName": "aespa Tour Watch",
-    "description": "aespa 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "官方转售和补票机制往往比二级票更安全。",
+    "description": "aespa Tokyo 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "日本场常见会员抽选与多轮补票。",
-    "travelNote": "适合在页内补电子票、返程和周边住宿建议。",
+    "travelNote": "Ariake Arena 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "关注官方补票",
       "确认电子票取票方式",
@@ -54,15 +54,15 @@
     "sourceConfidence": "official",
     "tags": [
       "World Tour",
-      "Korea",
-      "Membership"
+      "韩国场",
+      "会员先行"
     ],
     "title": "SEVENTEEN in Seoul",
     "tourName": "SEVENTEEN Tour Watch",
-    "description": "SEVENTEEN 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "CARAT 会员预售通常需要先完成认证。",
+    "description": "SEVENTEEN 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "优先比较 Floor、Stand 和福利票规则。",
-    "travelNote": "演出日人流很大，住宿和返程最好围绕 5 号线或 9 号线安排。",
+    "travelNote": "KSPO Dome 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认实名规则",
       "确认预售认证时间",
@@ -93,15 +93,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Korea",
-      "Membership"
+      "韩国场",
+      "会员先行"
     ],
     "title": "j-hope in Seoul",
     "tourName": "j-hope Tour Watch",
-    "description": "j-hope 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "先确认会员预售与公开发售的时间差。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "solo 场常见福利票和限购规则。",
-    "travelNote": "蚕室一带散场后叫车难度高，建议优先地铁。",
+    "travelNote": "Jamsil Indoor Stadium 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "准备 Weverse 账号",
       "确认实名信息",
@@ -131,16 +131,16 @@
     "sourceUrl": "https://weverse.io/txt",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Dome",
       "MOA"
     ],
     "title": "TOMORROW X TOGETHER in Osaka",
     "tourName": "TOMORROW X TOGETHER Tour Watch",
-    "description": "TOMORROW X TOGETHER 的 Osaka 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "日本巨蛋场优先看抽选和发券节点。",
+    "description": "Osaka 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。Dome 场更值得先比正面区和斜侧区，而不是只看离舞台远近",
     "priceNote": "日本大场多轮抽选的支付和取票方式会不同。",
-    "travelNote": "大阪场适合补周边住宿和散场交通。",
+    "travelNote": "Kyocera Dome Osaka 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认抽选轮次",
       "核对电子票规则",
@@ -170,16 +170,16 @@
     "sourceUrl": "https://www.blackpinkmusic.com/",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
-      "Stadium",
-      "Presale"
+      "北美场",
+      "体育场",
+      "预售"
     ],
     "title": "BLACKPINK in Los Angeles",
     "tourName": "BLACKPINK Tour Watch",
-    "description": "BLACKPINK 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "先判断自己能否进入官方、平台或信用卡预售。",
+    "description": "BLACKPINK 在 Los Angeles 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "体育场票价跨度大，别只看票面价格。",
-    "travelNote": "BMO Stadium 演出日停车和网约车压力都很高。",
+    "travelNote": "BMO Stadium 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "确认 presale code 来源",
       "比较座位区块",
@@ -209,16 +209,16 @@
     "sourceUrl": "https://weverse.io/enhypen",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "ENHYPEN in Manila",
     "tourName": "ENHYPEN Tour Watch",
-    "description": "ENHYPEN 的 Manila 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "东南亚场通常要先确认支付通道和账户地区。",
+    "description": "ENHYPEN 在 Manila 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同平台的支付成功率差异很大。",
-    "travelNote": "马尼拉场适合补机场到场馆的接驳建议。",
+    "travelNote": "Manila 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付方式",
       "核对实名规则",
@@ -248,16 +248,16 @@
     "sourceUrl": "https://weverse.io/lesserafim",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Local payment"
+      "本地支付"
     ],
     "title": "LE SSERAFIM in Hong Kong",
     "tourName": "LE SSERAFIM Tour Watch",
-    "description": "LE SSERAFIM 的 Hong Kong 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "港区票务常涉及本地支付方式和实名规则。",
+    "description": "LE SSERAFIM Hong Kong 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同平台支持的支付方式差异较大。",
-    "travelNote": "适合在详情页补机场快线和口岸路线。",
+    "travelNote": "Hong Kong 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付方式",
       "确认实名需求",
@@ -287,16 +287,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
+      "韩国场",
       "Dome",
-      "Membership"
+      "会员先行"
     ],
     "title": "NCT DREAM in Seoul",
     "tourName": "NCT DREAM Tour Watch",
-    "description": "NCT DREAM 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "大场优先核对区块视野和安检时间。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。Dome 场更值得先比正面区和斜侧区，而不是只看离舞台远近",
     "priceNote": "韩场通常对实名和取票证件要求更细。",
-    "travelNote": "高尺散场后地铁会拥挤，建议留足返程缓冲。",
+    "travelNote": "Gocheok Sky Dome 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认区块视野",
       "核对实名信息",
@@ -326,16 +326,16 @@
     "sourceUrl": "https://www.ive-official.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "IVE in Taipei",
     "tourName": "IVE Tour Watch",
-    "description": "IVE 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "台北场适合先确认本地票务平台的注册和支付流程。",
+    "description": "IVE Taipei 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "留意信用卡验证和退票政策。",
-    "travelNote": "台北小巨蛋周边住宿和捷运路线都比较成熟。",
+    "travelNote": "Taipei 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "提前注册票务平台",
       "准备可用信用卡",
@@ -365,16 +365,16 @@
     "sourceUrl": "https://weverse.io/seventeen",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "SEVENTEEN in Singapore",
     "tourName": "SEVENTEEN Tour Watch",
-    "description": "SEVENTEEN 的 Singapore 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新加坡场常有主办方预售、信用卡预售和公开发售。",
+    "description": "SEVENTEEN 在 Singapore 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "跨境支付前先确认手续费和退改规则。",
-    "travelNote": "酒店优先选在地铁便利区而不是景点区。",
+    "travelNote": "Singapore 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "关注主办方通知",
       "准备护照姓名拼写",
@@ -404,16 +404,16 @@
     "sourceUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=65",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "TREASURE in Kuala Lumpur",
     "tourName": "TREASURE Tour Watch",
-    "description": "TREASURE 的 Kuala Lumpur 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "马来西亚场常见多轮开票和主办方会员机制。",
+    "description": "Kuala Lumpur 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "先确认货币转换与支付限额。",
-    "travelNote": "Bukit Jalil 一带需要提前规划散场交通。",
+    "travelNote": "Kuala Lumpur 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认开票轮次",
       "检查银行卡限额",
@@ -443,16 +443,16 @@
     "sourceUrl": "https://www.instagram.com/offclbtob/",
     "sourceConfidence": "official",
     "tags": [
-      "Legacy",
-      "Korea",
-      "Seats"
+      "经典团体",
+      "韩国场",
+      "看台友好"
     ],
     "title": "BTOB in Seoul",
     "tourName": "BTOB Tour Watch",
-    "description": "BTOB 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "资深 vocal 团场次优先比较音场和正中区块。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "看台正中常比低层斜角更稳。",
-    "travelNote": "蚕室一带散场人流大，返程最好提前想好。",
+    "travelNote": "Jamsil Indoor Stadium 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "优先看正中区块",
       "确认实名信息",
@@ -482,29 +482,36 @@
     "sourceUrl": "https://itzy.jype.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Seats"
+      "看台友好"
     ],
     "title": "ITZY in Manila",
     "tourName": "ITZY Tour Watch",
-    "description": "ITZY 的 Manila 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "先比较近舞台区域和看全景区域的取舍。",
+    "description": "如果你已经在盯 ITZY Manila 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同票档的溢价差距较大。",
-    "travelNote": "Araneta 一带交通选择多，但演出日拥堵明显。",
+    "travelNote": "Manila 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "先画好选座优先级",
       "核对票档福利",
       "预留散场缓冲"
     ],
-    "heroImage": "/media/events/itzy-manila-2026.svg",
+    "heroImage": "/media/events/itzy-manila-2026-official.jpg",
     "ticketLinks": [
       {
         "label": "ITZY Official",
         "href": "https://itzy.jype.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "ITZY Official",
+      "creator": "JYP Entertainment",
+      "license": "Official tour poster",
+      "sourceUrl": "https://itzy.jype.com/",
+      "sourceLabel": "ITZY 3RD WORLD TOUR <TUNNEL VISION> in MANILA poster"
+    }
   },
   {
     "id": "blackpink-paris-2026",
@@ -521,16 +528,16 @@
     "sourceUrl": "https://www.blackpinkmusic.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Europe",
+      "欧洲场",
       "Arena",
-      "VIP"
+      "高需求"
     ],
     "title": "BLACKPINK in Paris",
     "tourName": "BLACKPINK Tour Watch",
-    "description": "BLACKPINK 的 Paris 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "优先确认票务平台是否限制账户地区。",
+    "description": "如果你已经在盯 BLACKPINK Paris 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "欧洲平台常会卡地区和支付方式。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "欧元结算会带来汇率和手续费差异。",
-    "travelNote": "适合补地铁末班和周边住宿策略。",
+    "travelNote": "Paris 场更值得先看夜间返程、酒店区域和步行路线。演后人流一起来，临时找车通常最容易出问题。",
     "checklist": [
       "确认账户地区",
       "检查欧元结算卡",
@@ -560,16 +567,16 @@
     "sourceUrl": "https://ateez.kqent.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Europe",
+      "欧洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "ATEEZ in London",
     "tourName": "ATEEZ Tour Watch",
-    "description": "ATEEZ 的 London 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "英国场先看 AXS/Ticketmaster 双平台差异。",
+    "description": "London 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "欧洲平台常会卡地区和支付方式。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "部分福利票限制转让。",
-    "travelNote": "O2 周边交通成熟，但散场排队明显。",
+    "travelNote": "London 场更值得先看夜间返程、酒店区域和步行路线。演后人流一起来，临时找车通常最容易出问题。",
     "checklist": [
       "先准备两套票务账户",
       "核对福利规则",
@@ -599,16 +606,16 @@
     "sourceUrl": "https://xgalx.com/xg/",
     "sourceConfidence": "official",
     "tags": [
-      "Europe",
+      "欧洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "XG in London",
     "tourName": "XG Tour Watch",
-    "description": "XG 的 London 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "海外场要先确认站席和看台票差异。",
+    "description": "XG 在 London 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "欧洲平台常会卡地区和支付方式。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "英区卡支付成功率很关键。",
-    "travelNote": "伦敦场适合补夜间交通和地铁换乘建议。",
+    "travelNote": "London 场更值得先看夜间返程、酒店区域和步行路线。演后人流一起来，临时找车通常最容易出问题。",
     "checklist": [
       "核对站席规则",
       "测试支付方式",
@@ -638,16 +645,16 @@
     "sourceUrl": "https://twice.jype.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Dome",
-      "Waitlist"
+      "候补"
     ],
     "title": "TWICE in Tokyo",
     "tourName": "TWICE Tour Watch",
-    "description": "TWICE 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "巨蛋场要优先看抽选和官方补票。",
+    "description": "如果你已经在盯 TWICE Tokyo 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。Dome 场更值得先比正面区和斜侧区，而不是只看离舞台远近",
     "priceNote": "票档差异和场内视野差距都很大。",
-    "travelNote": "东京场适合补巨蛋周边酒店与返程经验。",
+    "travelNote": "Tokyo Dome 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认抽选结果",
       "查看官方补票",
@@ -678,15 +685,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Fancon",
-      "Korea",
-      "Membership"
+      "韩国场",
+      "会员先行"
     ],
     "title": "BOYNEXTDOOR in Seoul",
     "tourName": "BOYNEXTDOOR Tour Watch",
-    "description": "BOYNEXTDOOR 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "fancon 场通常更看重会员预售和福利说明。",
+    "description": "BOYNEXTDOOR 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同票档福利差距可能大于座位差距。",
-    "travelNote": "首尔小场馆更适合补周边排队和安检提示。",
+    "travelNote": "Olympic Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "核对福利票规则",
       "确认会员认证",
@@ -716,16 +723,16 @@
     "sourceUrl": "https://weverse.io/tws",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Arena",
-      "Rookie"
+      "新团观察"
     ],
     "title": "TWS in Yokohama",
     "tourName": "TWS Tour Watch",
-    "description": "TWS 的 Yokohama 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "日本新团场要重点看会员抽选和二轮抽选。",
+    "description": "Yokohama 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "新团演出常出现票务节奏变化。",
-    "travelNote": "横滨场适合补海滨区住宿和散场路线。",
+    "travelNote": "K-Arena Yokohama 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "关注抽选节点",
       "准备日区账号",
@@ -755,16 +762,16 @@
     "sourceUrl": "https://weverse.io/andteam",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "&TEAM in Saitama",
     "tourName": "&TEAM Tour Watch",
-    "description": "&TEAM 的 Saitama 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "SSA 场适合优先看区块视线和站席规则。",
+    "description": "如果你已经在盯 &TEAM Saitama 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同区块对主舞台和延伸台视野差异很大。",
-    "travelNote": "埼玉场返程列车和酒店选择要尽早确定。",
+    "travelNote": "Saitama Super Arena 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认区块图",
       "核对电子票说明",
@@ -794,16 +801,16 @@
     "sourceUrl": "https://zb1-official.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "ZEROBASEONE in Macau",
     "tourName": "ZEROBASEONE Tour Watch",
-    "description": "ZEROBASEONE 的 Macau 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "澳门场常涉及跨境住宿和口岸动线。",
+    "description": "ZEROBASEONE Macau 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "先确认票务平台是否支持国际支付。",
-    "travelNote": "银河综艺馆散场后叫车和口岸压力都较大。",
+    "travelNote": "Macau 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付方式",
       "预留口岸时间",
@@ -833,16 +840,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "RIIZE in Hong Kong",
     "tourName": "RIIZE Tour Watch",
-    "description": "RIIZE 的 Hong Kong 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "适合补充港区购票、实名和场馆动线。",
+    "description": "Hong Kong 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "同一场次不同平台的余票节奏会不一样。",
-    "travelNote": "机场快线和的士预算都要提前算。",
+    "travelNote": "Hong Kong 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认平台规则",
       "核对实名信息",
@@ -872,16 +879,16 @@
     "sourceUrl": "https://www.instagram.com/h1key_official/",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
-      "Theater",
-      "Rookie"
+      "韩国场",
+      "剧场",
+      "新团观察"
     ],
     "title": "H1-KEY in Seoul",
     "tourName": "H1-KEY Tour Watch",
-    "description": "H1-KEY 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "中小型场馆更看视角和队列。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "福利票说明比票档名字更重要。",
-    "travelNote": "江南区域散场打车成本要先估。",
+    "travelNote": "MUV Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认福利",
       "提前排队",
@@ -912,15 +919,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Japan",
-      "Membership"
+      "日本场",
+      "会员先行"
     ],
     "title": "Jin in Osaka",
     "tourName": "Jin Tour Watch",
-    "description": "Jin 的 Osaka 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "solo 日本场优先看抽选和会员。",
+    "description": "Jin Osaka 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。日本场别只盯首轮抽选，二轮和补票也值得看",
     "priceNote": "电子票和入场证件细节不能漏。",
-    "travelNote": "大阪市区返程路线提早锁定。",
+    "travelNote": "Osaka-jō Hall 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认抽选",
       "核对电子票",
@@ -951,15 +958,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Showcase",
-      "North America",
+      "北美场",
       "GA"
     ],
     "title": "KATSEYE in New York",
     "tourName": "KATSEYE Tour Watch",
-    "description": "KATSEYE 的 New York 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "GA standing 场优先看排队和包袋政策。",
+    "description": "如果你已经在盯 KATSEYE New York 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "北美小场抢位比单纯票档更重要。",
-    "travelNote": "纽约场适合补地铁、安检和排队建议。",
+    "travelNote": "Hammerstein Ballroom 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "查看包袋政策",
       "确认排队时间",
@@ -990,15 +997,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Fancon",
-      "Korea",
-      "Membership"
+      "韩国场",
+      "会员先行"
     ],
     "title": "EVNNE in Seoul",
     "tourName": "EVNNE Tour Watch",
-    "description": "EVNNE 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "fancon 场更要看福利票和会员入口。",
+    "description": "EVNNE Seoul 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "福利差异可能大于座位差异。",
-    "travelNote": "小场馆排队节奏快，提早到场更稳。",
+    "travelNote": "Olympic Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认会员入口",
       "核对福利说明",
@@ -1028,16 +1035,16 @@
     "sourceUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "BABYMONSTER in Jakarta",
     "tourName": "BABYMONSTER Tour Watch",
-    "description": "BABYMONSTER 的 Jakarta 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "雅加达场适合补支付、口岸和交通信息。",
+    "description": "BABYMONSTER Jakarta 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "部分主办方会分平台和分轮开票。",
-    "travelNote": "BSD 演出日路面交通时间不可低估。",
+    "travelNote": "Jakarta 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "准备支付卡",
       "确认平台账号",
@@ -1068,15 +1075,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Asia",
-      "Performance"
+      "亚洲场",
+      "舞台型"
     ],
     "title": "Taemin in Bangkok",
     "tourName": "Taemin Tour Watch",
-    "description": "Taemin 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "表演型 solo 更值得看舞台延伸和视角。",
+    "description": "Bangkok 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "站位和屏幕位置一起考虑。",
-    "travelNote": "曼谷返程提早锁定。",
+    "travelNote": "Bangkok 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "比较视角",
       "确认站位",
@@ -1106,16 +1113,16 @@
     "sourceUrl": "https://www.instagram.com/stayc_highup/",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
+      "韩国场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "STAYC in Seoul",
     "tourName": "STAYC Tour Watch",
-    "description": "STAYC 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "手球馆更需要提早看区块图。",
+    "description": "STAYC Seoul 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "近舞台不一定更适合看全景。",
-    "travelNote": "园区演出日人流固定偏大。",
+    "travelNote": "Handball Gymnasium 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认区块图",
       "比较近区和中区",
@@ -1145,16 +1152,16 @@
     "sourceUrl": "https://weverse.io/fromis9",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
-      "Live",
-      "Fandom"
+      "韩国场",
+      "现场口碑",
+      "粉圈热度"
     ],
     "title": "fromis_9 in Seoul",
     "tourName": "fromis_9 Tour Watch",
-    "description": "fromis_9 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "核心饭观演更适合关注官宣和队列。",
+    "description": "如果你已经在盯 fromis_9 Seoul 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "福利和场馆动线值得单独整理。",
-    "travelNote": "园区演出日提前到场更稳。",
+    "travelNote": "Olympic Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "盯官宣",
       "看福利",
@@ -1184,16 +1191,16 @@
     "sourceUrl": "https://www.straykids.jype.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "Stray Kids in Bangkok",
     "tourName": "Stray Kids Tour Watch",
-    "description": "Stray Kids 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "泰国场要优先确认支付方式、票务区和站席规则。",
+    "description": "Stray Kids Bangkok 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "高需求场次容易出现抢票拥堵。",
-    "travelNote": "IMPACT 周边住宿和返程策略要提早做。",
+    "travelNote": "Bangkok 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "准备多张支付卡",
       "确认站席规则",
@@ -1224,15 +1231,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Korea",
-      "Theater"
+      "韩国场",
+      "剧场"
     ],
     "title": "WOODZ in Seoul",
     "tourName": "WOODZ Tour Watch",
-    "description": "WOODZ 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "solo 场更值得看视角和音场。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "站席与坐席体验差异很大。",
-    "travelNote": "广津区返程地铁更稳。",
+    "travelNote": "YES24 Live Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认站席规则",
       "看好区块",
@@ -1264,14 +1271,14 @@
     "tags": [
       "Solo",
       "Arena",
-      "Seats"
+      "看台友好"
     ],
     "title": "IU in Taipei",
     "tourName": "IU Tour Watch",
-    "description": "IU 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "solo 场更值得花时间比较区块和视角。",
+    "description": "如果你已经在盯 IU Taipei 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同票档的观感差异可能大于价差。",
-    "travelNote": "台北小巨蛋散场交通稳定，但末班时间仍要确认。",
+    "travelNote": "Taipei 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "先看区块视角",
       "比较票档价格",
@@ -1301,29 +1308,36 @@
     "sourceUrl": "https://nexz-official.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "NEXZ in Osaka",
     "tourName": "NEXZ Tour Watch",
-    "description": "NEXZ 的 Osaka 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "日本路线要优先看账号和抽选。",
+    "description": "NEXZ Osaka 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "先准备支付方式和取票方式。",
-    "travelNote": "大阪返程列车要提前确认。",
+    "travelNote": "Asue Arena Osaka 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "准备日区账号",
       "确认取票方式",
       "预留返程"
     ],
-    "heroImage": "/media/events/nexz-osaka-2026.svg",
+    "heroImage": "/media/events/nexz-osaka-2026-official.png",
     "ticketLinks": [
       {
         "label": "NEXZ Official",
         "href": "https://nexz-official.com/",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "NEXZ Official",
+      "creator": "JYP Entertainment / Sony Music Labels",
+      "license": "Official tour poster",
+      "sourceUrl": "https://nexz-official.com/s/n180/page/nexz_live_tour_2026?ima=2659",
+      "sourceLabel": "NEXZ LIVE TOUR 2026 official key visual"
+    }
   },
   {
     "id": "twice-singapore-2026",
@@ -1340,16 +1354,16 @@
     "sourceUrl": "https://twice.jype.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
-      "Stadium",
-      "Travel"
+      "亚洲场",
+      "体育场",
+      "跨城观演"
     ],
     "title": "TWICE in Singapore",
     "tourName": "TWICE Tour Watch",
-    "description": "TWICE 的 Singapore 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新加坡大场要先看平台预售和看台视野。",
+    "description": "TWICE Singapore 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "体育场票档跨度很大。",
-    "travelNote": "国家体育场演出日散场人流密集。",
+    "travelNote": "Singapore 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "核对预售规则",
       "比较视野图",
@@ -1379,16 +1393,16 @@
     "sourceUrl": "https://www.instagram.com/qwerband_official/",
     "sourceConfidence": "official",
     "tags": [
-      "Band",
-      "Korea",
-      "Theater"
+      "乐队现场",
+      "韩国场",
+      "剧场"
     ],
     "title": "QWER in Seoul",
     "tourName": "QWER Tour Watch",
-    "description": "QWER 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "乐队场更值得看音场和视线。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "正中看台常比侧面更稳。",
-    "travelNote": "奥林匹克公园区域散场节奏固定。",
+    "travelNote": "Olympic Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "优先看音场",
       "选正中区",
@@ -1418,16 +1432,16 @@
     "sourceUrl": "https://nmixx.jype.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
-      "Theater",
+      "韩国场",
+      "剧场",
       "Close-up"
     ],
     "title": "NMIXX in Seoul",
     "tourName": "NMIXX Tour Watch",
-    "description": "NMIXX 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "剧场型场馆更值得细看楼层和视角。",
+    "description": "NMIXX Seoul 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "小场和中场的体验差距明显。",
-    "travelNote": "首尔剧场场通常安检和队列节奏更快。",
+    "travelNote": "Blue Square Mastercard Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "核对楼层座位",
       "留意包袋规则",
@@ -1457,16 +1471,16 @@
     "sourceUrl": "https://www.instagram.com/official.kep1er/",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "Kep1er in Yokohama",
     "tourName": "Kep1er Tour Watch",
-    "description": "Kep1er 的 Yokohama 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "日本场优先看抽选和电子票。",
+    "description": "Kep1er 在 Yokohama 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "二轮抽选往往也有机会。",
-    "travelNote": "横滨返程和住宿可一起规划。",
+    "travelNote": "K-Arena Yokohama 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认抽选轮次",
       "核对电子票",
@@ -1496,16 +1510,16 @@
     "sourceUrl": "https://weverse.io/illit",
     "sourceConfidence": "official",
     "tags": [
-      "Rookie",
-      "Korea",
-      "Membership"
+      "新团观察",
+      "韩国场",
+      "会员先行"
     ],
     "title": "ILLIT in Seoul",
     "tourName": "ILLIT Tour Watch",
-    "description": "ILLIT 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新团首尔场优先看会员路径。",
+    "description": "如果你已经在盯 ILLIT Seoul 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "福利差异要比票档名字更重要。",
-    "travelNote": "排队和队列节奏值得提前看。",
+    "travelNote": "Olympic Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认会员入口",
       "核对福利",
@@ -1536,15 +1550,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Korea",
-      "Seats"
+      "韩国场",
+      "看台友好"
     ],
     "title": "Taeyeon in Seoul",
     "tourName": "Taeyeon Tour Watch",
-    "description": "Taeyeon 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "声场和视线通常比靠前距离更重要。",
+    "description": "Taeyeon 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "适合优先比较中前区与高层正中的取舍。",
-    "travelNote": "奥林匹克公园一带住宿和返程都要早订。",
+    "travelNote": "KSPO Dome 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "优先看音场评价",
       "比较正中区块",
@@ -1574,16 +1588,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Macau",
-      "Travel",
+      "澳门场",
+      "跨城观演",
       "Arena"
     ],
     "title": "WayV in Macau",
     "tourName": "WayV Tour Watch",
-    "description": "WayV 的 Macau 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "澳门场要优先看口岸和酒店接驳。",
+    "description": "如果你已经在盯 WayV Macau 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "平台支付和实名要先确认。",
-    "travelNote": "返程时间缓冲要给足。",
+    "travelNote": "Macau 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付",
       "预留口岸时间",
@@ -1613,16 +1627,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
-      "Legacy",
+      "日本场",
+      "经典团体",
       "Arena"
     ],
     "title": "SHINee in Tokyo",
     "tourName": "SHINee Tour Watch",
-    "description": "SHINee 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "日本资深团场优先看抽选和补票。",
+    "description": "如果你已经在盯 SHINee Tokyo 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "高需求时补票也值得等待。",
-    "travelNote": "代代木区域返程成熟，但演出日会拥挤。",
+    "travelNote": "Yoyogi National Stadium First Gymnasium 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认抽选",
       "等补票",
@@ -1652,16 +1666,16 @@
     "sourceUrl": "https://p1harmony.us/",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
+      "北美场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "P1Harmony in Newark",
     "tourName": "P1Harmony Tour Watch",
-    "description": "P1Harmony 的 Newark 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "北美场优先看 presale 和停车。",
+    "description": "Newark 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "下层看台与 floor 的性价比差异很大。",
-    "travelNote": "纽瓦克返程和酒店区位要提前确认。",
+    "travelNote": "Prudential Center 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "确认 presale",
       "比较区块",
@@ -1691,16 +1705,16 @@
     "sourceUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=65",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "TREASURE in Bangkok",
     "tourName": "TREASURE Tour Watch",
-    "description": "TREASURE 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "适合补泰国场多轮售票和站席经验。",
+    "description": "TREASURE Bangkok 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同票档福利差异较大。",
-    "travelNote": "IMPACT 返程和住宿建议值得单独写清楚。",
+    "travelNote": "Bangkok 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认开票轮次",
       "看福利差异",
@@ -1732,14 +1746,14 @@
     "tags": [
       "Showcase",
       "Taiwan",
-      "Travel"
+      "跨城观演"
     ],
     "title": "tripleS in Taipei",
     "tourName": "tripleS Tour Watch",
-    "description": "tripleS 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "多人结构艺人更适合先看舞台覆盖和屏幕。",
+    "description": "Taipei 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "剧院型场馆更看正面视角。",
-    "travelNote": "信义区返程方便，但仍要确认末班。",
+    "travelNote": "Taipei 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "优先正面区",
       "确认入场时间",
@@ -1769,16 +1783,16 @@
     "sourceUrl": "https://www.s2ent.co.kr/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
-      "Travel",
+      "亚洲场",
+      "跨城观演",
       "Arena"
     ],
     "title": "KISS OF LIFE in Bangkok",
     "tourName": "KISS OF LIFE Tour Watch",
-    "description": "KISS OF LIFE 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "曼谷场更看支付和交通。",
+    "description": "如果你已经在盯 KISS OF LIFE Bangkok 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "站席和坐席规则要先确认。",
-    "travelNote": "散场交通最好提前锁定。",
+    "travelNote": "Bangkok 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付",
       "看站席规则",
@@ -1808,16 +1822,16 @@
     "sourceUrl": "https://www.instagram.com/izna_official/",
     "sourceConfidence": "official",
     "tags": [
-      "Rookie",
-      "Theater",
-      "Watchlist"
+      "新团观察",
+      "剧场",
+      "持续关注"
     ],
     "title": "izna in Seoul",
     "tourName": "izna Tour Watch",
-    "description": "izna 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新团小中场更适合先看入场和福利。",
+    "description": "如果你已经在盯 izna Seoul 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同票档的近距离体验差别大。",
-    "travelNote": "蓝色广场场次更适合提早到场。",
+    "travelNote": "Blue Square Mastercard Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "看福利票规则",
       "提早排队",
@@ -1848,15 +1862,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Asia",
-      "Travel"
+      "亚洲场",
+      "跨城观演"
     ],
     "title": "Jimin in Singapore",
     "tourName": "Jimin Tour Watch",
-    "description": "Jimin 的 Singapore 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新加坡场要先看支付和公开发售。",
+    "description": "Singapore 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同平台支持的卡不同。",
-    "travelNote": "酒店优先沿地铁线。",
+    "travelNote": "Singapore 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付方式",
       "留意公开发售",
@@ -1886,16 +1900,16 @@
     "sourceUrl": "https://ateez.kqent.com/",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
+      "北美场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "ATEEZ in Mexico City",
     "tourName": "ATEEZ Tour Watch",
-    "description": "ATEEZ 的 Mexico City 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "拉美场优先确认平台规则和支付渠道。",
+    "description": "ATEEZ Mexico City 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "跨区购票更要留意结算和票券形式。",
-    "travelNote": "墨西哥城场适合补治安和夜间返程提示。",
+    "travelNote": "Mexico City 这场演出建议优先把交通、酒店和散场后的路线看稳，再决定具体票档。",
     "checklist": [
       "确认票券形式",
       "准备国际支付",
@@ -1925,16 +1939,16 @@
     "sourceUrl": "https://www.cubeent.co.kr/gidle",
     "sourceConfidence": "official",
     "tags": [
-      "Europe",
+      "欧洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "i-dle in Paris",
     "tourName": "i-dle Tour Watch",
-    "description": "i-dle 的 Paris 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "欧洲场更看平台账户地区和支付。",
+    "description": "i-dle Paris 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "欧洲平台常会卡地区和支付方式。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "巴黎夜间返程要提前规划。",
-    "travelNote": "VIP 和普通票入场时间差要看清。",
+    "travelNote": "Paris 场更值得先看夜间返程、酒店区域和步行路线。演后人流一起来，临时找车通常最容易出问题。",
     "checklist": [
       "确认账户地区",
       "看入场时间",
@@ -1964,16 +1978,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Legacy",
-      "Asia",
+      "经典团体",
+      "亚洲场",
       "Arena"
     ],
     "title": "Red Velvet in Manila",
     "tourName": "Red Velvet Tour Watch",
-    "description": "Red Velvet 的 Manila 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "legacy 女团菲律宾场更要看票档和交通。",
+    "description": "Red Velvet Manila 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同票档福利差异值得先看。",
-    "travelNote": "Araneta 一带返程不要临时决定。",
+    "travelNote": "Manila 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "看福利差异",
       "确认支付",
@@ -2003,16 +2017,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "NCT DREAM in Jakarta",
     "tourName": "NCT DREAM Tour Watch",
-    "description": "NCT DREAM 的 Jakarta 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "适合补印尼平台支付和手机取票规则。",
+    "description": "NCT DREAM 在 Jakarta 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "开票节奏和实名验证都值得单独说明。",
-    "travelNote": "Jakarta 场馆周边交通拥堵要提前考虑。",
+    "travelNote": "Jakarta 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认手机取票规则",
       "核对实名信息",
@@ -2043,15 +2057,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Korea",
-      "Festival"
+      "韩国场",
+      "音乐节"
     ],
     "title": "ZICO in Seoul",
     "tourName": "ZICO Tour Watch",
-    "description": "ZICO 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "solo live 更值得先看官宣和场馆动线。",
+    "description": "ZICO 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "视角、舞台段落和音场一起考虑。",
-    "travelNote": "园区返程节奏提前规划。",
+    "travelNote": "SK Olympic Handball Gymnasium 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "盯官宣",
       "比较视野",
@@ -2081,16 +2095,16 @@
     "sourceUrl": "https://www.instagram.com/h1key_official/",
     "sourceConfidence": "official",
     "tags": [
-      "Theater",
+      "剧场",
       "Taiwan",
-      "Travel"
+      "跨城观演"
     ],
     "title": "H1-KEY in Taipei",
     "tourName": "H1-KEY Tour Watch",
-    "description": "H1-KEY 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "剧场场更看视角和到场时机。",
+    "description": "Taipei 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "靠前站位和坐席体验差距明显。",
-    "travelNote": "台北夜间返程稳定，但仍要确认末班。",
+    "travelNote": "Taipei 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认入场顺序",
       "比较前区与中区",
@@ -2122,14 +2136,14 @@
     "tags": [
       "Oceania",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "Stray Kids in Sydney",
     "tourName": "Stray Kids Tour Watch",
-    "description": "Stray Kids 的 Sydney 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "澳洲场要重点看 Ticketek/Ticketmaster 路线差异。",
+    "description": "Sydney 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同入场区对视野影响较大。",
-    "travelNote": "悉尼奥林匹克公园返程车次值得提前确认。",
+    "travelNote": "Sydney 这场演出建议优先把交通、酒店和散场后的路线看稳，再决定具体票档。",
     "checklist": [
       "准备当地票务账号",
       "核对区块视角",
@@ -2159,16 +2173,16 @@
     "sourceUrl": "https://www.instagram.com/meovv/",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
-      "Rookie",
-      "Travel"
+      "日本场",
+      "新团观察",
+      "跨城观演"
     ],
     "title": "MEOVV in Tokyo",
     "tourName": "MEOVV Tour Watch",
-    "description": "MEOVV 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新团日本场要优先看抽选。",
+    "description": "Tokyo 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "电子票和发券方式更关键。",
-    "travelNote": "丰洲区域返程路线要先确认。",
+    "travelNote": "Tokyo Garden Theater 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "确认抽选",
       "核对电子票",
@@ -2198,16 +2212,16 @@
     "sourceUrl": "https://day6.jype.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Band",
-      "Asia",
-      "Travel"
+      "乐队现场",
+      "亚洲场",
+      "跨城观演"
     ],
     "title": "DAY6 in Jakarta",
     "tourName": "DAY6 Tour Watch",
-    "description": "DAY6 的 Jakarta 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "乐队场要优先看音场和到场时机。",
+    "description": "如果你已经在盯 DAY6 Jakarta 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "印尼平台支付和取票方式要确认。",
-    "travelNote": "Senayan 区域返程时间不可低估。",
+    "travelNote": "Jakarta 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付",
       "看音场",
@@ -2237,16 +2251,16 @@
     "sourceUrl": "https://www.instagram.com/kickflip_official/",
     "sourceConfidence": "official",
     "tags": [
-      "Rookie",
-      "Korea",
-      "Watchlist"
+      "新团观察",
+      "韩国场",
+      "持续关注"
     ],
     "title": "KickFlip in Seoul",
     "tourName": "KickFlip Tour Watch",
-    "description": "KickFlip 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "新团 live hall 更适合先看入场和站位。",
+    "description": "KickFlip 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "别忽略包袋和排队规则。",
-    "travelNote": "广津区场次散场后转地铁很关键。",
+    "travelNote": "Yes24 Live Hall 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认包袋规则",
       "提早到场",
@@ -2276,16 +2290,16 @@
     "sourceUrl": "https://weverse.io/txt",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
+      "北美场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "TOMORROW X TOGETHER in Los Angeles",
     "tourName": "TOMORROW X TOGETHER Tour Watch",
-    "description": "TOMORROW X TOGETHER 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "论坛场适合补停车、排队和周边住宿建议。",
+    "description": "如果你已经在盯 TOMORROW X TOGETHER Los Angeles 这一场，这一页会先帮你把时间、票务链接、场馆细节和观演准备收齐。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "北美 arena 场的座位性价比差异大。",
-    "travelNote": "洛杉矶演出日优先地铁或提前进场。",
+    "travelNote": "Kia Forum 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "看好停车预算",
       "比较下层与上层",
@@ -2315,16 +2329,16 @@
     "sourceUrl": "https://weverse.io/plave",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
+      "韩国场",
       "Dome",
-      "Fandom"
+      "粉圈热度"
     ],
     "title": "PLAVE in Seoul",
     "tourName": "PLAVE Tour Watch",
-    "description": "PLAVE 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "高关注度场次更要盯官方。",
+    "description": "PLAVE Seoul 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "Dome 场更值得先比正面区和斜侧区，而不是只看离舞台远近。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "高尺场视角和大屏体验要一起考虑。",
-    "travelNote": "散场交通缓冲要留足。",
+    "travelNote": "Gocheok Sky Dome 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "盯紧官宣",
       "比较视野",
@@ -2354,16 +2368,16 @@
     "sourceUrl": "https://www.blackpinkmusic.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Japan",
+      "日本场",
       "Dome",
       "BLINK"
     ],
     "title": "BLACKPINK in Tokyo",
     "tourName": "BLACKPINK Tour Watch",
-    "description": "BLACKPINK 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "日本巨蛋场的抽选和补票规则优先级最高。",
+    "description": "BLACKPINK 在 Tokyo 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "日本场别只盯首轮抽选，二轮和补票也值得看。Dome 场更值得先比正面区和斜侧区，而不是只看离舞台远近",
     "priceNote": "别忽视电子票和入场证件的细节。",
-    "travelNote": "东京巨蛋周边酒店和返程车票都要先订。",
+    "travelNote": "Tokyo Dome 这类日本场馆最怕的是演后返程和电子票临场出错。酒店尽量围绕直达线路订，散场后的列车和步行距离要提前看。",
     "checklist": [
       "核对抽选条件",
       "确认电子票",
@@ -2393,16 +2407,16 @@
     "sourceUrl": "https://monstax-official.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Legacy",
-      "Korea",
+      "经典团体",
+      "韩国场",
       "Arena"
     ],
     "title": "MONSTA X in Seoul",
     "tourName": "MONSTA X Tour Watch",
-    "description": "MONSTA X 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "回归类男团场次更适合盯官方。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "区块视野和音场要同时看。",
-    "travelNote": "奥林匹克公园返程别压最后一班车。",
+    "travelNote": "KSPO Dome 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "盯官宣",
       "比较视野",
@@ -2432,16 +2446,16 @@
     "sourceUrl": "https://www.instagram.com/official_oneus/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "ONEUS in Bangkok",
     "tourName": "ONEUS Tour Watch",
-    "description": "ONEUS 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "泰国中型 arena 场更要看交通和站席。",
+    "description": "Bangkok 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "支付成功率比多开几个页面更重要。",
-    "travelNote": "散场交通提早锁定。",
+    "travelNote": "Bangkok 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付方式",
       "查看站席规则",
@@ -2472,15 +2486,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "Europe",
-      "Travel"
+      "欧洲场",
+      "跨城观演"
     ],
     "title": "V in Paris",
     "tourName": "V Tour Watch",
-    "description": "V 的 Paris 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "欧洲 solo 场更要看账户地区和汇率。",
+    "description": "V 在 Paris 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "欧洲平台常会卡地区和支付方式。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "法国夜间返程路线要先定。",
-    "travelNote": "场馆周边住宿提早订。",
+    "travelNote": "Paris 场更值得先看夜间返程、酒店区域和步行路线。演后人流一起来，临时找车通常最容易出问题。",
     "checklist": [
       "确认账户地区",
       "规划返程",
@@ -2511,15 +2525,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Fancon",
-      "Korea",
-      "Membership"
+      "韩国场",
+      "会员先行"
     ],
     "title": "ZEROBASEONE in Seoul",
     "tourName": "ZEROBASEONE Tour Watch",
-    "description": "ZEROBASEONE 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "韩场 fancon 更适合提前研究福利票和认证规则。",
+    "description": "ZEROBASEONE 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "先确认自己能不能进会员先行或 presale。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "福利票常有更严格的取票条件。",
-    "travelNote": "手球馆场适合补排队和安检经验。",
+    "travelNote": "Olympic Handball Gymnasium 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "确认福利票说明",
       "核对认证规则",
@@ -2550,15 +2564,15 @@
     "sourceConfidence": "official",
     "tags": [
       "Solo",
-      "North America",
+      "北美场",
       "Arena"
     ],
     "title": "Jung Kook in Los Angeles",
     "tourName": "Jung Kook Tour Watch",
-    "description": "Jung Kook 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "高需求 solo 场更要先准备 presale。",
+    "description": "Los Angeles 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "Floor 和 lower bowl 的取舍要提前想。",
-    "travelNote": "LA 返程别临时决定。",
+    "travelNote": "Crypto.com Arena 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "准备 presale",
       "比较区块",
@@ -2588,16 +2602,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Legacy",
+      "经典团体",
       "Taiwan",
       "Arena"
     ],
     "title": "SUPER JUNIOR in Taipei",
     "tourName": "SUPER JUNIOR Tour Watch",
-    "description": "SUPER JUNIOR 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "资深团台北场更适合看区块和交通。",
+    "description": "Taipei 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "台北小巨蛋的正中区块通常更稳。",
-    "travelNote": "住宿和捷运末班时间要提前看。",
+    "travelNote": "Taipei 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "看正中区块",
       "确认返程",
@@ -2627,16 +2641,16 @@
     "sourceUrl": "https://www.smtown.com/",
     "sourceConfidence": "official",
     "tags": [
-      "Asia",
+      "亚洲场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "NCT 127 in Bangkok",
     "tourName": "NCT 127 Tour Watch",
-    "description": "NCT 127 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "泰国 arena 场要把支付和返程一起考虑。",
+    "description": "NCT 127 在 Bangkok 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "不同区块对延伸台视野差异明显。",
-    "travelNote": "Impact 周边住宿价值很高。",
+    "travelNote": "Bangkok 这一场更建议先把支付方式、酒店位置和返程节奏想清楚。真正影响观演心情的，往往不是买到票，而是演后怎么顺利回去。",
     "checklist": [
       "确认支付",
       "比较视野",
@@ -2666,16 +2680,16 @@
     "sourceUrl": "https://xgalx.com/xg/",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
-      "Theater",
+      "北美场",
+      "剧场",
       "GA"
     ],
     "title": "XG in Los Angeles",
     "tourName": "XG Tour Watch",
-    "description": "XG 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "小中型场馆更需要看排队和视角。",
+    "description": "XG 在 Los Angeles 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "GA 票和坐席票体验差距明显。",
-    "travelNote": "Inglewood 一带交通和散场接驳值得提前规划。",
+    "travelNote": "YouTube Theater 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "确认排队时间",
       "看清 GA 规则",
@@ -2705,16 +2719,16 @@
     "sourceUrl": "https://weverse.io/aespa",
     "sourceConfidence": "official",
     "tags": [
-      "North America",
+      "北美场",
       "Arena",
-      "Travel"
+      "跨城观演"
     ],
     "title": "aespa in Los Angeles",
     "tourName": "aespa Tour Watch",
-    "description": "aespa 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "论坛场更适合比较 floor 与 lower bowl。",
+    "description": "aespa Los Angeles 这场的时间、票务入口、场馆动线和中文提醒都会收在这里。抢票前先把支付方式、区块优先级和演后返程看明白，现场会轻松很多。",
+    "purchaseHint": "北美场要先准备信用卡和 presale code。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "停车和网约车预算都要单独算。",
-    "travelNote": "Inglewood 演出日交通拥堵明显。",
+    "travelNote": "Kia Forum 这类北美场馆要把停车、网约车等待和夜间返程一起算进去。很多时候交通成本和时间消耗，不会比票价轻松。",
     "checklist": [
       "比较区块",
       "预留停车预算",
@@ -2744,16 +2758,16 @@
     "sourceUrl": "https://www.instagram.com/got7.with.igot7/",
     "sourceConfidence": "official",
     "tags": [
-      "Legacy",
-      "Korea",
+      "经典团体",
+      "韩国场",
       "Reunion"
     ],
     "title": "GOT7 in Seoul",
     "tourName": "GOT7 Tour Watch",
-    "description": "GOT7 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "回归类场次优先看官宣和实名细节。",
+    "description": "GOT7 在 Seoul 这一站最值得先确认的，就是开票入口、场馆动线和散场后的返程节奏。这一页会把关键节点都捋顺。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "需求高时尽量减少临场决策。",
-    "travelNote": "首尔场适合提前锁住宿和返程。",
+    "travelNote": "KSPO Dome 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "盯紧官宣",
       "确认实名规则",
@@ -2783,16 +2797,16 @@
     "sourceUrl": "https://weverse.io/newjeans",
     "sourceConfidence": "official",
     "tags": [
-      "Korea",
-      "Global",
-      "Watchlist"
+      "韩国场",
+      "全球线路",
+      "持续关注"
     ],
     "title": "NewJeans in Seoul",
     "tourName": "NewJeans Tour Watch",
-    "description": "NewJeans 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
-    "purchaseHint": "高关注艺人场次先盯官宣和实名。",
+    "description": "Seoul 这一场真正会影响体验的，不只是有没有抢到票，还有进场、视线和演后返程。这里会把该先看的重点集中整理好。",
+    "purchaseHint": "开票前先把账号、支付方式和区块优先级准备好。如果是高需求场次，减少临场切换平台和支付方式会更稳。",
     "priceNote": "小到中型场更要提前看队列。",
-    "travelNote": "蚕室返程和住宿提早安排。",
+    "travelNote": "Jamsil Indoor Stadium 这类首尔高频场馆，真正拉开体验差距的是到场时间、排队动线和散场地铁。住处最好围绕场馆或直达线，不要把返程留到最后一刻。",
     "checklist": [
       "盯官宣",
       "确认实名",

@@ -6,7 +6,7 @@ import { getArtists, getEvents, getTourPlans } from "@/lib/events";
 
 export const metadata: Metadata = {
   title: "巡演日历 | Koncert Together",
-  description: "按艺人、地区和状态查看 K-pop 全球巡演日历与巡演雷达。"
+  description: "按艺人、地区和状态查看 K-pop 全球巡演日历与巡演消息。"
 };
 
 export default async function CalendarPage() {
@@ -16,10 +16,10 @@ export default async function CalendarPage() {
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
-        <p className="eyebrow">Tour Calendar</p>
+        <p className="eyebrow">巡演日历</p>
         <h1>巡演日历</h1>
         <p className="hero-text">
-          当前日历页分成两层：已经整理到日期的活动卡片，以及仍在等待更完整官宣的巡演雷达。这样能扩大覆盖，但不把未落地信息伪装成正式排期。
+          已经落到日期的正式场次和还在等完整官宣的巡演消息，会在这里分开整理。你可以先锁定确定排期，也可以顺手盯住下一轮最可能落地的大场。
         </p>
       </section>
       <Suspense fallback={<section className="calendar-hero">正在加载筛选器…</section>}>

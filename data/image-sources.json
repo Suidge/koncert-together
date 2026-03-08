@@ -25,27 +25,27 @@
   },
   {
     "artistSlug": "day6",
-    "type": "official_direct",
+    "type": "jype_main_visual",
     "label": "DAY6 official main visual",
     "targetPath": "/media/artists/day6-official.jpg",
     "officialPageUrl": "https://day6.jype.com/",
-    "assetUrl": "https://d1al7qj7ydfbpt.cloudfront.net/artists/day6/main/1765628729534-c4f059a2.jpg",
     "provider": "DAY6 Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": false,
+    "field": "bgImageForWeb"
   },
   {
     "artistSlug": "itzy",
-    "type": "official_direct",
-    "label": "ITZY official share image",
+    "type": "jype_main_visual",
+    "label": "ITZY official main visual",
     "targetPath": "/media/artists/itzy-official.jpg",
     "officialPageUrl": "https://itzy.jype.com/",
-    "assetUrl": "https://d1al7qj7ydfbpt.cloudfront.net/artist/itzy/30f3eb88504a4b9ca9fee12b5a437dc9-%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A9%E1%86%B7-OG+(800_400).jpg",
     "provider": "ITZY Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": false,
+    "field": "bgImageForWeb"
   },
   {
     "artistSlug": "kiss-of-life",
@@ -73,27 +73,39 @@
   },
   {
     "artistSlug": "nmixx",
-    "type": "official_direct",
+    "type": "jype_main_visual",
     "label": "NMIXX official main visual",
     "targetPath": "/media/artists/nmixx-official.jpg",
     "officialPageUrl": "https://nmixx.jype.com/",
-    "assetUrl": "https://d1al7qj7ydfbpt.cloudfront.net/artist/nmixx/d06f7885d75142eab01afed9b1a01432-nmixx_R01_Fans_main.jpg",
     "provider": "NMIXX Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": false,
+    "field": "bgImageForWeb"
+  },
+  {
+    "artistSlug": "stray-kids",
+    "type": "jype_main_visual",
+    "label": "Stray Kids official main visual",
+    "targetPath": "/media/artists/stray-kids-official.jpg",
+    "officialPageUrl": "https://straykids.jype.com/Default",
+    "provider": "Stray Kids Official",
+    "creator": "JYP Entertainment",
+    "license": "Official promotional image",
+    "useForEvents": false,
+    "field": "bgImageForWeb"
   },
   {
     "artistSlug": "twice",
-    "type": "official_direct",
-    "label": "TWICE official share image",
-    "targetPath": "/media/artists/twice-official.png",
+    "type": "jype_main_visual",
+    "label": "TWICE official main visual",
+    "targetPath": "/media/artists/twice-official.jpg",
     "officialPageUrl": "https://twice.jype.com/",
-    "assetUrl": "https://d1al7qj7ydfbpt.cloudfront.net/artist/twice/309b5d5eebcd4a2688cf67388fbb6c17-%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8-%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B3%E1%86%B7-2.png",
     "provider": "TWICE Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": false,
+    "field": "bgImageForWeb"
   },
   {
     "artistSlug": "xg",

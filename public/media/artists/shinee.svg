@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="60" y1="40" x2="1100" y2="860" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#b1d2cc"/>
-      <stop offset="1" stop-color="#42746b"/>
+    <linearGradient id="bg" x1="80" y1="40" x2="1120" y2="1460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d1e5e1"/>
+      <stop offset="0.55" stop-color="#8dbdb5"/>
+      <stop offset="1" stop-color="#376159"/>
     </linearGradient>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 180) rotate(120) scale(380 320)">
-      <stop stop-color="#FFF7EC" stop-opacity="0.78"/>
-      <stop offset="1" stop-color="#FFF7EC" stop-opacity="0"/>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(890 280) rotate(90) scale(360 360)">
+      <stop stop-color="#e8f2f0" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#e8f2f0" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
-  <rect x="52" y="52" width="1096" height="796" rx="40" stroke="rgba(255,255,255,0.34)" stroke-width="2"/>
-  <circle cx="914" cy="214" r="284" fill="url(#halo)"/>
-  <path d="M138 714C256 578 406 514 546 514C686 514 804 592 942 734" stroke="#79b2a8" stroke-width="24" stroke-linecap="round"/>
-  <circle cx="600" cy="362" r="188" fill="rgba(255,247,236,0.18)" stroke="rgba(255,247,236,0.34)" stroke-width="8"/>
-  <text x="600" y="400" text-anchor="middle" fill="#FFF7EC" font-size="92" font-family="Georgia, serif" letter-spacing="8">SH</text>
-  <text x="96" y="128" fill="#FFF7EC" font-size="28" font-family="Arial, sans-serif" letter-spacing="7">KONCERT TOGETHER</text>
-  <text x="96" y="690" fill="#FFF7EC" font-size="110" font-family="Georgia, serif" font-weight="700">SHINee</text>
-  <text x="96" y="748" fill="#FFF7EC" font-size="34" font-family="Arial, sans-serif" opacity="0.88">샤이니  •  SHINee World  •  4 members</text>
-  <text x="96" y="814" fill="#FFF7EC" font-size="24" font-family="Arial, sans-serif" opacity="0.9">Legacy touring act with strong Japan and Korea demand</text>
+  <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="rgba(255,247,239,0.26)" stroke-width="2"/>
+  <circle cx="890" cy="280" r="360" fill="url(#halo)"/>
+  <circle cx="268" cy="268" r="198" fill="rgba(255,247,239,0.10)"/>
+  <path d="M94 1152C234 980 402 874 612 874C786 874 954 944 1102 1098" stroke="rgba(255,247,239,0.18)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M132 1264C286 1128 452 1068 612 1068C760 1068 920 1116 1060 1232" stroke="rgba(255,247,239,0.12)" stroke-width="10" stroke-linecap="round"/>
+  <text x="96" y="126" fill="#FFF7EF" font-size="24" font-family="Arial, sans-serif" letter-spacing="5">KONCERT TOGETHER</text>
+  <text x="96" y="206" fill="#FFF7EF" font-size="22" font-family="Arial, sans-serif" opacity="0.86" letter-spacing="4">ARTIST FILE</text>
+  <rect x="96" y="1134" width="1008" height="216" rx="34" fill="rgba(18,15,14,0.16)"/>
+  <text x="96" y="990" fill="#FFF7EF" font-size="144" font-family="Georgia, serif" font-weight="700"><tspan x="96" dy="0">SHINee</tspan></text>
+  <text x="96" y="1226" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" opacity="0.92">샤이니  •  SHINee World fan guide</text>
+  <text x="96" y="1284" fill="#FFF7EF" font-size="24" font-family="Arial, sans-serif" opacity="0.84">4 members  •  2008</text>
+  <text x="96" y="1328" fill="#FFF7EF" font-size="22" font-family="Arial, sans-serif" opacity="0.72">经典团体 / Arena 现场情报</text>
 </svg>

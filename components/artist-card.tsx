@@ -17,7 +17,7 @@ export function ArtistCard({ artist, eventCount, planCount = 0 }: Props) {
         </div>
       ) : null}
       <div className="artist-card-top">
-        <p className="eyebrow">Artist</p>
+        <p className="eyebrow">艺人</p>
         <span className="artist-count">{eventCount} 场排期</span>
       </div>
       <h3>
@@ -28,7 +28,7 @@ export function ArtistCard({ artist, eventCount, planCount = 0 }: Props) {
       <div className="artist-meta-strip">
         <span>{artist.fandom ?? "Fandom"}</span>
         <span>{artist.memberCount ?? 0} 位成员</span>
-        <span>{planCount} 条雷达</span>
+        <span>{planCount} 条消息</span>
       </div>
       <div className="tag-row">
         {(artist.genres ?? []).slice(0, 3).map((tag) => (

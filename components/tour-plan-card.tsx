@@ -8,7 +8,7 @@ type Props = {
 export function TourPlanCard({ plan }: Props) {
   return (
     <article className="content-card radar-card">
-      <p className="eyebrow">Tour Radar</p>
+      <p className="eyebrow">巡演消息</p>
       <h3>{plan.title}</h3>
       <p className="content-summary">{plan.note}</p>
       <div className="tag-row">

@@ -15,10 +15,10 @@ export default async function SavedPage() {
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
-        <p className="eyebrow">Saved</p>
+        <p className="eyebrow">我的收藏</p>
         <h1>我的收藏</h1>
         <p className="hero-text">
-          当前收藏保存在当前浏览器，适合作为第一版可用功能，用来沉淀真正关心的活动和城市。
+          先把你真正想看的场次和城市收在这里。下次回来，不用再从头翻一次整张日历。
         </p>
       </section>
       <SavedBrowser events={events} />

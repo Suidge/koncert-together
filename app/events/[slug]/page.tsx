@@ -37,7 +37,7 @@ export default async function EventDetailPage({ params }: Props) {
       <Header />
       <section className="detail-hero detail-hero-rich">
         <div className="detail-copy">
-          <p className="eyebrow">Event Detail</p>
+          <p className="eyebrow">场次详情</p>
           <h1>{event.title}</h1>
           <p className="hero-text">{event.description}</p>
           <div className="detail-actions">
@@ -96,14 +96,14 @@ export default async function EventDetailPage({ params }: Props) {
 
       <section className="detail-content">
         <article className="detail-block">
-          <p className="eyebrow">Purchase Guide</p>
+          <p className="eyebrow">抢票重点</p>
           <h2>购票与观演提示</h2>
           <p>{event.purchaseHint ?? "暂未补充购票说明。"}</p>
           {event.priceNote ? <p className="detail-note">票务提示: {event.priceNote}</p> : null}
           {event.ticketSaleDate ? <p className="detail-note">开票时间: {formatEventDateLabel(event.ticketSaleDate, event.timezone)}</p> : null}
         </article>
         <article className="detail-block">
-          <p className="eyebrow">Travel</p>
+          <p className="eyebrow">出行准备</p>
           <h2>出行与准备</h2>
           <p>{event.travelNote ?? "暂未补充出行提示。"}</p>
           {event.checklist?.length ? (
@@ -113,9 +113,9 @@ export default async function EventDetailPage({ params }: Props) {
           ) : null}
         </article>
         <article className="detail-block">
-          <p className="eyebrow">Source</p>
+          <p className="eyebrow">官方来源</p>
           <h2>来源与可信度</h2>
-          <p>当前公共页面优先保留艺人官方入口和可复核的来源页，减少中文用户在多平台跳转时的误差。</p>
+          <p>这里优先保留官方入口和可复核来源，方便你在抢票前快速确认消息是不是已经官宣、有没有临时变动。</p>
           {event.sourceConfidence ? <p className="detail-note">来源层级: {event.sourceConfidence}</p> : null}
           {sourceStatus ? (
             <>

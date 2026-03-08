@@ -14,10 +14,10 @@ export default function CommunityPage() {
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
-        <p className="eyebrow">Community</p>
+        <p className="eyebrow">粉圈现场</p>
         <h1>Fandom 社区精选</h1>
         <p className="hero-text">
-          当前先提供只读精选内容和投稿入口，验证哪些城市协作、应援项目和观演经验最值得继续做成真实社区功能。
+          这里收录最值得保存的同行信息、应援协作和场馆经验。看完一轮，你大概就会知道下一场想跟谁一起去、哪些准备得先做。
         </p>
         <div className="hero-actions">
           <Link className="primary-button" href="/community/new">

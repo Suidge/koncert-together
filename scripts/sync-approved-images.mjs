@@ -15,6 +15,13 @@ function stripTags(value = "") {
   return value.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
+function decodeHtml(value = "") {
+  return value
+    .replace(/&amp;/g, "&")
+    .replace(/&#x27;/g, "'")
+    .replace(/&quot;/g, '"');
+}
+
 async function readJson(file) {
   return JSON.parse(await fs.readFile(file, "utf8"));
 }
@@ -30,6 +37,41 @@ async function exists(file) {
   } catch {
     return false;
   }
+}
+
+async function fetchHtml(url) {
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "KoncertTogetherBot/1.0 (official image sync)"
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+  }
+
+  return response.text();
+}
+
+function extractMetaImage(html) {
+  const metaMatch =
+    html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i) ||
+    html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i);
+
+  if (!metaMatch?.[1]) {
+    throw new Error("No og:image or twitter:image found");
+  }
+
+  return decodeHtml(metaMatch[1]);
+}
+
+function extractJypeField(html, field) {
+  const match = html.match(new RegExp(`${field}\\\\":\\\\\"([^"\\\\]+)`));
+  if (!match?.[1]) {
+    throw new Error(`JYPE field ${field} not found`);
+  }
+
+  return decodeHtml(match[1]);
 }
 
 async function fetchCommonsThumb(fileTitle) {
@@ -105,6 +147,39 @@ function defaultEventVisual(slug) {
   return `/media/events/${slug}.svg`;
 }
 
+async function resolveSource(source) {
+  if (source.type === "official_direct") {
+    return {
+      url: source.assetUrl,
+      creator: source.creator,
+      license: source.license,
+      sourceLabel: source.label
+    };
+  }
+
+  if (source.type === "page_og_image") {
+    const html = await fetchHtml(source.officialPageUrl);
+    return {
+      url: extractMetaImage(html),
+      creator: source.creator,
+      license: source.license,
+      sourceLabel: source.label
+    };
+  }
+
+  if (source.type === "jype_main_visual") {
+    const html = await fetchHtml(source.officialPageUrl);
+    return {
+      url: extractJypeField(html, source.field ?? "bgImageForWeb"),
+      creator: source.creator,
+      license: source.license,
+      sourceLabel: source.label
+    };
+  }
+
+  return fetchCommonsThumb(source.fileTitle);
+}
+
 async function main() {
   const [registry, artists, events] = await Promise.all([
     readJson(registryPath),
@@ -126,14 +201,7 @@ async function main() {
   }
 
   for (const source of registry) {
-    const resolved = source.type === "official_direct"
-      ? {
-          url: source.assetUrl,
-          creator: source.creator,
-          license: source.license,
-          sourceLabel: source.label
-        }
-      : await fetchCommonsThumb(source.fileTitle);
+    const resolved = await resolveSource(source);
     const outputPath = path.join(publicDir, source.targetPath.replace(/^\//, ""));
     if (!(await exists(outputPath))) {
       await downloadFile(resolved.url, outputPath);

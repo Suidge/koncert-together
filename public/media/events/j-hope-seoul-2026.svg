@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="card" x1="120" y1="40" x2="1080" y2="680" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#cab8ac"/>
-      <stop offset="1" stop-color="#614531"/>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="1440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e1d6cf"/>
+      <stop offset="0.58" stop-color="#ab8e7a"/>
+      <stop offset="1" stop-color="#503929"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="720" rx="42" fill="url(#card)"/>
-  <circle cx="944" cy="144" r="164" fill="rgba(255,247,236,0.2)"/>
-  <rect x="72" y="72" width="1056" height="576" rx="32" stroke="rgba(255,247,236,0.34)" stroke-width="2"/>
-  <text x="96" y="126" fill="#FFF7EC" font-size="24" font-family="Arial, sans-serif" letter-spacing="6">TOUR CARD</text>
-  <text x="96" y="286" fill="#FFF7EC" font-size="84" font-family="Georgia, serif" font-weight="700">j-hope</text>
-  <text x="96" y="364" fill="#FFF7EC" font-size="72" font-family="Georgia, serif">Seoul</text>
-  <text x="96" y="428" fill="#FFF7EC" font-size="28" font-family="Arial, sans-serif">South Korea  •  Jamsil Indoor Stadium</text>
-  <text x="96" y="492" fill="#FFF7EC" font-size="24" font-family="Arial, sans-serif">ANNOUNCED  •  KONCERT TOGETHER</text>
+  <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
+  <rect x="66" y="70" width="1068" height="1360" rx="42" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
+  <circle cx="952" cy="246" r="210" fill="rgba(255,247,239,0.15)"/>
+  <rect x="94" y="102" width="152" height="186" rx="32" fill="rgba(18,15,14,0.18)"/>
+  <text x="170" y="174" text-anchor="middle" fill="#FFF7EF" font-size="34" font-family="Arial, sans-serif" letter-spacing="4">APR</text>
+  <text x="170" y="246" text-anchor="middle" fill="#FFF7EF" font-size="82" font-family="Georgia, serif" font-weight="700">26</text>
+  <text x="92" y="408" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" letter-spacing="5">LIVE DATE</text>
+  <text x="92" y="544" fill="#FFF7EF" font-size="110" font-family="Georgia, serif" font-weight="700"><tspan x="92" dy="0">j-hope</tspan></text>
+  <text x="92" y="732" fill="#FFF7EF" font-size="86" font-family="Georgia, serif" ><tspan x="92" dy="0">Seoul</tspan></text>
+  <text x="92" y="874" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" opacity="0.92">South Korea</text>
+  <text x="92" y="948" fill="#FFF7EF" font-size="34" font-family="Georgia, serif" font-family="Arial, sans-serif"><tspan x="92" dy="0">Jamsil Indoor Stadium</tspan></text>
+  <text x="92" y="1028" fill="#FFF7EF" font-size="26" font-family="Arial, sans-serif" opacity="0.82">j-hope Tour Watch</text>
+  <path d="M92 982H1108" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
+  <text x="92" y="1112" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif">Solo  •  韩国场</text>
+  <text x="92" y="1308" fill="#FFF7EF" font-size="26" font-family="Arial, sans-serif" opacity="0.84">Koncert Together</text>
 </svg>

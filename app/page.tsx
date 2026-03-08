@@ -31,13 +31,13 @@ export default async function HomePage() {
       <Header />
       <section className="hero hero-rich">
         <div className="hero-copy">
-          <p className="eyebrow">Global K-pop Calendar</p>
+          <p className="eyebrow">全球巡演情报</p>
           <h1>Koncert Together</h1>
           <p className="hero-text hero-lead">
-            给中文 K-pop fans 的全球巡演日历、艺人主页、成员档案、场馆指南和巡演雷达。
+            给中文 K-pop fans 的全球巡演日历、艺人主页、成员档案、场馆指南和抢票前情报站。
           </p>
           <p className="hero-text">
-            先把主流艺人、重点城市、重点场馆和官宣入口铺到能直接浏览的程度，再逐步把真实更新能力补齐。
+            从首尔、东京、香港、曼谷到巴黎、伦敦、洛杉矶，把真正会影响观演体验的时间、开票入口、场馆动线和城市经验放在同一条浏览路径里。
           </p>
           <div className="hero-actions">
             <Link className="primary-button" href="/calendar">
@@ -99,7 +99,7 @@ export default async function HomePage() {
 
       <section className="section-head">
         <div>
-          <p className="eyebrow">Calendar</p>
+          <p className="eyebrow">日历</p>
           <h2>先看已经整理到可直接决策的场次</h2>
         </div>
         <Link className="text-link" href="/calendar">
@@ -114,8 +114,8 @@ export default async function HomePage() {
 
       <section className="section-head">
         <div>
-          <p className="eyebrow">Artists</p>
-          <h2>艺人页已经扩到主流团体、solo 和新团观察名单</h2>
+          <p className="eyebrow">艺人</p>
+          <h2>从热门团体到 solo，你关心的现场看点都往这里收</h2>
         </div>
         <Link className="text-link" href="/artists">
           查看艺人目录
@@ -134,8 +134,8 @@ export default async function HomePage() {
 
       <section className="section-head">
         <div>
-          <p className="eyebrow">Tour Radar</p>
-          <h2>日期未完全释放的项目先放进巡演雷达</h2>
+          <p className="eyebrow">巡演消息</p>
+          <h2>官宣还没落到具体日期的项目，先在这里盯住风向</h2>
         </div>
         <Link className="text-link" href="/calendar">
           在日历页继续看
@@ -149,7 +149,7 @@ export default async function HomePage() {
 
       <section className="section-head">
         <div>
-          <p className="eyebrow">Guides</p>
+          <p className="eyebrow">指南</p>
           <h2>把中文用户真正会搜的观演问题讲清楚</h2>
         </div>
         <Link className="text-link" href="/guides">
@@ -164,11 +164,11 @@ export default async function HomePage() {
 
       <section className="section-head">
         <div>
-          <p className="eyebrow">Community</p>
-          <h2>从同行、应援到场馆经验，先看粉丝真正会讨论什么</h2>
+          <p className="eyebrow">粉圈现场</p>
+          <h2>从同行、应援到场馆经验，收录大家最在意的实战内容</h2>
         </div>
         <Link className="text-link" href="/community">
-          进入社区页
+          查看精选
         </Link>
       </section>
       <section className="content-grid">

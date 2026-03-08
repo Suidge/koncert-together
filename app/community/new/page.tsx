@@ -12,14 +12,14 @@ export default function CommunitySubmissionPage() {
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
-        <p className="eyebrow">Submit</p>
+        <p className="eyebrow">投稿</p>
         <h1>投稿入口</h1>
         <p className="hero-text">
-          试运行阶段先通过 GitHub issue 收集场馆经验、应援项目和城市协作内容。这样可以先验证内容需求，再决定后续要不要做真正的站内社区系统。
+          如果你有靠谱的场馆经验、同场同行信息、应援项目或抢票心得，欢迎投进来。好的投稿会整理进对应艺人页、场次页和指南页，方便更多人少踩坑。
         </p>
         <div className="hero-actions">
           <Link className="primary-button" href="https://github.com/Suidge/koncert-together/issues/new">
-            提交内容
+            打开投稿页
           </Link>
         </div>
       </section>

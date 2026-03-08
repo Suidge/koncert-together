@@ -3,13 +3,13 @@
     "slug": "bibi-tour-radar",
     "artistSlug": "bibi",
     "artist": "BIBI",
-    "title": "BIBI global live watch",
+    "title": "BIBI 巡演消息追踪",
     "stage": "watch",
-    "note": "先追踪 festival 和 theatre 级别演出，不伪造具体日期。",
+    "note": "BIBI 这一轮已经出现巡演风向，具体日期还在等下一次官宣。这一栏会先盯住 首尔、新加坡、洛杉矶 的官方入口和演出信号，日期一落地就会补进正式排期。",
     "regions": [
-      "Seoul",
-      "Singapore",
-      "Los Angeles"
+      "首尔",
+      "新加坡",
+      "洛杉矶"
     ],
     "source": "BIBI official channel",
     "sourceUrl": "https://www.instagram.com/nakedbibi/"
@@ -18,14 +18,14 @@
     "slug": "bts-tour-radar",
     "artistSlug": "bts",
     "artist": "BTS",
-    "title": "BTS reunion routing watch",
+    "title": "BTS 巡演消息追踪",
     "stage": "watch",
-    "note": "已建立长期监测，优先关注 Weverse 与官方公告中的团体演出信号。",
+    "note": "BTS 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、日本场、北美场、欧洲场 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Japan",
-      "North America",
-      "Europe"
+      "首尔",
+      "日本场",
+      "北美场",
+      "欧洲场"
     ],
     "source": "BTS official channel",
     "sourceUrl": "https://weverse.io/bts"
@@ -34,13 +34,13 @@
     "slug": "day6-tour-radar",
     "artistSlug": "day6",
     "artist": "DAY6",
-    "title": "DAY6 band tour watch",
+    "title": "DAY6 巡演消息追踪",
     "stage": "watch",
-    "note": "先保留乐队场模板和声场说明，再根据官宣补日期。",
+    "note": "DAY6 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。首尔、东京、马尼拉 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Manila"
+      "首尔",
+      "东京",
+      "马尼拉"
     ],
     "source": "DAY6 official channel",
     "sourceUrl": "https://day6.jype.com/"
@@ -49,13 +49,13 @@
     "slug": "exo-tour-radar",
     "artistSlug": "exo",
     "artist": "EXO",
-    "title": "EXO reunion and solo-linked watch",
+    "title": "EXO 巡演消息追踪",
     "stage": "watch",
-    "note": "以团体与成员联动信息为主，优先保留官方入口和关键市场。",
+    "note": "EXO 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、台北 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Taipei"
+      "首尔",
+      "东京",
+      "台北"
     ],
     "source": "EXO official channel",
     "sourceUrl": "https://www.smtown.com/"
@@ -64,13 +64,13 @@
     "slug": "got7-tour-radar-2",
     "artistSlug": "got7",
     "artist": "GOT7",
-    "title": "GOT7 reunion watch",
+    "title": "GOT7 巡演消息追踪",
     "stage": "watch",
-    "note": "保留团体回归窗口和官方入口，不在无明确信息时伪造多城市日期。",
+    "note": "GOT7 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。首尔、曼谷、洛杉矶 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Seoul",
-      "Bangkok",
-      "Los Angeles"
+      "首尔",
+      "曼谷",
+      "洛杉矶"
     ],
     "source": "GOT7 official channel",
     "sourceUrl": "https://www.instagram.com/got7.with.igot7/"
@@ -79,13 +79,13 @@
     "slug": "illit-tour-radar",
     "artistSlug": "illit",
     "artist": "ILLIT",
-    "title": "ILLIT first major tour watch",
+    "title": "ILLIT 巡演消息追踪",
     "stage": "watch",
-    "note": "适合提前铺好艺人页和城市攻略模板，等待完整路线。",
+    "note": "ILLIT 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、曼谷 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Bangkok"
+      "首尔",
+      "东京",
+      "曼谷"
     ],
     "source": "ILLIT official channel",
     "sourceUrl": "https://weverse.io/illit"
@@ -94,13 +94,13 @@
     "slug": "iu-tour-radar",
     "artistSlug": "iu",
     "artist": "IU",
-    "title": "IU stadium and arena watch",
+    "title": "IU 巡演消息追踪",
     "stage": "watch",
-    "note": "以官方窗口为主，等待完整 tour routing 再补多城市排期。",
+    "note": "IU 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。首尔、台北、新加坡 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Seoul",
-      "Taipei",
-      "Singapore"
+      "首尔",
+      "台北",
+      "新加坡"
     ],
     "source": "IU official channel",
     "sourceUrl": "https://www.iu-official.com/"
@@ -109,13 +109,13 @@
     "slug": "jimin-tour-radar",
     "artistSlug": "jimin",
     "artist": "Jimin",
-    "title": "Jimin live schedule watch",
+    "title": "Jimin 巡演消息追踪",
     "stage": "watch",
-    "note": "适合先追踪官宣窗口、festival slot 和媒体放出的 live planning。",
+    "note": "Jimin 这一轮已经出现巡演风向，具体日期还在等下一次官宣。这一栏会先盯住 韩国场、日本场、北美场 的官方入口和演出信号，日期一落地就会补进正式排期。",
     "regions": [
-      "Korea",
-      "Japan",
-      "North America"
+      "韩国场",
+      "日本场",
+      "北美场"
     ],
     "source": "Jimin official channel",
     "sourceUrl": "https://weverse.io/jimin"
@@ -124,13 +124,13 @@
     "slug": "jin-tour-radar",
     "artistSlug": "jin",
     "artist": "Jin",
-    "title": "Jin solo tour radar",
+    "title": "Jin 巡演消息追踪",
     "stage": "watch",
-    "note": "先把 solo 页、预售路径和场馆说明搭起来，等待完整日期落地。",
+    "note": "Jin 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。韩国场、日本场、东南亚 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Korea",
-      "Japan",
-      "Southeast Asia"
+      "韩国场",
+      "日本场",
+      "东南亚"
     ],
     "source": "Jin official channel",
     "sourceUrl": "https://weverse.io/jin"
@@ -139,14 +139,14 @@
     "slug": "jung-kook-tour-radar",
     "artistSlug": "jung-kook",
     "artist": "Jung Kook",
-    "title": "Jung Kook arena watch",
+    "title": "Jung Kook 巡演消息追踪",
     "stage": "watch",
-    "note": "先保留官方入口和全球高需求城市观察名单。",
+    "note": "Jung Kook 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、洛杉矶、伦敦 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Los Angeles",
-      "London"
+      "首尔",
+      "东京",
+      "洛杉矶",
+      "伦敦"
     ],
     "source": "Jung Kook official channel",
     "sourceUrl": "https://weverse.io/jungkook"
@@ -155,13 +155,13 @@
     "slug": "kiss-of-life-tour-radar",
     "artistSlug": "kiss-of-life",
     "artist": "KISS OF LIFE",
-    "title": "KISS OF LIFE festival and tour watch",
+    "title": "KISS OF LIFE 巡演消息追踪",
     "stage": "watch",
-    "note": "优先观察 festival slots 如何转成完整 tour routing。",
+    "note": "KISS OF LIFE 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。首尔、曼谷、台北 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Seoul",
-      "Bangkok",
-      "Taipei"
+      "首尔",
+      "曼谷",
+      "台北"
     ],
     "source": "KISS OF LIFE official channel",
     "sourceUrl": "https://www.s2ent.co.kr/"
@@ -170,13 +170,13 @@
     "slug": "meovv-tour-radar",
     "artistSlug": "meovv",
     "artist": "MEOVV",
-    "title": "MEOVV live expansion watch",
+    "title": "MEOVV 巡演消息追踪",
     "stage": "watch",
-    "note": "先监测 showcase、festival 和 fan event，再视官宣补齐日期卡片。",
+    "note": "MEOVV 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、雅加达 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Jakarta"
+      "首尔",
+      "东京",
+      "雅加达"
     ],
     "source": "MEOVV official channel",
     "sourceUrl": "https://www.instagram.com/meovv/"
@@ -185,13 +185,13 @@
     "slug": "monsta-x-tour-radar",
     "artistSlug": "monsta-x",
     "artist": "MONSTA X",
-    "title": "MONSTA X return watch",
+    "title": "MONSTA X 巡演消息追踪",
     "stage": "watch",
-    "note": "以回归和 tour teaser 为主，日期未落地前只做雷达卡片。",
+    "note": "MONSTA X 这一轮已经出现巡演风向，具体日期还在等下一次官宣。这一栏会先盯住 首尔、东京、洛杉矶 的官方入口和演出信号，日期一落地就会补进正式排期。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Los Angeles"
+      "首尔",
+      "东京",
+      "洛杉矶"
     ],
     "source": "MONSTA X official channel",
     "sourceUrl": "https://monstax-official.com/"
@@ -200,13 +200,13 @@
     "slug": "newjeans-tour-radar",
     "artistSlug": "newjeans",
     "artist": "NewJeans",
-    "title": "NewJeans long-term watch",
+    "title": "NewJeans 巡演消息追踪",
     "stage": "watch",
-    "note": "当前以官方入口和长期监测为主，等待更明确信号再进入日期卡片。",
+    "note": "NewJeans 这一轮已经出现巡演风向，具体日期还在等下一次官宣。这一栏会先盯住 首尔、东京、全球线路 的官方入口和演出信号，日期一落地就会补进正式排期。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Global"
+      "首尔",
+      "东京",
+      "全球线路"
     ],
     "source": "NewJeans official channel",
     "sourceUrl": "https://weverse.io/newjeans"
@@ -215,13 +215,13 @@
     "slug": "p1harmony-tour-radar-2",
     "artistSlug": "p1harmony",
     "artist": "P1Harmony",
-    "title": "P1Harmony North America watch",
+    "title": "P1Harmony 巡演消息追踪",
     "stage": "watch",
-    "note": "北美路线和 theatre/arena 切换值得单独追踪。",
+    "note": "P1Harmony 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 Newark、洛杉矶、芝加哥 这些高频方向，等官宣下来再补进日历。",
     "regions": [
       "Newark",
-      "Los Angeles",
-      "Chicago"
+      "洛杉矶",
+      "芝加哥"
     ],
     "source": "P1Harmony official channel",
     "sourceUrl": "https://p1harmony.us/"
@@ -230,13 +230,13 @@
     "slug": "red-velvet-tour-radar",
     "artistSlug": "red-velvet",
     "artist": "Red Velvet",
-    "title": "Red Velvet group watch",
+    "title": "Red Velvet 巡演消息追踪",
     "stage": "watch",
-    "note": "保留 legacy 女团页和城市攻略模板，等待更明确信息。",
+    "note": "Red Velvet 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、曼谷 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Bangkok"
+      "首尔",
+      "东京",
+      "曼谷"
     ],
     "source": "Red Velvet official channel",
     "sourceUrl": "https://www.smtown.com/"
@@ -245,13 +245,13 @@
     "slug": "shinee-tour-radar",
     "artistSlug": "shinee",
     "artist": "SHINee",
-    "title": "SHINee Japan and Korea watch",
+    "title": "SHINee 巡演消息追踪",
     "stage": "watch",
-    "note": "优先监测日本 arena/dome 与韩国周年演出窗口。",
+    "note": "SHINee 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。首尔、东京、大阪 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Osaka"
+      "首尔",
+      "东京",
+      "大阪"
     ],
     "source": "SHINee official channel",
     "sourceUrl": "https://www.smtown.com/"
@@ -260,13 +260,13 @@
     "slug": "stayc-tour-radar-2",
     "artistSlug": "stayc",
     "artist": "STAYC",
-    "title": "STAYC Asia route watch",
+    "title": "STAYC 巡演消息追踪",
     "stage": "watch",
-    "note": "先把亚洲主要城市和票务路径监测起来，等待完整路线。",
+    "note": "STAYC 这一轮已经出现巡演风向，具体日期还在等下一次官宣。这一栏会先盯住 首尔、东京、曼谷 的官方入口和演出信号，日期一落地就会补进正式排期。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Bangkok"
+      "首尔",
+      "东京",
+      "曼谷"
     ],
     "source": "STAYC official channel",
     "sourceUrl": "https://www.instagram.com/stayc_highup/"
@@ -275,13 +275,13 @@
     "slug": "super-junior-tour-radar-2",
     "artistSlug": "super-junior",
     "artist": "SUPER JUNIOR",
-    "title": "SUPER JUNIOR Asia legacy watch",
+    "title": "SUPER JUNIOR 巡演消息追踪",
     "stage": "watch",
-    "note": "以亚洲主要市场和周年演出窗口为主。",
+    "note": "SUPER JUNIOR 这波巡演已经有了明显信号，只是还差最后一轮日期官宣。首尔、台北、曼谷 会是优先关注的方向，确认后会直接转入正式场次。",
     "regions": [
-      "Seoul",
-      "Taipei",
-      "Bangkok"
+      "首尔",
+      "台北",
+      "曼谷"
     ],
     "source": "SUPER JUNIOR official channel",
     "sourceUrl": "https://www.smtown.com/"
@@ -290,13 +290,13 @@
     "slug": "taemin-tour-radar",
     "artistSlug": "taemin",
     "artist": "Taemin",
-    "title": "Taemin solo routing watch",
+    "title": "Taemin 巡演消息追踪",
     "stage": "watch",
-    "note": "重点关注表演型 solo 常见的日本和首尔路线。",
+    "note": "Taemin 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、新加坡 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Singapore"
+      "首尔",
+      "东京",
+      "新加坡"
     ],
     "source": "Taemin official channel",
     "sourceUrl": "https://www.smtown.com/"
@@ -305,13 +305,13 @@
     "slug": "the-boyz-tour-radar",
     "artistSlug": "the-boyz",
     "artist": "THE BOYZ",
-    "title": "THE BOYZ Asia routing watch",
+    "title": "THE BOYZ 巡演消息追踪",
     "stage": "watch",
-    "note": "适合先监测 fancon、arena 和成员密集型内容需求。",
+    "note": "THE BOYZ 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、雅加达、曼谷 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Jakarta",
-      "Bangkok"
+      "首尔",
+      "雅加达",
+      "曼谷"
     ],
     "source": "THE BOYZ official channel",
     "sourceUrl": "https://www.theboyz.kr/"
@@ -320,13 +320,13 @@
     "slug": "triples-tour-radar-2",
     "artistSlug": "triples",
     "artist": "tripleS",
-    "title": "tripleS showcase-to-tour watch",
+    "title": "tripleS 巡演消息追踪",
     "stage": "watch",
-    "note": "先跟踪 show case、fan event 和台北/首尔场可能性。",
+    "note": "tripleS 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、台北、东京 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Taipei",
-      "Tokyo"
+      "首尔",
+      "台北",
+      "东京"
     ],
     "source": "tripleS official channel",
     "sourceUrl": "https://www.mod-haus.com/"
@@ -335,13 +335,13 @@
     "slug": "v-tour-radar",
     "artistSlug": "v",
     "artist": "V",
-    "title": "V showcase and arena watch",
+    "title": "V 巡演消息追踪",
     "stage": "watch",
-    "note": "以官方入口和媒体窗口为主，不在无明确信息时伪造日程。",
+    "note": "V 这一轮已经出现巡演风向，具体日期还在等下一次官宣。这一栏会先盯住 首尔、巴黎、东京 的官方入口和演出信号，日期一落地就会补进正式排期。",
     "regions": [
-      "Seoul",
-      "Paris",
-      "Tokyo"
+      "首尔",
+      "巴黎",
+      "东京"
     ],
     "source": "V official channel",
     "sourceUrl": "https://weverse.io/v"
@@ -350,13 +350,13 @@
     "slug": "wayv-tour-radar",
     "artistSlug": "wayv",
     "artist": "WayV",
-    "title": "WayV multilingual route watch",
+    "title": "WayV 巡演消息追踪",
     "stage": "watch",
-    "note": "适合先监测亚洲主要市场和中文用户关注的场次。",
+    "note": "WayV 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 澳门场、香港、曼谷 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Macau",
-      "Hong Kong",
-      "Bangkok"
+      "澳门场",
+      "香港",
+      "曼谷"
     ],
     "source": "WayV official channel",
     "sourceUrl": "https://www.smtown.com/"
@@ -365,13 +365,13 @@
     "slug": "zico-tour-radar",
     "artistSlug": "zico",
     "artist": "ZICO",
-    "title": "ZICO live and festival watch",
+    "title": "ZICO 巡演消息追踪",
     "stage": "watch",
-    "note": "适合作为 broader live 页面入口，先看 festival 再看独立演唱会。",
+    "note": "ZICO 的下一轮巡演消息已经开始升温，但完整日期还没有落地。这里会先盯 首尔、东京、曼谷 这些高频方向，等官宣下来再补进日历。",
     "regions": [
-      "Seoul",
-      "Tokyo",
-      "Bangkok"
+      "首尔",
+      "东京",
+      "曼谷"
     ],
     "source": "ZICO official channel",
     "sourceUrl": "https://weverse.io/zico"

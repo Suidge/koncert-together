@@ -12,6 +12,9 @@ git pull --ff-only origin "$BRANCH"
 pnpm install --frozen-lockfile
 pnpm sync:sources
 pnpm sync:images
+pnpm sync:event-images
+pnpm refresh:editorial
+pnpm redesign:visuals
 pnpm prepare:pages
 pnpm build
 
