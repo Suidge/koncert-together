@@ -19,7 +19,7 @@ export default async function ArtistsPage() {
         <p className="eyebrow">艺人目录</p>
         <h1>艺人主页与成员档案</h1>
         <p className="hero-text">
-          每个主页都会把成员档案、官方入口、已官宣场次和还在升温的巡演消息放在一起。想先补资料、看成员分工，还是直接盯下一场，这里都能顺着看下去。
+          每个主页都会把成员档案、官方入口、已官宣场次和还在升温的巡演消息放在一起。想先补成员资料、看现场分工，还是直接盯下一场，这里都能顺着看下去。
         </p>
       </section>
       <section className="artist-grid">

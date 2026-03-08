@@ -120,8 +120,8 @@ function buildArtistTagline(artist) {
 function buildArtistIntro(artist) {
   const focuses = artistFocus(artist);
   const templates = [
-    `想追 ${artist.name} 的现场，先把 ${focuses.join("、")} 看完，再决定哪一站更值得冲、哪个票档更适合下手，会稳很多。`,
-    `如果 ${artist.name} 已经进了你的下一场候选，这一页会把 ${focuses.join("、")} 收成一条顺手可看的线，省掉来回翻公告和返图的时间。`,
+    `想追 ${artist.name} 的现场，先把 ${focuses.join("、")} 看明白，再决定哪一站更值得冲、哪个票档更适合下手，通常会稳很多。`,
+    `如果 ${artist.name} 已经进了你的下一场候选，这一页会把 ${focuses.join("、")} 收成一条顺手可看的线，省掉来回翻公告、返图和场馆帖的时间。`,
     `看 ${artist.name} 的现场，最容易拉开体验差距的通常就是 ${focuses.join("、")}。这里会把这些重点和官方入口一起整理好。`,
     `从抢票优先级到场馆动线，${artist.name} 这一页会重点盯住 ${focuses.join("、")}。想少走弯路，先从这里看起基本不会错。`
   ];
@@ -129,14 +129,13 @@ function buildArtistIntro(artist) {
 }
 
 function refreshMemberProfiles(artist) {
+  const focus = artistFocus(artist)[0] ?? "主舞台正面、安可互动和返图区块";
   return (artist.members ?? []).map((member) => ({
     ...member,
     profile: [
-      `${member.name} 在现场最常被问到的看点，通常都会落在 ${memberRoleMap[member.role] ?? "返图区块、安可互动和最值得提前卡位的位置"}。`
-      ,
-      `如果你是冲着 ${member.name} 的舞台存在感去，这一位通常最值得先看 ${memberRoleMap[member.role] ?? "延伸台停留点、安可互动和镜头高频区"}。`
-      ,
-      `${member.name} 的现场魅力，通常会在 ${memberRoleMap[member.role] ?? "主舞台正面、互动段和高频返图区块"} 这些位置被放大得最明显。`
+      `${member.name} 在现场最常被讨论的亮点，通常都会落在 ${memberRoleMap[member.role] ?? "返图区块、安可互动和最值得提前卡位的位置"}。如果你会先存 fan-cam，这一位通常很容易成为重点。`,
+      `如果你是冲着 ${member.name} 的舞台存在感去，这一位通常最值得先看 ${memberRoleMap[member.role] ?? "延伸台停留点、安可互动和镜头高频区"}。和 ${focus} 一起看，会更容易判断哪一档票适合自己。`,
+      `${member.name} 的现场魅力，通常会在 ${memberRoleMap[member.role] ?? "主舞台正面、互动段和高频返图区块"} 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。`
     ][hashValue(`${artist.slug}-${member.slug}`) % 3]
   }));
 }

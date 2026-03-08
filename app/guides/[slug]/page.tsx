@@ -26,19 +26,26 @@ export default async function GuideDetailPage({ params }: Props) {
   const guide = guides.find((item) => item.slug === slug);
   if (!guide) notFound();
 
+  const categoryLabel =
+    guide.category === "ticketing"
+      ? "抢票指南"
+      : guide.category === "travel"
+        ? "出行准备"
+        : "粉圈常识";
+
   return (
     <main className="page-shell">
       <Header />
       <section className="detail-hero">
         <div className="detail-copy">
-          <p className="eyebrow">{guide.category}</p>
+          <p className="eyebrow">{categoryLabel}</p>
           <h1>{guide.title}</h1>
           <p className="hero-text">{guide.body}</p>
         </div>
       </section>
       <section className="detail-content single-column">
         <article className="detail-block">
-          <p className="eyebrow">Checklist</p>
+          <p className="eyebrow">重点速记</p>
           <h2>重点记住</h2>
           <ul className="checklist">
             {guide.bullets.map((item) => (

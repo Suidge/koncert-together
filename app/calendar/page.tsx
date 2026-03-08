@@ -22,7 +22,7 @@ export default async function CalendarPage() {
           已经落到日期的正式场次和还在等完整官宣的巡演消息，会在这里分开整理。你可以先锁定确定排期，也可以顺手盯住下一轮最可能落地的大场。
         </p>
       </section>
-      <Suspense fallback={<section className="calendar-hero">正在加载筛选器…</section>}>
+      <Suspense fallback={<section className="calendar-hero">筛选器加载中…</section>}>
         <CalendarBrowser artists={artists} events={events} plans={plans} />
       </Suspense>
     </main>

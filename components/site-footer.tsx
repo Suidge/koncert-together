@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div>
         <strong>Koncert Together</strong>
-        <p>把官宣排期、场馆经验、成员档案和中文观演信息整理在一起，方便下一场更快做决定，也少踩一些老坑。</p>
+        <p>把巡演排期、成员档案、场馆经验和中文观演提醒整理在一起，方便你更快判断哪一场值得冲、哪一档票更适合自己。</p>
       </div>
       <nav className="footer-nav">
         <Link href="/calendar">巡演日历</Link>

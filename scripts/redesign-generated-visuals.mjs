@@ -92,10 +92,10 @@ function artistSvg(artist) {
   const mid = tint(artist.accent, 0.3);
   const dark = shade(artist.accent, 0.4);
   const glow = tint(artist.accent, 0.86);
-  const nameLines = wrapText(artist.name, artist.name.length > 14 ? 10 : 12, 2);
-  const nameSize = artist.name.length > 16 ? 108 : artist.name.length > 10 ? 126 : 144;
-  const subtitle = [artist.nameKo, artist.fandom && `${artist.fandom} fan guide`, artist.agency].filter(Boolean).slice(0, 2).join("  •  ");
-  const metaLine = [artist.memberCount ? `${artist.memberCount} members` : "", artist.debutYear ?? ""].filter(Boolean).join("  •  ");
+  const nameLines = wrapText(artist.name, artist.name.length > 14 ? 11 : 13, 2);
+  const nameSize = artist.name.length > 16 ? 98 : artist.name.length > 10 ? 112 : 126;
+  const subtitle = [artist.nameKo, artist.fandom ? `fan name ${artist.fandom}` : "", artist.agency].filter(Boolean).slice(0, 2).join("  •  ");
+  const metaLine = [artist.memberCount ? `${artist.memberCount} members` : "", artist.debutYear ?? "", artist.origin ?? ""].filter(Boolean).join("  •  ");
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -104,24 +104,30 @@ function artistSvg(artist) {
       <stop offset="0.55" stop-color="${mid}"/>
       <stop offset="1" stop-color="${dark}"/>
     </linearGradient>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(890 280) rotate(90) scale(360 360)">
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(926 264) rotate(90) scale(420 420)">
       <stop stop-color="${glow}" stop-opacity="0.85"/>
       <stop offset="1" stop-color="${glow}" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="panel" x1="92" y1="918" x2="1098" y2="1364" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(19,16,16,0.22)"/>
+      <stop offset="1" stop-color="rgba(19,16,16,0.34)"/>
+    </linearGradient>
   </defs>
   <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
-  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="rgba(255,247,239,0.26)" stroke-width="2"/>
-  <circle cx="890" cy="280" r="360" fill="url(#halo)"/>
-  <circle cx="268" cy="268" r="198" fill="rgba(255,247,239,0.10)"/>
-  <path d="M94 1152C234 980 402 874 612 874C786 874 954 944 1102 1098" stroke="rgba(255,247,239,0.18)" stroke-width="18" stroke-linecap="round"/>
-  <path d="M132 1264C286 1128 452 1068 612 1068C760 1068 920 1116 1060 1232" stroke="rgba(255,247,239,0.12)" stroke-width="10" stroke-linecap="round"/>
-  <text x="96" y="126" fill="#FFF7EF" font-size="24" font-family="Arial, sans-serif" letter-spacing="5">KONCERT TOGETHER</text>
-  <text x="96" y="206" fill="#FFF7EF" font-size="22" font-family="Arial, sans-serif" opacity="0.86" letter-spacing="4">ARTIST FILE</text>
-  <rect x="96" y="1134" width="1008" height="216" rx="34" fill="rgba(18,15,14,0.16)"/>
-  ${renderLines(nameLines, 96, 990, nameSize, 132, 'font-weight="700"')}
-  <text x="96" y="1226" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" opacity="0.92">${escapeXml(subtitle)}</text>
-  <text x="96" y="1284" fill="#FFF7EF" font-size="24" font-family="Arial, sans-serif" opacity="0.84">${escapeXml(metaLine)}</text>
-  <text x="96" y="1328" fill="#FFF7EF" font-size="22" font-family="Arial, sans-serif" opacity="0.72">${escapeXml(artist.tagline ?? "K-pop artist guide")}</text>
+  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
+  <circle cx="926" cy="264" r="420" fill="url(#halo)"/>
+  <path d="M168 288C304 132 526 88 742 154C924 210 1030 332 1090 474" stroke="rgba(255,247,239,0.12)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M88 956C222 818 410 742 612 742C796 742 964 804 1108 930" stroke="rgba(255,247,239,0.16)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M118 1046C290 942 444 900 622 900C808 900 954 944 1082 1032" stroke="rgba(255,247,239,0.12)" stroke-width="8" stroke-linecap="round"/>
+  <rect x="92" y="98" width="252" height="54" rx="27" fill="rgba(255,247,239,0.12)"/>
+  <text x="218" y="132" text-anchor="middle" fill="#FFF7EF" font-size="21" font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="3">KONCERT TOGETHER</text>
+  <text x="98" y="224" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.84" letter-spacing="6">ARTIST GUIDE</text>
+  ${renderLines(nameLines, 96, 1044, nameSize, 122, 'font-weight="700"')}
+  <rect x="92" y="1128" width="1014" height="238" rx="34" fill="url(#panel)"/>
+  <text x="128" y="1194" fill="#FFF7EF" font-size="24" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.92">${escapeXml(subtitle)}</text>
+  <text x="128" y="1248" fill="#FFF7EF" font-size="22" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.8">${escapeXml(metaLine)}</text>
+  <text x="128" y="1318" fill="#FFF7EF" font-size="48" font-family="Georgia, serif" opacity="0.94">${escapeXml(artist.tagline ?? "K-pop artist guide")}</text>
+  <text x="128" y="1356" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.7">tour notes • member profile • fandom entry</text>
 </svg>`;
 }
 
@@ -130,12 +136,14 @@ function eventSvg(event) {
   const light = tint(accent, 0.74);
   const mid = tint(accent, 0.28);
   const dark = shade(accent, 0.42);
+  const soft = tint(accent, 0.88);
   const month = new Intl.DateTimeFormat("en", { month: "short", timeZone: event.timezone }).format(new Date(event.startDate));
   const day = new Intl.DateTimeFormat("en", { day: "2-digit", timeZone: event.timezone }).format(new Date(event.startDate));
-  const artistLines = wrapText(event.artist, event.artist.length > 14 ? 10 : 12, 2);
-  const cityLines = wrapText(event.city, 12, 2);
-  const venueLines = wrapText(event.venue, 24, 2);
-  const sourceLine = event.tourName ?? event.source ?? "Official schedule";
+  const artistLines = wrapText(event.artist, event.artist.length > 14 ? 11 : 13, 2);
+  const cityLines = wrapText(event.city, 14, 2);
+  const venueLines = wrapText(event.venue, 28, 2);
+  const sourceLine = event.tourName ?? "Official schedule";
+  const tagLine = event.tags.slice(0, 2).join("  •  ");
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -144,22 +152,31 @@ function eventSvg(event) {
       <stop offset="0.58" stop-color="${mid}"/>
       <stop offset="1" stop-color="${dark}"/>
     </linearGradient>
+    <linearGradient id="panel" x1="88" y1="956" x2="1110" y2="1368" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(20,16,16,0.18)"/>
+      <stop offset="1" stop-color="rgba(20,16,16,0.36)"/>
+    </linearGradient>
   </defs>
   <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
   <rect x="66" y="70" width="1068" height="1360" rx="42" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
-  <circle cx="952" cy="246" r="210" fill="rgba(255,247,239,0.15)"/>
-  <rect x="94" y="102" width="152" height="186" rx="32" fill="rgba(18,15,14,0.18)"/>
-  <text x="170" y="174" text-anchor="middle" fill="#FFF7EF" font-size="34" font-family="Arial, sans-serif" letter-spacing="4">${month.toUpperCase()}</text>
-  <text x="170" y="246" text-anchor="middle" fill="#FFF7EF" font-size="82" font-family="Georgia, serif" font-weight="700">${day}</text>
-  <text x="92" y="408" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" letter-spacing="5">LIVE DATE</text>
-  ${renderLines(artistLines, 92, 544, 110, 116, 'font-weight="700"')}
-  ${renderLines(cityLines, 92, 732, 86, 92)}
-  <text x="92" y="874" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" opacity="0.92">${escapeXml(event.country)}</text>
-  ${renderLines(venueLines, 92, 948, 34, 42, 'font-family="Arial, sans-serif"')}
-  <text x="92" y="1028" fill="#FFF7EF" font-size="26" font-family="Arial, sans-serif" opacity="0.82">${escapeXml(sourceLine)}</text>
-  <path d="M92 982H1108" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
-  <text x="92" y="1112" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif">${escapeXml(event.tags.slice(0, 2).join("  •  "))}</text>
-  <text x="92" y="1308" fill="#FFF7EF" font-size="26" font-family="Arial, sans-serif" opacity="0.84">Koncert Together</text>
+  <circle cx="962" cy="236" r="236" fill="rgba(255,247,239,0.12)"/>
+  <path d="M184 154L1018 612" stroke="rgba(255,247,239,0.08)" stroke-width="84" stroke-linecap="round"/>
+  <path d="M86 854C254 738 458 688 660 712C854 734 1006 810 1112 902" stroke="rgba(255,247,239,0.14)" stroke-width="16" stroke-linecap="round"/>
+  <rect x="88" y="100" width="166" height="194" rx="34" fill="rgba(20,16,16,0.18)"/>
+  <text x="171" y="174" text-anchor="middle" fill="#FFF7EF" font-size="30" font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="4">${month.toUpperCase()}</text>
+  <text x="171" y="248" text-anchor="middle" fill="#FFF7EF" font-size="86" font-family="Georgia, serif" font-weight="700">${day}</text>
+  <rect x="92" y="344" width="238" height="52" rx="26" fill="rgba(255,247,239,0.11)"/>
+  <text x="211" y="377" text-anchor="middle" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="4">LIVE SCHEDULE</text>
+  ${renderLines(artistLines, 92, 528, 108, 112, 'font-weight="700"')}
+  ${renderLines(cityLines, 92, 724, 84, 88)}
+  <text x="94" y="830" fill="${soft}" font-size="30" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.96">${escapeXml(event.country)}</text>
+  <rect x="88" y="968" width="1022" height="356" rx="36" fill="url(#panel)"/>
+  <text x="126" y="1040" fill="#FFF7EF" font-size="18" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.7" letter-spacing="4">VENUE</text>
+  ${renderLines(venueLines, 126, 1100, 42, 48, 'font-family="Helvetica Neue, Arial, sans-serif" font-weight="600"')}
+  <text x="126" y="1188" fill="#FFF7EF" font-size="18" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.7" letter-spacing="4">TOUR</text>
+  <text x="126" y="1234" fill="#FFF7EF" font-size="30" font-family="Georgia, serif" opacity="0.95">${escapeXml(sourceLine)}</text>
+  <text x="126" y="1302" fill="#FFF7EF" font-size="22" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.78">${escapeXml(tagLine)}</text>
+  <text x="126" y="1362" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.68">Koncert Together • concert note</text>
 </svg>`;
 }
 

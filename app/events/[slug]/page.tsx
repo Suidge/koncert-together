@@ -113,14 +113,14 @@ export default async function EventDetailPage({ params }: Props) {
           ) : null}
         </article>
         <article className="detail-block">
-          <p className="eyebrow">官方来源</p>
-          <h2>来源与可信度</h2>
-          <p>这里优先保留官方入口和可复核来源，方便你在抢票前快速确认消息是不是已经官宣、有没有临时变动。</p>
-          {event.sourceConfidence ? <p className="detail-note">来源层级: {event.sourceConfidence}</p> : null}
+          <p className="eyebrow">核对入口</p>
+          <h2>官宣与票务入口</h2>
+          <p>这里优先保留官宣页面和可复核入口，方便你在抢票前快速确认消息有没有更新、购票页能不能正常打开。</p>
+          {event.sourceConfidence ? <p className="detail-note">来源类型: {event.sourceConfidence === "official" ? "官方入口" : event.sourceConfidence === "partner" ? "合作票务" : "场馆页面"}</p> : null}
           {sourceStatus ? (
             <>
-              <p className="detail-note">最近检查: {sourceStatus.checkedAt ? formatShortDate(sourceStatus.checkedAt) : "未检查"}</p>
-              <p className="detail-note">来源状态: {sourceStatus.ok ? `正常 (${sourceStatus.status})` : `需复查${sourceStatus.status ? ` (${sourceStatus.status})` : ""}`}</p>
+              <p className="detail-note">最近核对: {sourceStatus.checkedAt ? formatShortDate(sourceStatus.checkedAt) : "尚未核对"}</p>
+              <p className="detail-note">页面状态: {sourceStatus.ok ? "当前可正常打开" : "当前访问异常，建议优先回到艺人官方主页确认"}</p>
             </>
           ) : null}
           {event.sourceUrl ? (

@@ -13,10 +13,10 @@ export default function GuidesPage() {
     <main className="page-shell">
       <Header />
       <section className="calendar-hero">
-        <p className="eyebrow">Guides</p>
+        <p className="eyebrow">指南库</p>
         <h1>观演与入坑指南</h1>
         <p className="hero-text">
-          这里优先整理最常用、最容易影响决策的内容：抢票、选座、跨城观演、场馆速查和 fandom 入门。
+          这里优先整理最常用、也最容易决定体验上限的内容: 抢票、选座、跨城观演、场馆速查和 fandom 入门。
         </p>
       </section>
       <section className="content-grid">

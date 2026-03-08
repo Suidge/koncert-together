@@ -17,7 +17,7 @@ export default function CommunityPage() {
         <p className="eyebrow">粉圈现场</p>
         <h1>Fandom 社区精选</h1>
         <p className="hero-text">
-          这里收录最值得保存的同行信息、应援协作和场馆经验。看完一轮，你大概就会知道下一场想跟谁一起去、哪些准备得先做。
+          这里收录最值得保存的同行信息、应援协作和场馆经验。看完一轮，通常就能判断下一场适合跟谁一起去、哪些准备要先做。
         </p>
         <div className="hero-actions">
           <Link className="primary-button" href="/community/new">

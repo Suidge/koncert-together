@@ -6,22 +6,28 @@
       <stop offset="0.55" stop-color="#ad9cab"/>
       <stop offset="1" stop-color="#534451"/>
     </linearGradient>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(890 280) rotate(90) scale(360 360)">
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(926 264) rotate(90) scale(420 420)">
       <stop stop-color="#efebee" stop-opacity="0.85"/>
       <stop offset="1" stop-color="#efebee" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="panel" x1="92" y1="918" x2="1098" y2="1364" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(19,16,16,0.22)"/>
+      <stop offset="1" stop-color="rgba(19,16,16,0.34)"/>
+    </linearGradient>
   </defs>
   <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
-  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="rgba(255,247,239,0.26)" stroke-width="2"/>
-  <circle cx="890" cy="280" r="360" fill="url(#halo)"/>
-  <circle cx="268" cy="268" r="198" fill="rgba(255,247,239,0.10)"/>
-  <path d="M94 1152C234 980 402 874 612 874C786 874 954 944 1102 1098" stroke="rgba(255,247,239,0.18)" stroke-width="18" stroke-linecap="round"/>
-  <path d="M132 1264C286 1128 452 1068 612 1068C760 1068 920 1116 1060 1232" stroke="rgba(255,247,239,0.12)" stroke-width="10" stroke-linecap="round"/>
-  <text x="96" y="126" fill="#FFF7EF" font-size="24" font-family="Arial, sans-serif" letter-spacing="5">KONCERT TOGETHER</text>
-  <text x="96" y="206" fill="#FFF7EF" font-size="22" font-family="Arial, sans-serif" opacity="0.86" letter-spacing="4">ARTIST FILE</text>
-  <rect x="96" y="1134" width="1008" height="216" rx="34" fill="rgba(18,15,14,0.16)"/>
-  <text x="96" y="990" fill="#FFF7EF" font-size="144" font-family="Georgia, serif" font-weight="700"><tspan x="96" dy="0">IU</tspan></text>
-  <text x="96" y="1226" fill="#FFF7EF" font-size="28" font-family="Arial, sans-serif" opacity="0.92">아이유  •  UAENA fan guide</text>
-  <text x="96" y="1284" fill="#FFF7EF" font-size="24" font-family="Arial, sans-serif" opacity="0.84">1 members  •  2008</text>
-  <text x="96" y="1328" fill="#FFF7EF" font-size="22" font-family="Arial, sans-serif" opacity="0.72">Solo / 体育场 现场情报</text>
+  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
+  <circle cx="926" cy="264" r="420" fill="url(#halo)"/>
+  <path d="M168 288C304 132 526 88 742 154C924 210 1030 332 1090 474" stroke="rgba(255,247,239,0.12)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M88 956C222 818 410 742 612 742C796 742 964 804 1108 930" stroke="rgba(255,247,239,0.16)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M118 1046C290 942 444 900 622 900C808 900 954 944 1082 1032" stroke="rgba(255,247,239,0.12)" stroke-width="8" stroke-linecap="round"/>
+  <rect x="92" y="98" width="252" height="54" rx="27" fill="rgba(255,247,239,0.12)"/>
+  <text x="218" y="132" text-anchor="middle" fill="#FFF7EF" font-size="21" font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="3">KONCERT TOGETHER</text>
+  <text x="98" y="224" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.84" letter-spacing="6">ARTIST GUIDE</text>
+  <text x="96" y="1044" fill="#FFF7EF" font-size="126" font-family="Georgia, serif" font-weight="700"><tspan x="96" dy="0">IU</tspan></text>
+  <rect x="92" y="1128" width="1014" height="238" rx="34" fill="url(#panel)"/>
+  <text x="128" y="1194" fill="#FFF7EF" font-size="24" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.92">아이유  •  fan name UAENA</text>
+  <text x="128" y="1248" fill="#FFF7EF" font-size="22" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.8">1 members  •  2008  •  South Korea</text>
+  <text x="128" y="1318" fill="#FFF7EF" font-size="48" font-family="Georgia, serif" opacity="0.94">Solo / 体育场 现场情报</text>
+  <text x="128" y="1356" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.7">tour notes • member profile • fandom entry</text>
 </svg>

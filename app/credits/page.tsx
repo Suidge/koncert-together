@@ -19,7 +19,7 @@ export default async function CreditsPage() {
       <Header />
       <section className="detail-hero compact-hero">
         <div className="detail-copy">
-          <p className="eyebrow">Image Credits</p>
+          <p className="eyebrow">图片来源</p>
           <h1>图片署名</h1>
           <p className="hero-text">
             外部图片只接入许可清晰、可本地缓存的来源。其余艺人与活动仍保留站内生成视觉作为兜底。
@@ -30,7 +30,7 @@ export default async function CreditsPage() {
       <section className="content-grid">
         {sourcedArtists.map((artist) => (
           <article className="detail-block" key={artist.slug}>
-            <p className="eyebrow">Artist</p>
+            <p className="eyebrow">艺人</p>
             <h2>{artist.name}</h2>
             <p>
               作者: {artist.imageAttribution?.creator}

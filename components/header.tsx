@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="site-header">
       <Link className="brand" href="/">
-        <span className="brand-kicker">Global K-pop Fan Guide</span>
+        <span className="brand-kicker">中文 K-pop 观演指南</span>
         <strong>Koncert Together</strong>
       </Link>
       <nav className="nav">
