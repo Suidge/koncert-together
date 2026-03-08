@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { loadDedupState, saveDedupState, isDuplicateUrl, markDownloaded } from "./image-dedup.mjs";
 
 const root = process.cwd();
 const dataDir = path.join(root, "data");
@@ -121,29 +122,44 @@ async function resolveSource(source) {
 
 async function main() {
   const [registry, events] = await Promise.all([readJson(registryPath), readJson(eventsPath)]);
+  const dedupState = await loadDedupState();
   const eventBySlug = new Map(events.map((event) => [event.slug, event]));
 
   for (const source of registry) {
-    const event = eventBySlug.get(source.eventSlug);
-    if (!event) {
-      throw new Error(`Unknown event slug in event image registry: ${source.eventSlug}`);
+    try {
+      const event = eventBySlug.get(source.eventSlug);
+      if (!event) {
+        throw new Error(`Unknown event slug in event image registry: ${source.eventSlug}`);
+      }
+
+      const resolved = await resolveSource(source);
+
+      if (await isDuplicateUrl(dedupState, resolved.url)) {
+        console.warn(`Skipping duplicate URL: ${resolved.url}`);
+        continue;
+      }
+
+      const outputPath = path.join(publicDir, source.targetPath.replace(/^\//, ""));
+      await downloadFile(resolved.url, outputPath);
+
+      markDownloaded(dedupState, resolved.url, source.targetPath, source.imageType || "poster");
+
+      event.heroImage = source.targetPath;
+      event.imageType = source.imageType || "poster";
+      event.heroImageAttribution = {
+        provider: source.provider,
+        creator: source.creator,
+        license: source.license,
+        sourceUrl: source.officialPageUrl,
+        sourceLabel: source.label ?? resolved.sourceLabel
+      };
+    } catch (err) {
+      console.error(`Failed to fetch event image for ${source.eventSlug}:`, err.message);
     }
-
-    const resolved = await resolveSource(source);
-    const outputPath = path.join(publicDir, source.targetPath.replace(/^\//, ""));
-    await downloadFile(resolved.url, outputPath);
-
-    event.heroImage = source.targetPath;
-    event.heroImageAttribution = {
-      provider: source.provider,
-      creator: source.creator,
-      license: source.license,
-      sourceUrl: source.officialPageUrl,
-      sourceLabel: source.label ?? resolved.sourceLabel
-    };
   }
 
   await writeJson(eventsPath, events);
+  await saveDedupState(dedupState);
 
   console.log(
     JSON.stringify(

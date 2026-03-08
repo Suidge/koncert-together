@@ -1,0 +1,26 @@
+[
+  {
+    "artistSlug": "aespa",
+    "type": "fanclub_gallery",
+    "label": "aespa Fan Gallery (High Quality)",
+    "targetPath": "/media/artists/aespa-live.jpg",
+    "sourceUrl": "https://weverse.io/aespa/media",
+    "assetUrl": "https://phinf.wevpaws.com/weverse/aespa/live_sample.jpg",
+    "provider": "MY Fanclub",
+    "creator": "Fanclub Contributor",
+    "license": "Editorial / Fan use only",
+    "imageType": "live"
+  },
+  {
+    "artistSlug": "seventeen",
+    "type": "fanclub_gallery",
+    "label": "SEVENTEEN Fan Gallery",
+    "targetPath": "/media/artists/seventeen-live.jpg",
+    "sourceUrl": "https://weverse.io/seventeen/media",
+    "assetUrl": "https://phinf.wevpaws.com/weverse/seventeen/live_sample.jpg",
+    "provider": "CARAT Fanclub",
+    "creator": "Fanclub Contributor",
+    "license": "Editorial / Fan use only",
+    "imageType": "live"
+  }
+]

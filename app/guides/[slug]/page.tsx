@@ -108,12 +108,45 @@ export default async function GuideDetailPage({ params }: Props) {
             </ul>
           </article>
         ) : null}
-        {guide.practical?.links?.length ? (
+        {guide.practical?.stationExits?.length ? (
           <article className="detail-block">
-            <p className="eyebrow">地图与官方链接</p>
+            <p className="eyebrow">详细站口</p>
+            <h2>重点换乘与出站提醒</h2>
+            <ul className="checklist">
+              {guide.practical.stationExits.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </article>
+        ) : null}
+        {guide.practical?.zones?.length ? (
+          <article className="detail-block">
+            <p className="eyebrow">核心区域</p>
+            <h2>场馆周围的集散与停留点</h2>
+            <ul className="checklist">
+              {guide.practical.zones.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </article>
+        ) : null}
+        {guide.practical?.nearbyHotels?.length ? (
+          <article className="detail-block">
+            <p className="eyebrow">周边住宿</p>
+            <h2>推荐的留宿与接驳区域</h2>
+            <ul className="checklist">
+              {guide.practical.nearbyHotels.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </article>
+        ) : null}
+        {guide.practical?.mapLinks?.length ? (
+          <article className="detail-block">
+            <p className="eyebrow">直达导航</p>
             <h2>把这些入口先存起来</h2>
             <div className="link-row">
-              {guide.practical.links.map((item) => (
+              {guide.practical.mapLinks.map((item) => (
                 <a className="ticket-link" href={item.href} key={item.href} rel="noreferrer" target="_blank">
                   {item.label}
                 </a>

@@ -26,7 +26,18 @@
   {
     "artistSlug": "nmixx",
     "sourceType": "jype_latest_notice",
-    "url": "https://nmixx.jype.com/",
     "provider": "NMIXX Official"
+  },
+  {
+    "artistSlug": "aespa",
+    "sourceType": "sm_artist_notice",
+    "url": "https://www.smtown.com/artist/news/10811",
+    "provider": "SMTOWN Official"
+  },
+  {
+    "artistSlug": "blackpink",
+    "sourceType": "yg_artist_notice",
+    "url": "https://www.ygfamily.com/artist/Notice.asp?LANGDIV=K&ATYPE=2&ARTIDX=70",
+    "provider": "YG Family Official"
   }
 ]

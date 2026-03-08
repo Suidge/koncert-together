@@ -95,6 +95,13 @@ export type GuideItem = {
     stayTips?: string[];
     foodTips?: string[];
     convenienceTips?: string[];
+    stationExits?: string[];
+    zones?: string[];
+    nearbyHotels?: string[];
+    mapLinks?: Array<{
+      label: string;
+      href: string;
+    }>;
     links?: Array<{
       label: string;
       href: string;

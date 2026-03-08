@@ -2820,5 +2820,44 @@
         "type": "official"
       }
     ]
+  },
+  {
+    "id": "stray-kids-seoul-2026",
+    "artist": "Stray Kids",
+    "artistSlug": "stray-kids",
+    "slug": "stray-kids-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "KSPO Dome",
+    "startDate": "2026-09-10T19:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "Stray Kids official channel",
+    "sourceUrl": "https://straykids.jype.com/Default",
+    "sourceConfidence": "official",
+    "tags": [
+      "World Tour",
+      "韩国场",
+      "高需求"
+    ],
+    "title": "Stray Kids in Seoul",
+    "tourName": "Stray Kids Tour Watch",
+    "description": "Stray Kids 首尔场的票务竞争极其激烈，务必提前准备好多票务渠道。本次巡演在 KSPO Dome 将启用新的四面台设计。",
+    "purchaseHint": "Fanclub 优先购票非常关键，减少临场切换平台和支付方式会更稳。",
+    "priceNote": "优先比较 Floor、Stand 和福利票规则。",
+    "travelNote": "散场后优先回主干地铁线，不要在园区里边走边临时找路。",
+    "checklist": [
+      "确认实名规则",
+      "确认预售认证时间",
+      "准备支付方式"
+    ],
+    "heroImage": "/media/events/stray-kids-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Stray Kids Official",
+        "href": "https://straykids.jype.com/Default",
+        "type": "official"
+      }
+    ]
   }
 ]

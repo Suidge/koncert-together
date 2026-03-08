@@ -32,6 +32,27 @@
         "把最近的便利店和出站补给点提前存在地图里，演前买水和简单补给会快很多",
         "应援物、充电线和一次性雨具这类临时补件，优先在进园区前解决"
       ],
+      "stationExits": [
+        "奥林匹克公园站 3 号出口距离场馆主路口最近",
+        "演出日散场如果前往江南方向，请优先往 9 号线入口移动，别挤 5 号线",
+        "雨天或极寒天气，从 3 号出口出站后可以经部分室内走廊进入公园前侧"
+      ],
+      "zones": [
+        "正门汇合区：最适合演出前认亲与交换物资，但不适合长时不消费停留",
+        "北侧林荫道：适合开场前三小时乘凉休息或团队集结",
+        "地铁站外圈商铺：适合快速填饱肚子，通常高峰期均需要等位超 30 分钟"
+      ],
+      "nearbyHotels": [
+        "蚕室乐天世界周边酒店：搭乘地铁无需换乘，生活机能强",
+        "松坡区厅周边商务酒店：性价比较高，打车回酒店起步价即可抵达",
+        "新川方向留宿：适合计划在演出后聚会吃烤肉的群体"
+      ],
+      "mapLinks": [
+        { "label": "奥林匹克公园 3 号口导航", "href": "https://map.naver.com/" },
+        { "label": "官方场馆信息", "href": "https://www.ksponco.or.kr/olympicparkeng/" },
+        { "label": "Google Maps: KSPO Dome", "href": "https://www.google.com/maps/search/KSPO+Dome" },
+        { "label": "Google Maps: Olympic Park hotels", "href": "https://www.google.com/maps/search/hotels+near+Olympic+Park+Seoul" }
+      ],
       "links": [
         { "label": "官方场馆信息", "href": "https://www.ksponco.or.kr/olympicparkeng/" },
         { "label": "Google Maps: KSPO Dome", "href": "https://www.google.com/maps/search/KSPO+Dome" },

@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { loadDedupState, saveDedupState, isDuplicateUrl, markDownloaded } from "./image-dedup.mjs";
 
 const root = process.cwd();
 const dataDir = path.join(root, "data");
@@ -178,6 +179,8 @@ async function main() {
     readJson(eventsPath)
   ]);
 
+  const dedupState = await loadDedupState();
+
   const artistBySlug = new Map(artists.map((artist) => [artist.slug, artist]));
 
   for (const artist of artists) {
@@ -192,25 +195,35 @@ async function main() {
   }
 
   for (const source of registry) {
-    const resolved = await resolveSource(source);
-    const outputPath = path.join(publicDir, source.targetPath.replace(/^\//, ""));
-    await downloadFile(resolved.url, outputPath);
-    await new Promise((resolve) => setTimeout(resolve, 1200));
+    try {
+      const resolved = await resolveSource(source);
 
-    const artist = artistBySlug.get(source.artistSlug);
-    if (!artist) {
-      throw new Error(`Unknown artist slug in image registry: ${source.artistSlug}`);
-    }
+      if (await isDuplicateUrl(dedupState, resolved.url)) {
+        console.warn(`Skipping duplicate URL: ${resolved.url}`);
+        continue;
+      }
 
-    artist.coverImage = source.targetPath;
-    artist.heroImage = source.targetPath;
-    artist.imageAttribution = {
-      provider: source.provider,
-      creator: source.creator || resolved.creator || source.provider,
-      license: source.license || resolved.license || "See source",
-      sourceUrl: source.officialPageUrl || source.sourceUrl,
-      sourceLabel: source.label || source.sourceLabel || resolved.sourceLabel
-    };
+      const outputPath = path.join(publicDir, source.targetPath.replace(/^\//, ""));
+      await downloadFile(resolved.url, outputPath);
+      await new Promise((resolve) => setTimeout(resolve, 1200));
+
+      markDownloaded(dedupState, resolved.url, source.targetPath, source.imageType || "profile");
+
+      const artist = artistBySlug.get(source.artistSlug);
+      if (!artist) {
+        throw new Error(`Unknown artist slug in image registry: ${source.artistSlug}`);
+      }
+
+      artist.coverImage = source.targetPath;
+      artist.heroImage = source.targetPath;
+      artist.imageType = source.imageType || "profile";
+      artist.imageAttribution = {
+        provider: source.provider,
+        creator: source.creator || resolved.creator || source.provider,
+        license: source.license || resolved.license || "See source",
+        sourceUrl: source.officialPageUrl || source.sourceUrl,
+        sourceLabel: source.label || source.sourceLabel || resolved.sourceLabel
+      };
 
     for (const event of events) {
       if (event.artistSlug === source.artistSlug || event.artist === artist.name) {
@@ -223,11 +236,15 @@ async function main() {
         }
       }
     }
+    } catch (err) {
+      console.error(`Failed to process official image source ${source.label}:`, err.message);
+    }
   }
 
   await Promise.all([
     writeJson(artistsPath, artists),
-    writeJson(eventsPath, events)
+    writeJson(eventsPath, events),
+    saveDedupState(dedupState)
   ]);
 
   console.log(

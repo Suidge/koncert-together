@@ -60,11 +60,51 @@ function extractJypeLatestNotice(html) {
   };
 }
 
+function extractGenericNotice(html, sourceUrl) {
+  const titleMatch = html.match(/<title>([^<]+)<\/title>/i) || html.match(/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)/i);
+  const imageMatch = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i);
+  
+  if (!titleMatch) return null;
+  const title = decodeHtml(titleMatch[1]).replace(/\s+/g, " ").trim();
+  const relevant = /(tour|fanmeeting|concert|showcase|live|world tour|teaser)/i.test(title);
+  
+  return {
+    title,
+    publishedAt: new Date().toISOString(),
+    imageUrl: imageMatch ? decodeHtml(imageMatch[1]) : null,
+    relevant
+  };
+}
+
 async function resolveSource(source) {
   const html = await fetchHtml(source.url);
 
   if (source.sourceType === "jype_latest_notice") {
     const latest = extractJypeLatestNotice(html);
+    if (!latest) {
+      return {
+        artistSlug: source.artistSlug,
+        provider: source.provider,
+        sourceUrl: source.url,
+        checkedAt: new Date().toISOString(),
+        title: null,
+        publishedAt: null,
+        imageUrl: null,
+        relevant: false
+      };
+    }
+
+    return {
+      artistSlug: source.artistSlug,
+      provider: source.provider,
+      sourceUrl: source.url,
+      checkedAt: new Date().toISOString(),
+      ...latest
+    };
+  }
+
+  if (source.sourceType === "sm_artist_notice" || source.sourceType === "yg_artist_notice" || source.sourceType === "generic") {
+    const latest = extractGenericNotice(html, source.url);
     if (!latest) {
       return {
         artistSlug: source.artistSlug,

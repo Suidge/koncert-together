@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
 ROOT_DIR="${ROOT_DIR:-$(cd "$(dirname "$0")/.." && pwd)}"
 BRANCH="${BRANCH:-main}"
 COMMIT_MESSAGE="${COMMIT_MESSAGE:-chore: refresh pages content}"
+
+trap 'echo "[ALERT] Error occurred during refresh on line $LINENO. (Webhook trigger goes here)"' ERR
+
 
 cd "$ROOT_DIR"
 
@@ -14,6 +16,7 @@ pnpm sync:sources
 pnpm sync:official-updates
 pnpm sync:images
 pnpm sync:event-images
+pnpm sync:fanclub-images
 pnpm sync:venue-guides
 pnpm refresh:editorial
 pnpm redesign:visuals
