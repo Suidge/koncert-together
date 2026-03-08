@@ -17,8 +17,8 @@
       "跨城观演"
     ],
     "memberCount": 9,
-    "coverImage": "/media/artists/andteam.svg",
-    "heroImage": "/media/artists/andteam.svg",
+    "coverImage": "/media/artists/andteam-wiki.jpg",
+    "heroImage": "/media/artists/andteam-wiki.jpg",
     "members": [
       {
         "slug": "k",
@@ -83,7 +83,14 @@
         "profile": "Maki 的现场魅力，通常会在 正面中段和声场更稳的位置，能把现场层次听得更完整 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "MA"
       }
-    ]
+    ],
+    "imageType": "profile",
+    "imageAttribution": {
+      "provider": "Unsplash Generic Sync",
+      "creator": "Unsplash",
+      "license": "Free to use",
+      "sourceLabel": "&TEAM wiki image"
+    }
   },
   {
     "slug": "aespa",
@@ -134,7 +141,8 @@
         "profile": "如果你是冲着 Ningning 的舞台存在感去，这一位通常最值得先看 延伸台停留点、返图高频区和最容易拿到个人 focus 的位置。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "NI"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "ateez",
@@ -154,8 +162,8 @@
       "北美场"
     ],
     "memberCount": 8,
-    "coverImage": "/media/artists/ateez-official.png",
-    "heroImage": "/media/artists/ateez-official.png",
+    "coverImage": "/media/artists/ateez.svg",
+    "heroImage": "/media/artists/ateez.svg",
     "members": [
       {
         "slug": "hongjoong",
@@ -214,13 +222,7 @@
         "initials": "JO"
       }
     ],
-    "imageAttribution": {
-      "provider": "ATEEZ Official",
-      "creator": "KQ Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://ateez.kqent.com/",
-      "sourceLabel": "ATEEZ official share image"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "babymonster",
@@ -342,8 +344,8 @@
       "高需求"
     ],
     "memberCount": 4,
-    "coverImage": "/media/artists/blackpink-official.png",
-    "heroImage": "/media/artists/blackpink-official.png",
+    "coverImage": "/media/artists/blackpink.svg",
+    "heroImage": "/media/artists/blackpink.svg",
     "members": [
       {
         "slug": "jisoo",
@@ -374,13 +376,7 @@
         "initials": "LI"
       }
     ],
-    "imageAttribution": {
-      "provider": "BLACKPINK Official",
-      "creator": "YG Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://www.blackpinkmusic.com/",
-      "sourceLabel": "BLACKPINK official share image"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "boynextdoor",
@@ -503,7 +499,8 @@
     ],
     "memberCount": 5,
     "coverImage": "/media/artists/btob.svg",
-    "heroImage": "/media/artists/btob.svg"
+    "heroImage": "/media/artists/btob.svg",
+    "imageType": "profile"
   },
   {
     "slug": "bts",
@@ -575,7 +572,8 @@
         "profile": "如果你是冲着 Jung Kook 的舞台存在感去，这一位通常最值得先看 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。和 官方入口、场馆重点和最值得先看的观演细节 一起看，会更容易判断哪一档票适合自己。",
         "initials": "JK"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "day6",
@@ -595,8 +593,8 @@
       "韩国场"
     ],
     "memberCount": 4,
-    "coverImage": "/media/artists/day6-official.jpg",
-    "heroImage": "/media/artists/day6-official.jpg",
+    "coverImage": "/media/artists/day6.svg",
+    "heroImage": "/media/artists/day6.svg",
     "members": [
       {
         "slug": "sungjin",
@@ -627,13 +625,7 @@
         "initials": "DO"
       }
     ],
-    "imageAttribution": {
-      "provider": "DAY6 Official",
-      "creator": "JYP Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://day6.jype.com/",
-      "sourceLabel": "DAY6 official main visual"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "enhypen",
@@ -705,7 +697,8 @@
         "profile": "如果你是冲着 Ni-ki 的舞台存在感去，这一位通常最值得先看 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "NK"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "evnne",
@@ -935,7 +928,8 @@
         "profile": "Jiheon 在现场最常被讨论的亮点，通常都会落在 安可和 ment 段的高互动，以及靠近主镜头一侧的即时反馈。如果你会先存 fan-cam，这一位通常很容易成为重点。",
         "initials": "JI"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "got7",
@@ -1007,7 +1001,8 @@
     ],
     "memberCount": 7,
     "coverImage": "/media/artists/got7.svg",
-    "heroImage": "/media/artists/got7.svg"
+    "heroImage": "/media/artists/got7.svg",
+    "imageType": "profile"
   },
   {
     "slug": "h1-key",
@@ -1058,7 +1053,8 @@
     ],
     "memberCount": 4,
     "coverImage": "/media/artists/h1-key.svg",
-    "heroImage": "/media/artists/h1-key.svg"
+    "heroImage": "/media/artists/h1-key.svg",
+    "imageType": "profile"
   },
   {
     "slug": "gidle",
@@ -1116,7 +1112,8 @@
         "profile": "如果你是冲着 Shuhua 的舞台存在感去，这一位通常最值得先看 正面中区最能看清编舞队形、走位变化和整体张力。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "SH"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "illit",
@@ -1194,8 +1191,8 @@
       "舞台型"
     ],
     "memberCount": 5,
-    "coverImage": "/media/artists/itzy-official.jpg",
-    "heroImage": "/media/artists/itzy-official.jpg",
+    "coverImage": "/media/artists/itzy.svg",
+    "heroImage": "/media/artists/itzy.svg",
     "members": [
       {
         "slug": "yeji",
@@ -1233,13 +1230,7 @@
         "initials": "YU"
       }
     ],
-    "imageAttribution": {
-      "provider": "ITZY Official",
-      "creator": "JYP Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://itzy.jype.com/",
-      "sourceLabel": "ITZY official main visual"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "iu",
@@ -1269,7 +1260,8 @@
         "profile": "IU 在现场最常被讨论的亮点，通常都会落在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。如果你会先存 fan-cam，这一位通常很容易成为重点。",
         "initials": "IU"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "ive",
@@ -1334,7 +1326,8 @@
         "profile": "如果你是冲着 Leeseo 的舞台存在感去，这一位通常最值得先看 灯光、造型和特写最出彩的主舞台区，以及第一次延伸台展开。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "LE"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "izna",
@@ -1406,7 +1399,8 @@
     ],
     "memberCount": 7,
     "coverImage": "/media/artists/izna.svg",
-    "heroImage": "/media/artists/izna.svg"
+    "heroImage": "/media/artists/izna.svg",
+    "imageType": "profile"
   },
   {
     "slug": "j-hope",
@@ -1436,7 +1430,8 @@
         "profile": "j-hope 在现场最常被讨论的亮点，通常都会落在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。如果你会先存 fan-cam，这一位通常很容易成为重点。",
         "initials": "JH"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "jimin",
@@ -1466,7 +1461,8 @@
         "profile": "Jimin 的现场魅力，通常会在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "JI"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "jin",
@@ -1496,7 +1492,8 @@
         "profile": "Jin 在现场最常被讨论的亮点，通常都会落在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。如果你会先存 fan-cam，这一位通常很容易成为重点。",
         "initials": "JI"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "jung-kook",
@@ -1526,7 +1523,8 @@
         "profile": "如果你是冲着 Jung Kook 的舞台存在感去，这一位通常最值得先看 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "JK"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "katseye",
@@ -1663,7 +1661,8 @@
     ],
     "memberCount": 7,
     "coverImage": "/media/artists/kep1er.svg",
-    "heroImage": "/media/artists/kep1er.svg"
+    "heroImage": "/media/artists/kep1er.svg",
+    "imageType": "profile"
   },
   {
     "slug": "kickflip",
@@ -1735,7 +1734,8 @@
     ],
     "memberCount": 7,
     "coverImage": "/media/artists/kickflip.svg",
-    "heroImage": "/media/artists/kickflip.svg"
+    "heroImage": "/media/artists/kickflip.svg",
+    "imageType": "profile"
   },
   {
     "slug": "kiss-of-life",
@@ -1755,8 +1755,8 @@
       "亚洲场"
     ],
     "memberCount": 4,
-    "coverImage": "/media/artists/kiss-of-life-official.png",
-    "heroImage": "/media/artists/kiss-of-life-official.png",
+    "coverImage": "/media/artists/kiss-of-life.svg",
+    "heroImage": "/media/artists/kiss-of-life.svg",
     "members": [
       {
         "slug": "julie",
@@ -1787,13 +1787,7 @@
         "initials": "HA"
       }
     ],
-    "imageAttribution": {
-      "provider": "KISS OF LIFE Official",
-      "creator": "S2 Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://www.s2ent.co.kr/",
-      "sourceLabel": "KISS OF LIFE official visual"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "le-sserafim",
@@ -1851,7 +1845,8 @@
         "profile": "Eunchae 的现场魅力，通常会在 正面中区最能看清编舞队形、走位变化和整体张力 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "EU"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "meovv",
@@ -1909,7 +1904,8 @@
         "profile": "Ella 的现场魅力，通常会在 正面中区最能看清编舞队形、走位变化和整体张力 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "EL"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "monsta-x",
@@ -1974,7 +1970,8 @@
         "profile": "I.M 的现场魅力，通常会在 灯光、造型和特写最出彩的主舞台区，以及第一次延伸台展开 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "IM"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "nct-127",
@@ -2053,7 +2050,8 @@
         "profile": "Haechan 在现场最常被讨论的亮点，通常都会落在 安可和 ment 段的高互动，以及靠近主镜头一侧的即时反馈。如果你会先存 fan-cam，这一位通常很容易成为重点。",
         "initials": "HA"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "nct-dream",
@@ -2125,7 +2123,8 @@
         "profile": "Jisung 的现场魅力，通常会在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "JI"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "newjeans",
@@ -2183,7 +2182,8 @@
         "profile": "Hyein 的现场魅力，通常会在 正面中区最能看清编舞队形、走位变化和整体张力 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "HY"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "nexz",
@@ -2254,15 +2254,9 @@
       }
     ],
     "memberCount": 7,
-    "coverImage": "/media/artists/nexz-official.png",
-    "heroImage": "/media/artists/nexz-official.png",
-    "imageAttribution": {
-      "provider": "NEXZ Official",
-      "creator": "JYP Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://nexz-official.com/",
-      "sourceLabel": "NEXZ official share image"
-    }
+    "coverImage": "/media/artists/nexz.svg",
+    "heroImage": "/media/artists/nexz.svg",
+    "imageType": "profile"
   },
   {
     "slug": "nmixx",
@@ -2282,8 +2276,8 @@
       "亚洲场"
     ],
     "memberCount": 6,
-    "coverImage": "/media/artists/nmixx-official.jpg",
-    "heroImage": "/media/artists/nmixx-official.jpg",
+    "coverImage": "/media/artists/nmixx.svg",
+    "heroImage": "/media/artists/nmixx.svg",
     "members": [
       {
         "slug": "lily",
@@ -2328,13 +2322,7 @@
         "initials": "KY"
       }
     ],
-    "imageAttribution": {
-      "provider": "NMIXX Official",
-      "creator": "JYP Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://nmixx.jype.com/",
-      "sourceLabel": "NMIXX official main visual"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "oneus",
@@ -2392,7 +2380,8 @@
     ],
     "memberCount": 5,
     "coverImage": "/media/artists/oneus.svg",
-    "heroImage": "/media/artists/oneus.svg"
+    "heroImage": "/media/artists/oneus.svg",
+    "imageType": "profile"
   },
   {
     "slug": "p1harmony",
@@ -2457,7 +2446,8 @@
     ],
     "memberCount": 6,
     "coverImage": "/media/artists/p1harmony.svg",
-    "heroImage": "/media/artists/p1harmony.svg"
+    "heroImage": "/media/artists/p1harmony.svg",
+    "imageType": "profile"
   },
   {
     "slug": "plave",
@@ -2566,7 +2556,8 @@
     ],
     "memberCount": 4,
     "coverImage": "/media/artists/qwer.svg",
-    "heroImage": "/media/artists/qwer.svg"
+    "heroImage": "/media/artists/qwer.svg",
+    "imageType": "profile"
   },
   {
     "slug": "red-velvet",
@@ -2624,7 +2615,8 @@
         "profile": "Yeri 的现场魅力，通常会在 正面中区最能看清编舞队形、走位变化和整体张力 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "YE"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "riize",
@@ -2689,7 +2681,8 @@
         "profile": "Anton 的现场魅力，通常会在 灯光、造型和特写最出彩的主舞台区，以及第一次延伸台展开 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "AN"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "seventeen",
@@ -2854,7 +2847,8 @@
         "profile": "Taemin 的现场魅力，通常会在 延伸台停留点、返图高频区和最容易拿到个人 focus 的位置 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "TA"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "stayc",
@@ -2919,7 +2913,8 @@
     ],
     "memberCount": 6,
     "coverImage": "/media/artists/stayc.svg",
-    "heroImage": "/media/artists/stayc.svg"
+    "heroImage": "/media/artists/stayc.svg",
+    "imageType": "profile"
   },
   {
     "slug": "stray-kids",
@@ -2939,8 +2934,8 @@
       "跨城观演"
     ],
     "memberCount": 8,
-    "coverImage": "/media/artists/stray-kids-official.jpg",
-    "heroImage": "/media/artists/stray-kids-official.jpg",
+    "coverImage": "/media/artists/stray-kids.svg",
+    "heroImage": "/media/artists/stray-kids.svg",
     "members": [
       {
         "slug": "bang-chan",
@@ -2999,13 +2994,7 @@
         "initials": "IN"
       }
     ],
-    "imageAttribution": {
-      "provider": "Stray Kids Official",
-      "creator": "JYP Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://straykids.jype.com/Default",
-      "sourceLabel": "Stray Kids official main visual"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "super-junior",
@@ -3121,7 +3110,8 @@
         "profile": "如果你是冲着 Taemin 的舞台存在感去，这一位通常最值得先看 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "TA"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "taeyeon",
@@ -3151,7 +3141,8 @@
         "profile": "Taeyeon 的现场魅力，通常会在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "TA"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "the-boyz",
@@ -3251,7 +3242,8 @@
         "profile": "如果你是冲着 Eric 的舞台存在感去，这一位通常最值得先看 正面中区最能看清编舞队形、走位变化和整体张力。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "ER"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "txt",
@@ -3509,7 +3501,8 @@
     ],
     "memberCount": 12,
     "coverImage": "/media/artists/triples.svg",
-    "heroImage": "/media/artists/triples.svg"
+    "heroImage": "/media/artists/triples.svg",
+    "imageType": "profile"
   },
   {
     "slug": "twice",
@@ -3529,8 +3522,8 @@
       "日本场"
     ],
     "memberCount": 9,
-    "coverImage": "/media/artists/twice-official.jpg",
-    "heroImage": "/media/artists/twice-official.jpg",
+    "coverImage": "/media/artists/twice.svg",
+    "heroImage": "/media/artists/twice.svg",
     "members": [
       {
         "slug": "nayeon",
@@ -3596,13 +3589,7 @@
         "initials": "TZ"
       }
     ],
-    "imageAttribution": {
-      "provider": "TWICE Official",
-      "creator": "JYP Entertainment",
-      "license": "Official promotional image",
-      "sourceUrl": "https://twice.jype.com/",
-      "sourceLabel": "TWICE official main visual"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "tws",
@@ -3667,7 +3654,8 @@
         "profile": "Kyungmin 的现场魅力，通常会在 灯光、造型和特写最出彩的主舞台区，以及第一次延伸台展开 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "KY"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "v",
@@ -3697,7 +3685,8 @@
         "profile": "V 的现场魅力，通常会在 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "V"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "wayv",
@@ -3762,7 +3751,8 @@
         "profile": "如果你是冲着 Winwin 的舞台存在感去，这一位通常最值得先看 灯光、造型和特写最出彩的主舞台区，以及第一次延伸台展开。和 Arena 区块视野、主舞台距离和票档优先级 一起看，会更容易判断哪一档票适合自己。",
         "initials": "WI"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "woodz",
@@ -3792,7 +3782,8 @@
     ],
     "memberCount": 1,
     "coverImage": "/media/artists/woodz.svg",
-    "heroImage": "/media/artists/woodz.svg"
+    "heroImage": "/media/artists/woodz.svg",
+    "imageType": "profile"
   },
   {
     "slug": "xg",
@@ -3812,8 +3803,8 @@
       "跨城观演"
     ],
     "memberCount": 7,
-    "coverImage": "/media/artists/xg-official.png",
-    "heroImage": "/media/artists/xg-official.png",
+    "coverImage": "/media/artists/xg.svg",
+    "heroImage": "/media/artists/xg.svg",
     "members": [
       {
         "slug": "jurin",
@@ -3865,13 +3856,7 @@
         "initials": "CO"
       }
     ],
-    "imageAttribution": {
-      "provider": "XG Official",
-      "creator": "XGALX",
-      "license": "Official promotional image",
-      "sourceUrl": "https://xgalx.com/xg/",
-      "sourceLabel": "XG official share image"
-    }
+    "imageType": "profile"
   },
   {
     "slug": "zerobaseone",
@@ -3957,7 +3942,8 @@
         "profile": "Han Yujin 的现场魅力，通常会在 正面中段和声场更稳的位置，能把现场层次听得更完整 这些位置被放大得最明显。想提前选区，先把这一位常出现的站位记下来会更稳。",
         "initials": "HY"
       }
-    ]
+    ],
+    "imageType": "profile"
   },
   {
     "slug": "zico",
@@ -3987,6 +3973,7 @@
         "profile": "如果你是冲着 ZICO 的舞台存在感去，这一位通常最值得先看 主舞台正面与延伸台前段的完整表情、动作线条和大屏 focus。和 舞台距离、灯光层次和个人 focus 一起看，会更容易判断哪一档票适合自己。",
         "initials": "ZI"
       }
-    ]
+    ],
+    "imageType": "profile"
   }
 ]

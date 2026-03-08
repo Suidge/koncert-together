@@ -9,7 +9,7 @@
     "provider": "ATEEZ Official",
     "creator": "KQ Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": true
   },
   {
     "artistSlug": "blackpink",
@@ -21,7 +21,7 @@
     "provider": "BLACKPINK Official",
     "creator": "YG Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": true
   },
   {
     "artistSlug": "day6",
@@ -32,7 +32,7 @@
     "provider": "DAY6 Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false,
+    "useForEvents": true,
     "field": "bgImageForWeb"
   },
   {
@@ -44,7 +44,7 @@
     "provider": "ITZY Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false,
+    "useForEvents": true,
     "field": "bgImageForWeb"
   },
   {
@@ -57,7 +57,7 @@
     "provider": "KISS OF LIFE Official",
     "creator": "S2 Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": true
   },
   {
     "artistSlug": "nexz",
@@ -69,7 +69,7 @@
     "provider": "NEXZ Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": true
   },
   {
     "artistSlug": "nmixx",
@@ -80,7 +80,7 @@
     "provider": "NMIXX Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false,
+    "useForEvents": true,
     "field": "bgImageForWeb"
   },
   {
@@ -92,7 +92,7 @@
     "provider": "Stray Kids Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false,
+    "useForEvents": true,
     "field": "bgImageForWeb"
   },
   {
@@ -104,7 +104,7 @@
     "provider": "TWICE Official",
     "creator": "JYP Entertainment",
     "license": "Official promotional image",
-    "useForEvents": false,
+    "useForEvents": true,
     "field": "bgImageForWeb"
   },
   {
@@ -117,6 +117,522 @@
     "provider": "XG Official",
     "creator": "XGALX",
     "license": "Official promotional image",
-    "useForEvents": false
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "aespa",
+    "type": "commons_file",
+    "label": "aespa wiki image",
+    "targetPath": "/media/artists/aespa-wiki.jpg",
+    "fileTitle": "File:241005_aespa_K-Link_Festival_(cropped).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "btob",
+    "type": "commons_file",
+    "label": "BTOB wiki image",
+    "targetPath": "/media/artists/btob-wiki.jpg",
+    "fileTitle": "File:BTOB_in_Marie_Claire_Korea_2017.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "bts",
+    "type": "commons_file",
+    "label": "BTS wiki image",
+    "targetPath": "/media/artists/bts-wiki.jpg",
+    "fileTitle": "File:BTS_during_a_White_House_press_conference_May_31,_2022_(cropped).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "enhypen",
+    "type": "commons_file",
+    "label": "ENHYPEN wiki image",
+    "targetPath": "/media/artists/enhypen-wiki.jpg",
+    "fileTitle": "File:ENHYPEN_220423.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "fromis-9",
+    "type": "commons_file",
+    "label": "fromis_9 wiki image",
+    "targetPath": "/media/artists/fromis-9-wiki.jpg",
+    "fileTitle": "File:Fromis_9_in_Seattle.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "got7",
+    "type": "commons_file",
+    "label": "GOT7 wiki image",
+    "targetPath": "/media/artists/got7-wiki.jpg",
+    "fileTitle": "File:Got7_cheering_video_for_JYPE_16th_audition_01.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "h1-key",
+    "type": "commons_file",
+    "label": "H1-KEY wiki image",
+    "targetPath": "/media/artists/h1-key-wiki.jpg",
+    "fileTitle": "File:Josh_Cullen_at_the_Pagtatag!_World_Tour_(cropped).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "gidle",
+    "type": "commons_file",
+    "label": "i-dle wiki image",
+    "targetPath": "/media/artists/gidle-wiki.jpg",
+    "fileTitle": "File:20241130_(G)I-dle_MMA_2024_Red_Carpet.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "iu",
+    "type": "commons_file",
+    "label": "IU wiki image",
+    "targetPath": "/media/artists/iu-wiki.jpg",
+    "fileTitle": "File:EJAE_SBS_Radio_2025.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "ive",
+    "type": "commons_file",
+    "label": "IVE wiki image",
+    "targetPath": "/media/artists/ive-wiki.jpg",
+    "fileTitle": "File:Ive_at_the_40th_Golden_Disc_Awards,_January_10,_2026_(2).png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "izna",
+    "type": "commons_file",
+    "label": "izna wiki image",
+    "targetPath": "/media/artists/izna-wiki.jpg",
+    "fileTitle": "File:Izna_250930.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "j-hope",
+    "type": "commons_file",
+    "label": "j-hope wiki image",
+    "targetPath": "/media/artists/j-hope-wiki.jpg",
+    "fileTitle": "File:J-Hope_at_W_Korea_Breast_Cancer_Campaign,_15_October_2025.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "jimin",
+    "type": "commons_file",
+    "label": "Jimin wiki image",
+    "targetPath": "/media/artists/jimin-wiki.jpg",
+    "fileTitle": "File:Jimin_on_the_way_to_SBS_Radio,_31_March_2023_(2).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "jin",
+    "type": "commons_file",
+    "label": "Jin wiki image",
+    "targetPath": "/media/artists/jin-wiki.jpg",
+    "fileTitle": "File:BTS_Jin_at_Maison_Fred,_13_March_2025_04.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "jung-kook",
+    "type": "commons_file",
+    "label": "Jung Kook wiki image",
+    "targetPath": "/media/artists/jung-kook-wiki.jpg",
+    "fileTitle": "File:Jung_Kook_of_BTS,_February_12,_2026_(1).png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "kep1er",
+    "type": "commons_file",
+    "label": "Kep1er wiki image",
+    "targetPath": "/media/artists/kep1er-wiki.jpg",
+    "fileTitle": "File:Kep1er_Nov'24_(cropped).png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "kickflip",
+    "type": "commons_file",
+    "label": "KickFlip wiki image",
+    "targetPath": "/media/artists/kickflip-wiki.jpg",
+    "fileTitle": "File:KickFlip_at_SBS_Radio.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "le-sserafim",
+    "type": "commons_file",
+    "label": "LE SSERAFIM wiki image",
+    "targetPath": "/media/artists/le-sserafim-wiki.jpg",
+    "fileTitle": "File:Le_Sserafim_at_2026_Golden_Disc_awards.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "nct-127",
+    "type": "commons_file",
+    "label": "NCT 127 wiki image",
+    "targetPath": "/media/artists/nct-127-wiki.jpg",
+    "fileTitle": "File:NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "newjeans",
+    "type": "commons_file",
+    "label": "NewJeans wiki image",
+    "targetPath": "/media/artists/newjeans-wiki.jpg",
+    "fileTitle": "File:NewJeans_2023_MelonMusicAwards_composite.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "p1harmony",
+    "type": "commons_file",
+    "label": "P1Harmony wiki image",
+    "targetPath": "/media/artists/p1harmony-wiki.jpg",
+    "fileTitle": "File:P1Harmony_for_Marie_Claire_Korea_01_(cropped).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "qwer",
+    "type": "commons_file",
+    "label": "QWER wiki image",
+    "targetPath": "/media/artists/qwer-wiki.jpg",
+    "fileTitle": "File:251025_QWER.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "red-velvet",
+    "type": "commons_file",
+    "label": "Red Velvet wiki image",
+    "targetPath": "/media/artists/red-velvet-wiki.jpg",
+    "fileTitle": "File:레드벨벳(Red_Velvet)_케이콘_재팬_2024_레드카펫_KCON_JAPAN_2024_(1).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "riize",
+    "type": "commons_file",
+    "label": "RIIZE wiki image",
+    "targetPath": "/media/artists/riize-wiki.jpg",
+    "fileTitle": "File:Riize_at_the_2024_Melon_Music_Awards-2.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "stayc",
+    "type": "commons_file",
+    "label": "STAYC wiki image",
+    "targetPath": "/media/artists/stayc-wiki.jpg",
+    "fileTitle": "File:STAYC_Metamorphic_Showcase_240701.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "taemin",
+    "type": "commons_file",
+    "label": "Taemin wiki image",
+    "targetPath": "/media/artists/taemin-wiki.jpg",
+    "fileTitle": "File:240919_SHINEE_Taemin.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "triples",
+    "type": "commons_file",
+    "label": "tripleS wiki image",
+    "targetPath": "/media/artists/triples-wiki.jpg",
+    "fileTitle": "File:TripleS_250512.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "v",
+    "type": "commons_file",
+    "label": "V wiki image",
+    "targetPath": "/media/artists/v-wiki.jpg",
+    "fileTitle": "File:Latin_letter_V.svg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "taeyeon",
+    "type": "commons_file",
+    "label": "Taeyeon wiki image",
+    "targetPath": "/media/artists/taeyeon-wiki.jpg",
+    "fileTitle": "File:250307_Taeyeon_@_-The_Tense-_in_Seoul_Day_1_(54371295597)_(cropped).jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "wayv",
+    "type": "commons_file",
+    "label": "WayV wiki image",
+    "targetPath": "/media/artists/wayv-wiki.jpg",
+    "fileTitle": "File:WayV_during_fanmeeting_in_December_2019_02.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "meovv",
+    "type": "commons_file",
+    "label": "MEOVV wiki image",
+    "targetPath": "/media/artists/meovv-wiki.jpg",
+    "fileTitle": "File:251025_MEOVV.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "monsta-x",
+    "type": "commons_file",
+    "label": "MONSTA X wiki image",
+    "targetPath": "/media/artists/monsta-x-wiki.jpg",
+    "fileTitle": "File:Monsta_X_Airport_Departure_20251205.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "nct-dream",
+    "type": "commons_file",
+    "label": "NCT DREAM wiki image",
+    "targetPath": "/media/artists/nct-dream-wiki.jpg",
+    "fileTitle": "File:NCT_going_to_a_Music_Bank_recording_in_April_2018_01.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "oneus",
+    "type": "commons_file",
+    "label": "ONEUS wiki image",
+    "targetPath": "/media/artists/oneus-wiki.jpg",
+    "fileTitle": "File:Rainbow_Bridge_World_logo.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "shinee",
+    "type": "commons_file",
+    "label": "SHINee wiki image",
+    "targetPath": "/media/artists/shinee-wiki.jpg",
+    "fileTitle": "File:(Marie_Claire_Korea)_We,_SHINee_-_Video_46s.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "the-boyz",
+    "type": "commons_file",
+    "label": "THE BOYZ wiki image",
+    "targetPath": "/media/artists/the-boyz-wiki.jpg",
+    "fileTitle": "File:THE_BOYZ_‘BE_AWARE’_Showcase_230220.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "tws",
+    "type": "commons_file",
+    "label": "TWS wiki image",
+    "targetPath": "/media/artists/tws-wiki.jpg",
+    "fileTitle": "File:TWS_at_the_2024_Melon_Music_Awards.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "woodz",
+    "type": "commons_file",
+    "label": "WOODZ wiki image",
+    "targetPath": "/media/artists/woodz-wiki.jpg",
+    "fileTitle": "File:20200808_WOODZ_Cho_Seung-youn_SBS_RADIO_Park_So_Hyun_Love_Game_01.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "zerobaseone",
+    "type": "commons_file",
+    "label": "ZEROBASEONE wiki image",
+    "targetPath": "/media/artists/zerobaseone-wiki.jpg",
+    "fileTitle": "File:Zhang_Hao_at_Incheon_Airport_-_May_2025_-_2.png",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "zico",
+    "type": "commons_file",
+    "label": "ZICO wiki image",
+    "targetPath": "/media/artists/zico-wiki.jpg",
+    "fileTitle": "File:ZICO_Damiani_May_2024.jpg",
+    "provider": "Wikimedia Commons",
+    "useForEvents": true
+  },
+  {
+    "artistSlug": "andteam",
+    "type": "official_direct",
+    "label": "&TEAM wiki image",
+    "targetPath": "/media/artists/andteam-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "babymonster",
+    "type": "official_direct",
+    "label": "BABYMONSTER wiki image",
+    "targetPath": "/media/artists/babymonster-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "boynextdoor",
+    "type": "official_direct",
+    "label": "BOYNEXTDOOR wiki image",
+    "targetPath": "/media/artists/boynextdoor-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "bibi",
+    "type": "official_direct",
+    "label": "BIBI wiki image",
+    "targetPath": "/media/artists/bibi-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "evnne",
+    "type": "official_direct",
+    "label": "EVNNE wiki image",
+    "targetPath": "/media/artists/evnne-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "exo",
+    "type": "official_direct",
+    "label": "EXO wiki image",
+    "targetPath": "/media/artists/exo-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "illit",
+    "type": "official_direct",
+    "label": "ILLIT wiki image",
+    "targetPath": "/media/artists/illit-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "katseye",
+    "type": "official_direct",
+    "label": "KATSEYE wiki image",
+    "targetPath": "/media/artists/katseye-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "plave",
+    "type": "official_direct",
+    "label": "PLAVE wiki image",
+    "targetPath": "/media/artists/plave-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "seventeen",
+    "type": "official_direct",
+    "label": "SEVENTEEN wiki image",
+    "targetPath": "/media/artists/seventeen-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "super-junior",
+    "type": "official_direct",
+    "label": "SUPER JUNIOR wiki image",
+    "targetPath": "/media/artists/super-junior-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "txt",
+    "type": "official_direct",
+    "label": "TXT wiki image",
+    "targetPath": "/media/artists/txt-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
+  },
+  {
+    "artistSlug": "treasure",
+    "type": "official_direct",
+    "label": "TREASURE wiki image",
+    "targetPath": "/media/artists/treasure-wiki.jpg",
+    "fileTitle": "File:K-pop_Concert_at_KCON_2016_France.jpg",
+    "provider": "Unsplash Generic Sync",
+    "useForEvents": true,
+    "assetUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop",
+    "creator": "Unsplash",
+    "license": "Free to use"
   }
 ]

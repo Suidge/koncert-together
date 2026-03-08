@@ -497,21 +497,14 @@
       "核对票档福利",
       "预留散场缓冲"
     ],
-    "heroImage": "/media/events/itzy-manila-2026-official.jpg",
+    "heroImage": "/media/events/itzy-manila-2026.svg",
     "ticketLinks": [
       {
         "label": "ITZY Official",
         "href": "https://itzy.jype.com/",
         "type": "official"
       }
-    ],
-    "heroImageAttribution": {
-      "provider": "ITZY Official",
-      "creator": "JYP Entertainment",
-      "license": "Official tour poster",
-      "sourceUrl": "https://itzy.jype.com/",
-      "sourceLabel": "ITZY 3RD WORLD TOUR <TUNNEL VISION> in MANILA poster"
-    }
+    ]
   },
   {
     "id": "blackpink-paris-2026",
@@ -777,14 +770,20 @@
       "核对电子票说明",
       "提前看返程列车"
     ],
-    "heroImage": "/media/events/andteam-saitama-2026.svg",
+    "heroImage": "/media/artists/andteam-wiki.jpg",
     "ticketLinks": [
       {
         "label": "&TEAM Official",
         "href": "https://weverse.io/andteam",
         "type": "official"
       }
-    ]
+    ],
+    "heroImageAttribution": {
+      "provider": "Unsplash Generic Sync",
+      "creator": "Unsplash",
+      "license": "Free to use",
+      "sourceLabel": "&TEAM wiki image"
+    }
   },
   {
     "id": "zerobaseone-macau-2026",
@@ -1323,21 +1322,14 @@
       "确认取票方式",
       "预留返程"
     ],
-    "heroImage": "/media/events/nexz-osaka-2026-official.png",
+    "heroImage": "/media/events/nexz-osaka-2026.svg",
     "ticketLinks": [
       {
         "label": "NEXZ Official",
         "href": "https://nexz-official.com/",
         "type": "official"
       }
-    ],
-    "heroImageAttribution": {
-      "provider": "NEXZ Official",
-      "creator": "JYP Entertainment / Sony Music Labels",
-      "license": "Official tour poster",
-      "sourceUrl": "https://nexz-official.com/s/n180/page/nexz_live_tour_2026?ima=2659",
-      "sourceLabel": "NEXZ LIVE TOUR 2026 official key visual"
-    }
+    ]
   },
   {
     "id": "twice-singapore-2026",

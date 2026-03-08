@@ -1,1 +1,257 @@
-{}
+{
+  "https://image.static.bstage.in/cdn-cgi/image/metadata=none/ateez/b84190d2-eec0-4576-896e-38ae9db43ea1/ac7323f6-ed00-4209-b7ef-47fe15ece9ee/ori.png": {
+    "targetPath": "/media/artists/ateez-official.png",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:25:48.099Z"
+  },
+  "https://shop.blackpinkmusic.com/cdn/shop/files/BLKPNK-0043_EvergreenStoreRefreshShare-image_-1200-x-630_05595a49-e00d-455f-abb9-e6c7f9decb08.png?v=1696964520": {
+    "targetPath": "/media/artists/blackpink-official.png",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:25:50.765Z"
+  },
+  "https://d1al7qj7ydfbpt.cloudfront.net/artists/day6/main/1765628717012-630e1ca3.jpg": {
+    "targetPath": "/media/artists/day6-official.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:25:54.969Z"
+  },
+  "https://d1al7qj7ydfbpt.cloudfront.net/artist/itzy/d750d3cc7ac348fc975f97e8f1f288ca-01_%E1%84%80%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A9%E1%86%B7_%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8E%E1%85%A6+(1920_1080).jpg": {
+    "targetPath": "/media/artists/itzy-official.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:25:58.609Z"
+  },
+  "https://cdn.imweb.me/upload/S20210225193c7ccd8810c/b8eda6d9815bd.png": {
+    "targetPath": "/media/artists/kiss-of-life-official.png",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:00.834Z"
+  },
+  "https://nexz-official.com/images/4/952/607b1e1b2e92aa244b788aff35c03.png": {
+    "targetPath": "/media/artists/nexz-official.png",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:02.528Z"
+  },
+  "https://d1al7qj7ydfbpt.cloudfront.net/artist/nmixx/3cce5a96a8a34e2aa4c1ed4098daad5c-PC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8E%E1%85%A6.jpg": {
+    "targetPath": "/media/artists/nmixx-official.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:06.658Z"
+  },
+  "https://d1al7qj7ydfbpt.cloudfront.net/artists/straykids/main/1763899026307-b1a80520.jpg": {
+    "targetPath": "/media/artists/stray-kids-official.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:09.654Z"
+  },
+  "https://d1al7qj7ydfbpt.cloudfront.net/artist/twice/2ecb5a255d824a90a1f1d366c1333813-%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF.jpg": {
+    "targetPath": "/media/artists/twice-official.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:12.722Z"
+  },
+  "https://xgalx.com/xg/assets/img/sns.png": {
+    "targetPath": "/media/artists/xg-official.png",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:14.613Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/241005_aespa_K-Link_Festival_%28cropped%29.jpg/1920px-241005_aespa_K-Link_Festival_%28cropped%29.jpg": {
+    "targetPath": "/media/artists/aespa-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:17.333Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/e/e4/BTOB_in_Marie_Claire_Korea_2017.jpg": {
+    "targetPath": "/media/artists/btob-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:19.943Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/1920px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg": {
+    "targetPath": "/media/artists/bts-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:22.298Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/1/1e/ENHYPEN_220423.jpg": {
+    "targetPath": "/media/artists/enhypen-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:24.713Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fromis_9_in_Seattle.jpg/1920px-Fromis_9_in_Seattle.jpg": {
+    "targetPath": "/media/artists/fromis-9-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:27.290Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/8/84/Got7_cheering_video_for_JYPE_16th_audition_01.jpg": {
+    "targetPath": "/media/artists/got7-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:29.651Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/6/67/Josh_Cullen_at_the_Pagtatag%21_World_Tour_%28cropped%29.jpg": {
+    "targetPath": "/media/artists/h1-key-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:32.425Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/20241130_%28G%29I-dle_MMA_2024_Red_Carpet.jpg/1920px-20241130_%28G%29I-dle_MMA_2024_Red_Carpet.jpg": {
+    "targetPath": "/media/artists/gidle-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:34.918Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/8/8b/EJAE_SBS_Radio_2025.jpg": {
+    "targetPath": "/media/artists/iu-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:37.124Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ive_at_the_40th_Golden_Disc_Awards%2C_January_10%2C_2026_%282%29.png/1920px-Ive_at_the_40th_Golden_Disc_Awards%2C_January_10%2C_2026_%282%29.png": {
+    "targetPath": "/media/artists/ive-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:40.016Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/9/92/Izna_250930.jpg": {
+    "targetPath": "/media/artists/izna-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:42.443Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/5/57/J-Hope_at_W_Korea_Breast_Cancer_Campaign%2C_15_October_2025.png": {
+    "targetPath": "/media/artists/j-hope-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:45.094Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/3/33/Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%282%29.jpg": {
+    "targetPath": "/media/artists/jimin-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:47.369Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/4/4b/BTS_Jin_at_Maison_Fred%2C_13_March_2025_04.png": {
+    "targetPath": "/media/artists/jin-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:50.139Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/f/f6/Jung_Kook_of_BTS%2C_February_12%2C_2026_%281%29.png": {
+    "targetPath": "/media/artists/jung-kook-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:52.919Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kep1er_Nov%2724_%28cropped%29.png/1920px-Kep1er_Nov%2724_%28cropped%29.png": {
+    "targetPath": "/media/artists/kep1er-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:56.797Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/5/57/KickFlip_at_SBS_Radio.jpg": {
+    "targetPath": "/media/artists/kickflip-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:26:59.314Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/a/a5/Le_Sserafim_at_2026_Golden_Disc_awards.png": {
+    "targetPath": "/media/artists/le-sserafim-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:02.410Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg/1920px-NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg": {
+    "targetPath": "/media/artists/nct-127-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:04.888Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NewJeans_2023_MelonMusicAwards_composite.jpg/1920px-NewJeans_2023_MelonMusicAwards_composite.jpg": {
+    "targetPath": "/media/artists/newjeans-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:07.402Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/P1Harmony_for_Marie_Claire_Korea_01_%28cropped%29.jpg/1920px-P1Harmony_for_Marie_Claire_Korea_01_%28cropped%29.jpg": {
+    "targetPath": "/media/artists/p1harmony-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:09.889Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/2/21/251025_QWER.jpg": {
+    "targetPath": "/media/artists/qwer-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:12.396Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg/1920px-%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg": {
+    "targetPath": "/media/artists/red-velvet-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:14.888Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Riize_at_the_2024_Melon_Music_Awards-2.png/1920px-Riize_at_the_2024_Melon_Music_Awards-2.png": {
+    "targetPath": "/media/artists/riize-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:17.728Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/STAYC_Metamorphic_Showcase_240701.jpg/1920px-STAYC_Metamorphic_Showcase_240701.jpg": {
+    "targetPath": "/media/artists/stayc-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:20.469Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/1/13/240919_SHINEE_Taemin.jpg": {
+    "targetPath": "/media/artists/taemin-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:22.687Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/e/e3/TripleS_250512.jpg": {
+    "targetPath": "/media/artists/triples-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:25.252Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Latin_letter_V.svg/1920px-Latin_letter_V.svg.png": {
+    "targetPath": "/media/artists/v-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:27.333Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/250307_Taeyeon_%40_-The_Tense-_in_Seoul_Day_1_%2854371295597%29_%28cropped%29.jpg/1920px-250307_Taeyeon_%40_-The_Tense-_in_Seoul_Day_1_%2854371295597%29_%28cropped%29.jpg": {
+    "targetPath": "/media/artists/taeyeon-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:30.258Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WayV_during_fanmeeting_in_December_2019_02.jpg/1920px-WayV_during_fanmeeting_in_December_2019_02.jpg": {
+    "targetPath": "/media/artists/wayv-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:32.662Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/2/2b/251025_MEOVV.jpg": {
+    "targetPath": "/media/artists/meovv-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:35.136Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/3/33/Monsta_X_Airport_Departure_20251205.jpg": {
+    "targetPath": "/media/artists/monsta-x-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:37.654Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NCT_going_to_a_Music_Bank_recording_in_April_2018_01.png/1920px-NCT_going_to_a_Music_Bank_recording_in_April_2018_01.png": {
+    "targetPath": "/media/artists/nct-dream-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:40.577Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/e/e2/Rainbow_Bridge_World_logo.png": {
+    "targetPath": "/media/artists/oneus-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:42.651Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/1/10/%28Marie_Claire_Korea%29_We%2C_SHINee_-_Video_46s.jpg": {
+    "targetPath": "/media/artists/shinee-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:45.002Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/7/7a/THE_BOYZ_%E2%80%98BE_AWARE%E2%80%99_Showcase_230220.jpg": {
+    "targetPath": "/media/artists/the-boyz-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:47.619Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TWS_at_the_2024_Melon_Music_Awards.png/1920px-TWS_at_the_2024_Melon_Music_Awards.png": {
+    "targetPath": "/media/artists/tws-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:50.517Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/0/07/20200808_WOODZ_Cho_Seung-youn_SBS_RADIO_Park_So_Hyun_Love_Game_01.jpg": {
+    "targetPath": "/media/artists/woodz-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:53.229Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/6/64/Zhang_Hao_at_Incheon_Airport_-_May_2025_-_2.png": {
+    "targetPath": "/media/artists/zerobaseone-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:56.166Z"
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/e/eb/ZICO_Damiani_May_2024.jpg": {
+    "targetPath": "/media/artists/zico-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:27:58.867Z"
+  },
+  "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop": {
+    "targetPath": "/media/artists/andteam-wiki.jpg",
+    "imageType": "profile",
+    "downloadedAt": "2026-03-08T09:30:54.725Z"
+  }
+}
