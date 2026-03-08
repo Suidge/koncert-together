@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="1100" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bfb0bc"/>
+      <stop offset="1" stop-color="#584253"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="900" cy="210" r="250" fill="rgba(255,247,236,0.18)"/>
+  <circle cx="600" cy="362" r="188" fill="rgba(255,247,236,0.12)" stroke="rgba(255,247,236,0.34)" stroke-width="8"/>
+  <path d="M138 714C256 578 406 514 546 514C686 514 804 592 942 734" stroke="#92798c" stroke-width="24" stroke-linecap="round"/>
+  <text x="600" y="400" text-anchor="middle" fill="#FFF7EC" font-size="92" font-family="Georgia, serif" letter-spacing="8">IZ</text>
+  <text x="96" y="128" fill="#FFF7EC" font-size="28" font-family="Arial, sans-serif" letter-spacing="7">KONCERT TOGETHER</text>
+  <text x="96" y="690" fill="#FFF7EC" font-size="110" font-family="Georgia, serif" font-weight="700">izna</text>
+  <text x="96" y="748" fill="#FFF7EC" font-size="34" font-family="Arial, sans-serif" opacity="0.88">이즈나  •  naya  •  7 members</text>
+  <text x="96" y="814" fill="#FFF7EC" font-size="24" font-family="Arial, sans-serif" opacity="0.9">Fresh rookie entry for early fandom monitoring</text>
+</svg>

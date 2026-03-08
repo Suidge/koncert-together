@@ -61,6 +61,21 @@
     "sourceUrl": "https://www.smtown.com/"
   },
   {
+    "slug": "got7-tour-radar-2",
+    "artistSlug": "got7",
+    "artist": "GOT7",
+    "title": "GOT7 reunion watch",
+    "stage": "watch",
+    "note": "保留团体回归窗口和官方入口，不在无明确信息时伪造多城市日期。",
+    "regions": [
+      "Seoul",
+      "Bangkok",
+      "Los Angeles"
+    ],
+    "source": "GOT7 official channel",
+    "sourceUrl": "https://www.instagram.com/got7.with.igot7/"
+  },
+  {
     "slug": "illit-tour-radar",
     "artistSlug": "illit",
     "artist": "ILLIT",
@@ -197,6 +212,21 @@
     "sourceUrl": "https://weverse.io/newjeans"
   },
   {
+    "slug": "p1harmony-tour-radar-2",
+    "artistSlug": "p1harmony",
+    "artist": "P1Harmony",
+    "title": "P1Harmony North America watch",
+    "stage": "watch",
+    "note": "北美路线和 theatre/arena 切换值得单独追踪。",
+    "regions": [
+      "Newark",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "source": "P1Harmony official channel",
+    "sourceUrl": "https://p1harmony.us/"
+  },
+  {
     "slug": "red-velvet-tour-radar",
     "artistSlug": "red-velvet",
     "artist": "Red Velvet",
@@ -224,6 +254,36 @@
       "Osaka"
     ],
     "source": "SHINee official channel",
+    "sourceUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "stayc-tour-radar-2",
+    "artistSlug": "stayc",
+    "artist": "STAYC",
+    "title": "STAYC Asia route watch",
+    "stage": "watch",
+    "note": "先把亚洲主要城市和票务路径监测起来，等待完整路线。",
+    "regions": [
+      "Seoul",
+      "Tokyo",
+      "Bangkok"
+    ],
+    "source": "STAYC official channel",
+    "sourceUrl": "https://www.instagram.com/stayc_highup/"
+  },
+  {
+    "slug": "super-junior-tour-radar-2",
+    "artistSlug": "super-junior",
+    "artist": "SUPER JUNIOR",
+    "title": "SUPER JUNIOR Asia legacy watch",
+    "stage": "watch",
+    "note": "以亚洲主要市场和周年演出窗口为主。",
+    "regions": [
+      "Seoul",
+      "Taipei",
+      "Bangkok"
+    ],
+    "source": "SUPER JUNIOR official channel",
     "sourceUrl": "https://www.smtown.com/"
   },
   {
@@ -255,6 +315,21 @@
     ],
     "source": "THE BOYZ official channel",
     "sourceUrl": "https://www.theboyz.kr/"
+  },
+  {
+    "slug": "triples-tour-radar-2",
+    "artistSlug": "triples",
+    "artist": "tripleS",
+    "title": "tripleS showcase-to-tour watch",
+    "stage": "watch",
+    "note": "先跟踪 show case、fan event 和台北/首尔场可能性。",
+    "regions": [
+      "Seoul",
+      "Taipei",
+      "Tokyo"
+    ],
+    "source": "tripleS official channel",
+    "sourceUrl": "https://www.mod-haus.com/"
   },
   {
     "slug": "v-tour-radar",

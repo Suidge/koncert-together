@@ -429,6 +429,45 @@
     ]
   },
   {
+    "id": "btob-seoul-2026",
+    "artist": "BTOB",
+    "artistSlug": "btob",
+    "slug": "btob-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Jamsil Indoor Stadium",
+    "startDate": "2026-06-21T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "BTOB official channel",
+    "sourceUrl": "https://www.instagram.com/offclbtob/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Legacy",
+      "Korea",
+      "Seats"
+    ],
+    "title": "BTOB in Seoul",
+    "tourName": "BTOB Tour Watch",
+    "description": "BTOB 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "资深 vocal 团场次优先比较音场和正中区块。",
+    "priceNote": "看台正中常比低层斜角更稳。",
+    "travelNote": "蚕室一带散场人流大，返程最好提前想好。",
+    "checklist": [
+      "优先看正中区块",
+      "确认实名信息",
+      "预留返程时间"
+    ],
+    "heroImage": "/media/events/btob-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "BTOB Official",
+        "href": "https://www.instagram.com/offclbtob/",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "itzy-manila-2026",
     "artist": "ITZY",
     "artistSlug": "itzy",
@@ -819,6 +858,84 @@
     ]
   },
   {
+    "id": "h1-key-seoul-2026",
+    "artist": "H1-KEY",
+    "artistSlug": "h1-key",
+    "slug": "h1-key-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "MUV Hall",
+    "startDate": "2026-08-30T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "H1-KEY official channel",
+    "sourceUrl": "https://www.instagram.com/h1key_official/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Theater",
+      "Rookie"
+    ],
+    "title": "H1-KEY in Seoul",
+    "tourName": "H1-KEY Tour Watch",
+    "description": "H1-KEY 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "中小型场馆更看视角和队列。",
+    "priceNote": "福利票说明比票档名字更重要。",
+    "travelNote": "江南区域散场打车成本要先估。",
+    "checklist": [
+      "确认福利",
+      "提前排队",
+      "估算打车"
+    ],
+    "heroImage": "/media/events/h1-key-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "H1-KEY Official",
+        "href": "https://www.instagram.com/h1key_official/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "jin-osaka-2026",
+    "artist": "Jin",
+    "artistSlug": "jin",
+    "slug": "jin-osaka-2026",
+    "city": "Osaka",
+    "country": "Japan",
+    "venue": "Osaka-jō Hall",
+    "startDate": "2026-09-05T18:00:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "status": "announced",
+    "source": "Jin official channel",
+    "sourceUrl": "https://weverse.io/jin",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Japan",
+      "Membership"
+    ],
+    "title": "Jin in Osaka",
+    "tourName": "Jin Tour Watch",
+    "description": "Jin 的 Osaka 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "solo 日本场优先看抽选和会员。",
+    "priceNote": "电子票和入场证件细节不能漏。",
+    "travelNote": "大阪市区返程路线提早锁定。",
+    "checklist": [
+      "确认抽选",
+      "核对电子票",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/jin-osaka-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Jin Official",
+        "href": "https://weverse.io/jin",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "katseye-new-york-2026",
     "artist": "KATSEYE",
     "artistSlug": "katseye",
@@ -853,6 +970,45 @@
       {
         "label": "KATSEYE Official",
         "href": "https://weverse.io/katseye",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "evnne-seoul-2026",
+    "artist": "EVNNE",
+    "artistSlug": "evnne",
+    "slug": "evnne-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Olympic Hall",
+    "startDate": "2026-09-06T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "EVNNE official channel",
+    "sourceUrl": "https://www.instagram.com/evnne_official/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Fancon",
+      "Korea",
+      "Membership"
+    ],
+    "title": "EVNNE in Seoul",
+    "tourName": "EVNNE Tour Watch",
+    "description": "EVNNE 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "fancon 场更要看福利票和会员入口。",
+    "priceNote": "福利差异可能大于座位差异。",
+    "travelNote": "小场馆排队节奏快，提早到场更稳。",
+    "checklist": [
+      "确认会员入口",
+      "核对福利说明",
+      "提前到场"
+    ],
+    "heroImage": "/media/events/evnne-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "EVNNE Official",
+        "href": "https://www.instagram.com/evnne_official/",
         "type": "official"
       }
     ]
@@ -897,6 +1053,123 @@
     ]
   },
   {
+    "id": "taemin-bangkok-2026",
+    "artist": "Taemin",
+    "artistSlug": "taemin",
+    "slug": "taemin-bangkok-2026",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "venue": "Impact Exhibition Hall 5",
+    "startDate": "2026-09-12T19:00:00+07:00",
+    "timezone": "Asia/Bangkok",
+    "status": "announced",
+    "source": "Taemin official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Asia",
+      "Performance"
+    ],
+    "title": "Taemin in Bangkok",
+    "tourName": "Taemin Tour Watch",
+    "description": "Taemin 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "表演型 solo 更值得看舞台延伸和视角。",
+    "priceNote": "站位和屏幕位置一起考虑。",
+    "travelNote": "曼谷返程提早锁定。",
+    "checklist": [
+      "比较视角",
+      "确认站位",
+      "预订返程"
+    ],
+    "heroImage": "/media/events/taemin-bangkok-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Taemin Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "stayc-seoul-2026",
+    "artist": "STAYC",
+    "artistSlug": "stayc",
+    "slug": "stayc-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Handball Gymnasium",
+    "startDate": "2026-09-13T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "STAYC official channel",
+    "sourceUrl": "https://www.instagram.com/stayc_highup/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Arena",
+      "Travel"
+    ],
+    "title": "STAYC in Seoul",
+    "tourName": "STAYC Tour Watch",
+    "description": "STAYC 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "手球馆更需要提早看区块图。",
+    "priceNote": "近舞台不一定更适合看全景。",
+    "travelNote": "园区演出日人流固定偏大。",
+    "checklist": [
+      "确认区块图",
+      "比较近区和中区",
+      "预留返程"
+    ],
+    "heroImage": "/media/events/stayc-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "STAYC Official",
+        "href": "https://www.instagram.com/stayc_highup/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "fromis-9-seoul-2026",
+    "artist": "fromis_9",
+    "artistSlug": "fromis-9",
+    "slug": "fromis-9-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Olympic Hall",
+    "startDate": "2026-09-14T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "fromis_9 official channel",
+    "sourceUrl": "https://weverse.io/fromis9",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Live",
+      "Fandom"
+    ],
+    "title": "fromis_9 in Seoul",
+    "tourName": "fromis_9 Tour Watch",
+    "description": "fromis_9 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "核心饭观演更适合关注官宣和队列。",
+    "priceNote": "福利和场馆动线值得单独整理。",
+    "travelNote": "园区演出日提前到场更稳。",
+    "checklist": [
+      "盯官宣",
+      "看福利",
+      "提早到场"
+    ],
+    "heroImage": "/media/events/fromis-9-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "fromis_9 Official",
+        "href": "https://weverse.io/fromis9",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "stray-kids-bangkok-2026",
     "artist": "Stray Kids",
     "artistSlug": "stray-kids",
@@ -931,6 +1204,45 @@
       {
         "label": "Stray Kids Official",
         "href": "https://www.straykids.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "woodz-seoul-2026",
+    "artist": "WOODZ",
+    "artistSlug": "woodz",
+    "slug": "woodz-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "YES24 Live Hall",
+    "startDate": "2026-09-20T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "WOODZ official channel",
+    "sourceUrl": "https://www.instagram.com/woodz_dnwm/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Korea",
+      "Theater"
+    ],
+    "title": "WOODZ in Seoul",
+    "tourName": "WOODZ Tour Watch",
+    "description": "WOODZ 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "solo 场更值得看视角和音场。",
+    "priceNote": "站席与坐席体验差异很大。",
+    "travelNote": "广津区返程地铁更稳。",
+    "checklist": [
+      "确认站席规则",
+      "看好区块",
+      "提早到场"
+    ],
+    "heroImage": "/media/events/woodz-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "WOODZ Official",
+        "href": "https://www.instagram.com/woodz_dnwm/",
         "type": "official"
       }
     ]
@@ -975,6 +1287,45 @@
     ]
   },
   {
+    "id": "nexz-osaka-2026",
+    "artist": "NEXZ",
+    "artistSlug": "nexz",
+    "slug": "nexz-osaka-2026",
+    "city": "Osaka",
+    "country": "Japan",
+    "venue": "Asue Arena Osaka",
+    "startDate": "2026-09-27T18:00:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "status": "announced",
+    "source": "NEXZ official channel",
+    "sourceUrl": "https://nexz-official.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Arena",
+      "Travel"
+    ],
+    "title": "NEXZ in Osaka",
+    "tourName": "NEXZ Tour Watch",
+    "description": "NEXZ 的 Osaka 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "日本路线要优先看账号和抽选。",
+    "priceNote": "先准备支付方式和取票方式。",
+    "travelNote": "大阪返程列车要提前确认。",
+    "checklist": [
+      "准备日区账号",
+      "确认取票方式",
+      "预留返程"
+    ],
+    "heroImage": "/media/events/nexz-osaka-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "NEXZ Official",
+        "href": "https://nexz-official.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "twice-singapore-2026",
     "artist": "TWICE",
     "artistSlug": "twice",
@@ -1009,6 +1360,45 @@
       {
         "label": "TWICE Official",
         "href": "https://twice.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "qwer-seoul-2026",
+    "artist": "QWER",
+    "artistSlug": "qwer",
+    "slug": "qwer-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Olympic Hall",
+    "startDate": "2026-10-04T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "on_sale",
+    "source": "QWER official channel",
+    "sourceUrl": "https://www.instagram.com/qwerband_official/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Band",
+      "Korea",
+      "Theater"
+    ],
+    "title": "QWER in Seoul",
+    "tourName": "QWER Tour Watch",
+    "description": "QWER 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "乐队场更值得看音场和视线。",
+    "priceNote": "正中看台常比侧面更稳。",
+    "travelNote": "奥林匹克公园区域散场节奏固定。",
+    "checklist": [
+      "优先看音场",
+      "选正中区",
+      "提早返程"
+    ],
+    "heroImage": "/media/events/qwer-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "QWER Official",
+        "href": "https://www.instagram.com/qwerband_official/",
         "type": "official"
       }
     ]
@@ -1053,6 +1443,84 @@
     ]
   },
   {
+    "id": "kep1er-yokohama-2026",
+    "artist": "Kep1er",
+    "artistSlug": "kep1er",
+    "slug": "kep1er-yokohama-2026",
+    "city": "Yokohama",
+    "country": "Japan",
+    "venue": "K-Arena Yokohama",
+    "startDate": "2026-10-11T18:00:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "status": "announced",
+    "source": "Kep1er official channel",
+    "sourceUrl": "https://www.instagram.com/official.kep1er/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Arena",
+      "Travel"
+    ],
+    "title": "Kep1er in Yokohama",
+    "tourName": "Kep1er Tour Watch",
+    "description": "Kep1er 的 Yokohama 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "日本场优先看抽选和电子票。",
+    "priceNote": "二轮抽选往往也有机会。",
+    "travelNote": "横滨返程和住宿可一起规划。",
+    "checklist": [
+      "确认抽选轮次",
+      "核对电子票",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/kep1er-yokohama-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Kep1er Official",
+        "href": "https://www.instagram.com/official.kep1er/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "illit-seoul-2026",
+    "artist": "ILLIT",
+    "artistSlug": "illit",
+    "slug": "illit-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Olympic Hall",
+    "startDate": "2026-10-12T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "ILLIT official channel",
+    "sourceUrl": "https://weverse.io/illit",
+    "sourceConfidence": "official",
+    "tags": [
+      "Rookie",
+      "Korea",
+      "Membership"
+    ],
+    "title": "ILLIT in Seoul",
+    "tourName": "ILLIT Tour Watch",
+    "description": "ILLIT 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新团首尔场优先看会员路径。",
+    "priceNote": "福利差异要比票档名字更重要。",
+    "travelNote": "排队和队列节奏值得提前看。",
+    "checklist": [
+      "确认会员入口",
+      "核对福利",
+      "提前到场"
+    ],
+    "heroImage": "/media/events/illit-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ILLIT Official",
+        "href": "https://weverse.io/illit",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "taeyeon-seoul-2026",
     "artist": "Taeyeon",
     "artistSlug": "taeyeon",
@@ -1087,6 +1555,123 @@
       {
         "label": "Taeyeon Official",
         "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "wayv-macau-2026",
+    "artist": "WayV",
+    "artistSlug": "wayv",
+    "slug": "wayv-macau-2026",
+    "city": "Macau",
+    "country": "Macau",
+    "venue": "Broadway Theatre",
+    "startDate": "2026-10-17T19:00:00+08:00",
+    "timezone": "Asia/Macau",
+    "status": "announced",
+    "source": "WayV official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Macau",
+      "Travel",
+      "Arena"
+    ],
+    "title": "WayV in Macau",
+    "tourName": "WayV Tour Watch",
+    "description": "WayV 的 Macau 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "澳门场要优先看口岸和酒店接驳。",
+    "priceNote": "平台支付和实名要先确认。",
+    "travelNote": "返程时间缓冲要给足。",
+    "checklist": [
+      "确认支付",
+      "预留口岸时间",
+      "看接驳"
+    ],
+    "heroImage": "/media/events/wayv-macau-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "WayV Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "shinee-tokyo-2026",
+    "artist": "SHINee",
+    "artistSlug": "shinee",
+    "slug": "shinee-tokyo-2026",
+    "city": "Tokyo",
+    "country": "Japan",
+    "venue": "Yoyogi National Stadium First Gymnasium",
+    "startDate": "2026-10-18T18:00:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "status": "announced",
+    "source": "SHINee official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Legacy",
+      "Arena"
+    ],
+    "title": "SHINee in Tokyo",
+    "tourName": "SHINee Tour Watch",
+    "description": "SHINee 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "日本资深团场优先看抽选和补票。",
+    "priceNote": "高需求时补票也值得等待。",
+    "travelNote": "代代木区域返程成熟，但演出日会拥挤。",
+    "checklist": [
+      "确认抽选",
+      "等补票",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/shinee-tokyo-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "SHINee Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "p1harmony-newark-2026",
+    "artist": "P1Harmony",
+    "artistSlug": "p1harmony",
+    "slug": "p1harmony-newark-2026",
+    "city": "Newark",
+    "country": "United States",
+    "venue": "Prudential Center",
+    "startDate": "2026-10-18T20:00:00-04:00",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "source": "P1Harmony official channel",
+    "sourceUrl": "https://p1harmony.us/",
+    "sourceConfidence": "official",
+    "tags": [
+      "North America",
+      "Arena",
+      "Travel"
+    ],
+    "title": "P1Harmony in Newark",
+    "tourName": "P1Harmony Tour Watch",
+    "description": "P1Harmony 的 Newark 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "北美场优先看 presale 和停车。",
+    "priceNote": "下层看台与 floor 的性价比差异很大。",
+    "travelNote": "纽瓦克返程和酒店区位要提前确认。",
+    "checklist": [
+      "确认 presale",
+      "比较区块",
+      "确认返程"
+    ],
+    "heroImage": "/media/events/p1harmony-newark-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "P1Harmony Official",
+        "href": "https://p1harmony.us/",
         "type": "official"
       }
     ]
@@ -1131,6 +1716,162 @@
     ]
   },
   {
+    "id": "triples-taipei-2026",
+    "artist": "tripleS",
+    "artistSlug": "triples",
+    "slug": "triples-taipei-2026",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "venue": "TICC",
+    "startDate": "2026-10-25T19:30:00+08:00",
+    "timezone": "Asia/Taipei",
+    "status": "announced",
+    "source": "tripleS official channel",
+    "sourceUrl": "https://www.mod-haus.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Showcase",
+      "Taiwan",
+      "Travel"
+    ],
+    "title": "tripleS in Taipei",
+    "tourName": "tripleS Tour Watch",
+    "description": "tripleS 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "多人结构艺人更适合先看舞台覆盖和屏幕。",
+    "priceNote": "剧院型场馆更看正面视角。",
+    "travelNote": "信义区返程方便，但仍要确认末班。",
+    "checklist": [
+      "优先正面区",
+      "确认入场时间",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/triples-taipei-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "tripleS Official",
+        "href": "https://www.mod-haus.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "kiss-of-life-bangkok-2026",
+    "artist": "KISS OF LIFE",
+    "artistSlug": "kiss-of-life",
+    "slug": "kiss-of-life-bangkok-2026",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "venue": "Thunder Dome",
+    "startDate": "2026-10-26T19:00:00+07:00",
+    "timezone": "Asia/Bangkok",
+    "status": "announced",
+    "source": "KISS OF LIFE official channel",
+    "sourceUrl": "https://www.s2ent.co.kr/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Travel",
+      "Arena"
+    ],
+    "title": "KISS OF LIFE in Bangkok",
+    "tourName": "KISS OF LIFE Tour Watch",
+    "description": "KISS OF LIFE 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "曼谷场更看支付和交通。",
+    "priceNote": "站席和坐席规则要先确认。",
+    "travelNote": "散场交通最好提前锁定。",
+    "checklist": [
+      "确认支付",
+      "看站席规则",
+      "预订返程"
+    ],
+    "heroImage": "/media/events/kiss-of-life-bangkok-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "KISS OF LIFE Official",
+        "href": "https://www.s2ent.co.kr/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "izna-seoul-2026",
+    "artist": "izna",
+    "artistSlug": "izna",
+    "slug": "izna-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Blue Square Mastercard Hall",
+    "startDate": "2026-10-31T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "izna official channel",
+    "sourceUrl": "https://www.instagram.com/izna_official/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Rookie",
+      "Theater",
+      "Watchlist"
+    ],
+    "title": "izna in Seoul",
+    "tourName": "izna Tour Watch",
+    "description": "izna 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新团小中场更适合先看入场和福利。",
+    "priceNote": "不同票档的近距离体验差别大。",
+    "travelNote": "蓝色广场场次更适合提早到场。",
+    "checklist": [
+      "看福利票规则",
+      "提早排队",
+      "确认楼层"
+    ],
+    "heroImage": "/media/events/izna-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "izna Official",
+        "href": "https://www.instagram.com/izna_official/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "jimin-singapore-2026",
+    "artist": "Jimin",
+    "artistSlug": "jimin",
+    "slug": "jimin-singapore-2026",
+    "city": "Singapore",
+    "country": "Singapore",
+    "venue": "Singapore Indoor Stadium",
+    "startDate": "2026-11-01T19:30:00+08:00",
+    "timezone": "Asia/Singapore",
+    "status": "announced",
+    "source": "Jimin official channel",
+    "sourceUrl": "https://weverse.io/jimin",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Asia",
+      "Travel"
+    ],
+    "title": "Jimin in Singapore",
+    "tourName": "Jimin Tour Watch",
+    "description": "Jimin 的 Singapore 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新加坡场要先看支付和公开发售。",
+    "priceNote": "不同平台支持的卡不同。",
+    "travelNote": "酒店优先沿地铁线。",
+    "checklist": [
+      "确认支付方式",
+      "留意公开发售",
+      "订好酒店"
+    ],
+    "heroImage": "/media/events/jimin-singapore-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Jimin Official",
+        "href": "https://weverse.io/jimin",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "ateez-mexico-city-2026",
     "artist": "ATEEZ",
     "artistSlug": "ateez",
@@ -1165,6 +1906,84 @@
       {
         "label": "ATEEZ Official",
         "href": "https://ateez.kqent.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "gidle-paris-2026",
+    "artist": "i-dle",
+    "artistSlug": "gidle",
+    "slug": "gidle-paris-2026",
+    "city": "Paris",
+    "country": "France",
+    "venue": "Accor Arena",
+    "startDate": "2026-11-07T20:00:00+01:00",
+    "timezone": "Europe/Paris",
+    "status": "announced",
+    "source": "i-dle official channel",
+    "sourceUrl": "https://www.cubeent.co.kr/gidle",
+    "sourceConfidence": "official",
+    "tags": [
+      "Europe",
+      "Arena",
+      "Travel"
+    ],
+    "title": "i-dle in Paris",
+    "tourName": "i-dle Tour Watch",
+    "description": "i-dle 的 Paris 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "欧洲场更看平台账户地区和支付。",
+    "priceNote": "巴黎夜间返程要提前规划。",
+    "travelNote": "VIP 和普通票入场时间差要看清。",
+    "checklist": [
+      "确认账户地区",
+      "看入场时间",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/gidle-paris-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "i-dle Official",
+        "href": "https://www.cubeent.co.kr/gidle",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "red-velvet-manila-2026",
+    "artist": "Red Velvet",
+    "artistSlug": "red-velvet",
+    "slug": "red-velvet-manila-2026",
+    "city": "Manila",
+    "country": "Philippines",
+    "venue": "Smart Araneta Coliseum",
+    "startDate": "2026-11-08T19:00:00+08:00",
+    "timezone": "Asia/Manila",
+    "status": "announced",
+    "source": "Red Velvet official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Legacy",
+      "Asia",
+      "Arena"
+    ],
+    "title": "Red Velvet in Manila",
+    "tourName": "Red Velvet Tour Watch",
+    "description": "Red Velvet 的 Manila 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "legacy 女团菲律宾场更要看票档和交通。",
+    "priceNote": "不同票档福利差异值得先看。",
+    "travelNote": "Araneta 一带返程不要临时决定。",
+    "checklist": [
+      "看福利差异",
+      "确认支付",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/red-velvet-manila-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Red Velvet Official",
+        "href": "https://www.smtown.com/",
         "type": "official"
       }
     ]
@@ -1209,6 +2028,84 @@
     ]
   },
   {
+    "id": "zico-seoul-2026",
+    "artist": "ZICO",
+    "artistSlug": "zico",
+    "slug": "zico-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "SK Olympic Handball Gymnasium",
+    "startDate": "2026-11-14T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "ZICO official channel",
+    "sourceUrl": "https://weverse.io/zico",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Korea",
+      "Festival"
+    ],
+    "title": "ZICO in Seoul",
+    "tourName": "ZICO Tour Watch",
+    "description": "ZICO 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "solo live 更值得先看官宣和场馆动线。",
+    "priceNote": "视角、舞台段落和音场一起考虑。",
+    "travelNote": "园区返程节奏提前规划。",
+    "checklist": [
+      "盯官宣",
+      "比较视野",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/zico-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ZICO Official",
+        "href": "https://weverse.io/zico",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "h1-key-taipei-2026",
+    "artist": "H1-KEY",
+    "artistSlug": "h1-key",
+    "slug": "h1-key-taipei-2026",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "venue": "Legacy Taipei",
+    "startDate": "2026-11-14T19:30:00+08:00",
+    "timezone": "Asia/Taipei",
+    "status": "announced",
+    "source": "H1-KEY official channel",
+    "sourceUrl": "https://www.instagram.com/h1key_official/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Theater",
+      "Taiwan",
+      "Travel"
+    ],
+    "title": "H1-KEY in Taipei",
+    "tourName": "H1-KEY Tour Watch",
+    "description": "H1-KEY 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "剧场场更看视角和到场时机。",
+    "priceNote": "靠前站位和坐席体验差距明显。",
+    "travelNote": "台北夜间返程稳定，但仍要确认末班。",
+    "checklist": [
+      "确认入场顺序",
+      "比较前区与中区",
+      "看捷运末班"
+    ],
+    "heroImage": "/media/events/h1-key-taipei-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "H1-KEY Official",
+        "href": "https://www.instagram.com/h1key_official/",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "stray-kids-sydney-2026",
     "artist": "Stray Kids",
     "artistSlug": "stray-kids",
@@ -1243,6 +2140,123 @@
       {
         "label": "Stray Kids Official",
         "href": "https://www.straykids.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "meovv-tokyo-2026",
+    "artist": "MEOVV",
+    "artistSlug": "meovv",
+    "slug": "meovv-tokyo-2026",
+    "city": "Tokyo",
+    "country": "Japan",
+    "venue": "Tokyo Garden Theater",
+    "startDate": "2026-11-15T18:00:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "status": "announced",
+    "source": "MEOVV official channel",
+    "sourceUrl": "https://www.instagram.com/meovv/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Japan",
+      "Rookie",
+      "Travel"
+    ],
+    "title": "MEOVV in Tokyo",
+    "tourName": "MEOVV Tour Watch",
+    "description": "MEOVV 的 Tokyo 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新团日本场要优先看抽选。",
+    "priceNote": "电子票和发券方式更关键。",
+    "travelNote": "丰洲区域返程路线要先确认。",
+    "checklist": [
+      "确认抽选",
+      "核对电子票",
+      "规划返程"
+    ],
+    "heroImage": "/media/events/meovv-tokyo-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "MEOVV Official",
+        "href": "https://www.instagram.com/meovv/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "day6-jakarta-2026",
+    "artist": "DAY6",
+    "artistSlug": "day6",
+    "slug": "day6-jakarta-2026",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "venue": "Tennis Indoor Senayan",
+    "startDate": "2026-11-21T19:00:00+07:00",
+    "timezone": "Asia/Jakarta",
+    "status": "announced",
+    "source": "DAY6 official channel",
+    "sourceUrl": "https://day6.jype.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Band",
+      "Asia",
+      "Travel"
+    ],
+    "title": "DAY6 in Jakarta",
+    "tourName": "DAY6 Tour Watch",
+    "description": "DAY6 的 Jakarta 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "乐队场要优先看音场和到场时机。",
+    "priceNote": "印尼平台支付和取票方式要确认。",
+    "travelNote": "Senayan 区域返程时间不可低估。",
+    "checklist": [
+      "确认支付",
+      "看音场",
+      "预留返程"
+    ],
+    "heroImage": "/media/events/day6-jakarta-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "DAY6 Official",
+        "href": "https://day6.jype.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "kickflip-seoul-2026",
+    "artist": "KickFlip",
+    "artistSlug": "kickflip",
+    "slug": "kickflip-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Yes24 Live Hall",
+    "startDate": "2026-11-22T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "KickFlip official channel",
+    "sourceUrl": "https://www.instagram.com/kickflip_official/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Rookie",
+      "Korea",
+      "Watchlist"
+    ],
+    "title": "KickFlip in Seoul",
+    "tourName": "KickFlip Tour Watch",
+    "description": "KickFlip 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "新团 live hall 更适合先看入场和站位。",
+    "priceNote": "别忽略包袋和排队规则。",
+    "travelNote": "广津区场次散场后转地铁很关键。",
+    "checklist": [
+      "确认包袋规则",
+      "提早到场",
+      "看排队信息"
+    ],
+    "heroImage": "/media/events/kickflip-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "KickFlip Official",
+        "href": "https://www.instagram.com/kickflip_official/",
         "type": "official"
       }
     ]
@@ -1287,6 +2301,45 @@
     ]
   },
   {
+    "id": "plave-seoul-2026",
+    "artist": "PLAVE",
+    "artistSlug": "plave",
+    "slug": "plave-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Gocheok Sky Dome",
+    "startDate": "2026-11-28T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "PLAVE official channel",
+    "sourceUrl": "https://weverse.io/plave",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Dome",
+      "Fandom"
+    ],
+    "title": "PLAVE in Seoul",
+    "tourName": "PLAVE Tour Watch",
+    "description": "PLAVE 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "高关注度场次更要盯官方。",
+    "priceNote": "高尺场视角和大屏体验要一起考虑。",
+    "travelNote": "散场交通缓冲要留足。",
+    "checklist": [
+      "盯紧官宣",
+      "比较视野",
+      "预留缓冲"
+    ],
+    "heroImage": "/media/events/plave-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "PLAVE Official",
+        "href": "https://weverse.io/plave",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "blackpink-tokyo-2026",
     "artist": "BLACKPINK",
     "artistSlug": "blackpink",
@@ -1321,6 +2374,123 @@
       {
         "label": "BLACKPINK Official",
         "href": "https://www.blackpinkmusic.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "monsta-x-seoul-2026",
+    "artist": "MONSTA X",
+    "artistSlug": "monsta-x",
+    "slug": "monsta-x-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "KSPO Dome",
+    "startDate": "2026-11-29T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "MONSTA X official channel",
+    "sourceUrl": "https://monstax-official.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Legacy",
+      "Korea",
+      "Arena"
+    ],
+    "title": "MONSTA X in Seoul",
+    "tourName": "MONSTA X Tour Watch",
+    "description": "MONSTA X 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "回归类男团场次更适合盯官方。",
+    "priceNote": "区块视野和音场要同时看。",
+    "travelNote": "奥林匹克公园返程别压最后一班车。",
+    "checklist": [
+      "盯官宣",
+      "比较视野",
+      "提早返程"
+    ],
+    "heroImage": "/media/events/monsta-x-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "MONSTA X Official",
+        "href": "https://monstax-official.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "oneus-bangkok-2026",
+    "artist": "ONEUS",
+    "artistSlug": "oneus",
+    "slug": "oneus-bangkok-2026",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "venue": "Thunder Dome",
+    "startDate": "2026-12-05T19:00:00+07:00",
+    "timezone": "Asia/Bangkok",
+    "status": "announced",
+    "source": "ONEUS official channel",
+    "sourceUrl": "https://www.instagram.com/official_oneus/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "ONEUS in Bangkok",
+    "tourName": "ONEUS Tour Watch",
+    "description": "ONEUS 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "泰国中型 arena 场更要看交通和站席。",
+    "priceNote": "支付成功率比多开几个页面更重要。",
+    "travelNote": "散场交通提早锁定。",
+    "checklist": [
+      "确认支付方式",
+      "查看站席规则",
+      "预订返程"
+    ],
+    "heroImage": "/media/events/oneus-bangkok-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "ONEUS Official",
+        "href": "https://www.instagram.com/official_oneus/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "v-paris-2026",
+    "artist": "V",
+    "artistSlug": "v",
+    "slug": "v-paris-2026",
+    "city": "Paris",
+    "country": "France",
+    "venue": "Le Zenith Paris",
+    "startDate": "2026-12-05T20:00:00+01:00",
+    "timezone": "Europe/Paris",
+    "status": "announced",
+    "source": "V official channel",
+    "sourceUrl": "https://weverse.io/v",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "Europe",
+      "Travel"
+    ],
+    "title": "V in Paris",
+    "tourName": "V Tour Watch",
+    "description": "V 的 Paris 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "欧洲 solo 场更要看账户地区和汇率。",
+    "priceNote": "法国夜间返程路线要先定。",
+    "travelNote": "场馆周边住宿提早订。",
+    "checklist": [
+      "确认账户地区",
+      "规划返程",
+      "提早订酒店"
+    ],
+    "heroImage": "/media/events/v-paris-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "V Official",
+        "href": "https://weverse.io/v",
         "type": "official"
       }
     ]
@@ -1365,6 +2535,123 @@
     ]
   },
   {
+    "id": "jung-kook-los-angeles-2026",
+    "artist": "Jung Kook",
+    "artistSlug": "jung-kook",
+    "slug": "jung-kook-los-angeles-2026",
+    "city": "Los Angeles",
+    "country": "United States",
+    "venue": "Crypto.com Arena",
+    "startDate": "2026-12-06T20:00:00-08:00",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "source": "Jung Kook official channel",
+    "sourceUrl": "https://weverse.io/jungkook",
+    "sourceConfidence": "official",
+    "tags": [
+      "Solo",
+      "North America",
+      "Arena"
+    ],
+    "title": "Jung Kook in Los Angeles",
+    "tourName": "Jung Kook Tour Watch",
+    "description": "Jung Kook 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "高需求 solo 场更要先准备 presale。",
+    "priceNote": "Floor 和 lower bowl 的取舍要提前想。",
+    "travelNote": "LA 返程别临时决定。",
+    "checklist": [
+      "准备 presale",
+      "比较区块",
+      "确认返程"
+    ],
+    "heroImage": "/media/events/jung-kook-los-angeles-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "Jung Kook Official",
+        "href": "https://weverse.io/jungkook",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "super-junior-taipei-2026",
+    "artist": "SUPER JUNIOR",
+    "artistSlug": "super-junior",
+    "slug": "super-junior-taipei-2026",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "venue": "Taipei Arena",
+    "startDate": "2026-12-12T19:30:00+08:00",
+    "timezone": "Asia/Taipei",
+    "status": "announced",
+    "source": "SUPER JUNIOR official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Legacy",
+      "Taiwan",
+      "Arena"
+    ],
+    "title": "SUPER JUNIOR in Taipei",
+    "tourName": "SUPER JUNIOR Tour Watch",
+    "description": "SUPER JUNIOR 的 Taipei 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "资深团台北场更适合看区块和交通。",
+    "priceNote": "台北小巨蛋的正中区块通常更稳。",
+    "travelNote": "住宿和捷运末班时间要提前看。",
+    "checklist": [
+      "看正中区块",
+      "确认返程",
+      "提早订酒店"
+    ],
+    "heroImage": "/media/events/super-junior-taipei-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "SUPER JUNIOR Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "nct-127-bangkok-2026",
+    "artist": "NCT 127",
+    "artistSlug": "nct-127",
+    "slug": "nct-127-bangkok-2026",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "venue": "Impact Arena",
+    "startDate": "2026-12-13T19:00:00+07:00",
+    "timezone": "Asia/Bangkok",
+    "status": "announced",
+    "source": "NCT 127 official channel",
+    "sourceUrl": "https://www.smtown.com/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Asia",
+      "Arena",
+      "Travel"
+    ],
+    "title": "NCT 127 in Bangkok",
+    "tourName": "NCT 127 Tour Watch",
+    "description": "NCT 127 的 Bangkok 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "泰国 arena 场要把支付和返程一起考虑。",
+    "priceNote": "不同区块对延伸台视野差异明显。",
+    "travelNote": "Impact 周边住宿价值很高。",
+    "checklist": [
+      "确认支付",
+      "比较视野",
+      "订周边酒店"
+    ],
+    "heroImage": "/media/events/nct-127-bangkok-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "NCT 127 Official",
+        "href": "https://www.smtown.com/",
+        "type": "official"
+      }
+    ]
+  },
+  {
     "id": "xg-los-angeles-2026",
     "artist": "XG",
     "artistSlug": "xg",
@@ -1399,6 +2686,123 @@
       {
         "label": "XG Official",
         "href": "https://xgalx.com/xg/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "aespa-los-angeles-2026",
+    "artist": "aespa",
+    "artistSlug": "aespa",
+    "slug": "aespa-los-angeles-2026",
+    "city": "Los Angeles",
+    "country": "United States",
+    "venue": "Kia Forum",
+    "startDate": "2026-12-19T20:00:00-08:00",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "source": "aespa official channel",
+    "sourceUrl": "https://weverse.io/aespa",
+    "sourceConfidence": "official",
+    "tags": [
+      "North America",
+      "Arena",
+      "Travel"
+    ],
+    "title": "aespa in Los Angeles",
+    "tourName": "aespa Tour Watch",
+    "description": "aespa 的 Los Angeles 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "论坛场更适合比较 floor 与 lower bowl。",
+    "priceNote": "停车和网约车预算都要单独算。",
+    "travelNote": "Inglewood 演出日交通拥堵明显。",
+    "checklist": [
+      "比较区块",
+      "预留停车预算",
+      "提前出发"
+    ],
+    "heroImage": "/media/events/aespa-los-angeles-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "aespa Official",
+        "href": "https://weverse.io/aespa",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "got7-seoul-2026",
+    "artist": "GOT7",
+    "artistSlug": "got7",
+    "slug": "got7-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "KSPO Dome",
+    "startDate": "2026-12-20T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "GOT7 official channel",
+    "sourceUrl": "https://www.instagram.com/got7.with.igot7/",
+    "sourceConfidence": "official",
+    "tags": [
+      "Legacy",
+      "Korea",
+      "Reunion"
+    ],
+    "title": "GOT7 in Seoul",
+    "tourName": "GOT7 Tour Watch",
+    "description": "GOT7 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "回归类场次优先看官宣和实名细节。",
+    "priceNote": "需求高时尽量减少临场决策。",
+    "travelNote": "首尔场适合提前锁住宿和返程。",
+    "checklist": [
+      "盯紧官宣",
+      "确认实名规则",
+      "提早订住宿"
+    ],
+    "heroImage": "/media/events/got7-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "GOT7 Official",
+        "href": "https://www.instagram.com/got7.with.igot7/",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "newjeans-seoul-2026",
+    "artist": "NewJeans",
+    "artistSlug": "newjeans",
+    "slug": "newjeans-seoul-2026",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Jamsil Indoor Stadium",
+    "startDate": "2026-12-27T18:00:00+09:00",
+    "timezone": "Asia/Seoul",
+    "status": "announced",
+    "source": "NewJeans official channel",
+    "sourceUrl": "https://weverse.io/newjeans",
+    "sourceConfidence": "official",
+    "tags": [
+      "Korea",
+      "Global",
+      "Watchlist"
+    ],
+    "title": "NewJeans in Seoul",
+    "tourName": "NewJeans Tour Watch",
+    "description": "NewJeans 的 Seoul 场会把官宣入口、购票说明、场馆交通和中文观演决策放在一起。",
+    "purchaseHint": "高关注艺人场次先盯官宣和实名。",
+    "priceNote": "小到中型场更要提前看队列。",
+    "travelNote": "蚕室返程和住宿提早安排。",
+    "checklist": [
+      "盯官宣",
+      "确认实名",
+      "提早订住宿"
+    ],
+    "heroImage": "/media/events/newjeans-seoul-2026.svg",
+    "ticketLinks": [
+      {
+        "label": "NewJeans Official",
+        "href": "https://weverse.io/newjeans",
         "type": "official"
       }
     ]

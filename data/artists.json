@@ -434,6 +434,64 @@
     ]
   },
   {
+    "slug": "btob",
+    "name": "BTOB",
+    "nameKo": "비투비",
+    "fandom": "MELODY",
+    "accent": "#4e6c8a",
+    "agency": "BTOB Company",
+    "debutYear": 2012,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/offclbtob/",
+    "genres": [
+      "Legacy",
+      "Band-ish",
+      "Arena"
+    ],
+    "tagline": "Legacy vocal group suited to seated-arena guidance",
+    "intro": "适合作为声场、座位舒适度和 long-run fandom 内容的代表页。",
+    "members": [
+      {
+        "slug": "eunkwang",
+        "name": "Eunkwang",
+        "role": "主舞台焦点",
+        "profile": "Eunkwang 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "EU"
+      },
+      {
+        "slug": "minhyuk",
+        "name": "Minhyuk",
+        "role": "高辨识 vocal tone",
+        "profile": "Minhyuk 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "MI"
+      },
+      {
+        "slug": "changsub",
+        "name": "Changsub",
+        "role": "现场气氛担当",
+        "profile": "Changsub 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "CH"
+      },
+      {
+        "slug": "hyunsik",
+        "name": "Hyunsik",
+        "role": "fan-cam 热门成员",
+        "profile": "Hyunsik 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "HY"
+      },
+      {
+        "slug": "peniel",
+        "name": "Peniel",
+        "role": "表演线亮点",
+        "profile": "Peniel 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "PE"
+      }
+    ],
+    "memberCount": 5,
+    "coverImage": "/media/artists/btob.svg",
+    "heroImage": "/media/artists/btob.svg"
+  },
+  {
     "slug": "bts",
     "name": "BTS",
     "nameKo": "방탄소년단",
@@ -629,6 +687,78 @@
     ]
   },
   {
+    "slug": "evnne",
+    "name": "EVNNE",
+    "nameKo": "이븐",
+    "fandom": "ENNVE",
+    "accent": "#75655a",
+    "agency": "Jellyfish Entertainment",
+    "debutYear": 2023,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/evnne_official/",
+    "genres": [
+      "Fancon",
+      "Rookie",
+      "Travel"
+    ],
+    "tagline": "Fast-moving fancon routing with rising demand",
+    "intro": "适合作为 fancon 到 arena 过渡阶段男团的追踪页。",
+    "members": [
+      {
+        "slug": "keita",
+        "name": "Keita",
+        "role": "主舞台焦点",
+        "profile": "Keita 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "KE"
+      },
+      {
+        "slug": "park-hanbin",
+        "name": "Park Hanbin",
+        "role": "高辨识 vocal tone",
+        "profile": "Park Hanbin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "PH"
+      },
+      {
+        "slug": "lee-jeonghyeon",
+        "name": "Lee Jeonghyeon",
+        "role": "现场气氛担当",
+        "profile": "Lee Jeonghyeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "LJ"
+      },
+      {
+        "slug": "yoo-seungeon",
+        "name": "Yoo Seungeon",
+        "role": "fan-cam 热门成员",
+        "profile": "Yoo Seungeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "YS"
+      },
+      {
+        "slug": "ji-yunseo",
+        "name": "Ji Yunseo",
+        "role": "表演线亮点",
+        "profile": "Ji Yunseo 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "JY"
+      },
+      {
+        "slug": "mun-junghyun",
+        "name": "Mun Junghyun",
+        "role": "舞台能量中轴",
+        "profile": "Mun Junghyun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "MJ"
+      },
+      {
+        "slug": "park-jihoo",
+        "name": "Park Jihoo",
+        "role": "主舞台焦点",
+        "profile": "Park Jihoo 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "PJ"
+      }
+    ],
+    "memberCount": 7,
+    "coverImage": "/media/artists/evnne.svg",
+    "heroImage": "/media/artists/evnne.svg"
+  },
+  {
     "slug": "exo",
     "name": "EXO",
     "nameKo": "엑소",
@@ -785,6 +915,129 @@
         "initials": "JI"
       }
     ]
+  },
+  {
+    "slug": "got7",
+    "name": "GOT7",
+    "nameKo": "갓세븐",
+    "fandom": "iGOT7",
+    "accent": "#5c7b67",
+    "agency": "Warner Music Korea",
+    "debutYear": 2014,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/got7.with.igot7/",
+    "genres": [
+      "Legacy",
+      "Global",
+      "Arena"
+    ],
+    "tagline": "Legacy act worth keeping on long-term reunion watch",
+    "intro": "适合作为团体回归和成员 solo 联动的长期监测页。",
+    "members": [
+      {
+        "slug": "jay-b",
+        "name": "Jay B",
+        "role": "主舞台焦点",
+        "profile": "Jay B 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "JB"
+      },
+      {
+        "slug": "mark",
+        "name": "Mark",
+        "role": "高辨识 vocal tone",
+        "profile": "Mark 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "MA"
+      },
+      {
+        "slug": "jackson",
+        "name": "Jackson",
+        "role": "现场气氛担当",
+        "profile": "Jackson 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "JA"
+      },
+      {
+        "slug": "jinyoung",
+        "name": "Jinyoung",
+        "role": "fan-cam 热门成员",
+        "profile": "Jinyoung 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "JI"
+      },
+      {
+        "slug": "youngjae",
+        "name": "Youngjae",
+        "role": "表演线亮点",
+        "profile": "Youngjae 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "YO"
+      },
+      {
+        "slug": "bambam",
+        "name": "BamBam",
+        "role": "舞台能量中轴",
+        "profile": "BamBam 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "BA"
+      },
+      {
+        "slug": "yugyeom",
+        "name": "Yugyeom",
+        "role": "主舞台焦点",
+        "profile": "Yugyeom 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "YU"
+      }
+    ],
+    "memberCount": 7,
+    "coverImage": "/media/artists/got7.svg",
+    "heroImage": "/media/artists/got7.svg"
+  },
+  {
+    "slug": "h1-key",
+    "name": "H1-KEY",
+    "nameKo": "하이키",
+    "fandom": "M1-KEY",
+    "accent": "#8a695c",
+    "agency": "GLG",
+    "debutYear": 2022,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/h1key_official/",
+    "genres": [
+      "Rookie",
+      "Festival",
+      "Asia"
+    ],
+    "tagline": "Smaller venue act suited to theatre-scale guidance",
+    "intro": "适合作为中小型场馆和 festival 兼容路线的补充页。",
+    "members": [
+      {
+        "slug": "seoi",
+        "name": "Seoi",
+        "role": "主舞台焦点",
+        "profile": "Seoi 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SE"
+      },
+      {
+        "slug": "riina",
+        "name": "Riina",
+        "role": "高辨识 vocal tone",
+        "profile": "Riina 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "RI"
+      },
+      {
+        "slug": "hwiseo",
+        "name": "Hwiseo",
+        "role": "现场气氛担当",
+        "profile": "Hwiseo 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "HW"
+      },
+      {
+        "slug": "yel",
+        "name": "Yel",
+        "role": "fan-cam 热门成员",
+        "profile": "Yel 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "YE"
+      }
+    ],
+    "memberCount": 4,
+    "coverImage": "/media/artists/h1-key.svg",
+    "heroImage": "/media/artists/h1-key.svg"
   },
   {
     "slug": "gidle",
@@ -1056,6 +1309,78 @@
     ]
   },
   {
+    "slug": "izna",
+    "name": "izna",
+    "nameKo": "이즈나",
+    "fandom": "naya",
+    "accent": "#7a5b73",
+    "agency": "WAKEONE",
+    "debutYear": 2024,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/izna_official/",
+    "genres": [
+      "Rookie",
+      "Watchlist",
+      "Fandom"
+    ],
+    "tagline": "Fresh rookie entry for early fandom monitoring",
+    "intro": "适合作为刚起步的新团页，先铺官方入口和巡演雷达。",
+    "members": [
+      {
+        "slug": "mai",
+        "name": "Mai",
+        "role": "主舞台焦点",
+        "profile": "Mai 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "MA"
+      },
+      {
+        "slug": "jeemin",
+        "name": "Jeemin",
+        "role": "高辨识 vocal tone",
+        "profile": "Jeemin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "JE"
+      },
+      {
+        "slug": "jiyoon",
+        "name": "Jiyoon",
+        "role": "现场气氛担当",
+        "profile": "Jiyoon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "JI"
+      },
+      {
+        "slug": "koko",
+        "name": "Koko",
+        "role": "fan-cam 热门成员",
+        "profile": "Koko 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "KO"
+      },
+      {
+        "slug": "sarang",
+        "name": "Sarang",
+        "role": "表演线亮点",
+        "profile": "Sarang 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SA"
+      },
+      {
+        "slug": "jeongeun",
+        "name": "Jeongeun",
+        "role": "舞台能量中轴",
+        "profile": "Jeongeun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "JE"
+      },
+      {
+        "slug": "saebi",
+        "name": "Saebi",
+        "role": "主舞台焦点",
+        "profile": "Saebi 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "SA"
+      }
+    ],
+    "memberCount": 7,
+    "coverImage": "/media/artists/izna.svg",
+    "heroImage": "/media/artists/izna.svg"
+  },
+  {
     "slug": "j-hope",
     "name": "j-hope",
     "nameKo": "제이홉",
@@ -1239,6 +1564,150 @@
         "initials": "YO"
       }
     ]
+  },
+  {
+    "slug": "kep1er",
+    "name": "Kep1er",
+    "nameKo": "케플러",
+    "fandom": "Kep1ian",
+    "accent": "#6b7fa0",
+    "agency": "WAKEONE",
+    "debutYear": 2022,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/official.kep1er/",
+    "genres": [
+      "Arena",
+      "Japan",
+      "Travel"
+    ],
+    "tagline": "Japan-linked routing makes them useful for ticketing comparisons",
+    "intro": "适合作为日韩两地票务机制对照的样板艺人页。",
+    "members": [
+      {
+        "slug": "yujin",
+        "name": "Yujin",
+        "role": "主舞台焦点",
+        "profile": "Yujin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "YU"
+      },
+      {
+        "slug": "xiaoting",
+        "name": "Xiaoting",
+        "role": "高辨识 vocal tone",
+        "profile": "Xiaoting 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "XI"
+      },
+      {
+        "slug": "chaehyun",
+        "name": "Chaehyun",
+        "role": "现场气氛担当",
+        "profile": "Chaehyun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "CH"
+      },
+      {
+        "slug": "dayeon",
+        "name": "Dayeon",
+        "role": "fan-cam 热门成员",
+        "profile": "Dayeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "DA"
+      },
+      {
+        "slug": "hikaru",
+        "name": "Hikaru",
+        "role": "表演线亮点",
+        "profile": "Hikaru 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "HI"
+      },
+      {
+        "slug": "huening-bahiyyih",
+        "name": "Huening Bahiyyih",
+        "role": "舞台能量中轴",
+        "profile": "Huening Bahiyyih 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "HB"
+      },
+      {
+        "slug": "youngeun",
+        "name": "Youngeun",
+        "role": "主舞台焦点",
+        "profile": "Youngeun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "YO"
+      }
+    ],
+    "memberCount": 7,
+    "coverImage": "/media/artists/kep1er.svg",
+    "heroImage": "/media/artists/kep1er.svg"
+  },
+  {
+    "slug": "kickflip",
+    "name": "KickFlip",
+    "nameKo": "킥플립",
+    "fandom": "Kickies",
+    "accent": "#7e7d4f",
+    "agency": "JYP Entertainment",
+    "debutYear": 2025,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/kickflip_official/",
+    "genres": [
+      "Rookie",
+      "Watchlist",
+      "Travel"
+    ],
+    "tagline": "Early-cycle boy group suited to radar-first coverage",
+    "intro": "适合作为先做官方入口、后补日期卡片的新团模板。",
+    "members": [
+      {
+        "slug": "kyehoon",
+        "name": "Kyehoon",
+        "role": "主舞台焦点",
+        "profile": "Kyehoon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "KY"
+      },
+      {
+        "slug": "amaru",
+        "name": "Amaru",
+        "role": "高辨识 vocal tone",
+        "profile": "Amaru 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "AM"
+      },
+      {
+        "slug": "donghwa",
+        "name": "Donghwa",
+        "role": "现场气氛担当",
+        "profile": "Donghwa 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "DO"
+      },
+      {
+        "slug": "juwang",
+        "name": "Juwang",
+        "role": "fan-cam 热门成员",
+        "profile": "Juwang 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "JU"
+      },
+      {
+        "slug": "minje",
+        "name": "Minje",
+        "role": "表演线亮点",
+        "profile": "Minje 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "MI"
+      },
+      {
+        "slug": "keiju",
+        "name": "Keiju",
+        "role": "舞台能量中轴",
+        "profile": "Keiju 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "KE"
+      },
+      {
+        "slug": "donghyeon",
+        "name": "Donghyeon",
+        "role": "主舞台焦点",
+        "profile": "Donghyeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "DO"
+      }
+    ],
+    "memberCount": 7,
+    "coverImage": "/media/artists/kickflip.svg",
+    "heroImage": "/media/artists/kickflip.svg"
   },
   {
     "slug": "kiss-of-life",
@@ -1682,6 +2151,78 @@
     ]
   },
   {
+    "slug": "nexz",
+    "name": "NEXZ",
+    "nameKo": "넥스지",
+    "fandom": "NEX2Y",
+    "accent": "#5d7793",
+    "agency": "JYP Entertainment",
+    "debutYear": 2024,
+    "origin": "Japan / South Korea",
+    "officialUrl": "https://nexz-official.com/",
+    "genres": [
+      "Japan",
+      "Rookie",
+      "Arena"
+    ],
+    "tagline": "Japan-heavy routing broadens the site beyond Korea-first tours",
+    "intro": "适合作为日本市场和韩日双线运营艺人的样板页。",
+    "members": [
+      {
+        "slug": "tomoya",
+        "name": "Tomoya",
+        "role": "主舞台焦点",
+        "profile": "Tomoya 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "TO"
+      },
+      {
+        "slug": "yu",
+        "name": "Yu",
+        "role": "高辨识 vocal tone",
+        "profile": "Yu 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "YU"
+      },
+      {
+        "slug": "haru",
+        "name": "Haru",
+        "role": "现场气氛担当",
+        "profile": "Haru 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "HA"
+      },
+      {
+        "slug": "so-geon",
+        "name": "So Geon",
+        "role": "fan-cam 热门成员",
+        "profile": "So Geon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "SG"
+      },
+      {
+        "slug": "seita",
+        "name": "Seita",
+        "role": "表演线亮点",
+        "profile": "Seita 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SE"
+      },
+      {
+        "slug": "hyui",
+        "name": "Hyui",
+        "role": "舞台能量中轴",
+        "profile": "Hyui 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "HY"
+      },
+      {
+        "slug": "yuki",
+        "name": "Yuki",
+        "role": "主舞台焦点",
+        "profile": "Yuki 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "YU"
+      }
+    ],
+    "memberCount": 7,
+    "coverImage": "/media/artists/nexz.svg",
+    "heroImage": "/media/artists/nexz.svg"
+  },
+  {
     "slug": "nmixx",
     "name": "NMIXX",
     "nameKo": "엔믹스",
@@ -1745,6 +2286,238 @@
         "initials": "KY"
       }
     ]
+  },
+  {
+    "slug": "oneus",
+    "name": "ONEUS",
+    "nameKo": "원어스",
+    "fandom": "TO MOON",
+    "accent": "#6b5c85",
+    "agency": "RBW",
+    "debutYear": 2019,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/official_oneus/",
+    "genres": [
+      "Travel",
+      "Arena",
+      "Asia"
+    ],
+    "tagline": "Reliable touring act for mid-size venue coverage",
+    "intro": "适合作为中型场馆和多城市 travel planning 的补充页。",
+    "members": [
+      {
+        "slug": "seoho",
+        "name": "Seoho",
+        "role": "主舞台焦点",
+        "profile": "Seoho 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SE"
+      },
+      {
+        "slug": "leedo",
+        "name": "Leedo",
+        "role": "高辨识 vocal tone",
+        "profile": "Leedo 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "LE"
+      },
+      {
+        "slug": "keonhee",
+        "name": "Keonhee",
+        "role": "现场气氛担当",
+        "profile": "Keonhee 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "KE"
+      },
+      {
+        "slug": "hwanwoong",
+        "name": "Hwanwoong",
+        "role": "fan-cam 热门成员",
+        "profile": "Hwanwoong 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "HW"
+      },
+      {
+        "slug": "xion",
+        "name": "Xion",
+        "role": "表演线亮点",
+        "profile": "Xion 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "XI"
+      }
+    ],
+    "memberCount": 5,
+    "coverImage": "/media/artists/oneus.svg",
+    "heroImage": "/media/artists/oneus.svg"
+  },
+  {
+    "slug": "p1harmony",
+    "name": "P1Harmony",
+    "nameKo": "피원하모니",
+    "fandom": "P1ece",
+    "accent": "#79614d",
+    "agency": "FNC Entertainment",
+    "debutYear": 2020,
+    "origin": "South Korea",
+    "officialUrl": "https://p1harmony.us/",
+    "genres": [
+      "North America",
+      "Arena",
+      "Travel"
+    ],
+    "tagline": "North America routing makes them useful for venue-guide expansion",
+    "intro": "适合作为北美中型 arena 和 theatre 场馆攻略样板。",
+    "members": [
+      {
+        "slug": "keeho",
+        "name": "Keeho",
+        "role": "主舞台焦点",
+        "profile": "Keeho 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "KE"
+      },
+      {
+        "slug": "theo",
+        "name": "Theo",
+        "role": "高辨识 vocal tone",
+        "profile": "Theo 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "TH"
+      },
+      {
+        "slug": "jiung",
+        "name": "Jiung",
+        "role": "现场气氛担当",
+        "profile": "Jiung 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "JI"
+      },
+      {
+        "slug": "intak",
+        "name": "Intak",
+        "role": "fan-cam 热门成员",
+        "profile": "Intak 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "IN"
+      },
+      {
+        "slug": "soul",
+        "name": "Soul",
+        "role": "表演线亮点",
+        "profile": "Soul 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SO"
+      },
+      {
+        "slug": "jongseob",
+        "name": "Jongseob",
+        "role": "舞台能量中轴",
+        "profile": "Jongseob 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "JO"
+      }
+    ],
+    "memberCount": 6,
+    "coverImage": "/media/artists/p1harmony.svg",
+    "heroImage": "/media/artists/p1harmony.svg"
+  },
+  {
+    "slug": "plave",
+    "name": "PLAVE",
+    "nameKo": "플레이브",
+    "fandom": "PLLl",
+    "accent": "#666a93",
+    "agency": "VLAST",
+    "debutYear": 2023,
+    "origin": "South Korea",
+    "officialUrl": "https://weverse.io/plave",
+    "genres": [
+      "Virtual",
+      "Arena",
+      "Fandom"
+    ],
+    "tagline": "Virtual idol act with distinct fandom behavior worth tracking",
+    "intro": "适合作为不同内容消费路径和 fandom 行为的特殊样板页。",
+    "members": [
+      {
+        "slug": "yejun",
+        "name": "Yejun",
+        "role": "主舞台焦点",
+        "profile": "Yejun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "YE"
+      },
+      {
+        "slug": "noah",
+        "name": "Noah",
+        "role": "高辨识 vocal tone",
+        "profile": "Noah 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "NO"
+      },
+      {
+        "slug": "bamby",
+        "name": "Bamby",
+        "role": "现场气氛担当",
+        "profile": "Bamby 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "BA"
+      },
+      {
+        "slug": "eunho",
+        "name": "Eunho",
+        "role": "fan-cam 热门成员",
+        "profile": "Eunho 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "EU"
+      },
+      {
+        "slug": "hamin",
+        "name": "Hamin",
+        "role": "表演线亮点",
+        "profile": "Hamin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "HA"
+      }
+    ],
+    "memberCount": 5,
+    "coverImage": "/media/artists/plave.svg",
+    "heroImage": "/media/artists/plave.svg"
+  },
+  {
+    "slug": "qwer",
+    "name": "QWER",
+    "nameKo": "큐더블유이알",
+    "fandom": "Bawige",
+    "accent": "#5e7b76",
+    "agency": "Tamago Production",
+    "debutYear": 2023,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/qwerband_official/",
+    "genres": [
+      "Band",
+      "Festival",
+      "Theater"
+    ],
+    "tagline": "Band-format live act suited to theatre and festival guidance",
+    "intro": "适合作为剧场型乐队场和 festival 内容的扩展样本。",
+    "members": [
+      {
+        "slug": "chodan",
+        "name": "Chodan",
+        "role": "主舞台焦点",
+        "profile": "Chodan 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "CH"
+      },
+      {
+        "slug": "magenta",
+        "name": "Magenta",
+        "role": "高辨识 vocal tone",
+        "profile": "Magenta 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "MA"
+      },
+      {
+        "slug": "hina",
+        "name": "Hina",
+        "role": "现场气氛担当",
+        "profile": "Hina 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "HI"
+      },
+      {
+        "slug": "siyeon",
+        "name": "Siyeon",
+        "role": "fan-cam 热门成员",
+        "profile": "Siyeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "SI"
+      }
+    ],
+    "memberCount": 4,
+    "coverImage": "/media/artists/qwer.svg",
+    "heroImage": "/media/artists/qwer.svg"
   },
   {
     "slug": "red-velvet",
@@ -2035,6 +2808,71 @@
     ]
   },
   {
+    "slug": "stayc",
+    "name": "STAYC",
+    "nameKo": "스테이씨",
+    "fandom": "SWITH",
+    "accent": "#946069",
+    "agency": "High Up Entertainment",
+    "debutYear": 2020,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/stayc_highup/",
+    "genres": [
+      "Arena",
+      "Asia",
+      "Travel"
+    ],
+    "tagline": "Strong Asia demand with girl-group venue questions",
+    "intro": "适合作为亚洲女团巡演和中型场馆路线的补充页。",
+    "members": [
+      {
+        "slug": "sumin",
+        "name": "Sumin",
+        "role": "主舞台焦点",
+        "profile": "Sumin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SU"
+      },
+      {
+        "slug": "sieun",
+        "name": "Sieun",
+        "role": "高辨识 vocal tone",
+        "profile": "Sieun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "SI"
+      },
+      {
+        "slug": "isa",
+        "name": "Isa",
+        "role": "现场气氛担当",
+        "profile": "Isa 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "IS"
+      },
+      {
+        "slug": "seeun",
+        "name": "Seeun",
+        "role": "fan-cam 热门成员",
+        "profile": "Seeun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "SE"
+      },
+      {
+        "slug": "yoon",
+        "name": "Yoon",
+        "role": "表演线亮点",
+        "profile": "Yoon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "YO"
+      },
+      {
+        "slug": "j",
+        "name": "J",
+        "role": "舞台能量中轴",
+        "profile": "J 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "J"
+      }
+    ],
+    "memberCount": 6,
+    "coverImage": "/media/artists/stayc.svg",
+    "heroImage": "/media/artists/stayc.svg"
+  },
+  {
     "slug": "stray-kids",
     "name": "Stray Kids",
     "nameKo": "스트레이 키즈",
@@ -2112,6 +2950,92 @@
         "initials": "IN"
       }
     ]
+  },
+  {
+    "slug": "super-junior",
+    "name": "SUPER JUNIOR",
+    "nameKo": "슈퍼주니어",
+    "fandom": "E.L.F.",
+    "accent": "#4d6681",
+    "agency": "SM Entertainment",
+    "debutYear": 2005,
+    "origin": "South Korea",
+    "officialUrl": "https://www.smtown.com/",
+    "genres": [
+      "Legacy",
+      "Arena",
+      "Asia"
+    ],
+    "tagline": "Legacy act with steady Asia demand and long-tail fandom",
+    "intro": "适合作为资深男团和大龄 fandom 观演偏好的长期内容入口。",
+    "members": [
+      {
+        "slug": "leeteuk",
+        "name": "Leeteuk",
+        "role": "主舞台焦点",
+        "profile": "Leeteuk 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "LE"
+      },
+      {
+        "slug": "heechul",
+        "name": "Heechul",
+        "role": "高辨识 vocal tone",
+        "profile": "Heechul 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "HE"
+      },
+      {
+        "slug": "yesung",
+        "name": "Yesung",
+        "role": "现场气氛担当",
+        "profile": "Yesung 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "YE"
+      },
+      {
+        "slug": "shindong",
+        "name": "Shindong",
+        "role": "fan-cam 热门成员",
+        "profile": "Shindong 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "SH"
+      },
+      {
+        "slug": "eunhyuk",
+        "name": "Eunhyuk",
+        "role": "表演线亮点",
+        "profile": "Eunhyuk 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "EU"
+      },
+      {
+        "slug": "donghae",
+        "name": "Donghae",
+        "role": "舞台能量中轴",
+        "profile": "Donghae 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "DO"
+      },
+      {
+        "slug": "siwon",
+        "name": "Siwon",
+        "role": "主舞台焦点",
+        "profile": "Siwon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "SI"
+      },
+      {
+        "slug": "ryeowook",
+        "name": "Ryeowook",
+        "role": "高辨识 vocal tone",
+        "profile": "Ryeowook 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "RY"
+      },
+      {
+        "slug": "kyuhyun",
+        "name": "Kyuhyun",
+        "role": "现场气氛担当",
+        "profile": "Kyuhyun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "KY"
+      }
+    ],
+    "memberCount": 9,
+    "coverImage": "/media/artists/super-junior.svg",
+    "heroImage": "/media/artists/super-junior.svg"
   },
   {
     "slug": "taemin",
@@ -2425,6 +3349,113 @@
     ]
   },
   {
+    "slug": "triples",
+    "name": "tripleS",
+    "nameKo": "트리플에스",
+    "fandom": "WAV",
+    "accent": "#6c7391",
+    "agency": "MODHAUS",
+    "debutYear": 2023,
+    "origin": "South Korea",
+    "officialUrl": "https://www.mod-haus.com/",
+    "genres": [
+      "Fandom",
+      "Showcase",
+      "Asia"
+    ],
+    "tagline": "Fandom-heavy structure that benefits from profile-rich pages",
+    "intro": "适合作为成员结构复杂、内容入口很多的艺人页样本。",
+    "members": [
+      {
+        "slug": "seoyeon",
+        "name": "Seoyeon",
+        "role": "主舞台焦点",
+        "profile": "Seoyeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SE"
+      },
+      {
+        "slug": "jiwoo",
+        "name": "Jiwoo",
+        "role": "高辨识 vocal tone",
+        "profile": "Jiwoo 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "JI"
+      },
+      {
+        "slug": "chaeyeon",
+        "name": "Chaeyeon",
+        "role": "现场气氛担当",
+        "profile": "Chaeyeon 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "CH"
+      },
+      {
+        "slug": "yubin",
+        "name": "Yubin",
+        "role": "fan-cam 热门成员",
+        "profile": "Yubin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "YU"
+      },
+      {
+        "slug": "soomin",
+        "name": "Soomin",
+        "role": "表演线亮点",
+        "profile": "Soomin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "SO"
+      },
+      {
+        "slug": "nakyoung",
+        "name": "Nakyoung",
+        "role": "舞台能量中轴",
+        "profile": "Nakyoung 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "NA"
+      },
+      {
+        "slug": "kotone",
+        "name": "Kotone",
+        "role": "主舞台焦点",
+        "profile": "Kotone 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "KO"
+      },
+      {
+        "slug": "nien",
+        "name": "Nien",
+        "role": "高辨识 vocal tone",
+        "profile": "Nien 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "NI"
+      },
+      {
+        "slug": "joobin",
+        "name": "Joobin",
+        "role": "现场气氛担当",
+        "profile": "Joobin 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "JO"
+      },
+      {
+        "slug": "kaede",
+        "name": "Kaede",
+        "role": "fan-cam 热门成员",
+        "profile": "Kaede 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合在中文页里记录最常被问到的现场看点和站位印象。",
+        "initials": "KA"
+      },
+      {
+        "slug": "dahyun",
+        "name": "Dahyun",
+        "role": "表演线亮点",
+        "profile": "Dahyun 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合承接第一次入坑用户最容易搜索到的舞台关键词。",
+        "initials": "DA"
+      },
+      {
+        "slug": "lynn",
+        "name": "Lynn",
+        "role": "舞台能量中轴",
+        "profile": "Lynn 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合和选座建议、安可互动、应援点一起整理。",
+        "initials": "LY"
+      }
+    ],
+    "memberCount": 12,
+    "coverImage": "/media/artists/triples.svg",
+    "heroImage": "/media/artists/triples.svg"
+  },
+  {
     "slug": "twice",
     "name": "TWICE",
     "nameKo": "트와이스",
@@ -2669,6 +3700,36 @@
         "initials": "WI"
       }
     ]
+  },
+  {
+    "slug": "woodz",
+    "name": "WOODZ",
+    "nameKo": "우즈",
+    "fandom": "MOODZ",
+    "accent": "#835f4d",
+    "agency": "EDAM Entertainment",
+    "debutYear": 2018,
+    "origin": "South Korea",
+    "officialUrl": "https://www.instagram.com/woodz_dnwm/",
+    "genres": [
+      "Solo",
+      "Festival",
+      "Arena"
+    ],
+    "tagline": "Solo act that expands the live mix beyond idol groups",
+    "intro": "适合作为 solo live、festival 和 theatre 兼容型艺人的页面。",
+    "members": [
+      {
+        "slug": "woodz",
+        "name": "WOODZ",
+        "role": "主舞台焦点",
+        "profile": "WOODZ 的 profile 入口会优先整理舞台记忆点、饭拍热区和 适合优先补充饭拍热区、返图讨论和舞台记忆点。",
+        "initials": "WO"
+      }
+    ],
+    "memberCount": 1,
+    "coverImage": "/media/artists/woodz.svg",
+    "heroImage": "/media/artists/woodz.svg"
   },
   {
     "slug": "xg",

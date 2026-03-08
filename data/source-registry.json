@@ -327,5 +327,117 @@
     "category": "artist",
     "artistSlug": "zico",
     "url": "https://weverse.io/zico"
+  },
+  {
+    "id": "artist-btob",
+    "label": "BTOB official",
+    "category": "artist",
+    "artistSlug": "btob",
+    "url": "https://www.instagram.com/offclbtob/"
+  },
+  {
+    "id": "artist-evnne",
+    "label": "EVNNE official",
+    "category": "artist",
+    "artistSlug": "evnne",
+    "url": "https://www.instagram.com/evnne_official/"
+  },
+  {
+    "id": "artist-got7",
+    "label": "GOT7 official",
+    "category": "artist",
+    "artistSlug": "got7",
+    "url": "https://www.instagram.com/got7.with.igot7/"
+  },
+  {
+    "id": "artist-h1-key",
+    "label": "H1-KEY official",
+    "category": "artist",
+    "artistSlug": "h1-key",
+    "url": "https://www.instagram.com/h1key_official/"
+  },
+  {
+    "id": "artist-izna",
+    "label": "izna official",
+    "category": "artist",
+    "artistSlug": "izna",
+    "url": "https://www.instagram.com/izna_official/"
+  },
+  {
+    "id": "artist-kep1er",
+    "label": "Kep1er official",
+    "category": "artist",
+    "artistSlug": "kep1er",
+    "url": "https://www.instagram.com/official.kep1er/"
+  },
+  {
+    "id": "artist-kickflip",
+    "label": "KickFlip official",
+    "category": "artist",
+    "artistSlug": "kickflip",
+    "url": "https://www.instagram.com/kickflip_official/"
+  },
+  {
+    "id": "artist-nexz",
+    "label": "NEXZ official",
+    "category": "artist",
+    "artistSlug": "nexz",
+    "url": "https://nexz-official.com/"
+  },
+  {
+    "id": "artist-oneus",
+    "label": "ONEUS official",
+    "category": "artist",
+    "artistSlug": "oneus",
+    "url": "https://www.instagram.com/official_oneus/"
+  },
+  {
+    "id": "artist-p1harmony",
+    "label": "P1Harmony official",
+    "category": "artist",
+    "artistSlug": "p1harmony",
+    "url": "https://p1harmony.us/"
+  },
+  {
+    "id": "artist-plave",
+    "label": "PLAVE official",
+    "category": "artist",
+    "artistSlug": "plave",
+    "url": "https://weverse.io/plave"
+  },
+  {
+    "id": "artist-qwer",
+    "label": "QWER official",
+    "category": "artist",
+    "artistSlug": "qwer",
+    "url": "https://www.instagram.com/qwerband_official/"
+  },
+  {
+    "id": "artist-stayc",
+    "label": "STAYC official",
+    "category": "artist",
+    "artistSlug": "stayc",
+    "url": "https://www.instagram.com/stayc_highup/"
+  },
+  {
+    "id": "artist-super-junior",
+    "label": "SUPER JUNIOR official",
+    "category": "artist",
+    "artistSlug": "super-junior",
+    "url": "https://www.smtown.com/"
+  },
+  {
+    "id": "artist-triples",
+    "label": "tripleS official",
+    "category": "artist",
+    "artistSlug": "triples",
+    "url": "https://www.mod-haus.com/"
+  },
+  {
+    "id": "artist-woodz",
+    "label": "WOODZ official",
+    "category": "artist",
+    "artistSlug": "woodz",
+    "url": "https://www.instagram.com/woodz_dnwm/"
   }
 ]

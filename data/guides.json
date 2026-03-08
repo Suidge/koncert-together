@@ -1,5 +1,22 @@
 [
   {
+    "slug": "paris-concert-city-guide",
+    "title": "巴黎看演唱会：Accor Arena、夜间返程和酒店区域选择",
+    "category": "travel",
+    "summary": "巴黎场可以很好看，但一定要提早把返程和住宿选稳。",
+    "body": "巴黎看演唱会常见问题不是找不到场馆，而是散场后怎么回、住哪里更省心。Accor Arena 这类高频馆周边公共交通成熟，但夜间返程和跨区移动仍要提前看。若是第一次去巴黎看演出，住在直达地铁线周边通常比住景点区更稳。",
+    "bullets": [
+      "优先直达地铁线酒店",
+      "夜间返程路线提前确认",
+      "VIP 到场时间和散场一起看"
+    ],
+    "relatedArtists": [
+      "blackpink",
+      "gidle",
+      "v"
+    ]
+  },
+  {
     "slug": "first-kpop-ticket",
     "title": "第一次抢 K-pop 演唱会票，先判断什么最重要",
     "category": "ticketing",
@@ -16,6 +33,24 @@
       "txt",
       "enhypen",
       "le-sserafim"
+    ]
+  },
+  {
+    "slug": "tokyo-concert-city-guide",
+    "title": "东京看演唱会：抽选、酒店和返程列车怎么一起想",
+    "category": "travel",
+    "summary": "东京场的难点常常不是抢票，而是抽选逻辑和散场后回酒店。",
+    "body": "东京场通常会把抽选、电子票、酒店和返程列车绑在一起。东京本身交通强，但演出日若场馆离你住处太远，散场后仍然会很累。适合优先围绕 Ariake、Tokyo Dome、Yoyogi、K-Arena 这些高频场馆来安排住宿和返程。",
+    "bullets": [
+      "先理解抽选轮次",
+      "住处优先围绕场馆或直达线",
+      "返程列车最好先看好"
+    ],
+    "relatedArtists": [
+      "aespa",
+      "twice",
+      "shinee",
+      "kep1er"
     ]
   },
   {
@@ -55,6 +90,58 @@
     ]
   },
   {
+    "slug": "london-concert-city-guide",
+    "title": "伦敦看演唱会：The O2、温布利和夜间地铁怎么安排",
+    "category": "travel",
+    "summary": "伦敦场的重点不只是票，还包括账户地区、交通和演出后回酒店。",
+    "body": "伦敦看演唱会通常要同时理解英区票务平台、地铁/铁路和大场馆周边。The O2、OVO Arena Wembley 等高频场馆的共通点是演出后会集中排队，所以酒店是否直达、是否需要夜间换乘，应该在买票前一起判断。",
+    "bullets": [
+      "优先住在直达馆的线路上",
+      "英区账户和支付先准备",
+      "夜间返程不要临时决定"
+    ],
+    "relatedArtists": [
+      "ateez",
+      "xg"
+    ]
+  },
+  {
+    "slug": "los-angeles-concert-city-guide",
+    "title": "洛杉矶看演唱会：别只看票价，停车和打车成本更真实",
+    "category": "travel",
+    "summary": "LA 场馆多，但真正影响总成本的是交通。",
+    "body": "洛杉矶看演唱会要把票价、停车、网约车和酒店一起算。BMO Stadium、Kia Forum、Crypto.com Arena 的交通逻辑都不完全一样。若你不想在散场后把快乐消耗在堵车里，就要提前决定是开车、拼车、地铁还是住在更近的区域。",
+    "bullets": [
+      "停车和网约车单独算预算",
+      "地铁可达性优先于地图直线距离",
+      "散场回酒店要有 A/B 方案"
+    ],
+    "relatedArtists": [
+      "blackpink",
+      "jung-kook",
+      "aespa",
+      "xg"
+    ]
+  },
+  {
+    "slug": "bangkok-concert-city-guide",
+    "title": "曼谷看演唱会：酒店别只看市中心，返程比去程更难",
+    "category": "travel",
+    "summary": "IMPACT 一带的核心问题是距离和返程，而不是购票入口。",
+    "body": "曼谷看演唱会常见场馆包括 Impact Arena、Thunder Dome 等。真正影响体验的是酒店与场馆之间的距离、打车策略和演出后是否有稳妥返程。若想轻松一些，通常住在场馆周边或至少住在更好打车的区域，比住传统旅游区更稳。",
+    "bullets": [
+      "酒店优先围绕场馆或打车便利区",
+      "返程方案先锁定",
+      "演出日不要塞太满"
+    ],
+    "relatedArtists": [
+      "stray-kids",
+      "oneus",
+      "kiss-of-life",
+      "taemin"
+    ]
+  },
+  {
     "slug": "fandom-starter",
     "title": "入坑新团时，先从哪些官方入口开始",
     "category": "fandom",
@@ -70,6 +157,40 @@
       "boynextdoor",
       "babymonster",
       "newjeans"
+    ]
+  },
+  {
+    "slug": "seoul-concert-city-guide",
+    "title": "首尔看演唱会：住哪里、几点到、散场怎么回",
+    "category": "travel",
+    "summary": "首尔不是难去，而是如果不提前想好线路，体验会被通勤拖垮。",
+    "body": "首尔看演唱会最值得提前确认的是场馆所在区域、地铁末班和是否需要围绕场馆住。KSPO Dome、手球馆、奥林匹克 Hall、蚕室一带虽然都在大首尔圈，但演出日的人流、候场和返程节奏差异很大。比起景点位置，更应该先围绕场馆和返程线路安排酒店。",
+    "bullets": [
+      "优先围绕场馆和返程订酒店",
+      "先看末班车和换乘次数",
+      "演出日提早一次踩点"
+    ],
+    "relatedArtists": [
+      "seventeen",
+      "nct-dream",
+      "taeyeon",
+      "btob"
+    ]
+  },
+  {
+    "slug": "hong-kong-concert-city-guide",
+    "title": "香港看演唱会：机场线、口岸、当天往返怎么选",
+    "category": "travel",
+    "summary": "香港场最容易被忽略的是口岸和机场线，而不是场馆本身。",
+    "body": "香港场往往会把票务支付、实名和跨境动线放在一起。对内地观众来说，是否当天往返、是否走机场快线、是否住九龙或港岛，会直接影响总成本和体力消耗。AsiaWorld-Arena 尤其要把机场线和口岸时间一起看。",
+    "bullets": [
+      "先决定当天往返还是过夜",
+      "港区支付方式提前确认",
+      "口岸和机场线一起规划"
+    ],
+    "relatedArtists": [
+      "le-sserafim",
+      "riize"
     ]
   },
   {
@@ -168,6 +289,22 @@
     ]
   },
   {
+    "slug": "gocheok-sky-dome-guide",
+    "title": "Gocheok Sky Dome 观演速查：区块视角、地铁和散场路线",
+    "category": "travel",
+    "summary": "高尺的关键是视角判断和返程缓冲。",
+    "body": "Gocheok Sky Dome 的特点是大场、视野差异大、散场节奏集中。买票前最好先判断你更重视近距离还是全景舞台，再决定是否追求低层边区。演出日建议把返程时间和地铁拥挤情况一起算进去。",
+    "bullets": [
+      "先看区块视野",
+      "避免只看低层不看角度",
+      "散场预留缓冲"
+    ],
+    "relatedArtists": [
+      "nct-dream",
+      "plave"
+    ]
+  },
+  {
     "slug": "ice-bsd-guide",
     "title": "ICE BSD 观演速查：酒店、包车和场馆分区",
     "category": "travel",
@@ -210,6 +347,39 @@
     ],
     "relatedArtists": [
       "illit"
+    ]
+  },
+  {
+    "slug": "jamsil-indoor-guide",
+    "title": "Jamsil Indoor Stadium：首尔老牌场馆的坐席、周边和散场",
+    "category": "travel",
+    "summary": "蚕室室内馆适合坐席体验，但返程和周边人流不能低估。",
+    "body": "Jamsil Indoor Stadium 的核心优势是传统坐席体验稳定，核心难点则是演出日周边人流大、打车与地铁会同时紧张。若你买的是 solo 场或 legacy 团体场，更适合优先比较正中区块和音场，而不是盲追最前排。",
+    "bullets": [
+      "优先看正中区块",
+      "返程别压最后一班",
+      "周边餐饮高峰要预留时间"
+    ],
+    "relatedArtists": [
+      "j-hope",
+      "btob",
+      "newjeans"
+    ]
+  },
+  {
+    "slug": "k-arena-guide",
+    "title": "K-Arena Yokohama：大场馆日本场的电子票和返程逻辑",
+    "category": "travel",
+    "summary": "横滨大馆最值得提前搞清楚的是电子票和演后返程。",
+    "body": "K-Arena Yokohama 一类新型大馆，通常会把电子票、抽选和返程列车压力一起放大。对海外观众来说，真正要提早搞懂的是发券方式、账号登录和离场后是否要立刻回东京，而不是等演出完再想。",
+    "bullets": [
+      "确认电子票机制",
+      "提前看返程列车",
+      "酒店别离场馆太远"
+    ],
+    "relatedArtists": [
+      "tws",
+      "kep1er"
     ]
   },
   {
@@ -272,6 +442,39 @@
     ],
     "relatedArtists": [
       "seventeen"
+    ]
+  },
+  {
+    "slug": "singapore-national-stadium-guide",
+    "title": "Singapore National Stadium：体育场场次怎么选看台和返程",
+    "category": "travel",
+    "summary": "新加坡体育场比起抢票，更值得先看视野和演后人流。",
+    "body": "Singapore National Stadium 这类体育场场次，真正影响体验的是视野、天气和散场人流。若你预算有限，看台正面和大屏体验往往比盲追侧前排更稳。演后返程虽然比很多城市轻松，但也值得提前选好路线。",
+    "bullets": [
+      "看台正面常比侧前排更稳",
+      "天气和入场时间一起考虑",
+      "返程路线提早选好"
+    ],
+    "relatedArtists": [
+      "twice"
+    ]
+  },
+  {
+    "slug": "taipei-arena-guide",
+    "title": "Taipei Arena：台北小巨蛋买票后最该先看的三件事",
+    "category": "travel",
+    "summary": "台北小巨蛋稳定好用，但仍然值得先把区块、捷运和酒店想清楚。",
+    "body": "Taipei Arena 是很成熟的观演场馆，但不同类型艺人的最佳区块并不一样。solo 场更看视角和音场，团体场则要一起考虑舞台延伸和大屏位置。台北交通稳定，所以更适合围绕结束后的捷运和步行路线去选酒店。",
+    "bullets": [
+      "先看舞台结构再选座",
+      "住处优先步行或一线捷运",
+      "看好末班捷运"
+    ],
+    "relatedArtists": [
+      "ive",
+      "iu",
+      "super-junior",
+      "triples"
     ]
   },
   {
