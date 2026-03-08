@@ -19,7 +19,7 @@ export default async function CalendarPage() {
         <p className="eyebrow">Tour Calendar</p>
         <h1>巡演日历</h1>
         <p className="hero-text">
-          当前已经支持按艺人、国家和状态筛选。下一步会把这些筛选项接到真实数据库和自动抓取事件流。
+          试运行阶段先把主流艺人、主流城市和高价值场馆覆盖起来。当前支持按艺人、国家和状态筛选，并保留本地收藏。
         </p>
       </section>
       <Suspense fallback={<section className="calendar-hero">正在加载筛选器…</section>}>

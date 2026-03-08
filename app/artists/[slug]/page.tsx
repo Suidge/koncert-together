@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CommunityCard } from "@/components/community-card";
 import { EventCard } from "@/components/event-card";
-import { FollowArtistForm } from "@/components/follow-artist-form";
 import { GuideCard } from "@/components/guide-card";
 import { Header } from "@/components/header";
 import { getArtistBySlug, getArtists } from "@/lib/events";
@@ -28,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${artist.name} | Seoul Signal`,
-    description: `${artist.name} 的巡演聚合页，包含当前已追踪活动、购票入口与中文说明方向。`
+    description: `${artist.name} 的巡演聚合页，包含当前已追踪活动、官方入口与中文说明。`
   };
 }
 
@@ -49,7 +48,14 @@ export default async function ArtistDetailPage({ params }: Props) {
           <h1>{artist.name}</h1>
           <p className="hero-text">{artist.intro}</p>
           <div className="hero-actions">
-            <FollowArtistForm artistSlug={artist.slug} />
+            <Link className="primary-button" href={`/calendar?artist=${artist.slug}`}>
+              查看巡演
+            </Link>
+            {artist.officialUrl ? (
+              <a className="secondary-button" href={artist.officialUrl} rel="noreferrer" target="_blank">
+                官方入口
+              </a>
+            ) : null}
           </div>
         </div>
         <div className="artist-hero-panel">
@@ -65,11 +71,6 @@ export default async function ArtistDetailPage({ params }: Props) {
             <span>当前活动</span>
             <strong>{artist.upcomingEvents.length} 场</strong>
           </div>
-          {artist.officialUrl ? (
-            <a className="text-link" href={artist.officialUrl} rel="noreferrer" target="_blank">
-              官方入口
-            </a>
-          ) : null}
         </div>
       </section>
 
@@ -96,7 +97,7 @@ export default async function ArtistDetailPage({ params }: Props) {
         </div>
       </section>
       <section className="content-grid">
-        {guides.slice(0, 2).map((guide) => (
+        {guides.filter((guide) => guide.relatedArtists?.includes(artist.slug)).slice(0, 3).map((guide) => (
           <GuideCard guide={guide} key={guide.slug} />
         ))}
       </section>
@@ -108,7 +109,7 @@ export default async function ArtistDetailPage({ params }: Props) {
         </div>
       </section>
       <section className="content-grid">
-        {communityPosts.slice(0, 2).map((post) => (
+        {communityPosts.filter((post) => post.relatedArtists?.includes(artist.slug)).slice(0, 2).map((post) => (
           <CommunityCard key={post.slug} post={post} />
         ))}
       </section>

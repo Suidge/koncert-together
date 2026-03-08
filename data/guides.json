@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "first-kpop-ticket",
+    "title": "第一次抢 K-pop 演唱会票，先判断什么最重要",
+    "category": "ticketing",
+    "summary": "不是所有人都该盯着第一时间付款，先确认你属于哪一类票务路径。",
+    "body": "不同地区的 K-pop 票务机制差别很大。真正提高成功率的不是盲目刷新，而是先判断你走的是官方预售、会员预售、信用卡预售还是公开开票。把账户、实名、支付和网络准备顺序排对，成功率通常比临场多开几个页面更重要。",
+    "bullets": [
+      "先确认是否需要会员认证",
+      "提前登录票务账户并保存支付方式",
+      "开票当天同时准备桌面端和手机端"
+    ],
+    "relatedArtists": [
+      "bts",
+      "seventeen",
+      "txt",
+      "enhypen",
+      "le-sserafim"
+    ]
+  },
+  {
+    "slug": "presale-decision-tree",
+    "title": "会员预售、信用卡预售、公开发售，到底先抢哪一个",
+    "category": "ticketing",
+    "summary": "很多人不是输在手速，而是输在选错了开票入口。",
+    "body": "如果一个场次同时开放会员预售、信用卡预售和公开发售，优先级应该按你最稳能进入的入口来排，而不是按名义上的最早时间。能稳定进入且支付成功的预售，价值通常高于进不去或风控很重的更早入口。",
+    "bullets": [
+      "先确认你真实可用的入口",
+      "把 presale code 和账户绑定关系提前核对",
+      "为公开发售保留备选方案"
+    ],
+    "relatedArtists": [
+      "blackpink",
+      "enhypen",
+      "stray-kids",
+      "nct-dream"
+    ]
+  },
+  {
+    "slug": "concert-city-kit",
+    "title": "跨城看演出：酒店、交通和散场返程怎么选",
+    "category": "travel",
+    "summary": "很多观演体验并不是输在抢票，而是输在散场后的交通和住宿。",
+    "body": "跨城看演出要围绕场馆和返程线路规划，而不是只看景点位置。离场馆近、离地铁近、离机场巴士近，这三者的重要性通常高于价格差。尤其是大型场馆或郊区 Arena，散场后的时间成本常常是演出体验里最容易被低估的部分。",
+    "bullets": [
+      "先看场馆散场后的公共交通频次",
+      "优先选可步行回酒店的区域",
+      "国外场次提前确认夜间打车成本"
+    ],
+    "relatedArtists": [
+      "blackpink",
+      "aespa",
+      "ive",
+      "babymonster"
+    ]
+  },
+  {
+    "slug": "fandom-starter",
+    "title": "入坑新团时，先从哪些官方入口开始",
+    "category": "fandom",
+    "summary": "避免一开始就被零碎二手信息淹没，先从官方入口和稳定内容源建立认知。",
+    "body": "对新饭来说，官方站、官号、票务页和行程页的可信度始终最高。Seoul Signal 的艺人页价值，不是替代官方，而是把官方入口、常见票务路径和中文理解框架组织清楚，让你更快建立稳定信息流。",
+    "bullets": [
+      "先关注官宣来源而不是搬运号",
+      "把艺人页和巡演页收藏起来",
+      "需要时再补直播、应援和周边攻略"
+    ],
+    "relatedArtists": [
+      "illit",
+      "boynextdoor",
+      "babymonster",
+      "newjeans"
+    ]
+  },
+  {
+    "slug": "seat-selection-basics",
+    "title": "选座先看什么：看台、内场、延伸台和屏幕逻辑",
+    "category": "ticketing",
+    "summary": "不是越靠前越好，先看舞台结构和你的预算边界。",
+    "body": "选座应该先理解舞台结构，再结合预算和观演目标。看舞蹈完整度、看成员近距离互动、看大屏舞美，这三种需求对应的最佳区位并不一样。巨蛋和体育场场次尤其要先看延伸台、主舞台和大屏位置。",
+    "bullets": [
+      "先看舞台是否有延伸台",
+      "高层看台优先确认屏幕视角",
+      "预算有限时先避开最容易遮挡的斜角区"
+    ],
+    "relatedArtists": [
+      "seventeen",
+      "blackpink",
+      "txt",
+      "nct-dream"
+    ]
+  },
+  {
+    "slug": "resale-risk",
+    "title": "转售票到底能不能买：先判断规则，再谈价格",
+    "category": "ticketing",
+    "summary": "是否能买转售票，关键不在便宜不便宜，而在它是否真的能进场。",
+    "body": "不同国家和平台对转售的态度完全不同。有的场次只允许官方转售，有的场次强实名加电子票转让限制非常严格。跨境观演时，如果你不能明确确认转售合法性和换票方式，就不应该把整趟行程压在不透明的二手票上。",
+    "bullets": [
+      "优先查官方是否允许转售",
+      "确认电子票是否可改绑",
+      "不要把转售当唯一入场方案"
+    ],
+    "relatedArtists": [
+      "aespa",
+      "stray-kids",
+      "blackpink"
+    ]
+  },
+  {
+    "slug": "accor-arena-guide",
+    "title": "Accor Arena 观演前：地铁末班、住宿和 VIP 时间",
+    "category": "travel",
+    "summary": "巴黎场如果不提前规划散场，体验会明显打折。",
+    "body": "Accor Arena 场次通常对海外观众很友好，但巴黎本身的住宿区域选择和夜间返程依然值得提前研究。若购买 VIP 或较早入场票种，更要把到场时间和离场时间一起纳入计划，而不是只关注开演时刻。",
+    "bullets": [
+      "先看 VIP 到场时间",
+      "酒店优先沿地铁线选",
+      "散场后尽量少换乘"
+    ],
+    "relatedArtists": [
+      "blackpink"
+    ]
+  },
+  {
+    "slug": "ariake-arena-guide",
+    "title": "Ariake Arena 观演速查：电子票、排队和返程",
+    "category": "travel",
+    "summary": "东京场最容易低估的，是电子票和散场交通的细节。",
+    "body": "Ariake Arena 场次通常和日本本地抽选、电子票规则一起出现。对于海外观众来说，先看清取票和分配逻辑往往比先找酒店更重要。演出结束后，附近交通会迅速拥挤，建议把返回市中心的方案提前想好，不要等散场后再搜索。",
+    "bullets": [
+      "先搞清电子票逻辑",
+      "提前看车站和步行路线",
+      "不要临场才决定返程方式"
+    ],
+    "relatedArtists": [
+      "aespa"
+    ]
+  },
+  {
+    "slug": "asiaworld-arena-guide",
+    "title": "AsiaWorld-Arena 港区观演：机场线、口岸和支付",
+    "category": "travel",
+    "summary": "港区观演常见问题不是找不到场馆，而是忽略了支付和往返口岸。",
+    "body": "AsiaWorld-Arena 的优势是和机场联动强，但港区观演经常同时涉及本地支付、实名规则和跨境路线选择。内地用户最好在买票前就明确自己是当天往返、机场过夜还是住市区，不同策略会影响开销和时间安排。",
+    "bullets": [
+      "先决定当天往返还是过夜",
+      "确认支付方式和实名规则",
+      "提前看口岸和机场线"
+    ],
+    "relatedArtists": [
+      "le-sserafim"
+    ]
+  },
+  {
+    "slug": "bmo-stadium-guide",
+    "title": "BMO Stadium 演出日：停车、地铁和离场策略",
+    "category": "travel",
+    "summary": "洛杉矶场不是不能看，而是要提前接受交通成本。",
+    "body": "BMO Stadium 的难点通常不在进场，而在你怎么到、怎么回。洛杉矶跨区通勤时间和停车成本都不低，如果你不想把演出后半场的快乐消耗在堵车里，就应该在买票前把停车、网约车和地铁方案算清楚。",
+    "bullets": [
+      "停车和网约车预算单独算",
+      "优先考虑地铁可达性",
+      "离场时准备 A/B 方案"
+    ],
+    "relatedArtists": [
+      "blackpink"
+    ]
+  },
+  {
+    "slug": "ice-bsd-guide",
+    "title": "ICE BSD 观演速查：酒店、包车和场馆分区",
+    "category": "travel",
+    "summary": "会展型场馆和传统 Arena 的观演节奏不一样。",
+    "body": "ICE BSD 这类会展型场馆和大型体育馆不完全一样，步行距离、候场区域和周边交通都更需要提前看清。对外地观众来说，把酒店安排在离场馆更近的区域通常比追求市中心更稳，尤其是演出后不想折腾转车时。",
+    "bullets": [
+      "先确认 Hall 分区",
+      "酒店优先看场馆周边",
+      "如果包车要提前约定散场点"
+    ],
+    "relatedArtists": [
+      "babymonster"
+    ]
+  },
+  {
+    "slug": "impact-arena-guide",
+    "title": "IMPACT Arena 曼谷场：市区很远，返程更要提前想",
+    "category": "travel",
+    "summary": "曼谷场最大的问题通常是距离，不是票。",
+    "body": "IMPACT Arena 对第一次去曼谷看演出的用户来说，最容易被低估的是它和核心旅游区域的距离。无论你选打车、包车还是住场馆周边，都应该把演出当天的整体节奏单独设计，不要把逛街和观演硬塞进一个紧绷日程。",
+    "bullets": [
+      "不要把行程塞太满",
+      "返程交通尽量提前锁定",
+      "住宿和场馆距离优先于景点距离"
+    ],
+    "relatedArtists": [
+      "ive"
+    ]
+  },
+  {
+    "slug": "inspire-arena-guide",
+    "title": "Inspire Arena 观演前先看：机场线、接驳和返程",
+    "category": "travel",
+    "summary": "这个场馆最大的问题不是抢票，而是往返时间。",
+    "body": "Inspire Arena 对海外观众的难点在于地理位置。它更接近仁川机场而不是首尔市中心，所以是否住机场周边、是否需要接驳、演出后如何回程，都应该在买票前一起算。适合在白天活动和演出动线里单独预留更多交通缓冲。",
+    "bullets": [
+      "先决定住机场还是住市区",
+      "确认是否有官方接驳信息",
+      "返程务必留缓冲"
+    ],
+    "relatedArtists": [
+      "illit"
+    ]
+  },
+  {
+    "slug": "kspo-dome-guide",
+    "title": "KSPO Dome 观演速查：交通、排队和散场",
+    "category": "travel",
+    "summary": "首尔高频 K-pop 场馆，最重要的不是怎么去，而是怎么更稳地回。",
+    "body": "KSPO Dome 是很多大型韩团首尔场的核心场馆。试运行阶段的使用建议是：优先围绕奥林匹克公园和地铁线路规划行程，演出当天至少提前一次踩点大门和附近便利设施。高峰期进出园区人流明显，散场路线一定要提前想好。",
+    "bullets": [
+      "提前看奥林匹克公园出入口",
+      "散场时优先跟着地铁线规划",
+      "不要把所有时间压到最后一班车"
+    ],
+    "relatedArtists": [
+      "seventeen",
+      "bts",
+      "illit"
+    ]
+  },
+  {
+    "slug": "kyocera-dome-guide",
+    "title": "Kyocera Dome Osaka 选座和散场逻辑",
+    "category": "travel",
+    "summary": "巨蛋场最需要提前判断的是视野，不是开票瞬间。",
+    "body": "Kyocera Dome Osaka 的重点是巨蛋型视野和散场拥堵。购票前先看舞台是不是主舞台加延伸台，再判断高层看台是否符合你的观演目标。演出结束后周边车站拥挤明显，适合提前设定一条保守返程路线。",
+    "bullets": [
+      "先确认舞台延伸结构",
+      "高层看台要把屏幕体验考虑进去",
+      "散场路线提前保守规划"
+    ],
+    "relatedArtists": [
+      "txt"
+    ]
+  },
+  {
+    "slug": "moa-arena-guide",
+    "title": "Mall of Asia Arena：排队、商场动线和离场时间",
+    "category": "travel",
+    "summary": "马尼拉场通常要把商场和场馆一起看。",
+    "body": "Mall of Asia Arena 周边商业设施丰富，这对观演前补给很友好，但也容易导致演出日前后区域车流更复杂。对外地或海外观众来说，最稳的做法是把会合点、补给点和返程点提前设在商场体系内，而不是临时找。",
+    "bullets": [
+      "提前约好集合点",
+      "补给和寄存优先白天解决",
+      "离场后尽量减少临时决策"
+    ],
+    "relatedArtists": [
+      "boynextdoor"
+    ]
+  },
+  {
+    "slug": "singapore-indoor-stadium-guide",
+    "title": "Singapore Indoor Stadium：酒店、地铁和演出日节奏",
+    "category": "travel",
+    "summary": "新加坡场最大的优势是秩序和交通，但还是要提前做取舍。",
+    "body": "Singapore Indoor Stadium 相对适合第一次海外观演的新手，因为交通和城市秩序都比较稳定。但如果你还想顺带旅游，就要尽早决定酒店是在场馆附近、商圈附近还是机场沿线，不同选择会直接影响演出当天的体力和返程成本。",
+    "bullets": [
+      "先定住宿优先级",
+      "演出当天尽量减少跨城移动",
+      "把返程和次日离境放在一起考虑"
+    ],
+    "relatedArtists": [
+      "seventeen"
+    ]
+  },
+  {
+    "slug": "the-o2-guide",
+    "title": "The O2 观演速查：排队、地铁和夜间返程",
+    "category": "travel",
+    "summary": "伦敦场最关键的是演出后怎么平稳离开。",
+    "body": "The O2 是欧洲 K-pop 大场常见目的地。对于第一次去伦敦看演出的用户，真正应该优先确认的是夜间返程范围，而不是白天逛哪里。住在地铁线可直达区域，通常比住在看起来更热闹的区更稳。",
+    "bullets": [
+      "先查夜间返程线路",
+      "别低估伦敦跨区时间",
+      "提前设置集合和离场点"
+    ],
+    "relatedArtists": [
+      "nct-dream"
+    ]
+  }
+]

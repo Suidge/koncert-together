@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "seoul-carat-meetup",
+    "title": "首尔 CARAT 观演交换信息帖",
+    "city": "Seoul",
+    "kind": "meetup",
+    "summary": "集合接机、场馆周边、应援物领取和散场拼车信息。",
+    "dateLabel": "4月中旬",
+    "relatedArtists": ["seventeen"]
+  },
+  {
+    "slug": "paris-blink-project",
+    "title": "巴黎场 BLINK 应援横幅协作",
+    "city": "Paris",
+    "kind": "fan-project",
+    "summary": "适合后续扩展成粉丝协作页和众筹入口。",
+    "dateLabel": "7月上旬",
+    "relatedArtists": ["blackpink"]
+  },
+  {
+    "slug": "tokyo-aespa-watch-party",
+    "title": "东京场线上同看群组",
+    "city": "Tokyo",
+    "kind": "watch-party",
+    "summary": "售罄场次同样可以承载线上同看、补票提醒和转售风险提示。",
+    "dateLabel": "3月下旬",
+    "relatedArtists": ["aespa"]
+  },
+  {
+    "slug": "la-army-ticket-check",
+    "title": "洛杉矶 ARMY 开票前核对清单",
+    "city": "Los Angeles",
+    "kind": "meetup",
+    "summary": "整理 presale code、支付方式和散场返程信息。",
+    "dateLabel": "持续更新",
+    "relatedArtists": ["bts"]
+  },
+  {
+    "slug": "hong-kong-fearnot-project",
+    "title": "港区 FEARNOT 应援协作笔记",
+    "city": "Hong Kong",
+    "kind": "fan-project",
+    "summary": "汇总口岸路线、入场排队和应援物发放建议。",
+    "dateLabel": "5月下旬",
+    "relatedArtists": ["le-sserafim"]
+  },
+  {
+    "slug": "london-dream-queue-guide",
+    "title": "伦敦 DREAM 排队经验征集",
+    "city": "London",
+    "kind": "watch-party",
+    "summary": "收集 The O2 排队、安检和散场经验，方便后续做成正式指南。",
+    "dateLabel": "10月前",
+    "relatedArtists": ["nct-dream"]
+  }
+]

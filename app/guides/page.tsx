@@ -5,7 +5,7 @@ import { guides } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "观演指南 | Seoul Signal",
-  description: "给中文 K-pop fans 的购票、出行和入坑指南。"
+  description: "给中文 K-pop fans 的购票、出行、选座和场馆指南。"
 };
 
 export default function GuidesPage() {
@@ -16,7 +16,7 @@ export default function GuidesPage() {
         <p className="eyebrow">Guides</p>
         <h1>观演与入坑指南</h1>
         <p className="hero-text">
-          站点不只是日历，还应该真正帮助中文粉丝做决定。这里整理购票、跨城观演和 fandom 入门内容。
+          这里优先整理最常用、最容易影响决策的内容：抢票、选座、跨城观演、场馆速查和 fandom 入门。
         </p>
       </section>
       <section className="content-grid">

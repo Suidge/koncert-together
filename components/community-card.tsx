@@ -2,14 +2,7 @@ import Link from "next/link";
 import type { CommunityPost } from "@/lib/site-data";
 
 type Props = {
-  post: CommunityPost | {
-    slug: string;
-    title: string;
-    city: string;
-    kind: string;
-    summary: string;
-    dateLabel: string;
-  };
+  post: CommunityPost;
 };
 
 export function CommunityCard({ post }: Props) {
@@ -23,7 +16,7 @@ export function CommunityCard({ post }: Props) {
         <span>{post.dateLabel}</span>
       </div>
       <Link className="text-link" href={`/community/${post.slug}`}>
-        查看讨论
+        查看详情
       </Link>
     </article>
   );

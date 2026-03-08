@@ -38,8 +38,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Generate Prisma client
-        run: pnpm prisma:generate
+      - name: Prepare static data
+        run: node scripts/prepare-pages-data.mjs
 
       - name: Build static site
         run: pnpm build

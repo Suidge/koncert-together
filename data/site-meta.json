@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-03-08T02:36:07.870Z",
+  "siteMode": "github-pages-trial",
+  "coverageNote": "公开前台部署到 GitHub Pages，本地主机负责低频数据整理和自动推送。",
+  "counts": {
+    "artists": 14,
+    "events": 15,
+    "guides": 18,
+    "communityPosts": 6
+  }
+}

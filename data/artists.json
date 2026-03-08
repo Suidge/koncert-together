@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "aespa",
+    "name": "aespa",
+    "nameKo": "에스파",
+    "fandom": "MY",
+    "tagline": "High-concept live production with global reach",
+    "intro": "适合作为日本、北美和亚洲巡演站点的跨区域内容样本。",
+    "accent": "#5377a4",
+    "officialUrl": "https://weverse.io/aespa"
+  },
+  {
+    "slug": "babymonster",
+    "name": "BABYMONSTER",
+    "nameKo": "베이비몬스터",
+    "fandom": "MONSTIEZ",
+    "tagline": "New-gen group with fast-rising tour interest",
+    "intro": "适合承接新团追踪、入坑向指南和第一次跨境观演内容。",
+    "accent": "#544f3f",
+    "officialUrl": "https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70"
+  },
+  {
+    "slug": "blackpink",
+    "name": "BLACKPINK",
+    "nameKo": "블랙핑크",
+    "fandom": "BLINK",
+    "tagline": "Global stadium-scale K-pop headliner",
+    "intro": "国际巡演声量极大，适合验证多地区、多票务入口和高需求活动的展示方式。",
+    "accent": "#2a1c1f",
+    "officialUrl": "https://www.blackpinkmusic.com/"
+  },
+  {
+    "slug": "boynextdoor",
+    "name": "BOYNEXTDOOR",
+    "nameKo": "보이넥스트도어",
+    "fandom": "ONEDOOR",
+    "tagline": "Rising fandom with strong event planning needs",
+    "intro": "适合承接入坑向内容和小规模但高活跃度的巡演关注。",
+    "accent": "#5a6d43",
+    "officialUrl": "https://weverse.io/boynextdoor"
+  },
+  {
+    "slug": "bts",
+    "name": "BTS",
+    "nameKo": "방탄소년단",
+    "fandom": "ARMY",
+    "tagline": "Global headliner with the widest touring attention in K-pop",
+    "intro": "适合作为全球巡演监测的基准艺人页，用户通常最关心官宣入口、会员预售和海外场次节奏。",
+    "accent": "#40344a",
+    "officialUrl": "https://weverse.io/bts"
+  },
+  {
+    "slug": "enhypen",
+    "name": "ENHYPEN",
+    "nameKo": "엔하이픈",
+    "fandom": "ENGENE",
+    "tagline": "High-growth tour demand across Asia and North America",
+    "intro": "适合验证跨地区票务入口与高需求场次的追踪方式。",
+    "accent": "#6d5945",
+    "officialUrl": "https://weverse.io/enhypen"
+  },
+  {
+    "slug": "illit",
+    "name": "ILLIT",
+    "nameKo": "아일릿",
+    "fandom": "GLLIT",
+    "tagline": "Emerging group worth monitoring for first large-scale routing",
+    "intro": "适合作为新生代艺人页模板，先做官方入口和活动监测，再逐步补充 fandom 内容。",
+    "accent": "#8a6f5d",
+    "officialUrl": "https://weverse.io/illit"
+  },
+  {
+    "slug": "ive",
+    "name": "IVE",
+    "nameKo": "아이브",
+    "fandom": "DIVE",
+    "tagline": "Strong Asia routing and high demand for ticketing guides",
+    "intro": "适合作为亚洲城市攻略和多平台售票说明的内容样本。",
+    "accent": "#7e5265",
+    "officialUrl": "https://www.ive-official.com/"
+  },
+  {
+    "slug": "le-sserafim",
+    "name": "LE SSERAFIM",
+    "nameKo": "르세라핌",
+    "fandom": "FEARNOT",
+    "tagline": "Fast-rising global girl group with strong travel demand",
+    "intro": "适合承载演唱会信息之外的应援、穿搭和观演攻略内容。",
+    "accent": "#49614d",
+    "officialUrl": "https://weverse.io/lesserafim"
+  },
+  {
+    "slug": "nct-dream",
+    "name": "NCT DREAM",
+    "nameKo": "엔시티 드림",
+    "fandom": "NCTzen",
+    "tagline": "Large fandom, frequent touring, strong city demand",
+    "intro": "适合验证城市榜单、提醒订阅和粉丝城市聚集页等未来模块。",
+    "accent": "#809447",
+    "officialUrl": "https://www.smtown.com/"
+  },
+  {
+    "slug": "newjeans",
+    "name": "NewJeans",
+    "nameKo": "뉴진스",
+    "fandom": "Bunnies",
+    "tagline": "High public interest and broad fandom crossover",
+    "intro": "即使活动节奏不固定，艺人页也值得保留官方入口和长期监测状态。",
+    "accent": "#6b7b94",
+    "officialUrl": "https://weverse.io/newjeans"
+  },
+  {
+    "slug": "seventeen",
+    "name": "SEVENTEEN",
+    "nameKo": "세븐틴",
+    "fandom": "CARAT",
+    "tagline": "Self-producing performance powerhouse",
+    "intro": "适合做中文巡演聚合入口的典型团体，官方公告和票务节奏都较为明确。",
+    "accent": "#d36e57",
+    "officialUrl": "https://weverse.io/seventeen"
+  },
+  {
+    "slug": "stray-kids",
+    "name": "Stray Kids",
+    "nameKo": "스트레이 키즈",
+    "fandom": "STAY",
+    "tagline": "Arena and stadium routing with frequent updates",
+    "intro": "适合展示同一艺人多城市排期、官宣分批释放和高密度日程。",
+    "accent": "#6a4a34",
+    "officialUrl": "https://www.straykids.jype.com/"
+  },
+  {
+    "slug": "txt",
+    "name": "TOMORROW X TOGETHER",
+    "nameKo": "투모로우바이투게더",
+    "fandom": "MOA",
+    "tagline": "Global arena routing with strong fanclub ticketing demand",
+    "intro": "适合覆盖日韩和北美路线，中文用户常关心会员预售、场馆交通和跨境支付。",
+    "accent": "#557ea1",
+    "officialUrl": "https://weverse.io/txt"
+  }
+]

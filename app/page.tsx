@@ -10,6 +10,7 @@ import {
   communityPosts,
   guides,
   launchHighlights,
+  siteMeta,
   slugifyArtistName
 } from "@/lib/site-data";
 
@@ -22,22 +23,21 @@ export default async function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">K-pop Tours, Tickets, Fandom</p>
-          <h1>给中文 K-pop fans 的全球巡演日历与 fandom 入口。</h1>
+          <h1>给中文 K-pop fans 的全球巡演日历、场馆指南与 fandom 入口。</h1>
           <p className="hero-text">
-            在一个站里看清巡演时间、购票入口、观演提示、艺人页和社区入口。
-            目标不是做“资料展示页”，而是做真正能被反复打开的外部站点。
+            试运行阶段先把最常被反复打开的内容做扎实：主流艺人覆盖、跨城观演指南、场馆速查和低维护的巡演更新。
           </p>
           <div className="hero-actions">
             <Link className="primary-button" href="/calendar">
               进入巡演日历
             </Link>
-            <Link className="secondary-button" href="/community">
-              进入 fandom 社区
+            <Link className="secondary-button" href="/guides">
+              先看指南
             </Link>
           </div>
         </div>
         <div className="hero-panel">
-          <p className="panel-label">本周焦点</p>
+          <p className="panel-label">试运行状态</p>
           <div className="hero-stats">
             <div>
               <strong>{events.length}</strong>
@@ -52,8 +52,9 @@ export default async function HomePage() {
               <span>中文指南</span>
             </div>
           </div>
+          <p className="content-summary">{siteMeta.coverageNote}</p>
           <div className="artist-cloud">
-            {artists.slice(0, 6).map((artist) => (
+            {artists.slice(0, 8).map((artist) => (
               <span key={artist.slug}>{artist.name}</span>
             ))}
           </div>
@@ -87,14 +88,14 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Artists</p>
-          <h2>每个艺人页都应该像一个 fandom hub</h2>
+          <h2>主流艺人先完整覆盖，再逐步加深内容密度</h2>
         </div>
         <Link className="text-link" href="/artists">
           查看艺人目录
         </Link>
       </section>
       <section className="artist-grid">
-        {artists.slice(0, 3).map((artist) => (
+        {artists.slice(0, 6).map((artist) => (
           <ArtistCard
             artist={artist}
             eventCount={events.filter((event) => slugifyArtistName(event.artist) === artist.slug).length}
@@ -106,14 +107,14 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Guides</p>
-          <h2>中文用户真正需要的观演与购票说明</h2>
+          <h2>先把中文用户真的会搜的指南做厚</h2>
         </div>
         <Link className="text-link" href="/guides">
           查看全部指南
         </Link>
       </section>
       <section className="content-grid">
-        {guides.map((guide) => (
+        {guides.slice(0, 8).map((guide) => (
           <GuideCard guide={guide} key={guide.slug} />
         ))}
       </section>
@@ -121,7 +122,7 @@ export default async function HomePage() {
       <section className="section-head">
         <div>
           <p className="eyebrow">Community</p>
-          <h2>让 fandom 不只停留在“看信息”</h2>
+          <h2>试运行先用精选内容验证 fandom 需求</h2>
         </div>
         <Link className="text-link" href="/community">
           进入社区页

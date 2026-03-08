@@ -2,13 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FavoriteToggle } from "@/components/favorite-toggle";
 import { Header } from "@/components/header";
-import { SaveEventForm } from "@/components/save-event-form";
 import { ShareButton } from "@/components/share-button";
-import {
-  formatEventDateLabel,
-  getEventBySlug,
-  getEvents
-} from "@/lib/events";
+import { formatEventDateLabel, getEventBySlug, getEvents } from "@/lib/events";
 import { type EventItem, getStatusLabel } from "@/lib/site-data";
 
 type Props = {
@@ -39,7 +34,6 @@ export default async function EventDetailPage({ params }: Props) {
           <h1>{event.title}</h1>
           <p className="hero-text">{event.description}</p>
           <div className="detail-actions">
-            <SaveEventForm eventSlug={event.slug} />
             <FavoriteToggle slug={event.slug} />
             <ShareButton title={event.title} />
             {event.ticketLinks.map((link: EventItem["ticketLinks"][number]) => (
@@ -104,18 +98,16 @@ export default async function EventDetailPage({ params }: Props) {
           <p className="eyebrow">Purchase Guide</p>
           <h2>购票与观演提示</h2>
           <p>{event.purchaseHint ?? "暂未补充购票说明。"}</p>
-          {"priceNote" in event && event.priceNote ? (
-            <p className="detail-note">票务提示: {event.priceNote}</p>
-          ) : null}
-          {"ticketSaleDate" in event && event.ticketSaleDate ? (
+          {event.priceNote ? <p className="detail-note">票务提示: {event.priceNote}</p> : null}
+          {event.ticketSaleDate ? (
             <p className="detail-note">开票时间: {formatEventDateLabel(event.ticketSaleDate)}</p>
           ) : null}
         </article>
         <article className="detail-block">
           <p className="eyebrow">Travel</p>
           <h2>出行与准备</h2>
-          <p>{"travelNote" in event && event.travelNote ? event.travelNote : "暂未补充出行提示。"}</p>
-          {"checklist" in event && Array.isArray(event.checklist) ? (
+          <p>{event.travelNote ?? "暂未补充出行提示。"}</p>
+          {event.checklist?.length ? (
             <ul className="checklist">
               {event.checklist.map((item) => (
                 <li key={item}>{item}</li>
@@ -126,12 +118,8 @@ export default async function EventDetailPage({ params }: Props) {
         <article className="detail-block">
           <p className="eyebrow">Source</p>
           <h2>来源与可信度</h2>
-          <p>
-            当前页面会保留结构化来源字段，后续可继续增加来源快照、变更历史、人工审核状态和更新时间线。
-          </p>
-          {"sourceConfidence" in event && event.sourceConfidence ? (
-            <p className="detail-note">来源层级: {event.sourceConfidence}</p>
-          ) : null}
+          <p>试运行阶段优先保留官方或主办方入口，降低中文用户在跨平台找信息时的误差和跳转成本。</p>
+          {event.sourceConfidence ? <p className="detail-note">来源层级: {event.sourceConfidence}</p> : null}
           {event.sourceUrl ? (
             <a className="text-link" href={event.sourceUrl} rel="noreferrer" target="_blank">
               查看来源页面

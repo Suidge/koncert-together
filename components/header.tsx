@@ -1,10 +1,6 @@
 import Link from "next/link";
-import { logoutAction } from "@/app/actions";
-import { getCurrentUser } from "@/lib/auth";
 
-export async function Header() {
-  const user = await getCurrentUser();
-
+export function Header() {
   return (
     <header className="site-header">
       <Link className="brand" href="/">
@@ -15,18 +11,7 @@ export async function Header() {
         <Link href="/artists">艺人</Link>
         <Link href="/guides">指南</Link>
         <Link href="/community">社区</Link>
-        {user ? (
-          <>
-            <Link href="/me">我的主页</Link>
-            <form action={logoutAction}>
-              <button className="nav-button" type="submit">
-                退出
-              </button>
-            </form>
-          </>
-        ) : (
-          <Link href="/login">登录</Link>
-        )}
+        <Link href="/saved">收藏</Link>
       </nav>
     </header>
   );
