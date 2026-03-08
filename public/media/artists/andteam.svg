@@ -11,17 +11,17 @@
       <stop offset="1" stop-color="#eaebef" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="panel" x1="92" y1="918" x2="1098" y2="1364" gradientUnits="userSpaceOnUse">
-      <stop stop-color="rgba(19,16,16,0.22)"/>
-      <stop offset="1" stop-color="rgba(19,16,16,0.34)"/>
+      <stop stop-color="#131010" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#131010" stop-opacity="0.34"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
-  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="rgba(255,247,239,0.22)" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="1388" rx="42" stroke="#FFF7EF" stroke-opacity="0.22" stroke-width="2"/>
   <circle cx="926" cy="264" r="420" fill="url(#halo)"/>
-  <path d="M168 288C304 132 526 88 742 154C924 210 1030 332 1090 474" stroke="rgba(255,247,239,0.12)" stroke-width="22" stroke-linecap="round"/>
-  <path d="M88 956C222 818 410 742 612 742C796 742 964 804 1108 930" stroke="rgba(255,247,239,0.16)" stroke-width="14" stroke-linecap="round"/>
-  <path d="M118 1046C290 942 444 900 622 900C808 900 954 944 1082 1032" stroke="rgba(255,247,239,0.12)" stroke-width="8" stroke-linecap="round"/>
-  <rect x="92" y="98" width="252" height="54" rx="27" fill="rgba(255,247,239,0.12)"/>
+  <path d="M168 288C304 132 526 88 742 154C924 210 1030 332 1090 474" stroke="#FFF7EF" stroke-opacity="0.12" stroke-width="22" stroke-linecap="round"/>
+  <path d="M88 956C222 818 410 742 612 742C796 742 964 804 1108 930" stroke="#FFF7EF" stroke-opacity="0.16" stroke-width="14" stroke-linecap="round"/>
+  <path d="M118 1046C290 942 444 900 622 900C808 900 954 944 1082 1032" stroke="#FFF7EF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+  <rect x="92" y="98" width="252" height="54" rx="27" fill="#FFF7EF" fill-opacity="0.12"/>
   <text x="218" y="132" text-anchor="middle" fill="#FFF7EF" font-size="21" font-family="Helvetica Neue, Arial, sans-serif" letter-spacing="3">KONCERT TOGETHER</text>
   <text x="98" y="224" fill="#FFF7EF" font-size="20" font-family="Helvetica Neue, Arial, sans-serif" opacity="0.84" letter-spacing="6">ARTIST GUIDE</text>
   <text x="96" y="1044" fill="#FFF7EF" font-size="126" font-family="Georgia, serif" font-weight="700"><tspan x="96" dy="0">&amp;TEAM</tspan></text>
