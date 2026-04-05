@@ -10,7 +10,7 @@ import { TourPlanCard } from "@/components/tour-plan-card";
 import { getArtistBySlug, getArtists } from "@/lib/events";
 import { assetPath } from "@/lib/assets";
 import { communityPosts, guides, type EventItem } from "@/lib/site-data";
-import { formatShortDate, officialUpdates } from "@/lib/site-data";
+import { formatShortDate, hasDisplayVisual, officialUpdates } from "@/lib/site-data";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -67,8 +67,18 @@ export default async function ArtistDetailPage({ params }: Props) {
           </div>
         </div>
         <div className="artist-hero-visual">
-          {artist.heroImage ? <img alt={artist.name} className="artist-hero-image" src={assetPath(artist.heroImage)} /> : null}
-          <ImageAttributionLine attribution={artist.imageAttribution} />
+          {artist.heroImage && hasDisplayVisual(artist.imageQuality) ? (
+            <>
+              <img alt={artist.name} className="artist-hero-image" src={assetPath(artist.heroImage)} />
+              <ImageAttributionLine attribution={artist.imageAttribution} />
+            </>
+          ) : (
+            <article className="detail-block single-card-message">
+              <p className="eyebrow">主视觉待补</p>
+              <h2>这位艺人的真实图片还在补齐</h2>
+              <p>当前先把巡演、成员档案和相关指南整理完整，等拿到可用来源后再补进主视觉。</p>
+            </article>
+          )}
         </div>
         <div className="artist-hero-panel">
           <div className="detail-row">

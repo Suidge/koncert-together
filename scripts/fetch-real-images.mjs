@@ -22,21 +22,6 @@ async function getWikiImage(artistName, artistKo) {
   return null;
 }
 
-const fallbackUrls = [
-  "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2000&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=2000&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?q=80&w=2000&auto=format&fit=crop"
-];
-
-const eventUnsplashPhotos = [
-  "https://images.unsplash.com/photo-1540039155733-d730a53cd34a?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1470229722913-7c092bce65b1?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1533174000273-e18e886915f4?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1493225457124-a1a2a5bf994e?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=2000"
-];
-
 async function main() {
   // Update artists
   const artistData = JSON.parse(await fs.readFile(artistsPath, 'utf-8'));
@@ -49,6 +34,7 @@ async function main() {
         if (url) {
             artist.coverImage = url;
             artist.heroImage = url;
+            artist.imageQuality = "commons";
             artist.imageAttribution = {
                 provider: "Wikipedia",
                 creator: "Wikimedia Commons",
@@ -57,16 +43,11 @@ async function main() {
             };
             console.log(` ✅ Found: ${url}`);
         } else {
-            console.log(` ❌ Not found, using Unsplash fallback.`);
-            const fallback = fallbackUrls[i % fallbackUrls.length];
-            artist.coverImage = fallback;
-            artist.heroImage = fallback;
-            artist.imageAttribution = {
-                provider: "Unsplash",
-                creator: "Generic Sync",
-                license: "Free to use",
-                sourceLabel: "Unsplash"
-            };
+            console.log(` ❌ Not found, keeping generated fallback.`);
+            artist.coverImage = `/media/artists/${artist.slug}.svg`;
+            artist.heroImage = `/media/artists/${artist.slug}.svg`;
+            artist.imageQuality = "generated";
+            delete artist.imageAttribution;
         }
         updatedArtists++;
     }
@@ -82,7 +63,8 @@ async function main() {
   for (let i = 0; i < eventData.length; i++) {
     const event = eventData[i];
     if (event.heroImage && event.heroImage.includes('.svg')) {
-        event.heroImage = eventUnsplashPhotos[i % eventUnsplashPhotos.length];
+        event.heroImage = `/media/events/${event.slug}.svg`;
+        event.heroImageQuality = "generated";
         updatedEvents++;
     }
   }

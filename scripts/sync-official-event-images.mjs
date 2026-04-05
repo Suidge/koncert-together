@@ -146,6 +146,7 @@ async function main() {
 
       event.heroImage = source.targetPath;
       event.imageType = source.imageType || "poster";
+      event.heroImageQuality = "official";
       event.heroImageAttribution = {
         provider: source.provider,
         creator: source.creator,

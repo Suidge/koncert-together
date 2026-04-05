@@ -10,7 +10,8 @@ import {
   type EventItem,
   findSourceStatus,
   formatShortDate,
-  getStatusLabel
+  getStatusLabel,
+  hasDisplayVisual
 } from "@/lib/site-data";
 
 type Props = {
@@ -51,8 +52,18 @@ export default async function EventDetailPage({ params }: Props) {
           </div>
         </div>
         <div className="detail-hero-image-wrap">
-          {event.heroImage ? <img alt={event.title} className="detail-hero-image" src={assetPath(event.heroImage)} /> : null}
-          <ImageAttributionLine attribution={event.heroImageAttribution} />
+          {event.heroImage && hasDisplayVisual(event.heroImageQuality) ? (
+            <>
+              <img alt={event.title} className="detail-hero-image" src={assetPath(event.heroImage)} />
+              <ImageAttributionLine attribution={event.heroImageAttribution} />
+            </>
+          ) : (
+            <article className="detail-block single-card-message">
+              <p className="eyebrow">活动海报待补</p>
+              <h2>这场还没有可直接展示的官方主视觉</h2>
+              <p>先把票务入口、时间和出行准备整理好，等拿到官方海报或场馆图后再补进这一页。</p>
+            </article>
+          )}
         </div>
         <aside className="detail-panel">
           <div className="detail-row">

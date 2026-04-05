@@ -350,7 +350,7 @@ NEXT_PUBLIC_BASE_PATH=/koncert-together NEXT_PUBLIC_SITE_URL=https://suidge.gith
 本地主机或长期在线机器可以直接每天执行：
 
 ```bash
-cd /Users/neoshi/kpop-events
+cd /Users/neoshi/koncert2gether
 pnpm refresh:pages
 ```
 
@@ -377,7 +377,7 @@ pnpm refresh:pages
 推荐每天一次，足够适合当前试运行模式：
 
 ```cron
-17 6 * * * cd /Users/neoshi/kpop-events && /bin/bash -lc 'pnpm refresh:pages >> /Users/neoshi/kpop-events/.logs/pages-refresh.log 2>&1'
+17 6 * * * cd /Users/neoshi/koncert2gether && /bin/bash -lc 'pnpm refresh:pages >> /Users/neoshi/koncert2gether/.logs/pages-refresh.log 2>&1'
 ```
 
 建议额外准备：

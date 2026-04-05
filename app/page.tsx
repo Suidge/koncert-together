@@ -10,6 +10,8 @@ import { assetPath } from "@/lib/assets";
 import {
   communityPosts,
   guides,
+  hasDisplayVisual,
+  hasRealVisual,
   launchHighlights,
   slugifyArtistName,
   uniqueCountries
@@ -19,11 +21,11 @@ export default async function HomePage() {
   const [events, artists, plans] = await Promise.all([getEvents(), getArtists(), getTourPlans()]);
   const countries = uniqueCountries(events);
   const cities = new Set(events.map((event) => event.city));
-  const sourcedArtists = artists.filter((artist) => artist.imageAttribution);
-  const collageArtists = (sourcedArtists.length ? sourcedArtists : artists).slice(0, 4);
+  const sourcedArtists = artists.filter((artist) => hasRealVisual(artist.imageQuality));
+  const collageArtists = (sourcedArtists.length ? sourcedArtists : artists.filter((artist) => hasDisplayVisual(artist.imageQuality))).slice(0, 4);
   const featuredArtistCards = [
-    ...sourcedArtists,
-    ...artists.filter((artist) => !artist.imageAttribution)
+    ...artists.filter((artist) => hasRealVisual(artist.imageQuality)),
+    ...artists.filter((artist) => !hasRealVisual(artist.imageQuality))
   ].slice(0, 9);
 
   return (
@@ -80,7 +82,7 @@ export default async function HomePage() {
           <div className="hero-collage">
             {collageArtists.map((artist) => (
               <Link className="hero-collage-card" href={`/artists/${artist.slug}`} key={artist.slug}>
-                {artist.coverImage ? <img alt={artist.name} src={assetPath(artist.coverImage)} /> : null}
+                {artist.coverImage && hasDisplayVisual(artist.imageQuality) ? <img alt={artist.name} src={assetPath(artist.coverImage)} /> : null}
                 <span>{artist.name}</span>
               </Link>
             ))}

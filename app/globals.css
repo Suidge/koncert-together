@@ -624,6 +624,44 @@ img {
   padding: 24px;
 }
 
+.guide-prose > p,
+.guide-prose > h2,
+.guide-prose > h3 {
+  margin: 0;
+}
+
+.guide-prose {
+  display: grid;
+  gap: 14px;
+}
+
+.guide-section-heading,
+.guide-inline-heading {
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.guide-section-heading {
+  margin-top: 8px;
+  font-size: 1.4rem;
+}
+
+.guide-inline-heading {
+  font-size: 1.02rem;
+}
+
+.guide-callout,
+.guide-action {
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(24, 20, 18, 0.045);
+}
+
+.guide-callout {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .checklist {
   margin: 18px 0 0;
   padding-left: 18px;

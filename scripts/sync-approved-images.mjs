@@ -135,6 +135,10 @@ function buildAttribution(source, resolved) {
   };
 }
 
+function getQualityForProvider(provider = "") {
+  return provider.toLowerCase().includes("wikimedia") ? "commons" : "official";
+}
+
 function defaultEventVisual(slug) {
   return `/media/events/${slug}.svg`;
 }
@@ -186,11 +190,13 @@ async function main() {
   for (const artist of artists) {
     artist.coverImage = defaultArtistVisual(artist.slug);
     artist.heroImage = defaultArtistVisual(artist.slug);
+    artist.imageQuality = "generated";
     delete artist.imageAttribution;
   }
 
   for (const event of events) {
     event.heroImage = defaultEventVisual(event.slug);
+    event.heroImageQuality = "generated";
     delete event.heroImageAttribution;
   }
 
@@ -217,6 +223,7 @@ async function main() {
       artist.coverImage = source.targetPath;
       artist.heroImage = source.targetPath;
       artist.imageType = source.imageType || "profile";
+      artist.imageQuality = getQualityForProvider(source.provider);
       artist.imageAttribution = {
         provider: source.provider,
         creator: source.creator || resolved.creator || source.provider,
@@ -229,9 +236,11 @@ async function main() {
       if (event.artistSlug === source.artistSlug || event.artist === artist.name) {
         if (source.useForEvents) {
           event.heroImage = source.targetPath;
+          event.heroImageQuality = getQualityForProvider(source.provider);
           event.heroImageAttribution = buildAttribution(source, resolved);
         } else {
           event.heroImage = defaultEventVisual(event.slug);
+          event.heroImageQuality = "generated";
           delete event.heroImageAttribution;
         }
       }

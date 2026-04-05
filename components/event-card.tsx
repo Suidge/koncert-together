@@ -5,7 +5,8 @@ import {
   type EventItem,
   findArtistByName,
   formatDate,
-  getStatusLabel
+  getStatusLabel,
+  hasDisplayVisual
 } from "@/lib/site-data";
 
 type Props = {
@@ -17,7 +18,7 @@ export function EventCard({ event }: Props) {
 
   return (
     <article className="event-card">
-      {event.heroImage ? (
+      {event.heroImage && hasDisplayVisual(event.heroImageQuality) ? (
         <div className="event-visual-frame">
           <img alt={`${event.artist} ${event.city}`} className="event-visual" src={assetPath(event.heroImage)} />
         </div>

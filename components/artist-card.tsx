@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { assetPath } from "@/lib/assets";
+import { hasDisplayVisual } from "@/lib/site-data";
 import type { ArtistProfile } from "@/lib/site-data";
 
 type Props = {
@@ -11,7 +12,7 @@ type Props = {
 export function ArtistCard({ artist, eventCount, planCount = 0 }: Props) {
   return (
     <article className="artist-card" style={{ ["--artist-accent" as string]: artist.accent }}>
-      {artist.coverImage ? (
+      {artist.coverImage && hasDisplayVisual(artist.imageQuality) ? (
         <div className="artist-visual-frame">
           <img alt={`${artist.name} visual`} className="artist-visual" src={assetPath(artist.coverImage)} />
         </div>

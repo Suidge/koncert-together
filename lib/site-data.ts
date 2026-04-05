@@ -22,6 +22,8 @@ export type ImageAttribution = {
   sourceLabel?: string;
 };
 
+export type VisualQuality = "official" | "commons" | "venue" | "generated" | "generic";
+
 export type EventStatusValue = "on_sale" | "announced" | "sold_out";
 
 export type EventItem = {
@@ -49,6 +51,7 @@ export type EventItem = {
   ticketSaleDate?: string;
   doorsTime?: string;
   heroImage?: string;
+  heroImageQuality?: VisualQuality;
   heroImageAttribution?: ImageAttribution;
   ticketLinks: TicketLink[];
 };
@@ -77,6 +80,7 @@ export type ArtistProfile = {
   memberCount?: number;
   coverImage?: string;
   heroImage?: string;
+  imageQuality?: VisualQuality;
   imageAttribution?: ImageAttribution;
   members?: ArtistMember[];
 };
@@ -288,4 +292,16 @@ export function findSourceStatus(url?: string) {
   }
 
   return sourceStatus.find((item) => item.url === url) ?? null;
+}
+
+export function isGenericVisual(quality?: VisualQuality | null) {
+  return quality === "generic";
+}
+
+export function hasDisplayVisual(quality?: VisualQuality | null) {
+  return Boolean(quality) && !isGenericVisual(quality);
+}
+
+export function hasRealVisual(quality?: VisualQuality | null) {
+  return quality === "official" || quality === "commons" || quality === "venue";
 }

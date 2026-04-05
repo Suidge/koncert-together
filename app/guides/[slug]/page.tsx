@@ -21,6 +21,48 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function renderGuideBody(body: string) {
+  return body
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line, index) => {
+      if (line.startsWith("#### ")) {
+        return (
+          <h3 className="guide-inline-heading" key={`${index}-${line}`}>
+            {line.replace(/^#### /, "")}
+          </h3>
+        );
+      }
+
+      if (line.startsWith("### ")) {
+        return (
+          <h2 className="guide-section-heading" key={`${index}-${line}`}>
+            {line.replace(/^### /, "")}
+          </h2>
+        );
+      }
+
+      if (line.startsWith("**") && line.endsWith("**")) {
+        return (
+          <p className="guide-callout" key={`${index}-${line}`}>
+            {line.replace(/^\*\*/, "").replace(/\*\*$/, "")}
+          </p>
+        );
+      }
+
+      if (line.startsWith("👉 ")) {
+        return (
+          <p className="guide-action" key={`${index}-${line}`}>
+            {line.replace(/^👉 /, "")}
+          </p>
+        );
+      }
+
+      return <p key={`${index}-${line}`}>{line}</p>;
+    });
+}
+
 export default async function GuideDetailPage({ params }: Props) {
   const { slug } = await params;
   const guide = guides.find((item) => item.slug === slug);
@@ -40,10 +82,15 @@ export default async function GuideDetailPage({ params }: Props) {
         <div className="detail-copy">
           <p className="eyebrow">{categoryLabel}</p>
           <h1>{guide.title}</h1>
-          <p className="hero-text">{guide.body}</p>
+          <p className="hero-text">{guide.summary}</p>
         </div>
       </section>
       <section className="detail-content single-column">
+        <article className="detail-block guide-prose">
+          <p className="eyebrow">正文</p>
+          <h2>先把决策顺序想清楚</h2>
+          {renderGuideBody(guide.body)}
+        </article>
         <article className="detail-block">
           <p className="eyebrow">重点速记</p>
           <h2>重点记住</h2>
@@ -148,6 +195,19 @@ export default async function GuideDetailPage({ params }: Props) {
             <div className="link-row">
               {guide.practical.mapLinks.map((item) => (
                 <a className="ticket-link" href={item.href} key={item.href} rel="noreferrer" target="_blank">
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </article>
+        ) : null}
+        {guide.practical?.links?.length ? (
+          <article className="detail-block">
+            <p className="eyebrow">继续阅读</p>
+            <h2>相关页面</h2>
+            <div className="link-row">
+              {guide.practical.links.map((item) => (
+                <a className="ticket-link" href={item.href} key={item.href}>
                   {item.label}
                 </a>
               ))}
