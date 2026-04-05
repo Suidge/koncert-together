@@ -1,41 +1,83 @@
 # Koncert Together
 
-`Koncert Together` 是一个面向中文用户的 K-pop 巡演与观演信息站。当前阶段采用 `GitHub Pages` 作为公开前台，用结构化静态数据承载艺人页、巡演日历、活动详情、场馆指南和 fandom 内容，再由本地主机低频自动更新内容并触发发布。
+`Koncert Together` 是一个面向中文用户的 K-pop 巡演与观演信息站。当前以 `Next.js + 静态导出 + JSON 内容文件` 运行，发布到 `GitHub Pages`。
 
-公开站点：<https://suidge.github.io/koncert-together/>
+公开站点：
 
-## 1. 项目定位
+- [https://suidge.github.io/koncert-together/](https://suidge.github.io/koncert-together/)
 
-项目不是泛资讯站，也不是一开始就做重社区后台，而是先把最常用、最容易影响观演决策的信息做扎实：
+这个 README 的目标不是营销介绍，而是让一个第一次接手项目的 agent / 开发者，在只读 README 的前提下也能理解：
 
-- 真实可浏览的巡演日历
-- 重点艺人的成员资料与活动集合页
-- 可执行的城市与场馆指南
-- 可信的官方来源自动同步
-- 适合试运行阶段的低运维静态发布方式
+- 这个站点现在在做什么
+- 内容和代码分别放在哪里
+- 哪些脚本还能用，哪些脚本现在不该乱跑
+- 如何本地修改、验证、部署
+- 当前最重要的产品约束和维护注意事项
 
-当前版本的核心目标是：
+## 1. 当前状态
 
-- 给小范围真实用户提供可持续使用的 K-pop 观演信息入口
-- 用尽可能低的维护复杂度跑出稳定更新的内容站
-- 保留未来迁移回全栈架构的扩展空间
+这是一个“编辑驱动的静态情报站”，不是 UGC 社区，也不是实时后端产品。
 
-## 2. 当前产品范围
+当前重点模块：
 
-当前站点包含这些公开模块：
+- 首页：展示站点定位、重点场次、重点艺人、巡演雷达、指南、社区精选
+- 巡演日历：查看 `events` 和 `tour plans`
+- 艺人页：成员档案、已官宣场次、巡演消息、相关指南、最近官方动态
+- 指南页：抢票、选座、城市/场馆、fandom 相关内容
+- 社区页：静态精选内容
+- Credits / Ops：图片署名页、内部状态页
 
-- 首页：内容入口、重点艺人、重点场次、巡演雷达、指南和社区精选
-- 巡演日历：按艺人、地区、状态筛选活动与巡演消息
-- 活动详情：时间、场馆、购票入口、出行提示、来源核对
-- 艺人主页：成员档案、已官宣场次、巡演消息、相关指南、最近官方动态
-- 指南中心：购票、出行、城市和场馆资料页
-- 社区精选：静态精选内容与投稿入口
-- 图片署名页：对外部图片来源做统一说明
-- 内部状态页：不在公开导航中显示，用于运维侧检查来源状态
+当前产品策略：
+
+- 优先服务“看演出前的决策需求”
+- 优先做头部热门艺人的覆盖
+- 内容以手工结构化编辑为主，不依赖 CMS
+- 部署简单、可维护，优先保证 Pages 可以稳定更新
+
+## 2. 重要现状
+
+### 2.1 当前站点是“无图模式”
+
+这是当前最重要的状态之一。
+
+截至最近一次调整：
+
+- `data/artists.json` 和 `data/events.json` 里的图片字段已被清空
+- `public/media` 已整体删除
+- 艺人页和场次页保留了“缺图提醒”
+- 目录页、首页卡片页不再展示图片
+
+这意味着：
+
+- 不要假设项目当前还有可用图片资源
+- 不要假设 `public/media/...` 路径存在
+- 如果未来要重新引入图片，需要重新建立图片来源、同步和展示策略
+
+相关文件：
+
+- [app/artists/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/artists/[slug]/page.tsx)
+- [app/events/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/events/[slug]/page.tsx)
+- [data/artists.json](/Users/neoshi/koncert2gether/data/artists.json)
+- [data/events.json](/Users/neoshi/koncert2gether/data/events.json)
+
+### 2.2 艺人目录现在是“头部艺人白名单模式”
+
+艺人数据仍然可能包含更多追踪对象，但目录页和首页不会把所有人都展示出来。
+
+当前逻辑：
+
+- 通过 `headlinerArtistSlugs` 控制“热门艺人目录”
+- 首页和 `/artists` 目录页只展示头部名单
+- 其他艺人数据仍然可以存在于数据层，用于活动、指南或未来扩展
+
+相关文件：
+
+- [lib/site-data.ts](/Users/neoshi/koncert2gether/lib/site-data.ts)
+- [lib/events.ts](/Users/neoshi/koncert2gether/lib/events.ts)
+- [app/page.tsx](/Users/neoshi/koncert2gether/app/page.tsx)
+- [app/artists/page.tsx](/Users/neoshi/koncert2gether/app/artists/page.tsx)
 
 ## 3. 技术栈
-
-当前公开站点采用静态导出方案，核心技术栈如下：
 
 - `Next.js 16` App Router
 - `React 19`
@@ -43,212 +85,242 @@
 - `pnpm`
 - `GitHub Pages`
 - `JSON` 结构化内容文件
-- `Node.js` 本地同步脚本
+- 少量 `Node.js` 同步/整理脚本
 
 关键配置：
 
-- 静态导出：`next.config.ts` 中启用 `output: "export"`
-- Pages 子路径：通过 `NEXT_PUBLIC_BASE_PATH=/koncert-together`
-- 图片策略：全部走本地静态资源，不依赖 `next/image` 优化服务
-- 发布方式：GitHub Actions 构建 `out/` 目录并发布到 Pages
+- 静态导出：`output: "export"`
+- Pages 子路径：`NEXT_PUBLIC_BASE_PATH=/koncert-together`
+- 图片优化：`images.unoptimized = true`
+- 构建后导出目录：`out/`
 
-## 4. 设计结构
+配置文件：
 
-### 4.1 内容模型
+- [next.config.ts](/Users/neoshi/koncert2gether/next.config.ts)
+- [package.json](/Users/neoshi/koncert2gether/package.json)
 
-项目当前以 `data/` 目录下的结构化文件为中心：
+## 4. 目录结构
 
-- `data/artists.json`
-  - 艺人资料、成员、官方入口、宣传图信息
-- `data/events.json`
-  - 活动卡片、状态、票务入口、场馆、提示、来源、活动图
-- `data/tour-plans.json`
-  - 尚未落到具体日期的巡演雷达
-- `data/guides.json`
-  - 购票、城市、场馆、fandom 指南
-- `data/venue-guides.json`
-  - 场馆指南源数据，由脚本合并进 `guides.json`
-- `data/community.json`
-  - 社区精选内容
-- `data/source-registry.json`
-  - 已跟踪的官方来源列表
-- `data/source-status.json`
-  - 来源可达性与最近检查结果
-- `data/image-sources.json`
-  - 官方艺人图片来源登记表
-- `data/event-image-sources.json`
-  - 官方活动海报来源登记表
-- `data/official-update-sources.json`
-  - 官方动态同步源登记表
-- `data/official-updates.json`
-  - 最近同步到的官方动态结果
-- `data/site-meta.json`
-  - 构建时间、计数、来源健康摘要
+### 4.1 页面层
 
-### 4.2 页面结构
+页面在 `app/`：
 
-页面入口放在 `app/`：
+- [app/page.tsx](/Users/neoshi/koncert2gether/app/page.tsx)：首页
+- [app/calendar/page.tsx](/Users/neoshi/koncert2gether/app/calendar/page.tsx)：巡演日历
+- [app/artists/page.tsx](/Users/neoshi/koncert2gether/app/artists/page.tsx)：艺人目录
+- [app/artists/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/artists/[slug]/page.tsx)：艺人详情
+- [app/events/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/events/[slug]/page.tsx)：场次详情
+- [app/guides/page.tsx](/Users/neoshi/koncert2gether/app/guides/page.tsx)：指南列表
+- [app/guides/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/guides/[slug]/page.tsx)：指南详情
+- [app/community/page.tsx](/Users/neoshi/koncert2gether/app/community/page.tsx)：社区页
+- [app/community/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/community/[slug]/page.tsx)：社区详情
+- [app/credits/page.tsx](/Users/neoshi/koncert2gether/app/credits/page.tsx)：署名页
+- [app/ops/status/page.tsx](/Users/neoshi/koncert2gether/app/ops/status/page.tsx)：内部状态页
 
-- `app/page.tsx`
-  - 首页
-- `app/calendar/page.tsx`
-  - 巡演日历
-- `app/artists/page.tsx`
-  - 艺人目录
-- `app/artists/[slug]/page.tsx`
-  - 艺人详情页
-- `app/events/[slug]/page.tsx`
-  - 活动详情页
-- `app/guides/page.tsx`
-  - 指南列表页
-- `app/guides/[slug]/page.tsx`
-  - 指南详情页
-- `app/community/page.tsx`
-  - 社区精选页
-- `app/credits/page.tsx`
-  - 图片署名页
-- `app/ops/status/page.tsx`
-  - 内部状态页
+### 4.2 组件层
 
-### 4.3 共享逻辑
+主要 UI 组件在 `components/`：
 
-- `lib/site-data.ts`
-  - 统一定义站内数据类型和静态数据导出
-- `lib/events.ts`
-  - 页面读取活动、艺人、巡演消息的访问层
-- `lib/assets.ts`
-  - Pages 子路径下的资源路径处理
-- `components/*`
-  - 卡片、头部、页脚、筛选器、交互组件
+- `artist-card.tsx`
+- `event-card.tsx`
+- `guide-card.tsx`
+- `calendar-browser.tsx`
+- `tour-plan-card.tsx`
+- `header.tsx`
+- `site-footer.tsx`
 
-## 5. 图片策略
+### 4.3 数据与访问层
 
-当前图片策略刻意分层：
+主要逻辑在 `lib/`：
 
-- 艺人页：优先使用官方艺人宣传图
-- 活动页：优先使用活动专属官方海报
-- 其余情况：回退到站内生成海报，保证一致性和可维护性
+- [lib/site-data.ts](/Users/neoshi/koncert2gether/lib/site-data.ts)
+  - 数据类型定义
+  - JSON 导出
+  - 常用辅助函数
+  - 头部艺人白名单
+- [lib/events.ts](/Users/neoshi/koncert2gether/lib/events.ts)
+  - 页面对 `artists / events / tourPlans` 的访问层
+  - 这里控制了 `getArtists({ headlinersOnly: true })`
+- [lib/assets.ts](/Users/neoshi/koncert2gether/lib/assets.ts)
+  - 资源路径处理
 
-当前同步脚本：
+### 4.4 数据文件
 
-- `scripts/sync-approved-images.mjs`
-  - 同步官方艺人图并更新艺人页数据
-- `scripts/sync-official-event-images.mjs`
-  - 同步官方活动海报并更新活动页数据
-- `scripts/redesign-generated-visuals.mjs`
-  - 生成 fallback 艺人与活动海报
+数据主要放在 `data/`：
 
-## 6. 自动更新链路
+- [data/artists.json](/Users/neoshi/koncert2gether/data/artists.json)
+  - 艺人资料、成员、官方链接
+- [data/events.json](/Users/neoshi/koncert2gether/data/events.json)
+  - 已官宣场次
+- [data/tour-plans.json](/Users/neoshi/koncert2gether/data/tour-plans.json)
+  - 还没落到具体日期的巡演消息
+- [data/guides.json](/Users/neoshi/koncert2gether/data/guides.json)
+  - 指南正文
+- [data/venue-guides.json](/Users/neoshi/koncert2gether/data/venue-guides.json)
+  - 场馆指南源数据
+- [data/community.json](/Users/neoshi/koncert2gether/data/community.json)
+  - 社区静态内容
+- [data/official-updates.json](/Users/neoshi/koncert2gether/data/official-updates.json)
+  - 最近官方动态同步结果
+- [data/source-registry.json](/Users/neoshi/koncert2gether/data/source-registry.json)
+  - 来源登记
+- [data/source-status.json](/Users/neoshi/koncert2gether/data/source-status.json)
+  - 来源健康状态
+- [data/site-meta.json](/Users/neoshi/koncert2gether/data/site-meta.json)
+  - 构建时间和计数信息
 
-当前项目已经不是纯手工更新，而是“结构化数据 + 少量官方同步”的模式。
+下面这些文件仍然存在，但当前“无图模式”下不再直接驱动前台：
 
-### 6.1 来源健康检查
+- [data/image-sources.json](/Users/neoshi/koncert2gether/data/image-sources.json)
+- [data/event-image-sources.json](/Users/neoshi/koncert2gether/data/event-image-sources.json)
+- [data/fanclub-image-sources.json](/Users/neoshi/koncert2gether/data/fanclub-image-sources.json)
+- [data/downloaded-image-urls.json](/Users/neoshi/koncert2gether/data/downloaded-image-urls.json)
 
-脚本：`scripts/sync-source-health.mjs`
+## 5. 数据模型简述
 
-作用：
+### 5.1 艺人
 
-- 对已登记的官方艺人页、票务页、场馆页做低频探测
-- 记录 `status / checkedAt / finalUrl / contentType / etag / lastModified`
-- 输出到 `data/source-status.json`
-- 将 `401/403` 这种受限页面标成 `restricted`
+`artists.json` 中每个对象通常包含：
 
-命令：
+- `slug`
+- `name`
+- `nameKo`
+- `fandom`
+- `tagline`
+- `intro`
+- `accent`
+- `officialUrl`
+- `agency`
+- `debutYear`
+- `origin`
+- `genres`
+- `memberCount`
+- `members`
 
-```bash
-pnpm sync:sources
-```
+注意：
 
-### 6.2 官方艺人图同步
+- 图片字段目前已清空
+- `members` 允许为空数组
+- 目录热门程度不是存在单条数据里，而是由 `lib/site-data.ts` 的白名单决定
 
-脚本：`scripts/sync-approved-images.mjs`
+### 5.2 场次
 
-作用：
+`events.json` 中每个对象通常包含：
 
-- 从已登记的官方站点抓取艺人主视觉
-- 下载到本地 `public/media/artists/`
-- 回写 `artists.json`
-- 如配置允许，也可影响活动图逻辑
+- `id`
+- `artist`
+- `artistSlug`
+- `slug`
+- `city`
+- `country`
+- `venue`
+- `startDate`
+- `status`
+- `source`
+- `sourceUrl`
+- `sourceConfidence`
+- `tags`
+- `description`
+- `purchaseHint`
+- `priceNote`
+- `travelNote`
+- `checklist`
+- `ticketSaleDate`
+- `doorsTime`
+- `ticketLinks`
 
-命令：
+### 5.3 巡演消息
 
-```bash
-pnpm sync:images
-```
+`tour-plans.json` 用于“还没到正式排期”的艺人动向：
 
-### 6.3 官方活动海报同步
+- `artistSlug`
+- `artist`
+- `title`
+- `note`
+- `regions`
+- `source`
+- `sourceUrl`
 
-脚本：`scripts/sync-official-event-images.mjs`
+### 5.4 指南
 
-作用：
+`guides.json` 当前是最需要人工维护质量的内容文件。
 
-- 从活动海报登记表抓取活动专属官方海报
-- 下载到本地 `public/media/events/`
-- 回写 `events.json`
+字段包括：
 
-命令：
+- `slug`
+- `title`
+- `category`
+- `summary`
+- `body`
+- `bullets`
+- `relatedArtists`
+- `practical`
 
-```bash
-pnpm sync:event-images
-```
+`practical` 内可能有：
 
-### 6.4 官方动态同步
+- `accessTips`
+- `seatTips`
+- `stayTips`
+- `foodTips`
+- `convenienceTips`
+- `stationExits`
+- `zones`
+- `nearbyHotels`
+- `mapLinks`
+- `links`
 
-脚本：`scripts/sync-official-updates.mjs`
+## 6. 当前内容策略
 
-作用：
+这是一个很关键的非代码约束。
 
-- 从少量官方页面同步最近一条动态
-- 目前主要用于艺人页展示“最近值得注意的官方更新”
-- 当前以少量 JYPE 官方站为起点
+当前站点不应该再走“模板批量灌水”的路线。过去项目里有一些脚本会生成高度模板化的文案和图片 fallback，这些脚本留下来了，但不能默认代表现在推荐的策略。
 
-命令：
+当前更合理的方向：
 
-```bash
-pnpm sync:official-updates
-```
+- 首页和目录页优先突出头部艺人
+- 活动页优先回答“买票、进场、返程”问题
+- 指南页优先做高价值 evergreen 内容和高频城市/场馆页
+- 成员档案宁可少，也要尽量避免强模板感
 
-### 6.5 场馆指南合并
+如果要继续补内容，优先级建议：
 
-脚本：`scripts/sync-venue-guides.mjs`
+1. 头部艺人页
+2. 热门场次详情页
+3. 东京 / 首尔 / 巴黎 / 香港等高频城市指南
+4. 高频场馆指南
 
-作用：
+## 7. 图片相关脚本说明
 
-- 读取 `data/venue-guides.json`
-- 合并到 `data/guides.json`
-- 保持指南列表统一输出
+项目里仍然保留了一批图片相关脚本：
 
-命令：
+- [scripts/sync-approved-images.mjs](/Users/neoshi/koncert2gether/scripts/sync-approved-images.mjs)
+- [scripts/sync-official-event-images.mjs](/Users/neoshi/koncert2gether/scripts/sync-official-event-images.mjs)
+- [scripts/fetch-real-images.mjs](/Users/neoshi/koncert2gether/scripts/fetch-real-images.mjs)
+- [scripts/fallback-missing-images.mjs](/Users/neoshi/koncert2gether/scripts/fallback-missing-images.mjs)
+- [scripts/inject-missing-images.mjs](/Users/neoshi/koncert2gether/scripts/inject-missing-images.mjs)
+- [scripts/redesign-generated-visuals.mjs](/Users/neoshi/koncert2gether/scripts/redesign-generated-visuals.mjs)
+- [scripts/sync-fanclub-images.mjs](/Users/neoshi/koncert2gether/scripts/sync-fanclub-images.mjs)
+- [scripts/auto-discover-commons-images.mjs](/Users/neoshi/koncert2gether/scripts/auto-discover-commons-images.mjs)
+- [scripts/scrape-remaining-artist-images.mjs](/Users/neoshi/koncert2gether/scripts/scrape-remaining-artist-images.mjs)
 
-```bash
-pnpm sync:venue-guides
-```
+但请注意：
 
-### 6.6 编辑性文案刷新
+- 这些脚本当前不是“随时可安全运行”的默认路径
+- 当前站点处于无图模式
+- 如果未来要恢复图片，应该先重新确认来源合规、展示标准和数据回写策略，再决定是否启用这些脚本
 
-脚本：`scripts/refresh-editorial.mjs`
+简单说：
 
-作用：
+- 现在不要因为看到这些脚本存在，就默认运行 `pnpm sync:images`
+- 除非明确要恢复图片策略，否则把它们视为“历史能力”更合适
 
-- 重写一部分艺人介绍、成员 profile、活动提示、巡演消息文案
-- 让结构化数据保持统一的站点口吻
+## 8. 仍然常用的内容/数据脚本
 
-命令：
+### 8.1 准备构建数据
 
-```bash
-pnpm refresh:editorial
-```
+脚本：
 
-### 6.7 数据整理与构建元信息
-
-脚本：`scripts/prepare-pages-data.mjs`
-
-作用：
-
-- 检查 slug 和 URL
-- 排序数据
-- 校验来源映射
-- 更新 `site-meta.json`
+- [scripts/prepare-pages-data.mjs](/Users/neoshi/koncert2gether/scripts/prepare-pages-data.mjs)
 
 命令：
 
@@ -256,7 +328,64 @@ pnpm refresh:editorial
 pnpm prepare:pages
 ```
 
-## 7. 本地开发
+作用：
+
+- 整理 slug、排序和构建元信息
+
+### 8.2 官方动态同步
+
+脚本：
+
+- [scripts/sync-official-updates.mjs](/Users/neoshi/koncert2gether/scripts/sync-official-updates.mjs)
+
+命令：
+
+```bash
+pnpm sync:official-updates
+```
+
+### 8.3 来源健康检查
+
+脚本：
+
+- [scripts/sync-source-health.mjs](/Users/neoshi/koncert2gether/scripts/sync-source-health.mjs)
+
+命令：
+
+```bash
+pnpm sync:sources
+```
+
+### 8.4 场馆指南合并
+
+脚本：
+
+- [scripts/sync-venue-guides.mjs](/Users/neoshi/koncert2gether/scripts/sync-venue-guides.mjs)
+
+命令：
+
+```bash
+pnpm sync:venue-guides
+```
+
+### 8.5 编辑性文案刷新
+
+脚本：
+
+- [scripts/refresh-editorial.mjs](/Users/neoshi/koncert2gether/scripts/refresh-editorial.mjs)
+
+命令：
+
+```bash
+pnpm refresh:editorial
+```
+
+注意：
+
+- 这个脚本会批量重写文案
+- 如果你刚做过精修内容，不要不加判断直接跑
+
+## 9. 本地开发
 
 安装依赖：
 
@@ -270,269 +399,141 @@ pnpm install
 pnpm dev
 ```
 
-默认访问：
-
-- <http://localhost:3000>
-
-## 8. 构建与发布
-
-### 8.1 本地完整构建
+本地构建检查：
 
 ```bash
-pnpm sync:sources
-pnpm sync:official-updates
-pnpm sync:images
-pnpm sync:event-images
-pnpm sync:venue-guides
-pnpm refresh:editorial
-pnpm redesign:visuals
-pnpm prepare:pages
 pnpm typecheck
-NEXT_PUBLIC_BASE_PATH=/koncert-together NEXT_PUBLIC_SITE_URL=https://suidge.github.io/koncert-together pnpm build
+pnpm build
 ```
 
-### 8.2 GitHub Pages 工作流
+如果只做内容或样式修改，通常这两个命令已经足够。
 
-工作流文件：`.github/workflows/deploy-pages.yml`
+## 10. 发布流程
 
-当前行为：
+### 10.1 Pages 部署方式
 
-- 触发条件：推送到 `main`
-- 构建环境：`Node.js 22` + `pnpm 10`
-- 构建步骤：
-  - 安装依赖
-  - 运行 `scripts/prepare-pages-data.mjs`
-  - 运行 `pnpm build`
-  - 上传 `out/` 并部署到 Pages
+工作流文件：
 
-### 8.3 页面基路径
+- [/.github/workflows/deploy-pages.yml](/Users/neoshi/koncert2gether/.github/workflows/deploy-pages.yml)
 
-项目托管在 GitHub Pages 子路径下：
+触发条件：
 
-- 站点地址：`https://suidge.github.io/koncert-together/`
-- `NEXT_PUBLIC_BASE_PATH=/koncert-together`
+- push 到 `main`
+- 或手动 `workflow_dispatch`
 
-因此：
+核心流程：
 
-- 所有静态资源必须通过 `assetPath()` 处理
-- 不要手写根路径资源 URL
+1. `pnpm install --frozen-lockfile`
+2. `node scripts/prepare-pages-data.mjs`
+3. `pnpm build`
+4. 上传 `out/`
+5. 部署到 GitHub Pages
 
-## 9. 运维指南
+### 10.2 实际部署判断
 
-这部分按“试运行阶段长期维护”来写。
+如果你本地已经改好了，但线上站点没变，先检查：
 
-### 9.1 日常目标
+- 是否已经 `git commit`
+- 是否已经 `git push origin main`
+- GitHub Actions 的 `Deploy Pages` workflow 是否成功
 
-日常运维的目标不是服务器维护，而是这四件事：
+重要经验：
 
-- 官方来源仍然可达
-- 图片和海报仍然能正常更新
-- 指南与活动数据没有被结构破坏
-- GitHub Pages 发布链路正常
+- 本地 `out/` 无图，不代表线上已经无图
+- 线上只取决于最近一次成功部署到 Pages 的 commit
 
-### 9.2 推荐的日常检查顺序
+## 11. 维护规则
 
-每天或每次批量更新前，按这个顺序：
-
-1. 同步来源状态
-2. 同步官方动态
-3. 同步官方图片与活动海报
-4. 同步场馆指南
-5. 刷新文案与 fallback 视觉
-6. 运行数据整理
-7. 运行类型检查
-8. 运行构建
-9. 如果有变化则提交推送
-10. 检查 GitHub Pages 工作流是否成功
-
-### 9.3 一键刷新命令
-
-本地主机或长期在线机器可以直接每天执行：
-
-```bash
-cd /Users/neoshi/koncert2gether
-pnpm refresh:pages
-```
-
-这个脚本会依次执行：
-
-- `git checkout main`
-- `git pull --ff-only origin main`
-- `pnpm install --frozen-lockfile`
-- `pnpm sync:sources`
-- `pnpm sync:official-updates`
-- `pnpm sync:images`
-- `pnpm sync:event-images`
-- `pnpm sync:venue-guides`
-- `pnpm refresh:editorial`
-- `pnpm redesign:visuals`
-- `pnpm prepare:pages`
-- `pnpm build`
-- 有内容变化时自动 `commit + push`
-
-脚本文件：`scripts/run-pages-refresh.sh`
-
-### 9.4 建议的定时任务
-
-推荐每天一次，足够适合当前试运行模式：
-
-```cron
-17 6 * * * cd /Users/neoshi/koncert2gether && /bin/bash -lc 'pnpm refresh:pages >> /Users/neoshi/koncert2gether/.logs/pages-refresh.log 2>&1'
-```
-
-建议额外准备：
-
-- `.logs/` 目录
-- 非交互式 Git 凭证
-- 失败通知方式，例如邮件、Telegram 或其他推送
-
-### 9.5 常见运维检查项
-
-#### 检查最近一次 Pages 发布
-
-```bash
-gh run list --workflow='Deploy Pages' --limit 5
-```
-
-#### 查看当前工作区是否有未提交变更
-
-```bash
-git status --short
-```
-
-#### 检查来源同步结果
-
-```bash
-cat data/source-status.json
-```
-
-#### 检查官方动态同步结果
-
-```bash
-cat data/official-updates.json
-```
-
-#### 检查某个活动页是否使用了官方海报
-
-```bash
-node - <<'NODE'
-const events=require('./data/events.json');
-console.log(events.find(e=>e.slug==='itzy-manila-2026'));
-NODE
-```
-
-### 9.6 出问题时怎么定位
-
-#### 情况 A：页面内容更新了，但线上没变
-
-按这个顺序排查：
-
-1. `git status` 是否真的有改动提交
-2. `git push` 是否成功
-3. `gh run list --workflow='Deploy Pages'` 是否成功
-4. 浏览器是否缓存旧资源，强刷后再看
-
-#### 情况 B：图片 404 或坏图
-
-按这个顺序排查：
-
-1. 检查 `public/media/` 里资源是否存在
-2. 检查 `out/media/` 是否被正确导出
-3. 检查 `data/artists.json` / `data/events.json` 中图片路径是否正确
-4. 检查 SVG 是否有无效属性
-5. 检查线上资源返回码：
-
-```bash
-curl -I https://suidge.github.io/koncert-together/media/events/example.svg
-```
-
-#### 情况 C：官方同步脚本报错
-
-优先看：
-
-- 官方站是否更换 HTML 结构
-- 是否被临时限流或 TLS 异常
-- `fetch` 的来源解析规则是否失效
-
-排查方式：
-
-```bash
-pnpm sync:official-updates
-pnpm sync:images
-pnpm sync:event-images
-```
-
-逐个单跑，不要一上来先怀疑构建。
-
-#### 情况 D：指南结构被破坏
+### 11.1 修改艺人名单时
 
 优先检查：
 
-- `data/venue-guides.json` 是否字段缺失
-- `data/guides.json` 是否被非预期覆盖
-- `app/guides/[slug]/page.tsx` 是否仍支持 `practical` 字段
+- `data/artists.json` 是否需要新增 / 修改条目
+- `lib/site-data.ts` 的 `headlinerArtistSlugs` 是否要同步更新
+- 首页和目录页是否需要跟着调整展示文案
 
-### 9.7 当前适合自动做的事
+### 11.2 修改图片策略时
 
-- 来源可达性探测
-- 官方动态低频同步
-- 官方图片与海报同步
-- 结构化数据校验
-- fallback 海报重生成
-- 静态构建与 Pages 发布
+必须先回答三个问题：
 
-## 10. 设计方向与产品路线
+1. 来源是否合规且稳定？
+2. 是只恢复少量头部艺人，还是重建全站图片链路？
+3. 前台是否仍然需要保留“缺图提醒”？
 
-当前方向非常明确：
+在没有明确答案前，不要直接恢复历史图片脚本。
 
-### 10.1 试运行阶段
+### 11.3 修改指南内容时
 
-重点是把公开前台做成稳定可用的内容站：
+优先人工检查：
 
-- 扩艺人覆盖
-- 扩活动覆盖
-- 扩场馆/城市指南密度
-- 扩官方图与官方海报覆盖
-- 扩少量真实来源自动同步
+- 是否真的提供决策帮助
+- 是否避免模板化重复句式
+- 是否和页面的 `relatedArtists`、`practical.links` 保持一致
 
-### 10.2 下一阶段
+### 11.4 修改部署或路径时
 
-在不放弃静态托管优势的前提下，继续做这三件事：
+这是 Pages 子路径站点，必须注意：
 
-- 提高官方来源自动更新比例
-- 把重点场馆指南做成真正可规划的资料页
-- 提高活动页“专属海报”覆盖，而不是复用艺人宣传图
+- 不要手写绝对资源路径假设
+- `NEXT_PUBLIC_BASE_PATH=/koncert-together`
+- 构建和线上路径必须一致
 
-### 10.3 未来升级方向
+## 12. 常用接手操作
 
-如果未来不再受限于 `GitHub Pages`，项目会重新回到全栈方向：
+### 12.1 接手后先做什么
 
-- 用户系统
-- 跨设备收藏
-- 评论/发帖
-- 提醒系统
-- 真正的数据后台
-- 数据库驱动的社区功能
+推荐顺序：
 
-仓库当前仍保留部分 Prisma 依赖，就是为了后续可以平滑迁回数据库架构，而不是从零重做。
+1. 读这个 README
+2. 看 [package.json](/Users/neoshi/koncert2gether/package.json)
+3. 看 [lib/site-data.ts](/Users/neoshi/koncert2gether/lib/site-data.ts)
+4. 看 [lib/events.ts](/Users/neoshi/koncert2gether/lib/events.ts)
+5. 看 [app/page.tsx](/Users/neoshi/koncert2gether/app/page.tsx)
+6. 看 [app/artists/page.tsx](/Users/neoshi/koncert2gether/app/artists/page.tsx)
+7. 看 [app/artists/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/artists/[slug]/page.tsx)
+8. 看 [app/events/[slug]/page.tsx](/Users/neoshi/koncert2gether/app/events/[slug]/page.tsx)
+9. 跑 `pnpm typecheck`
+10. 跑 `pnpm build`
 
-## 11. 开发计划
+### 12.2 如果用户说“线上没更新”
 
-当前优先级建议如下：
+按这个顺序排查：
 
-1. 优化站点图片质量。扩更多高质量的艺人图和活动海报，尝试自动抓取高质量fan club二次分发图。同时一定要避免重复使用图片，图片主题需要与页面场景匹配。
-2. 把场馆指南继续深化，增加更细的站口、区域、酒店与地图入口。
-3. 扩更多官方动态同步源。
-4. 提高重点艺人的活动覆盖度。
-5. 尽可能保证全自动更新维护。
-6. 在试运行确认有真实用户价值后，再决定是否迁回全栈架构
+1. 本地改动是否已提交
+2. 是否已 push 到 `origin/main`
+3. `Deploy Pages` workflow 是否成功
+4. 用户看的是否真的是线上站，而不是本地旧预览
 
-## 12. 维护原则
+### 12.3 如果用户说“艺人名单不够热门”
 
-最后保留一条维护原则，后续改这个仓库时尽量不要偏离：
+优先检查：
 
-- 前台公开内容优先稳和可信
-- 自动化优先做低风险、可复核的同步
-- 活动数据宁可慢一点，也不要把风声写成官宣
-- 图片宁可少，也不要用不清晰或不可追溯的来源
-- 指南内容要以“能帮助用户做决定”为标准，而不是只堆概念说明
+- `headlinerArtistSlugs`
+- `data/artists.json` 是否缺少明显头部艺人
+- `/artists` 页是不是仍在用 `getArtists()` 全量数据
+
+## 13. 已知问题
+
+- 项目里还保留了一些历史图片和内容生成脚本，但当前产品方向已经变化
+- README 以当前代码状态为准，不保证历史脚本都继续推荐使用
+- 站点当前是静态内容站，很多更新仍然依赖手动编辑和提交
+- 项目里有 Prisma 文件，但当前公开站点主流程并不依赖数据库
+
+## 14. 当前推荐工作方式
+
+如果只是日常维护，推荐遵循：
+
+1. 直接改 `data/*.json` 和必要页面
+2. 小范围改 `lib/` 的筛选/排序逻辑
+3. 跑 `pnpm typecheck`
+4. 跑 `pnpm build`
+5. 提交并 push 到 `main`
+
+如果要做较大调整，优先明确：
+
+- 是“内容策略调整”
+- 是“目录/排序逻辑调整”
+- 是“恢复图片”
+- 还是“重做数据生产链路”
+
+不要把这几件事混在一次改动里。
